@@ -155,7 +155,7 @@ Page({
         // })
         wx.showLoading({title: "Fetching nearby restaurants"})
         wx.request({
-      url: `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${this.data.userLocation.latitude},${this.data.userLocation.longitude}&radius=15000&type=restaurant&key=AIzaSyAfoSnjsqf7AwaR4FD2DfbnE1bqIlvrTNI`,
+      url: `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${this.data.userLocation.latitude},${this.data.userLocation.longitude}&radius=15000&type=restaurant&key=<google-api-key>`,
       success: (res) => {
         wx.hideLoading({})
         const markers = util.processPlacesResponse(res)
