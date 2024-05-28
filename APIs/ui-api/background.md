@@ -7,6 +7,7 @@ createdAt: "Tue May 02 2023 10:47:42 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 08:28:56 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
+grand_parent: "APIs"
 ---
 - [setBackgroundColor](doc:background#setbackgroundcolor-object-object)
 - [setBackgroundTextStyle](doc:background#wxsetbackgroundtextstyle-object-object)

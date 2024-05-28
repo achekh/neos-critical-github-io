@@ -10,6 +10,7 @@ createdAt: "Mon Apr 24 2023 08:06:22 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:21:33 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
+grand_parent: "APIs"
 ---
 # wx.chooseContact(Object object)
 

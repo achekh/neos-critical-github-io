@@ -7,6 +7,7 @@ createdAt: "Mon Apr 24 2023 08:10:43 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 18:01:54 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
+grand_parent: "APIs"
 ---
 - [onNetworkStatusChange](doc:network-api#wxonnetworkstatuschangefunction-callback)
 - [getNetworkType](doc:network-api#wxgetnetworktypeobject-object)

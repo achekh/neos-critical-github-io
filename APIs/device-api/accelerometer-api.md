@@ -7,6 +7,7 @@ createdAt: "Mon Apr 24 2023 08:28:22 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 18:04:33 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
+grand_parent: "APIs"
 ---
 - [stopAccelerometer](doc:accelerometer-api#wxstopaccelerometerobject-object)
 - [startAccelerometer](doc:accelerometer-api#wxstartaccelerometerobject-object)

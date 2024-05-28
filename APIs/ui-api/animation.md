@@ -7,6 +7,7 @@ createdAt: "Tue Apr 18 2023 13:14:43 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 08:38:31 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
+grand_parent: "APIs"
 ---
 # Animation.left(number|string value)Length value.
 

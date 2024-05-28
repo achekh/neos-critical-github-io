@@ -7,6 +7,7 @@ createdAt: "Mon Apr 24 2023 08:36:42 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 18:08:02 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
+grand_parent: "APIs"
 ---
 - [vibrateShort](doc:vibration-api#wxvibrateshortobject-object)
 - [vibrateLong](doc:vibration-api#wxvibratelongobject-object)

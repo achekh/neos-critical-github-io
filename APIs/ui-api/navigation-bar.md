@@ -7,6 +7,7 @@ createdAt: "Tue Apr 18 2023 13:11:13 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 08:25:51 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
+grand_parent: "APIs"
 ---
 - [setNavigationBarTitle](doc:navigation-bar#setnavigationbartitle-object-object)
 - [setNavigationBarColor](doc:navigation-bar#setnavigationbarcolor-object-object)

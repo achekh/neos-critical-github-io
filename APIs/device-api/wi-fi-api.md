@@ -7,6 +7,7 @@ createdAt: "Mon Apr 24 2023 07:08:15 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 17:59:29 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
+grand_parent: "APIs"
 ---
 - [onWifiConnected](doc:wi-fi-api#wxonwificonnectedfunction-listener)
 - [offWifiConnected](doc:wi-fi-api#wxoffwificonnectedfunction-listener)

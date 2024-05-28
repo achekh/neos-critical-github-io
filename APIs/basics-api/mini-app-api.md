@@ -10,6 +10,7 @@ createdAt: "Mon Apr 17 2023 05:28:04 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:12:30 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Basic"
+grand_parent: "APIs"
 ---
 - [Lifecycle](doc:mini-app-api#lifecycle)
   - [getLaunchOptionsSync](doc:mini-app-api#getLaunchOptionsSync)

@@ -7,6 +7,7 @@ createdAt: "Wed Apr 19 2023 08:36:33 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 10:20:52 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Network"
+grand_parent: "APIs"
 ---
 - [uploadFile](doc:upload#uploadfile-object-object)
 - [UploadTask](doc:upload#uploadtask)

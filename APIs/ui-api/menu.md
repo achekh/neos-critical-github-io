@@ -7,6 +7,7 @@ createdAt: "Wed Apr 19 2023 07:58:10 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 08:39:01 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
+grand_parent: "APIs"
 ---
 - [getMenuButtonBoundingClientRect](doc:menu#object-wxgetmenubuttonboundingclientrect)
 

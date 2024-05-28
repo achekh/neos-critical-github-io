@@ -10,6 +10,7 @@ createdAt: "Mon Apr 24 2023 08:22:16 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:22:34 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
+grand_parent: "APIs"
 ---
 # makePhoneCall
 

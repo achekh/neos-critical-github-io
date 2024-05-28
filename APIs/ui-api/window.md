@@ -7,6 +7,7 @@ createdAt: "Wed Apr 19 2023 08:00:41 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 08:39:23 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
+grand_parent: "APIs"
 ---
 - [onWindowResize](doc:window#onwindowresize)
 

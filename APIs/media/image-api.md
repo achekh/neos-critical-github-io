@@ -7,6 +7,7 @@ createdAt: "Thu Apr 20 2023 06:45:54 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 12:59:17 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Media"
+grand_parent: "APIs"
 ---
 - [saveImageToPhotosAlbum](doc:image-api#wxsaveimagetophotosalbumobject-object)
 - [previewImage](doc:image-api#wxpreviewimageobject-object)

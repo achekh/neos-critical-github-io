@@ -7,6 +7,7 @@ createdAt: "Mon Apr 24 2023 08:08:58 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 18:01:09 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
+grand_parent: "APIs"
 ---
 - [setClipboardData](doc:clipboard-api#wxsetclipboarddataobject-object)
 - [getClipboardData](doc:clipboard-api#wxgetclipboarddataobject-object)

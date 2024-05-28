@@ -7,6 +7,7 @@ createdAt: "Mon Apr 24 2023 07:03:03 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 17:58:29 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
+grand_parent: "APIs"
 ---
 - [getNFCAdapter](doc:nfc#nfcadapter-wxgetnfcadapter) 
 - [NFCAdapter](doc:nfc#nfcadapter)

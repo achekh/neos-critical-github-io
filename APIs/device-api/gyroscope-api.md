@@ -7,6 +7,7 @@ createdAt: "Mon Apr 24 2023 08:36:34 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 18:07:06 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
+grand_parent: "APIs"
 ---
 - [stopGyroscope](doc:gyroscope-api#wxstopgyroscopeobject-object)
 - [startGyroscope](doc:gyroscope-api#wxstartgyroscopeobject-object)
