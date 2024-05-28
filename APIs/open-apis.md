@@ -6,7 +6,7 @@ hidden: false
 createdAt: "Fri Apr 21 2023 10:06:09 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 13:24:50 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
-parent: "Home"
+parent: "APIs"
 has_chidlren: true
 ---
 | Name                           | Feature Description                    |

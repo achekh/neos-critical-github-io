@@ -6,7 +6,7 @@ hidden: false
 createdAt: "Wed Apr 19 2023 10:19:41 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 10:24:53 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
-parent: "Home"
+parent: "APIs"
 ---
 | Name                                                                  | Feature Description                                                        |
 | :-------------------------------------------------------------------- | :------------------------------------------------------------------------- |

@@ -6,7 +6,7 @@ hidden: false
 createdAt: "Wed Apr 19 2023 11:44:45 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 10:45:04 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
-parent: "Home"
+parent: "APIs"
 has_chidlren: true
 ---
 ### Map
