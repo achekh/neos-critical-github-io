@@ -7,6 +7,7 @@ createdAt: "Wed Apr 19 2023 10:36:35 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Dec 07 2023 09:23:22 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "APIs"
+nav_order: 3
 ---
 - createCanvasContext
 - canvasToTempFilePath
