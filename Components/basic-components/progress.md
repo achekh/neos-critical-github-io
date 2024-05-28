@@ -10,6 +10,7 @@ createdAt: "Thu Apr 06 2023 09:58:36 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:04:38 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Basic components"
+grand_parent: "Components"
 ---
 [block:parameters]
 {

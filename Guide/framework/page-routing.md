@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 16 2023 06:54:52 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Jun 07 2023 03:51:57 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Logic layer"
+grand_parent: "Guide"
 ---
 The routing of all pages in a Mini App is managed by the framework.
 

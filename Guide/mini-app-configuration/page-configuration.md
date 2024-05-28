@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 15 2023 09:18:36 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 10:57:32 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Mini App configuration"
+grand_parent: "Guide"
 ---
 You can also use the `.json` file to configure the window display of each Mini App page.
 

@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Jan 11 2023 14:50:37 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jan 26 2023 12:02:49 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Test - how to create a mini app"
 ---
 Let's display the List page:
 

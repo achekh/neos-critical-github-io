@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Jan 11 2023 15:10:14 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Jan 25 2023 16:38:12 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Test - how to create a mini app"
 ---
 Let's register the user location permission message:
 

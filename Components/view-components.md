@@ -6,7 +6,7 @@ hidden: false
 createdAt: "Wed Mar 01 2023 13:39:06 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Nov 28 2023 10:32:33 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
-parent: "Home"
+parent: "Components"
 has_children: true
 ---
 | Name                             | Function Explanation                                                                   |

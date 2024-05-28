@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon Feb 13 2023 08:38:06 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Feb 22 2023 07:45:53 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Meet the MiniApp"
+has_children: true
 ---
 ## Developer Support
 

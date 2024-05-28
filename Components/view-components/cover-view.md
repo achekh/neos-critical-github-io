@@ -10,6 +10,7 @@ createdAt: "Wed Apr 05 2023 06:30:20 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:04:15 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "View components"
+grand_parent: "Components"
 ---
 A native component that supports same-layer rendering, and it is recommended to use the [view](doc:view) instead where applicable. Coverable native components include [map](doc:map), [video](doc:video), [canvas](doc:canvas) and [camera](doc:camera).
 

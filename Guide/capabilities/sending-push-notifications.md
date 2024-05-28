@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Thu May 18 2023 06:27:53 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:24:45 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Backend assisted capabilities"
+grand_parent: "Guide"
 ---
 To send a push notification to Mini Apps' users, you can call the following API:
 

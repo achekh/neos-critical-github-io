@@ -5,6 +5,9 @@ excerpt: ""
 hidden: false
 createdAt: "Tue May 16 2023 08:21:42 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Nov 28 2023 09:54:01 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Logic layer"
+grand_parent: "Guide"
 ---
 The Mini App development framework provides a diversity of native APIs for easily calling host app capabilities, such as user information acquisition, local storage, and payment features. For more information, see the [API documentation](doc:basics-api).
 

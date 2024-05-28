@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 09 2023 06:17:53 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue May 30 2023 05:27:41 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Performance and Experience"
+grand_parent: "Guide"
 ---
 ## performance Trace tool
 

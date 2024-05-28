@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 23 2023 11:19:58 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:24:19 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "View Layer"
+grand_parent: "Guide"
 ---
 ## Common ways of UI animations
 

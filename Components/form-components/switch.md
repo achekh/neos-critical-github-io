@@ -10,6 +10,7 @@ createdAt: "Mon Apr 10 2023 12:51:14 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:07:56 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
+grand_parent: "Components"
 ---
 A switch component functions similar to a checkbox component but explicitly representing boolean on and off states.
 

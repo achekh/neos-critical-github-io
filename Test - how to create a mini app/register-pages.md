@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Tue Jan 24 2023 11:39:45 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Jan 25 2023 16:28:35 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Test - how to create a mini app"
 ---
 Let's register pages in app.json:
 

@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Wed Feb 15 2023 07:21:11 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 15 2023 06:39:43 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Create your project"
+grand_parent: "Meet the MiniApp"
 ---
 > 📘 Prerequisite
 > 

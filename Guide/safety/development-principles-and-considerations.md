@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 08 2023 10:44:01 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 29 2023 11:24:16 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Safety"
+grand_parent: "Guide"
 ---
 This document collates some common security risks and vulnerabilities in the development of Mini Programs, used to help developers find and repair related vulnerabilities in development links, to avoid business and data losses after the launch. Developers must base their development on the following principles:
 

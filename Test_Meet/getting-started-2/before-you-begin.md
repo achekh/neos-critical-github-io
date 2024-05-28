@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue Feb 07 2023 13:46:06 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 15 2023 06:39:48 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Getting started"
+grand_parent: "Meet the MiniApp"
 ---
 If you don't have an account yet, please [create an account](doc:creating-an-account-on-super-hub-portal) on Super Hub portal first.
 

@@ -5,6 +5,9 @@ excerpt: "Overview of Super Hub Platform"
 hidden: false
 createdAt: "Fri May 12 2023 04:04:43 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Nov 28 2023 09:03:15 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Introduction"
+grand_parent: "Guide"
 ---
 Now that you have created a developer account, downloaded the IDE and started a project, you must have some Mini App development knowledge.
 

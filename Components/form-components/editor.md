@@ -10,6 +10,7 @@ createdAt: "Fri Apr 07 2023 11:25:41 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jun 15 2023 11:16:07 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
+grand_parent: "Components"
 ---
 Rich text editor can edit images and text.
 

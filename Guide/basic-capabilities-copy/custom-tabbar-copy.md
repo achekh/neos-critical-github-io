@@ -5,6 +5,9 @@ excerpt: "This section explains the concept of custom tabBar."
 hidden: false
 createdAt: "Mon May 08 2023 06:17:05 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Nov 28 2023 10:31:55 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Basic Capabilities"
+grand_parent: "Guide"
 ---
 Custom tabBar allows developers to set tabBar styles and achieve greater personalization with flexibility.
 

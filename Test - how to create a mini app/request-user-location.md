@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Tue Jan 24 2023 07:49:02 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Mar 08 2023 12:03:40 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Test - how to create a mini app"
 ---
 Let's request the user's location:
 

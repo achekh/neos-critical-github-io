@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon Feb 06 2023 11:47:19 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 15 2023 06:39:42 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Meet the MiniApp"
+has_children: true
 ---
 You can create a new project by following the 2 steps given below:
 

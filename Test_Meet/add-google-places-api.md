@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Fri Feb 10 2023 11:45:49 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Feb 15 2023 11:24:41 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Meet the MiniApp"
 ---
 To add Google Places API:
 

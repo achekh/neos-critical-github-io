@@ -10,6 +10,7 @@ createdAt: "Mon Apr 10 2023 11:26:39 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:34:53 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
+grand_parent: "Components"
 ---
 It can be placed only in [picker-view](doc:picker-view). The height of its child nodes will be automatically set to the same value as that of the selection box of [picker-view](doc:picker-view).
 

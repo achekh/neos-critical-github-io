@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Mar 01 2023 08:38:10 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Mar 01 2023 08:38:10 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Meet the MiniApp"
 ---
 Let's display the About page:
 

@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Fri Feb 10 2023 11:43:14 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Feb 15 2023 11:05:54 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Meet the MiniApp"
 ---
 To display the Map page:
 

@@ -5,6 +5,9 @@ excerpt: "This section explains the concept of Data Listener."
 hidden: false
 createdAt: "Tue May 02 2023 07:51:44 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Nov 28 2023 10:13:10 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Custom Components"
+grand_parent: "Guide"
 ---
 ## Defining and using a data listener
 

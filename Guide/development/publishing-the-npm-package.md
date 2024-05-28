@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Fri May 12 2023 05:24:11 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:30:03 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Using npm"
+grand_parent: "Guide"
 ---
 ## Constraints on publishing the Mini App npm package
 

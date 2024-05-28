@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 23 2023 11:17:13 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jun 08 2023 10:20:45 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "View Layer"
+grand_parent: "Guide"
 ---
 The framework provides a series of basic components, which can be used in combination for quick development.
 

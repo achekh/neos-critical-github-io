@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 08 2023 07:59:40 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 29 2023 07:17:32 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Hardware Capabilities"
+grand_parent: "Guide"
 ---
 In the Mini Program, it supports searching for peripheral Wi-Fi devices, and you can initiate a connection for the specified device and pass in the password.
 

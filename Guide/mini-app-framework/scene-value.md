@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 01 2023 09:05:02 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:15:14 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Mini Program Framework"
+grand_parent: "Guide"
 ---
 The scene value describes a path in which a user enters a Mini Program. For the definition of the scene value, refer to the [Scene Value List](<>).
 

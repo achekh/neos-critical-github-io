@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 08 2023 09:21:04 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 29 2023 10:53:50 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Open Capabilities (COPY)"
+grand_parent: "Guide"
 ---
 After a dynamic message is sent, the message content can be modified through updatableMessage.setUpdatableMsg.
 

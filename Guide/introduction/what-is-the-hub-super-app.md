@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Wed Nov 09 2022 13:40:35 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon Jun 26 2023 11:16:22 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Introduction"
+grand_parent: "Guide"
 ---
 NEOS Hub is the Super App Platform-as-a-Service.
 

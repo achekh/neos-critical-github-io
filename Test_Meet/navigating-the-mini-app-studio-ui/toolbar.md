@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon Feb 27 2023 10:55:50 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Feb 28 2023 09:45:34 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Navigating the Mini App Studio UI"
+grand_parent: "Meet the MiniApp"
 ---
 Toolbar in Mini App Studio consists of following panes:
 

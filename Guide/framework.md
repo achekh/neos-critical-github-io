@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Fri May 12 2023 06:57:36 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Jun 07 2023 03:02:45 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Guide"
+has_children: true
 ---
 The Mini App framework allows you to develop native-grade services in host apps in a way that is as simple and efficient as possible.  
 The framework provides its own view layer description languages `WXML` and `WXSS` , a logic layer framework based on `JavaScript` , as well as data transfer and event systems between the view layer and logic layer. This helps you focus more on data and logic.

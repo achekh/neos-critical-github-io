@@ -5,6 +5,9 @@ excerpt: "This section explains the concept of network in Mini Programs/Games."
 hidden: false
 createdAt: "Mon May 08 2023 06:16:57 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Nov 28 2023 10:11:12 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Basic Capabilities"
+grand_parent: "Guide"
 ---
 # Network
 

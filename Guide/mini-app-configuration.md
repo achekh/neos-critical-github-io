@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 22 2023 08:57:42 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Sun May 28 2023 13:29:50 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Guide"
+has_children: true
 ---
 This section explains the two important type of configuration required in Mini App:
 

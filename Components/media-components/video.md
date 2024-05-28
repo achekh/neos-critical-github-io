@@ -10,6 +10,7 @@ createdAt: "Wed Apr 12 2023 07:01:21 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:09:16 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Media components"
+grand_parent: "Components"
 ---
 This component is native, so you should keep in mind relevant limits when using it.
 

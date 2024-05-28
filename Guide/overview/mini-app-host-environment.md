@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Thu Apr 27 2023 07:35:09 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:12:02 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Overview"
+grand_parent: "Guide"
 ---
 The environment provided by the Mini app for the Mini Program is called host environment. With the capabilities provided by the host environment, the Mini Program can deliver many features that are not available in other web pages.
 

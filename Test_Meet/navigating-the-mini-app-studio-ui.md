@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Wed Feb 15 2023 09:08:35 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon Feb 27 2023 10:56:48 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Meet the MiniApp"
+has_children: true
 ---
 The basic UI components of the Mini App Studio are divided into following:
 

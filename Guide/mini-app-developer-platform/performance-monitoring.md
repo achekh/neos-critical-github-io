@@ -5,6 +5,9 @@ excerpt: ""
 hidden: false
 createdAt: "Tue May 16 2023 12:20:38 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Nov 28 2023 09:37:42 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Mini App developer platform"
+grand_parent: "Guide"
 ---
 Under the `Statistics` menu, you can view the performance monitoring data collected by all users.
 

@@ -5,6 +5,9 @@ excerpt: ""
 hidden: false
 createdAt: "Tue May 23 2023 11:09:31 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Nov 28 2023 09:56:59 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "View Layer"
+grand_parent: "Guide"
 ---
 WXML is a markup language for framework design. It can be used to build the page structure when combined with [base components](doc:view-components) and event system.
 

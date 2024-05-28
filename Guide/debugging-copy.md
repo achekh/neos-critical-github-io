@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Tue May 09 2023 05:20:20 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 29 2023 11:44:39 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Guide"
 ---
 ## vConsole
 

@@ -10,6 +10,7 @@ createdAt: "Mon Apr 10 2023 09:42:38 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 22 2023 12:10:22 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
+grand_parent: "Components"
 ---
 The picker view component can be embedded in the page. User can manipulate picker-view wheeler to select items. The picker-view-column can be place only in picker-view and other components do not display. 
 

@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Thu Feb 02 2023 06:34:16 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 15 2023 06:38:52 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Meet the MiniApp"
 ---
 Dear Developer, welcome to our Super Hub Mini App Studio also known as Mini App Studio!
 

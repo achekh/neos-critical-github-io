@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 16 2023 12:21:13 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 22 2023 12:58:01 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Mini App developer platform"
+grand_parent: "Guide"
 ---
 You can view reported user issues and feature suggestions from this section.
 

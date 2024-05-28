@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue Apr 25 2023 10:51:50 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 13:05:26 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Overview"
+grand_parent: "Guide"
 ---
 Mini Programs enables connection between the users and services. They are easy to access and share on Super Hub Mini App to deliver excellent user experience.
 

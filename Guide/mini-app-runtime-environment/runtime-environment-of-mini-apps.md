@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 01 2023 10:50:29 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:16:55 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Mini Program Runtime"
+grand_parent: "Guide"
 ---
 The Mini Program runs on 3 platforms: iOS (iPhone/iPad), Android, and the Mini App DevTools used for debugging.
 

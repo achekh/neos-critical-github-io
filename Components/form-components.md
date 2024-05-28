@@ -9,7 +9,7 @@ metadata:
 createdAt: "Mon Mar 06 2023 18:27:11 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Sun May 14 2023 09:37:24 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
-parent: "Home"
+parent: "Components"
 has_children: true
 ---
 | Name                                           | Function Explanation                                                |

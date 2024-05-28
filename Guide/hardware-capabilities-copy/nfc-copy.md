@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 08 2023 07:59:37 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 29 2023 07:12:08 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Hardware Capabilities"
+grand_parent: "Guide"
 ---
 Supports the HCE (Host-Based Card Emulation) mode, which mimics a physical smart card with an Android phone. The phone can be used as a card reader because it supports NFC read and write.
 

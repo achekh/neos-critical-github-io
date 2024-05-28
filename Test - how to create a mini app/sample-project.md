@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Jan 11 2023 10:28:22 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Mar 08 2023 12:04:20 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Test - how to create a mini app"
 ---
 Good start!
 

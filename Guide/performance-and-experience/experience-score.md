@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 09 2023 06:17:55 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue May 30 2023 05:25:55 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Performance and Experience"
+grand_parent: "Guide"
 ---
 Experience scoring is a function that scores the experience of the Mini Program, which will check in real time during the operation of the Mini Program, analyze some areas that may cause a bad experience, and locate where there are problems, and give some optimization suggestions.
 

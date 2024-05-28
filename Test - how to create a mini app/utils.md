@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Jan 11 2023 15:56:30 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Feb 14 2023 08:39:50 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Test - how to create a mini app"
 ---
 Let's process the data from Google API to convert them to markers later
 

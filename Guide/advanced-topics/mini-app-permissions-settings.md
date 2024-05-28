@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Thu May 18 2023 11:13:37 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:26:13 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Advanced topics"
+grand_parent: "Guide"
 ---
 To direct the user to the Mini App permissions settings screen from the Mini App, use the following code:
 

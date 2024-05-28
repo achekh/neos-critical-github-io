@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 01 2023 11:14:52 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:17:09 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Mini Program Runtime"
+grand_parent: "Guide"
 ---
 # Supports for JavaScript
 

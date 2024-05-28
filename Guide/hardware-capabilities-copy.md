@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 08 2023 07:59:33 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri May 26 2023 09:20:18 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Guide"
+has_children: true
 ---
 Following are the three important types of hardware capabilities:
 

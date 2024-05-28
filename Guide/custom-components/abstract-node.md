@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 02 2023 08:57:39 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jun 09 2023 10:09:07 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Custom Components"
+grand_parent: "Guide"
 ---
 ## Using an abstract node in a component
 

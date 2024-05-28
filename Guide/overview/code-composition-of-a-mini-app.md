@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Thu Apr 27 2023 06:34:23 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:11:44 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Overview"
+grand_parent: "Guide"
 ---
 ​In the previous chapter, we quickly created a QuickStart project via Mini App DevTools, where the following types of files are generated:
 

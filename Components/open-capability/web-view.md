@@ -10,6 +10,7 @@ createdAt: "Thu Apr 13 2023 07:33:31 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Jun 20 2023 05:34:04 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Open capability"
+grand_parent: "Components"
 ---
 The `web-view` component is a container that displays webpages. It will automatically cover the entire Mini App UI.
 

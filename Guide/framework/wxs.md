@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 16 2023 08:53:58 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Jun 07 2023 07:15:37 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Logic layer"
+grand_parent: "Guide"
 ---
 WXS is a scripting language for Mini Apps. Combined with WXML, it can be used to construct the page structure.
 

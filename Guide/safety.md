@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 08 2023 10:43:58 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 29 2023 11:21:34 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Guide"
+has_children: true
 ---
 - Development Principles and Considerations
 - Generic

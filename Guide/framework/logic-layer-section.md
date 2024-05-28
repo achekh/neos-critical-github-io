@@ -5,6 +5,9 @@ excerpt: ""
 hidden: false
 createdAt: "Mon May 15 2023 05:26:48 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Nov 28 2023 09:53:04 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Logic layer"
+grand_parent: "Guide"
 ---
 ## Logic Layer (App Service)
 

@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 16 2023 12:19:14 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 22 2023 09:38:29 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Mini App developer platform"
+grand_parent: "Guide"
 ---
 ### QR code management
 

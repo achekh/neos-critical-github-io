@@ -10,6 +10,7 @@ createdAt: "Thu Apr 06 2023 09:43:58 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Jun 13 2023 06:10:10 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Basic components"
+grand_parent: "Components"
 ---
 | Attribute  | Type          | Default Value | Required | Description                                                                                                                             |
 | :--------- | :------------ | :------------ | :------- | :-------------------------------------------------------------------------------------------------------------------------------------- |

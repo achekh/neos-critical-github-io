@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 16 2023 12:18:23 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Sun May 28 2023 13:15:02 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Mini App developer platform"
+grand_parent: "Guide"
 ---
 ### Request domain
 

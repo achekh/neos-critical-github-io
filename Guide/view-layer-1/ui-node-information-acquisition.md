@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 23 2023 11:18:00 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jun 08 2023 10:21:49 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "View Layer"
+grand_parent: "Guide"
 ---
 ## WXML node information
 

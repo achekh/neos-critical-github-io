@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 09 2023 06:17:46 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 29 2023 11:47:51 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Guide"
+has_children: true
 ---
 Currently, we provide two performance analysis tools, an experience scoring plugin, and several performance optimization recommendations that developers can refer to.
 

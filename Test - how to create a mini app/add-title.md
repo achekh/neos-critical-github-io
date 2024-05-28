@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Jan 25 2023 15:11:31 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Mar 08 2023 12:04:07 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Test - how to create a mini app"
 ---
 To add "Near me" title for all pages, please 
 

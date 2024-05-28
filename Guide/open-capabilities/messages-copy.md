@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 08 2023 09:21:09 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 29 2023 10:55:19 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Open Capabilities (COPY)"
+grand_parent: "Guide"
 ---
 # Uniform Service Messages
 

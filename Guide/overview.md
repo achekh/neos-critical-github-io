@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Tue Apr 25 2023 10:45:11 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:10:05 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Guide"
+has_children: true
 ---
 The Mini Program comes with a simple and efficient app development framework and a wide range of components and APIs to help developers develop services with a native app experience.
 

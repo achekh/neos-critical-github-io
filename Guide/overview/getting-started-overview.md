@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Tue Apr 25 2023 13:12:06 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:11:20 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Overview"
+grand_parent: "Guide"
 ---
 Before developing a Mini Program, you need to have a Mini Program account, which allows you to manage your Mini Program.
 

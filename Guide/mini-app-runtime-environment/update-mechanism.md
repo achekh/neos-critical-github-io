@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 02 2023 10:15:17 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:17:29 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Mini Program Runtime"
+grand_parent: "Guide"
 ---
 # Update Mechanism of Mini Programs
 

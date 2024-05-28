@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue Feb 07 2023 11:59:34 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 15 2023 06:39:48 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Getting started"
+grand_parent: "Meet the MiniApp"
 ---
 1. First, you will need to sign-up to create an account on Super Hub portal. 
 2. On the **Sign-up** page, start with entering your contact number in order to receive a code through SMS. 

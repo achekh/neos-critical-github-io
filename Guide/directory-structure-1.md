@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Fri May 12 2023 11:11:06 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:28:01 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Guide"
 ---
 A Mini App consist of an `app` describing the entire app and multiple `pages` describing respective pages.
 

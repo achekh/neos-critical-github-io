@@ -10,6 +10,7 @@ createdAt: "Fri Apr 07 2023 06:32:50 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jun 15 2023 11:09:30 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
+grand_parent: "Components"
 ---
 Button component is triggered by the user to perform an action such as submitting a form or opening a dialog box.
 

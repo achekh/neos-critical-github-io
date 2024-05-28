@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Thu May 18 2023 06:27:13 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:24:31 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Guide"
+has_children: true
 ---
 This section goes over the Mini App capabilities that require backend integration:
 

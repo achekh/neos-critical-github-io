@@ -7,6 +7,8 @@ metadata:
   robots: "index"
 createdAt: "Tue May 09 2023 07:15:36 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue May 30 2023 05:28:02 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Guide"
 ---
 # Mini Program speed measurement
 

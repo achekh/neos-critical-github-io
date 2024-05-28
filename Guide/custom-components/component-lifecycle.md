@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 02 2023 07:44:44 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jun 09 2023 09:18:56 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Custom Components"
+grand_parent: "Guide"
 ---
 ## Main lifecycle functions of a component
 

@@ -5,6 +5,9 @@ excerpt: ""
 hidden: false
 createdAt: "Wed May 03 2023 10:17:57 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Nov 28 2023 10:25:25 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Custom Components"
+grand_parent: "Guide"
 ---
 The component constructor can be used to define a component, and the attributes, data, and methods of the component can be specified when the component constructor is called.
 

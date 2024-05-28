@@ -10,6 +10,7 @@ createdAt: "Mon Apr 10 2023 12:31:49 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jun 15 2023 11:47:10 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
+grand_parent: "Components"
 ---
 Radio group is composed of multiple radio components.
 

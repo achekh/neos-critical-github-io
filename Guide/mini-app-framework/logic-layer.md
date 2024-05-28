@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 01 2023 09:05:04 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:15:27 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Mini Program Framework"
+grand_parent: "Guide"
 ---
 In Logic layer, the code examples, variables, and functions declared in the JavaScript file are valid only in the file. Variables and functions with the same names can be declared in different files without affecting each other.
 

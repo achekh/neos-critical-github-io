@@ -9,7 +9,7 @@ metadata:
 createdAt: "Wed Nov 09 2022 13:49:39 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Dec 06 2022 13:32:06 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
-parent: "Home"
+parent: "Documentation"
 ---
 # Getting started
 

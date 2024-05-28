@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Thu May 18 2023 11:06:51 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:25:29 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Backend assisted capabilities"
+grand_parent: "Guide"
 ---
 In order to accept payments from your Mini App, your Mini App backend needs to integrate with the Super Hub backend to authorize the payment.
 

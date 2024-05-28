@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 08 2023 07:59:35 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 29 2023 06:21:04 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Hardware Capabilities"
+grand_parent: "Guide"
 ---
 To use the Bluetooth functionality in the applet, you must first call wx.openBluetoothAdapter to initialize the Bluetooth adapter module. This must be done before calling wx.closeBluetoothAdapter or the applet will be destroyed. 
 

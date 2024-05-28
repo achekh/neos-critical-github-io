@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Jan 25 2023 15:23:02 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jan 26 2023 11:57:41 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Test - how to create a mini app"
 ---
 To add Tabbar icons, please
 

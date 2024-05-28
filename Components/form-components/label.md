@@ -10,6 +10,7 @@ createdAt: "Mon Apr 10 2023 08:36:54 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jun 15 2023 11:24:44 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
+grand_parent: "Components"
 ---
 You can use the `for` attribute to match the corresponding ID or place the target control under the label. In this case, when the user clicks the label, the target control will be triggered. for has a higher priority than internal controls. If there are multiple internal controls, the first one will be triggered by default. Currently, the following controls can be bound: [button](doc:button), [checkbox](doc:checkbox), [radio](doc:radio), [switch](doc:switch), and [input](doc:input).
 

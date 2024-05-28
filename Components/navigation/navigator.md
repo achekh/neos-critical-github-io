@@ -10,6 +10,7 @@ createdAt: "Tue Apr 11 2023 07:05:30 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 22 2023 12:21:55 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Navigation"
+grand_parent: "Components"
 ---
 Page link to another Mini App.
 

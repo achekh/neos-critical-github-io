@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Wed May 17 2023 07:31:32 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:25:45 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Advanced topics"
+grand_parent: "Guide"
 ---
 In order to write tests for Mini apps, you can use the library `miniprogram-simulate`
 

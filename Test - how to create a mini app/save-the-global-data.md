@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Tue Jan 24 2023 08:08:46 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Jan 25 2023 10:02:51 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Test - how to create a mini app"
 ---
 Prepare the app's global data for the data it will receive from pages
 

@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 02 2023 07:48:04 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jun 09 2023 09:46:01 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Custom Components"
+grand_parent: "Guide"
 ---
 ## Defining and using a behavior
 

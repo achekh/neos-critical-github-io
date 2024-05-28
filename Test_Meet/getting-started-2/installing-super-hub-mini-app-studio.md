@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue Feb 07 2023 14:06:50 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 15 2023 06:39:48 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Getting started"
+grand_parent: "Meet the MiniApp"
 ---
 ## Install Super Hub Mini App Studio on [Windows](doc:installing-super-hub-mini-app-studio#super-hub-mini-app-studio-on-windows) or [macOS](doc:installing-super-hub-mini-app-studio#super-hub-mini-app-studio-on-macos)
 

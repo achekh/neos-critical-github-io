@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 02 2023 09:03:53 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:02:16 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Custom Components"
+grand_parent: "Guide"
 ---
 In order to better customize the features of a custom component, you can use the custom component extension mechanism.
 

@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon Feb 27 2023 11:02:12 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Feb 28 2023 11:27:25 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Navigating the Mini App Studio UI"
+grand_parent: "Meet the MiniApp"
 ---
 Mini App Studio allows you to build, run and test your app using a simulated iOS or Android device. 
 

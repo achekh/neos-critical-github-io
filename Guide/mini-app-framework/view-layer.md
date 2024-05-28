@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 01 2023 09:05:07 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:15:47 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Mini Program Framework"
+grand_parent: "Guide"
 ---
 You can also use the createAnimation API to create simple animation effects dynamically.If the above declaration is added to the Mini Program, the Mini Program page rotates, and the display area is resized as the screen rotates. Note: You cannot enable or disable screen rotation for a single page.The current component bound to the event.The view layer of the framework is written using WXML and WXSS and presented by components.
 

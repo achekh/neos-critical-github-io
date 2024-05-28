@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Fri May 12 2023 04:24:32 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Jun 07 2023 01:30:07 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Using npm"
+grand_parent: "Guide"
 ---
 ## Initializing npm
 

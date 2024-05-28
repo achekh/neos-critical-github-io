@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Mon Jan 23 2023 11:26:44 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jan 26 2023 12:00:55 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Test - how to create a mini app"
 ---
 Let's add Google places API:
 

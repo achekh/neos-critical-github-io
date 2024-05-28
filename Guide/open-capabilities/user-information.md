@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 08 2023 09:21:01 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 29 2023 07:30:00 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Open Capabilities (COPY)"
+grand_parent: "Guide"
 ---
 # Mini Program Login
 

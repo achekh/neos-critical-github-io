@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Jan 11 2023 11:08:55 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Mar 08 2023 12:04:17 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Test - how to create a mini app"
 ---
 ## Logging into Mini App Studio
 

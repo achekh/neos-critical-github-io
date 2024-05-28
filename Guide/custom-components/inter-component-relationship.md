@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue May 02 2023 07:50:43 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:01:08 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Custom Components"
+grand_parent: "Guide"
 ---
 ## Defining and using a relationship between components
 

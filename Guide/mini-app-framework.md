@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 01 2023 09:04:59 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:15:03 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Guide"
+has_children: true
 ---
 # Framework
 

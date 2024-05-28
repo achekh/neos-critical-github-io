@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Tue Feb 07 2023 09:27:53 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Feb 22 2023 11:09:39 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Meet the MiniApp"
 ---
 To add **"Near me"** title for all pages, please:
 

@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Tue Feb 07 2023 10:24:00 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Feb 15 2023 11:04:45 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Meet the MiniApp"
 ---
 To add Tab Bar icons, please
 

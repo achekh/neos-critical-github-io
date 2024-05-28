@@ -7,6 +7,8 @@ metadata:
   robots: "index"
 createdAt: "Thu Apr 27 2023 07:25:27 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:12:54 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Guide"
 ---
 The Mini Program comes with an `app` directory that describes the overall program and consists of multiple `page` directories to describe the respective pages.
 

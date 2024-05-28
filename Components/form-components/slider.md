@@ -10,6 +10,7 @@ createdAt: "Mon Apr 10 2023 12:36:50 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:07:36 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
+grand_parent: "Components"
 ---
 The slider component lets users perform selection by moving the slider within a range.
 

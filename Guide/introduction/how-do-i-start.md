@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Mon May 15 2023 07:01:04 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon Jun 26 2023 10:42:48 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Introduction"
+grand_parent: "Guide"
 ---
 ### Creating a developer account
 

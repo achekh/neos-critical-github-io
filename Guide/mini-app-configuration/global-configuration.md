@@ -5,6 +5,9 @@ excerpt: ""
 hidden: false
 createdAt: "Fri May 12 2023 11:38:28 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Nov 28 2023 10:14:21 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Mini App configuration"
+grand_parent: "Guide"
 ---
 The `app.json` file in the root directory of a Mini App is used to configure Super Hub Mini App, determine the page file path and window display, and set the network timeout period and customize the tab bar.
 

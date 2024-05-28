@@ -7,6 +7,9 @@ metadata:
   robots: "index"
 createdAt: "Thu Apr 27 2023 10:10:42 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:12:22 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Overview"
+grand_parent: "Guide"
 ---
 In medium and large companies, the division of labor is very fine. Generally, employees with different roles are involved in the same Mini Program project. Therefore, we designed different management permissions for the Mini Program platform to allow project managers to more effectively manage the collaboration of the entire team.
 
