@@ -5,6 +5,8 @@ excerpt: "This section lists the WXML APIs."
 hidden: false
 createdAt: "Mon Apr 24 2023 08:43:22 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 18:28:29 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Home"
 ---
 | Name                                                                                                                  | Feature Description                                            |
 | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |

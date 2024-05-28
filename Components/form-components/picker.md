@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Mon Apr 10 2023 09:23:02 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jun 15 2023 11:36:58 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Form components"
 ---
 Currently, five pickers are supported and are identified by mode : general picker (default), multicolumn picker, time picker, date picker, and region picker.
 

@@ -5,6 +5,8 @@ excerpt: "This API initiates a HTTPS network request."
 hidden: false
 createdAt: "Wed Apr 19 2023 07:56:33 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 10:19:30 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Network"
 ---
 - [request](doc:request#request)
 - [RequestTask](doc:request#requesttask)

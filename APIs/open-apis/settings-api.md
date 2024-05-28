@@ -5,6 +5,8 @@ excerpt: "This section consists of Settings related APIs of Mini App."
 hidden: false
 createdAt: "Fri Apr 21 2023 10:39:51 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 13:28:11 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Open APIs"
 ---
 ## wx.openSetting(Object object)
 

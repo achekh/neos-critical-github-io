@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Mon Apr 10 2023 06:11:24 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jun 15 2023 11:21:32 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Form components"
 ---
 Input component is a native component, so you should keep in mind relevant limits when using it.
 

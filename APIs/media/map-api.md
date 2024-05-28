@@ -5,6 +5,8 @@ excerpt: "This section consits of the list of APIs related with Map feature of t
 hidden: false
 createdAt: "Wed Apr 19 2023 11:45:01 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 12:57:55 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Media"
 ---
 Following are the two important Map related APIs:
 

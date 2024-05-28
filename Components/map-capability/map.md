@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Apr 12 2023 11:22:25 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon Jun 19 2023 07:01:47 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Map"
 ---
 Map component is native, so you should keep in mind relevant limits when using it.
 

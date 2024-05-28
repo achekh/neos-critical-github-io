@@ -5,6 +5,9 @@ excerpt: "This section consists of all UI related APIs."
 hidden: false
 createdAt: "Tue Apr 18 2023 09:23:55 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 08:24:20 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Home"
+has_children: true
 ---
 # Interaction
 

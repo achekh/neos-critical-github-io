@@ -5,6 +5,8 @@ excerpt: "APIs related to debugging the functionality of Mini apps."
 hidden: false
 createdAt: "Mon Apr 17 2023 07:08:48 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 06:12:48 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Basic"
 ---
 - [setEnableDebug](doc:debugging-api#setenabledebug-object-object)
 - [getLogManager](doc:debugging-api#wxgetlogmanager)

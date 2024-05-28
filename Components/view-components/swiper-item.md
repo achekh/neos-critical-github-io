@@ -8,5 +8,7 @@ metadata:
   robots: "index"
 createdAt: "Thu Apr 06 2023 05:56:57 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon Jun 12 2023 06:02:27 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "View components"
 ---
 It can be placed in the [swiper](doc:swiper) component only. The width and height are automatically set to 100%.

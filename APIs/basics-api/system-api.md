@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Fri Apr 14 2023 09:54:43 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jun 22 2023 02:09:16 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Basic"
 ---
 - [getSystemInfo](doc:system-api#getsysteminfo-object-object) To retrieve information about the system through a callback.
 - [getSystemInfoSync](doc:system-api#getsysteminfosync)- To retrieve information about the system synchronously.

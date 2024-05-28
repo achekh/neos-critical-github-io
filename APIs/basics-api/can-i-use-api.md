@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Fri Apr 14 2023 08:26:21 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:11:52 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Basic"
 ---
 `canIUse` API determines if the Mini App APIs, callbacks, parameters, and components are available in the current version.  
 

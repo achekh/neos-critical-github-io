@@ -8,6 +8,9 @@ metadata:
   robots: "index"
 createdAt: "Tue Mar 07 2023 14:04:04 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:08:58 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Home"
+has_children: true
 ---
 | Name                 | Function Explanation                              |
 | :------------------- | :------------------------------------------------ |

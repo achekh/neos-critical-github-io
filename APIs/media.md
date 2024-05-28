@@ -5,6 +5,9 @@ excerpt: "This section consists of list of all APIs related to Media."
 hidden: false
 createdAt: "Wed Apr 19 2023 11:44:45 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 10:45:04 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Home"
+has_chidlren: true
 ---
 ### Map
 

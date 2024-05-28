@@ -5,6 +5,8 @@ excerpt: "It is used to render an image."
 hidden: false
 createdAt: "Tue Apr 11 2023 10:21:14 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 06:03:30 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Media components"
 ---
 The[ image ](doc:image)component supports formats such as JPG, PNG, SVG, WEBP, and GIF.
 

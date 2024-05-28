@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Mon Apr 24 2023 08:36:37 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:23:08 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Device"
 ---
 # scanCode
 

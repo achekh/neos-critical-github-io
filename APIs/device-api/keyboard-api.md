@@ -5,6 +5,8 @@ excerpt: "This section lists the list of Keyboard related APIs."
 hidden: false
 createdAt: "Mon Apr 24 2023 08:17:34 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 18:03:13 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Device"
 ---
 - [onKeyboardHeightChange](doc:keyboard-api#onkeyboardheightchangefunction-listener)
 - [hideKeyboard](doc:keyboard-api#hidekeyboardobject-object)

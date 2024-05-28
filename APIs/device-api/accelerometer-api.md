@@ -5,6 +5,8 @@ excerpt: "This section lists the Accelerometer related APIs."
 hidden: false
 createdAt: "Mon Apr 24 2023 08:28:22 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 18:04:33 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Device"
 ---
 - [stopAccelerometer](doc:accelerometer-api#wxstopaccelerometerobject-object)
 - [startAccelerometer](doc:accelerometer-api#wxstartaccelerometerobject-object)

@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Fri Apr 14 2023 12:23:04 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:12:10 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Basic"
 ---
 - [getUpdateManager](doc:update#wxgetupdatemanager)
 - [UpdateManager](doc:update#updatemanager)

@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Fri Apr 07 2023 10:31:16 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jun 15 2023 11:10:48 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Form components"
 ---
 | Attribute  | Type    | Default Value | Required | Description                                                                                                                                                             |
 | :--------- | :------ | :------------ | :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

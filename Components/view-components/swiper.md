@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Apr 05 2023 10:19:19 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon Jun 12 2023 05:59:32 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "View components"
 ---
 A swiper is a slider view container that can only host a [swiper-item](doc:swiper-item) component.
 

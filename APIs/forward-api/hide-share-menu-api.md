@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Tue Apr 18 2023 06:19:03 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:15:42 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Forward"
 ---
 Hide the "Share with Friends" and "Share to Qzone" buttons when the menu in the top-right corner is clicked.
 

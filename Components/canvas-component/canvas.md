@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Thu Apr 13 2023 07:08:21 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Jun 20 2023 05:29:30 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Canvas"
 ---
 | Attribute       | Type          | Default Value | Required | Description                                                                                                                       |
 | :-------------- | :------------ | :------------ | :------- | :-------------------------------------------------------------------------------------------------------------------------------- |

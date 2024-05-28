@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Tue May 02 2023 14:17:15 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:19:06 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Open APIs"
 ---
 # startSoterAuthentication (Object object)
 

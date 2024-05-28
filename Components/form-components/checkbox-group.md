@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Fri Apr 07 2023 07:29:17 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:05:48 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Form components"
 ---
 Checkbox-group is a multiple selector that internally consists of multiple [checkboxes](doc:checkbox).
 

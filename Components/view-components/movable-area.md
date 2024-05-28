@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Apr 05 2023 07:40:17 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Jun 13 2023 04:29:55 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "View components"
 ---
 A component that hosts the [moveable-view](doc:movable-view).
 

@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Mon Apr 17 2023 10:55:51 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:13:19 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Route"
 ---
 # Parameters
 

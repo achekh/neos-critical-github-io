@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Mon Apr 10 2023 12:23:21 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 22 2023 12:12:07 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Form components"
 ---
 Radio is used for selecting one option from multiple given options and a radio component can be placed in a [radio-group](doc:radio-group).
 

@@ -5,6 +5,9 @@ excerpt: ""
 hidden: false
 createdAt: "Wed Mar 15 2023 08:08:41 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 13:45:35 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Home"
+has_children: true
 ---
 ### Bluetooth-general
 

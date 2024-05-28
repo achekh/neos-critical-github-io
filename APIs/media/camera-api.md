@@ -5,6 +5,8 @@ excerpt: "This section consists of Camera related APIs for Mini App."
 hidden: false
 createdAt: "Fri Apr 21 2023 07:28:52 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 13:17:33 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Media"
 ---
 - [createCameraContext](doc:camera-api#cameracontext-wxcreatecameracontext)
 - [CameraContext](doc:camera-api#cameracontext)

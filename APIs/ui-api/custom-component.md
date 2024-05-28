@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Apr 19 2023 07:10:04 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 17 2023 07:12:57 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "UI"
 ---
 # nextTick
 

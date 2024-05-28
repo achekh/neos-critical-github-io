@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Thu Apr 13 2023 11:44:10 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:11:14 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Native components"
 ---
 ### Native Component
 

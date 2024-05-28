@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Mon Apr 17 2023 11:05:07 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:13:58 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Route"
 ---
 # wx.navigateTo (Object object)
 

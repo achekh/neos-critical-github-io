@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Mon Apr 10 2023 05:14:21 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Jun 15 2023 11:17:37 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Form components"
 ---
 Form. It submits its [switch](doc:switch), [input](doc:input), [checkbox](doc:checkbox), [slider](doc:slider), [radio](doc:radio), and [picker](doc:picker) information input by the user.
 

@@ -5,6 +5,8 @@ excerpt: "This section list the Gyroscope related APIs."
 hidden: false
 createdAt: "Mon Apr 24 2023 08:36:34 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 18:07:06 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Device"
 ---
 - [stopGyroscope](doc:gyroscope-api#wxstopgyroscopeobject-object)
 - [startGyroscope](doc:gyroscope-api#wxstartgyroscopeobject-object)

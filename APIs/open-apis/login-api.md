@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Fri Apr 21 2023 10:06:28 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:18:30 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Open APIs"
 ---
 ## wx.login(Object object)
 

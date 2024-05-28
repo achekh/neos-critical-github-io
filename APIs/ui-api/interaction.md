@@ -7,6 +7,8 @@ metadata:
   robots: "index"
 createdAt: "Tue Apr 18 2023 09:24:38 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri May 19 2023 10:41:52 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "UI"
 ---
 # showToast (Object object)
 

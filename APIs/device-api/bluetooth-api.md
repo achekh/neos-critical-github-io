@@ -5,6 +5,8 @@ excerpt: "`This section displays list of Bluetooth related APIs for the Mini App
 hidden: false
 createdAt: "Fri Apr 21 2023 10:44:55 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 13:48:32 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Device"
 ---
 - [openBluetoothAdapter](doc:bluetooth-api#wxopenbluetoothadapterobject-object)
 - [getConnectedBluetoothDevices](doc:bluetooth-api#wxgetconnectedbluetoothdevicesobject-object)

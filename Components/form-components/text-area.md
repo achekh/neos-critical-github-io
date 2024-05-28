@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Mon Apr 10 2023 12:58:27 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:08:27 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Form components"
 ---
 This component is a native component; hence it is important to know the limitations when using it.
 

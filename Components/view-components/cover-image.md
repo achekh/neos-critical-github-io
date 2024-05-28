@@ -8,6 +8,8 @@ metadata:
   robots: "index"
 createdAt: "Wed Mar 01 2023 13:52:02 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue Jun 13 2023 04:27:38 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "View components"
 ---
 The image view that covers the native components, which can be nested in `cover-view`. Coverable native components are those listed for `cover- view`.
 

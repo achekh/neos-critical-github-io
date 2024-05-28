@@ -5,6 +5,8 @@ excerpt: "This section lists the Compass related APIs."
 hidden: false
 createdAt: "Mon Apr 24 2023 08:34:19 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 18:05:43 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "Device"
 ---
 - [stopCompass](doc:compass-api#wxstopcompassobject-object)
 - [startCompass](doc:compass-api#wxstartcompassobject-object)

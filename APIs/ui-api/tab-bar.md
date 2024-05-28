@@ -5,6 +5,8 @@ excerpt: "Show, hide and set the tab bar and items in it."
 hidden: false
 createdAt: "Tue May 02 2023 10:47:49 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 08:32:56 GMT+0000 (Coordinated Universal Time)"
+layout: "default"
+parent: "UI"
 ---
 - [showTabBar](doc:tab-bar#showtabbar-object-object)
 - [hideTabBar](doc:tab-bar#hidetabbar-object-object)
