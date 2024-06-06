@@ -13,6 +13,8 @@ parent: "Introduction"
 grand_parent: "Guide"
 nav_order: 2
 ---
+# How do I start
+***
 ### Creating a developer account
 
 In order to start developing Mini Apps on the NEOS Hub Super app, you need to download the Demo Super app and create an account.
@@ -21,7 +23,7 @@ Once your account is created, you need to apply for a developer account on our [
 
 1. When the login screen prompts, click **Register**:
 
-![](https://files.readme.io/8c7b24a-small-register.png)
+![](/assets/images/8c7b24a-small-register.png)
 
 2. Scan the QR code on the Super Hub app QR code scanner (located next to the search input at the top of the main page of the app).
 

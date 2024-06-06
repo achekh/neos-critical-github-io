@@ -13,9 +13,8 @@ parent: "Introduction"
 grand_parent: "Guide"
 nav_order: 1
 ---
-
 # What is the NEOS Hub?
-
+***
 NEOS Hub is the Super App Platform-as-a-Service.
 
 NEOS Hub helps streamline how people interact with digital touch points by offering access via a single app. Anyone using a NEOS Hub Super app will enjoy common features supported by the Super App platform.
