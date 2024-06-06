@@ -11,6 +11,7 @@ updatedAt: "Mon Jun 26 2023 10:42:48 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Introduction"
 grand_parent: "Guide"
+nav_order: 2
 ---
 ### Creating a developer account
 

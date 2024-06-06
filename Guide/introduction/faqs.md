@@ -11,6 +11,7 @@ updatedAt: "Sun May 28 2023 13:13:44 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Introduction"
 grand_parent: "Guide"
+nav_rder: 5
 ---
 **Can I use another JavaScript library (e.g. ReactJS) to build Mini Apps?**
 

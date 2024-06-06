@@ -11,6 +11,7 @@ updatedAt: "Mon Jun 26 2023 11:16:22 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Introduction"
 grand_parent: "Guide"
+nav_order: 1
 ---
 NEOS Hub is the Super App Platform-as-a-Service.
 

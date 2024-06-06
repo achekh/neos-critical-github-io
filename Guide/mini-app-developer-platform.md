@@ -11,6 +11,7 @@ updatedAt: "Mon May 22 2023 09:37:19 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
 has_children: true
+nav_order: 2
 ---
 The Mini App developer platform is your one-stop platform for all Mini App operations such as creating Mini Apps, submitting them for review, managing developers, checking Mini App analytics, and crash/error reports.
 

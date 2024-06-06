@@ -8,6 +8,7 @@ updatedAt: "Tue Nov 28 2023 08:58:40 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Introduction"
 grand_parent: "Guide"
+nav_order: 3
 ---
 Super Hub Mini App Studio is the official IDE (integrated development environment) to develop, test and release Mini Apps on the Super Hub platform.
 
