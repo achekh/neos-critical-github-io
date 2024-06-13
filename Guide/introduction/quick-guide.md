@@ -10,6 +10,8 @@ parent: "Introduction"
 grand_parent: "Guide"
 nav_order: 4
 ---
+# Quick guide
+***
 Now that you have created a developer account, downloaded the IDE and started a project, you must have some Mini App development knowledge.
 
 ### Technologies used in developing Mini Apps:
@@ -42,11 +44,12 @@ In order to create a Mini App page, you will have to work with four different fi
 
 After creating the above files, you will be able to start developing your page. Please note that the page needs to be registered in the `app.json` file in order to be identified.
 
-![](https://files.readme.io/b1c2fbb-small-pages.png)
+![](../../assets/images/b1c2fbb-small-pages.png)
 
 ### JavaScript file structure
 
-```javascript page.js
+```javascript
+// page.js
 Page({
   data: {
     username: "test user"
@@ -66,14 +69,16 @@ As shown in the example above, pages are constructed using the `Page` function c
 
 In order to pass data from the business logic (JavaScript) to the UI (WXML), the passed data should be declared in the `Page`  method call object, then it can be referenced in WXML inside 2 curly brackets : `{{dataToBeInjected}}`:
 
-```javascript page.js
+```javascript 
+// page.js
 Page({
   data: {
     username: "test user"
   }
 })
 ```
-```xml page.wxml
+```xml 
+<!-- page.wxml -->
 <view>
   <text>{{username}}</text>
 </view>
@@ -81,7 +86,8 @@ Page({
 
 In order to pass events from UI (WXML) to the business logic (JavaScript), a custom method should be declared on the `Page` method call object, then it can be bounded from WXML:
 
-```javascript page.js
+```javascript 
+// page.js
 Page({
   data: {},
   onButtonTapped: function() {
@@ -89,7 +95,8 @@ Page({
   }
 })
 ```
-```xml page.wxml
+```xml 
+<!-- page.wxml -->
 <view>
   <button bindtap="onButtonTapped">Click Me</button>
 </view>
@@ -99,7 +106,8 @@ Page({
 
 When you want to change the data declared in the `Page`  method call object, you need to call `this.setData()` and provide it with the new data value:
 
-```javascript page.js
+```javascript
+// page.js
 Page({
   data: {
   	welcomeMessage: "Hello"
@@ -111,7 +119,8 @@ Page({
   }
 })
 ```
-```xml page.wxml
+```xml
+<!-- page.wxml -->
 <view>
   <text>{{welcomeMessage}}</text>
   <button bindtap="onButtonTapped">Click Me</button>
@@ -122,7 +131,7 @@ Once `this.setData()` is called, the changes will be reflected on WXML directly.
 
 ### Making the Mini App interactive
 
-Of course, Mini Apps need to do more than displaying data and feeding back events from UI the business logic, therefore, the global `wx` object exists. its available across all JavaScript files and it can be used to do various actions on the Mini App, you can see the full list of the `wx` object API references in our [APIs](doc:basics-api) section.
+Of course, Mini Apps need to do more than displaying data and feeding back events from UI the business logic, therefore, the global `wx` object exists. its available across all JavaScript files and it can be used to do various actions on the Mini App, you can see the full list of the `wx` object API references in our [APIs](../../APIs/basics-api) section.
 
 Functionality you can achieve using the global `wx` object includes and are not limited to the following:
 

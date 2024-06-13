@@ -10,11 +10,13 @@ parent: "Introduction"
 grand_parent: "Guide"
 nav_order: 3
 ---
+# IDE overview
+***
 Super Hub Mini App Studio is the official IDE (integrated development environment) to develop, test and release Mini Apps on the Super Hub platform.
 
-In order to know how to get the IDE up and running, please check our [How do I start](doc:how-do-i-start) section.
+In order to know how to get the IDE up and running, please check our [How do I start](how-do-i-start) section.
 
-![](https://files.readme.io/99e0f8b-small-ide-with-debugger.png)
+![](../../assets/images/99e0f8b-small-ide-with-debugger.png)
 
 ## IDE sections
 
@@ -27,13 +29,13 @@ Under the File explorer, you can perform the following operations:
 - Fold and unfold folders.
 - Search the project files.
 
-![](https://files.readme.io/8c053c4-small-file-explorer.png)
+![](../../assets/images/8c053c4-small-file-explorer.png)
 
 ### Code editor
 
 This is where the magic happens, you can edit code files and save them.
 
-![](https://files.readme.io/512d7c0-small-code-editor.png)
+![](../../assets/images/512d7c0-small-code-editor.png)
 
 ### Simulator
 
@@ -41,11 +43,11 @@ This is where you can review your Mini App UI and functionality.
 
  Please note that not all functionality is available on the Simulator (e.g. NFC), and it is advised that you test your Mini App on the device all the time.
 
-![](https://files.readme.io/ee033e2-small-simulator.png)
+![](../../assets/images/ee033e2-small-simulator.png)
 
 ### Mini App development menu
 
-![](https://files.readme.io/8b56a00-small-mini-app-development-menu.png)
+![](../../assets/images/8b56a00-small-mini-app-development-menu.png)
 
 You can do the following from the compile menu:
 
@@ -60,7 +62,7 @@ You can do the following from the compile menu:
 
 Based on Chrome dev tools, the debugger can help you debug and troubleshoot issues on your Mini App:
 
-![](https://files.readme.io/640fa73-small-debugger.png)
+![](../../assets/images/640fa73-small-debugger.png)
 
 Using the debugger, you can achieve the following:
 
