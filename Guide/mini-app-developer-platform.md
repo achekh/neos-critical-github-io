@@ -13,8 +13,8 @@ parent: "Guide"
 has_children: true
 nav_order: 2
 ---
-{: .no_toc }
 # Mini App developer platform
+{: .no_toc }
 ***
 The Mini App developer platform is your one-stop platform for all Mini App operations such as creating Mini Apps, submitting them for review, managing developers, checking Mini App analytics, and crash/error reports.
 
