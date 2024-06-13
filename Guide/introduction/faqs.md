@@ -13,6 +13,9 @@ parent: "Introduction"
 grand_parent: "Guide"
 nav_rder: 5
 ---
+# FAQs
+***
+
 **Can I use another JavaScript library (e.g. ReactJS) to build Mini Apps?**
 
 Unfortunately, no, the only way to develop a Mini App is using our development technologies and workflows.
