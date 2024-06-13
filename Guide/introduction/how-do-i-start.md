@@ -23,7 +23,7 @@ Once your account is created, you need to apply for a developer account on our [
 
 1. When the login screen prompts, click **Register**:
 
-![](/assets/images/8c7b24a-small-register.png)
+![](../../../assets/images/8c7b24a-small-register.png)
 
 2. Scan the QR code on the Super Hub app QR code scanner (located next to the search input at the top of the main page of the app).
 
