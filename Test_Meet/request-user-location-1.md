@@ -11,6 +11,8 @@ updatedAt: "Wed Feb 15 2023 11:11:54 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# Request user location 
+*** 
 To request the user's location:
 
 - Copy the code snippet below.

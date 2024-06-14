@@ -12,6 +12,8 @@ layout: "default"
 parent: "Create your project"
 grand_parent: "Meet the MiniApp"
 ---
+# Logging into Mini App Studio 
+*** 
 To log into Mini App studio:
 
 1. Open the Super Hub Mini App Studio application on your computer system.

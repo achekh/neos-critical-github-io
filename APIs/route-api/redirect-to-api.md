@@ -12,6 +12,8 @@ layout: "default"
 parent: "Route"
 grand_parent: "APIs"
 ---
+# redirectTo(Object object) 
+*** 
 # Parameters
 
 **Object object**

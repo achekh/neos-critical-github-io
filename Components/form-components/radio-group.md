@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Radio-group 
+*** 
 Radio group is composed of multiple radio components.
 
 | Attribute  | Type          | Required | Description                                                                                                                                                     |

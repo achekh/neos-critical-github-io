@@ -12,6 +12,8 @@ layout: "default"
 parent: "Backend assisted capabilities"
 grand_parent: "Guide"
 ---
+# Accepting payments 
+*** 
 In order to accept payments from your Mini App, your Mini App backend needs to integrate with the Super Hub backend to authorize the payment.
 
 ### Place a transaction order (from backend)

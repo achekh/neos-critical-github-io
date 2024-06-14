@@ -11,6 +11,8 @@ updatedAt: "Tue Mar 14 2023 14:24:41 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# \"List\" page display 
+*** 
 To display the List page:
 
 1. Copy the code from each of 3 tabs below and paste it into the corresponding file in Mini App Studio

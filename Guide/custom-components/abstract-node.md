@@ -12,6 +12,8 @@ layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
 ---
+# Abstract Node 
+*** 
 ## Using an abstract node in a component
 
 Sometimes, for some nodes in a custom component template, the corresponding custom component is not determined by the custom component itself but by the caller of the custom component. In this case, this node can be declared as an "abstract node".

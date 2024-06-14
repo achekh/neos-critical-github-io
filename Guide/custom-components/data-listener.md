@@ -9,6 +9,8 @@ layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
 ---
+# Data Listener 
+*** 
 ## Defining and using a data listener
 
 A data listener (or observer) can be used to listen for and respond to changes in any attribute or data field. Sometimes, certain operations need to be performed when certain data fields are set by `setData`. For example, `this.data.sum` is always the sum of `this.data.numberA` and `this.data.numberB`. In this case, you can use a data listener for the following implementation:

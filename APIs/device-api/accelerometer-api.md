@@ -9,6 +9,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Accelerometer 
+*** 
 - [stopAccelerometer](doc:accelerometer-api#wxstopaccelerometerobject-object)
 - [startAccelerometer](doc:accelerometer-api#wxstartaccelerometerobject-object)
 - [onAccelerometerChange](doc:accelerometer-api#wxonaccelerometerchangefunction-callback)

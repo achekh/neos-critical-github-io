@@ -9,6 +9,8 @@ layout: "default"
 parent: "Guide"
 has_children: true
 ---
+# Basic Capabilities 
+*** 
 The following are the important basic capabilities of Mini App:
 
 - Network

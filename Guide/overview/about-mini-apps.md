@@ -12,6 +12,8 @@ layout: "default"
 parent: "Overview"
 grand_parent: "Guide"
 ---
+# About Mini Programs 
+*** 
 Mini Programs enables connection between the users and services. They are easy to access and share on Super Hub Mini App to deliver excellent user experience.
 
 # Technical Development of a Mini Program

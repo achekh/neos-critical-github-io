@@ -11,6 +11,8 @@ updatedAt: "Wed Feb 15 2023 11:24:41 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# Add Google places API 
+*** 
 To add Google Places API:
 
 - Copy the code below.

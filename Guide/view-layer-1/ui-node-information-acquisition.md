@@ -12,6 +12,8 @@ layout: "default"
 parent: "View Layer"
 grand_parent: "Guide"
 ---
+# UI Node Information Acquisition 
+*** 
 ## WXML node information
 
 The node information query API can be used to get information such as node attributes, styles, and positions on the UI.

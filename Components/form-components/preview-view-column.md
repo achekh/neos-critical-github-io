@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Preview-view-column 
+*** 
 It can be placed only in [picker-view](doc:picker-view). The height of its child nodes will be automatically set to the same value as that of the selection box of [picker-view](doc:picker-view).
 
 ### Sample code

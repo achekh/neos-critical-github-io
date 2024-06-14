@@ -9,6 +9,8 @@ layout: "default"
 parent: "UI"
 grand_parent: "APIs"
 ---
+# Menu 
+*** 
 - [getMenuButtonBoundingClientRect](doc:menu#object-wxgetmenubuttonboundingclientrect)
 
 ## Object wx.getMenuButtonBoundingClientRect()

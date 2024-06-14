@@ -11,6 +11,8 @@ layout: "default"
 parent: "Mini Program Framework"
 grand_parent: "Guide"
 ---
+# View Layer 
+*** 
 You can also use the createAnimation API to create simple animation effects dynamically.If the above declaration is added to the Mini Program, the Mini Program page rotates, and the display area is resized as the screen rotates. Note: You cannot enable or disable screen rotation for a single page.The current component bound to the event.The view layer of the framework is written using WXML and WXSS and presented by components.
 
 The data at the logic layer is rendered in a view, and the events at the view layer are sent to the logic layer.

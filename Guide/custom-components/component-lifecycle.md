@@ -12,6 +12,8 @@ layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
 ---
+# Component Lifecycle 
+*** 
 ## Main lifecycle functions of a component
 
 The lifecycle of a component refers to some functions of the component itself, which are automatically triggered at special time points or when some special framework events occur.

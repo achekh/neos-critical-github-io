@@ -11,6 +11,8 @@ layout: "default"
 parent: "Mini Program Framework"
 grand_parent: "Guide"
 ---
+# Scene Value 
+*** 
 The scene value describes a path in which a user enters a Mini Program. For the definition of the scene value, refer to the [Scene Value List](<>).
 
 Due to restriction of the Android system, currently the value for the scene when the user taps the home button to exit the Mini Program and returns to the home page and then enters the Mini Program from the home page cannot be obtained. In this case, the previous scene value is retained.

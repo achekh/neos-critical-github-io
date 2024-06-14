@@ -9,6 +9,8 @@ layout: "default"
 parent: "Media"
 grand_parent: "APIs"
 ---
+# Image 
+*** 
 - [saveImageToPhotosAlbum](doc:image-api#wxsaveimagetophotosalbumobject-object)
 - [previewImage](doc:image-api#wxpreviewimageobject-object)
 - [getImageInfo](doc:image-api#wxgetimageinfoobject-object)

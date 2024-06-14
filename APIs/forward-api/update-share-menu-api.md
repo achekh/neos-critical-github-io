@@ -12,6 +12,8 @@ layout: "default"
 parent: "Forward"
 grand_parent: "APIs"
 ---
+# updateShareMenu (Object object) 
+*** 
 # Parameters
 
 **Object object**

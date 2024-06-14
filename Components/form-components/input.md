@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Input 
+*** 
 Input component is a native component, so you should keep in mind relevant limits when using it.
 
 | Attribute                | Type          | Default Value     | Required | Description                                                                                                                                                                                                                            |

@@ -12,6 +12,8 @@ layout: "default"
 parent: "Open Capabilities (COPY)"
 grand_parent: "Guide"
 ---
+# Messages 
+*** 
 # Uniform Service Messages
 
 In order to facilitate developers to send user service messages and simplify the issuing of Mini Program and Official Account message templates, the Mini Program provides a uniform service message issuing API.

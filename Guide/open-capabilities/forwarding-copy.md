@@ -12,6 +12,8 @@ layout: "default"
 parent: "Open Capabilities (COPY)"
 grand_parent: "Guide"
 ---
+# Forwarding 
+*** 
 After a dynamic message is sent, the message content can be modified through updatableMessage.setUpdatableMsg.
 
 ## Obtaining More Forwarded Information

@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Textarea 
+*** 
 This component is a native component; hence it is important to know the limitations when using it.
 
 | Attribute         | Type          | Default Value        | Description                                                                                                                                                                                                                                                                                              |

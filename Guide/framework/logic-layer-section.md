@@ -9,6 +9,8 @@ layout: "default"
 parent: "Logic layer"
 grand_parent: "Guide"
 ---
+# Logic Layer 
+*** 
 ## Logic Layer (App Service)
 
 The logic layer of the Mini App development framework uses the `JavaScript` engine to provide a runtime environment for your JavaScript code and the unique features of the Super Hub Mini App.

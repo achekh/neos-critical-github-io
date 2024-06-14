@@ -8,6 +8,8 @@ updatedAt: "Wed Nov 29 2023 10:24:53 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "APIs"
 ---
+# Data Cache 
+*** 
 | Name                                                                  | Feature Description                                                        |
 | :-------------------------------------------------------------------- | :------------------------------------------------------------------------- |
 | [setStorageSync](doc:data-cache#setstoragesync)                       | Stores the data in the specified key in the local cache.                   |

@@ -11,6 +11,8 @@ updatedAt: "Wed Feb 15 2023 11:09:32 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# Requesting the user permission (location) 
+*** 
 To register the user location permission message:
 
 - Copy the code below:

@@ -12,6 +12,8 @@ layout: "default"
 parent: "Open APIs"
 grand_parent: "APIs"
 ---
+# Biometric authentication 
+*** 
 # startSoterAuthentication (Object object)
 
 Starts biometric authentication.

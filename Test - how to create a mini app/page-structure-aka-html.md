@@ -11,6 +11,8 @@ updatedAt: "Wed Jan 25 2023 16:36:27 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# \"Map\" page display 
+*** 
 Let's display the Map page:
 
 1. Copy the code from each of 3 tabs below and paste it into the corresponding file in Mini App Studio. Please note, that for demo purposes the user location is predefined

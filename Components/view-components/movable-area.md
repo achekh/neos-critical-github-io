@@ -12,6 +12,8 @@ layout: "default"
 parent: "View components"
 grand_parent: "Components"
 ---
+# Movable area 
+*** 
 A component that hosts the [moveable-view](doc:movable-view).
 
 | Attribute  | Type    | Default Value | Description                                                                                                                                                          |

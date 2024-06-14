@@ -12,6 +12,8 @@ layout: "default"
 parent: "View components"
 grand_parent: "Components"
 ---
+# Cover image 
+*** 
 The image view that covers the native components, which can be nested in `cover-view`. Coverable native components are those listed for `cover- view`.
 
 | Attribute  | Type          | Default | Description                                                                                              |

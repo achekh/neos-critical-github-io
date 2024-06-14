@@ -9,6 +9,8 @@ layout: "default"
 parent: "APIs"
 has_children: true
 ---
+# Device 
+*** 
 ### Bluetooth-general
 
 | Name                                                                                          | Feature Description                                                           |

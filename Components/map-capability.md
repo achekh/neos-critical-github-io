@@ -9,6 +9,8 @@ layout: "default"
 parent: "Components"
 has_children: true
 ---
+# Map 
+*** 
 | Name           | Function Explanation                                          |
 | :------------- | :------------------------------------------------------------ |
 | [map](doc:map) | Renders a map, related api [wx.createMapContext](doc:map-api) |

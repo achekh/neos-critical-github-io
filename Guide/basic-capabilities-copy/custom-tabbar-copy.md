@@ -9,6 +9,8 @@ layout: "default"
 parent: "Basic Capabilities"
 grand_parent: "Guide"
 ---
+# Custom tabBar 
+*** 
 Custom tabBar allows developers to set tabBar styles and achieve greater personalization with flexibility.
 
 In custom tabBar mode:

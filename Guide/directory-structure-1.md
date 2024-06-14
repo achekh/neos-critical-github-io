@@ -11,6 +11,8 @@ updatedAt: "Fri Jul 14 2023 11:28:01 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
 ---
+# Directory Structure 
+*** 
 A Mini App consist of an `app` describing the entire app and multiple `pages` describing respective pages.
 
 The main part of a Mini App consists of three files which must be placed in the root directory of the project: These three files are listed below:

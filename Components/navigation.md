@@ -12,6 +12,8 @@ layout: "default"
 parent: "Components"
 has_children: true
 ---
+# Navigation 
+*** 
 | Name                       | Function Explanation |
 | :------------------------- | :------------------- |
 | [navigator](doc:navigator) | Page link            |

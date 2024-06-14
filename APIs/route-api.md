@@ -12,6 +12,8 @@ layout: "default"
 parent: "APIs"
 has_children: true
 ---
+# Route 
+*** 
 | Name                                  | Feature Description                                                             |
 | :------------------------------------ | :------------------------------------------------------------------------------ |
 | [switchTab](doc:switch-tab-api)       | Redirects to the tabbar page and closes all other non-tabbar pages.             |

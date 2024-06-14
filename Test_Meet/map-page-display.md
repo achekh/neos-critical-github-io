@@ -11,6 +11,8 @@ updatedAt: "Wed Feb 15 2023 11:05:54 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# \"Map\" page display 
+*** 
 To display the Map page:
 
 - Copy the code from each of 3 tabs below and paste it into the corresponding file in Mini App Studio.

@@ -11,6 +11,8 @@ updatedAt: "Fri Jan 13 2023 12:39:21 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# Getting started 
+*** 
 - [ ] Please use the link to .................... to create an account on the Super Hub portal
 
 > @Yevgen to follow up:

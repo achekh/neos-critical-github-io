@@ -11,6 +11,8 @@ layout: "default"
 parent: "Mini Program Framework"
 grand_parent: "Guide"
 ---
+# Logic Layer 
+*** 
 In Logic layer, the code examples, variables, and functions declared in the JavaScript file are valid only in the file. Variables and functions with the same names can be declared in different files without affecting each other.
 
 The global application instance can be obtained via the global function getApp. To obtain the global data, you can set App(). 

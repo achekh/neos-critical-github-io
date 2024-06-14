@@ -9,6 +9,8 @@ layout: "default"
 parent: "Logic layer"
 grand_parent: "Guide"
 ---
+# API 
+*** 
 The Mini App development framework provides a diversity of native APIs for easily calling host app capabilities, such as user information acquisition, local storage, and payment features. For more information, see the [API documentation](doc:basics-api).
 
 Generally, there are the following types of Mini App APIs:

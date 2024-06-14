@@ -12,6 +12,8 @@ layout: "default"
 parent: "Create your project"
 grand_parent: "Meet the MiniApp"
 ---
+# Configuring your project 
+*** 
 > 📘 Prerequisite
 > 
 > Create a folder on your system which can be used to store the project files.

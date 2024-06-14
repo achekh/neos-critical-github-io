@@ -12,6 +12,8 @@ layout: "default"
 parent: "Backend assisted capabilities"
 grand_parent: "Guide"
 ---
+# Sending push notifications 
+*** 
 To send a push notification to Mini Apps' users, you can call the following API:
 
 **URL:** <https://qa.neuxnet.com/neuopenapi/notify/sendNotify>

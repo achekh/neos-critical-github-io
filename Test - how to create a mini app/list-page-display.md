@@ -11,6 +11,8 @@ updatedAt: "Thu Jan 26 2023 12:02:49 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# \"List\" page display 
+*** 
 Let's display the List page:
 
 1. Copy the code from each of 3 tabs below and paste it into the corresponding file in Mini App Studio

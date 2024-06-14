@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Checkbox 
+*** 
 | Attribute  | Type    | Default Value | Required | Description                                                                                                                                                             |
 | :--------- | :------ | :------------ | :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | value      | String  |               | No       | It represents the checkbox ID. When the checkbox is selected, a change event will occur in [checkbox-group](doc:checkbox-group), which will hold the value of checkbox. |

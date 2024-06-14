@@ -11,6 +11,8 @@ layout: "default"
 parent: "Mini Program Runtime"
 grand_parent: "Guide"
 ---
+# JavaScript Support 
+*** 
 # Supports for JavaScript
 
 ## Operation Limits

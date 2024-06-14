@@ -12,6 +12,8 @@ layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
 ---
+# Relationship Between Components 
+*** 
 ## Defining and using a relationship between components
 
 Sometimes, it is necessary to implement components like the following:

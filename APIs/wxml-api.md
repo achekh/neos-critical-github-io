@@ -8,6 +8,12 @@ updatedAt: "Wed Nov 29 2023 18:28:29 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "APIs"
 ---
+# WXML 
+*** 
+# WXML 
+*** 
+# WXML 
+*** 
 | Name                                                                                                                  | Feature Description                                            |
 | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
 | [createSelectorQuery](doc:wxml-api#selectorquery-wxcreateselectorquery)                                               | Returns a `SelectorQuery` object instance.                     |

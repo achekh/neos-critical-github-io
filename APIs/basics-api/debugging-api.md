@@ -9,6 +9,8 @@ layout: "default"
 parent: "Basic"
 grand_parent: "APIs"
 ---
+# Debugging 
+*** 
 - [setEnableDebug](doc:debugging-api#setenabledebug-object-object)
 - [getLogManager](doc:debugging-api#wxgetlogmanager)
 - [console](doc:debugging-api#console)

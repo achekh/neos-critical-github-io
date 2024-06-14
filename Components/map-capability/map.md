@@ -12,6 +12,8 @@ layout: "default"
 parent: "Map"
 grand_parent: "Components"
 ---
+# Map 
+*** 
 Map component is native, so you should keep in mind relevant limits when using it.
 
 ## Supported maps

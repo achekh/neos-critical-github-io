@@ -12,6 +12,8 @@ layout: "default"
 parent: "Getting started"
 grand_parent: "Meet the MiniApp"
 ---
+# Installing Super Hub Mini App Studio 
+*** 
 ## Install Super Hub Mini App Studio on [Windows](doc:installing-super-hub-mini-app-studio#super-hub-mini-app-studio-on-windows) or [macOS](doc:installing-super-hub-mini-app-studio#super-hub-mini-app-studio-on-macos)
 
 - ### Super Hub Mini App Studio on Windows

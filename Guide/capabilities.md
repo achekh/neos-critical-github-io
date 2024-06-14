@@ -12,6 +12,8 @@ layout: "default"
 parent: "Guide"
 has_children: true
 ---
+# Backend assisted capabilities 
+*** 
 This section goes over the Mini App capabilities that require backend integration:
 
 - [Sending push notifications](doc:sending-push-notifications)

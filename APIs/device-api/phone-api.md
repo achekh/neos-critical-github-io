@@ -12,6 +12,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Phone 
+*** 
 # makePhoneCall
 
 Makes a phone call.

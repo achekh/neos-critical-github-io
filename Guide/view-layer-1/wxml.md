@@ -9,6 +9,8 @@ layout: "default"
 parent: "View Layer"
 grand_parent: "Guide"
 ---
+# WXML 
+*** 
 WXML is a markup language for framework design. It can be used to build the page structure when combined with [base components](doc:view-components) and event system.
 
 > 📘 Notes

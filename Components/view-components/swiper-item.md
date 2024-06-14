@@ -12,4 +12,6 @@ layout: "default"
 parent: "View components"
 grand_parent: "Components"
 ---
+# Swiper item 
+*** 
 It can be placed in the [swiper](doc:swiper) component only. The width and height are automatically set to 100%.

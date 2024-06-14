@@ -12,6 +12,8 @@ layout: "default"
 parent: "View components"
 grand_parent: "Components"
 ---
+# View 
+*** 
 A view container represents container that can host one or more views.
 
 | Attribute              | Type    | Default Value | Required | Description                                                                                                       |

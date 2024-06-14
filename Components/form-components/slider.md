@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Slider 
+*** 
 The slider component lets users perform selection by moving the slider within a range.
 
 | Attribute       | Type          | Default Value | Required | Description                                                                        |

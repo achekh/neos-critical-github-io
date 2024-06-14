@@ -12,6 +12,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Contacts 
+*** 
 # wx.chooseContact(Object object)
 
 Opens the phone contacts to select a contact.

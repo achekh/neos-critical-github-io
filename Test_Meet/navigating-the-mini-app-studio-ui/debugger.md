@@ -12,3 +12,5 @@ layout: "default"
 parent: "Navigating the Mini App Studio UI"
 grand_parent: "Meet the MiniApp"
 ---
+# Debugger 
+*** 

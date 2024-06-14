@@ -11,6 +11,8 @@ updatedAt: "Wed Jan 25 2023 16:38:12 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# Requesting the user permission (location) 
+*** 
 Let's register the user location permission message:
 
 1. Copy the code below:

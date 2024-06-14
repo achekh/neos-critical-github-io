@@ -11,6 +11,8 @@ updatedAt: "Tue Mar 14 2023 14:17:54 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Documentation"
 ---
+# Call API - Google Maps 
+*** 
 ....wxml
 
 > @Khaled please insert a code snippet below

@@ -9,6 +9,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Clipboard 
+*** 
 - [setClipboardData](doc:clipboard-api#wxsetclipboarddataobject-object)
 - [getClipboardData](doc:clipboard-api#wxgetclipboarddataobject-object)
 

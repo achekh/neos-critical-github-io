@@ -12,6 +12,8 @@ layout: "default"
 parent: "Navigating the Mini App Studio UI"
 grand_parent: "Meet the MiniApp"
 ---
+# Simulator 
+*** 
 Mini App Studio allows you to build, run and test your app using a simulated iOS or Android device. 
 
 [block:image]

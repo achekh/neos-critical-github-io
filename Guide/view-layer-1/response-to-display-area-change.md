@@ -12,6 +12,8 @@ layout: "default"
 parent: "View Layer"
 grand_parent: "Guide"
 ---
+# Response to Display Area Change 
+*** 
 ## Display area size
 
 The display area refers to the area in the Mini App UI that can be freely arranged and displayed. By default, the size of the Mini App display area does not change after the page is initialized. However, this default behavior can be changed in two ways.

@@ -11,6 +11,8 @@ updatedAt: "Wed Feb 15 2023 11:08:18 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# Save the global data 
+*** 
 Prepare the app's global data for the data it will receive from pages. To do so, 
 
 - Copy the code below.

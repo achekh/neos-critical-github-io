@@ -9,6 +9,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Network 
+*** 
 - [onNetworkStatusChange](doc:network-api#wxonnetworkstatuschangefunction-callback)
 - [getNetworkType](doc:network-api#wxgetnetworktypeobject-object)
 

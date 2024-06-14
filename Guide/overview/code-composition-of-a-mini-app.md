@@ -11,6 +11,8 @@ layout: "default"
 parent: "Overview"
 grand_parent: "Guide"
 ---
+# Code Composition of a Mini App 
+*** 
 ​In the previous chapter, we quickly created a QuickStart project via Mini App DevTools, where the following types of files are generated:
 
 - `JSON` configuration files suffixed with` .json`

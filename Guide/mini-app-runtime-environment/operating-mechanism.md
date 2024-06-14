@@ -11,6 +11,8 @@ layout: "default"
 parent: "Mini Program Runtime"
 grand_parent: "Guide"
 ---
+# Operating Mechanism 
+*** 
 # Operating Mechanism of Mini Programs
 
 ## Startup of Mini Programs

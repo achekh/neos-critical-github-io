@@ -8,6 +8,8 @@ updatedAt: "Wed Nov 29 2023 13:26:47 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "APIs"
 ---
+# Location 
+*** 
 | Name                                                                                          | Feature Description                                                                                                                                      |
 | :-------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [startLocationUpdate](doc:location-api#startlocationupdate-object-object)                     | Enables the Mini App to receive location information on the foreground.                                                                                  |

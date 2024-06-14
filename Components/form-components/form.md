@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Form 
+*** 
 Form. It submits its [switch](doc:switch), [input](doc:input), [checkbox](doc:checkbox), [slider](doc:slider), [radio](doc:radio), and [picker](doc:picker) information input by the user.
 
 When the user clicks the [button](doc:button) component whose `form-type` is `submit` , the values in the form component will be submitted, and a name needs to be added as the key in the form component.

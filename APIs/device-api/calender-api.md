@@ -9,6 +9,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Calender 
+*** 
 - [ addPhoneRepeatCalendar](doc:calender-api#addphonerepeatcalendarobject-object)
 - [addPhoneCalendar](doc:calender-api#addphonecalendarobject-object)
 

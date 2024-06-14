@@ -12,6 +12,8 @@ layout: "default"
 parent: "Components"
 has_children: true
 ---
+# Native components 
+*** 
 | Name                                     | Function Explanation                                     |
 | :--------------------------------------- | :------------------------------------------------------- |
 | [native-component](doc:native-component) | Some of the components in the SDK are native components. |

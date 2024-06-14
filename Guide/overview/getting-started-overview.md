@@ -11,6 +11,8 @@ layout: "default"
 parent: "Overview"
 grand_parent: "Guide"
 ---
+# Getting Started 
+*** 
 Before developing a Mini Program, you need to have a Mini Program account, which allows you to manage your Mini Program.
 
 This tutorial is designed to get you started with developing a Mini Program quickly.

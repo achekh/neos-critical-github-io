@@ -12,6 +12,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# SMS 
+*** 
 # wx.sendSms(Object object)
 
 Opens the SMS sending UI of the phone.

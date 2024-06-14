@@ -9,6 +9,8 @@ layout: "default"
 parent: "UI"
 grand_parent: "APIs"
 ---
+# Background 
+*** 
 - [setBackgroundColor](doc:background#setbackgroundcolor-object-object)
 - [setBackgroundTextStyle](doc:background#wxsetbackgroundtextstyle-object-object)
 

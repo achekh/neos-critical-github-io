@@ -9,6 +9,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# NFC 
+*** 
 - [getNFCAdapter](doc:nfc#nfcadapter-wxgetnfcadapter) 
 - [NFCAdapter](doc:nfc#nfcadapter)
 - [IsoDep](doc:nfc#isodep-nfcadaptergetisodep)

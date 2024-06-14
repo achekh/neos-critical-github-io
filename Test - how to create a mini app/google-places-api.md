@@ -11,6 +11,8 @@ updatedAt: "Thu Jan 26 2023 12:00:55 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# Add Google places API 
+*** 
 Let's add Google places API:
 
 1. Copy the code below

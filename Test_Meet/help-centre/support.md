@@ -12,6 +12,8 @@ layout: "default"
 parent: "Help Center"
 grand_parent: "Meet the MiniApp"
 ---
+# Support 
+*** 
 # Support Option
 
 ## [Ask the community](<>)

@@ -12,6 +12,8 @@ layout: "default"
 parent: "Redirect"
 grand_parent: "APIs"
 ---
+# exitMiniProgram (Object object) 
+*** 
 # Parameters
 
 **Object object**

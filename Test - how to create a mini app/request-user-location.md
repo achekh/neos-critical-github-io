@@ -11,6 +11,8 @@ updatedAt: "Wed Mar 08 2023 12:03:40 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# Request user location 
+*** 
 Let's request the user's location:
 
 1. copy the code snippet below

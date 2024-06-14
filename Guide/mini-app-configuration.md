@@ -12,6 +12,8 @@ layout: "default"
 parent: "Guide"
 has_children: true
 ---
+# Mini App configuration 
+*** 
 This section explains the two important type of configuration required in Mini App:
 
 - [Global Configuration](doc:global-configuration)

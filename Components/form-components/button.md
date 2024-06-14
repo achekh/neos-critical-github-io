@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Button 
+*** 
 Button component is triggered by the user to perform an action such as submitting a form or opening a dialog box.
 
 | Attribute              | Type    | Default Value | Description                                                                                                       |

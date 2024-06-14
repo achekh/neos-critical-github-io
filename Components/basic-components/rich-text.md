@@ -12,6 +12,8 @@ layout: "default"
 parent: "Basic components"
 grand_parent: "Components"
 ---
+# Rich text 
+*** 
 The `rich-text` allows entering or editing formatted rich text.
 
 | Attribute | Type          | Default | Description                |

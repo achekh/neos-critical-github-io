@@ -12,6 +12,8 @@ layout: "default"
 parent: "Logic layer"
 grand_parent: "Guide"
 ---
+# Page Routing 
+*** 
 The routing of all pages in a Mini App is managed by the framework.
 
 ## Page stack

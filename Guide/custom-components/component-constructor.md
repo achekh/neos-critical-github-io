@@ -9,6 +9,8 @@ layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
 ---
+# Component Constructor 
+*** 
 The component constructor can be used to define a component, and the attributes, data, and methods of the component can be specified when the component constructor is called.
 
 | Definition Section | Type         | Required | Description                                                                                                                                                                                                                                                                                                           |

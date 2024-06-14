@@ -12,6 +12,8 @@ layout: "default"
 parent: "View Layer"
 grand_parent: "Guide"
 ---
+# Animation 
+*** 
 ## Common ways of UI animations
 
 In a Mini App, you can usually use [CSS gradients](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions) and CSS [animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations) to create simple UI animations.

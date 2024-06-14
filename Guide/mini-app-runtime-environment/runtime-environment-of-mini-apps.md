@@ -11,6 +11,8 @@ layout: "default"
 parent: "Mini Program Runtime"
 grand_parent: "Guide"
 ---
+# Runtime Environment of Mini Programs 
+*** 
 The Mini Program runs on 3 platforms: iOS (iPhone/iPad), Android, and the Mini App DevTools used for debugging.
 
 The script runtime environments and environments for rendering non-native components of the three platforms are different:

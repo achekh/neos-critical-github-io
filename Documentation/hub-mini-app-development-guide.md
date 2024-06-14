@@ -11,6 +11,8 @@ updatedAt: "Tue Dec 06 2022 13:32:06 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Documentation"
 ---
+# Super Hub Mini App Development Guide 
+*** 
 # Getting started
 
 Before starting with developing the Mini app, you need to create an account on the Super Hub portal in order to test and submit your app.

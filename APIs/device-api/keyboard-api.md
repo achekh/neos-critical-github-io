@@ -9,6 +9,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Keyboard 
+*** 
 - [onKeyboardHeightChange](doc:keyboard-api#onkeyboardheightchangefunction-listener)
 - [hideKeyboard](doc:keyboard-api#hidekeyboardobject-object)
 - [offKeyboardHeightChange](doc:keyboard-api#wxoffkeyboardheightchangefunction-listener)

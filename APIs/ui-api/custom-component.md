@@ -12,6 +12,8 @@ layout: "default"
 parent: "UI"
 grand_parent: "APIs"
 ---
+# Custom Component 
+*** 
 # nextTick
 
 Delays a part of the operation until the next time slice. (This API is similar to `setTimeout`).

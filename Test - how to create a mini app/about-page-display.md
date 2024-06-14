@@ -11,6 +11,8 @@ updatedAt: "Wed Jan 25 2023 16:36:35 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# \"About\" page display 
+*** 
 Let's display the About page:
 
 1. Copy the code from each of the 3 tabs below and paste it into the corresponding file in Mini App Studio.

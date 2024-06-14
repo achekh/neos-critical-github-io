@@ -11,6 +11,8 @@ layout: "default"
 parent: "Components"
 has_children: true
 ---
+# Canvas 
+*** 
 | Name                   | Function Explanation |
 | :--------------------- | :------------------- |
 | [canvas](doc:canvas-1) | Canvas               |

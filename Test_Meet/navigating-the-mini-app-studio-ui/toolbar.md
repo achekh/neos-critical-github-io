@@ -12,6 +12,8 @@ layout: "default"
 parent: "Navigating the Mini App Studio UI"
 grand_parent: "Meet the MiniApp"
 ---
+# Toolbar 
+*** 
 Toolbar in Mini App Studio consists of following panes:
 
 ![](https://files.readme.io/ac9e067-Toolbar1.png)

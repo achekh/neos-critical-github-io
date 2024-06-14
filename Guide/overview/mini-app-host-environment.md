@@ -11,6 +11,8 @@ layout: "default"
 parent: "Overview"
 grand_parent: "Guide"
 ---
+# Mini Program Host Environment 
+*** 
 The environment provided by the Mini app for the Mini Program is called host environment. With the capabilities provided by the host environment, the Mini Program can deliver many features that are not available in other web pages.
 
 In the previous chapter, we explained the different types of files in the Mini Program. Now, let's see how these files work together in the example of QuickStart.

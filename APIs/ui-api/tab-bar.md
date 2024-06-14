@@ -9,6 +9,8 @@ layout: "default"
 parent: "UI"
 grand_parent: "APIs"
 ---
+# Tab Bar 
+*** 
 - [showTabBar](doc:tab-bar#showtabbar-object-object)
 - [hideTabBar](doc:tab-bar#hidetabbar-object-object)
 - [setTabBarStyle](doc:tab-bar#settabbarstyle-object-object)

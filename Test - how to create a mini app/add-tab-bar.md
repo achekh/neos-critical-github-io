@@ -11,6 +11,8 @@ updatedAt: "Thu Jan 26 2023 11:57:41 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# Add Tab bar 
+*** 
 To add Tabbar icons, please
 
 1. Copy the code snippet below 

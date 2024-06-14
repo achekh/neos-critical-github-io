@@ -12,6 +12,8 @@ layout: "default"
 parent: "View components"
 grand_parent: "Components"
 ---
+# Cover view 
+*** 
 A native component that supports same-layer rendering, and it is recommended to use the [view](doc:view) instead where applicable. Coverable native components include [map](doc:map), [video](doc:video), [canvas](doc:canvas) and [camera](doc:camera).
 
 | Attribute  | Type          | Description                                                                                            |

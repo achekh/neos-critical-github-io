@@ -9,6 +9,8 @@ layout: "default"
 parent: "APIs"
 has_children: true
 ---
+# Forward 
+*** 
 | Name                                         | Feature description                           |
 | :------------------------------------------- | :-------------------------------------------- |
 | [updateShareMenu](doc:update-share-menu-api) | Updates the share attribute.                  |

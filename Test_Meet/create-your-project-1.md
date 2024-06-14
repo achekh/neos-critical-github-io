@@ -12,6 +12,8 @@ layout: "default"
 parent: "Meet the MiniApp"
 has_children: true
 ---
+# Create your project 
+*** 
 You can create a new project by following the 2 steps given below:
 
 ## 1.  [ Logging into Mini App Studio](doc:logging-into-mini-app-studio)

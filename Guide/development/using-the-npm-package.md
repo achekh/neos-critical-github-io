@@ -11,7 +11,11 @@ updatedAt: "Wed Jun 07 2023 01:30:07 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Using npm"
 grand_parent: "Guide"
+nav_order: 1
 ---
+# Using a package from npm
+***
+
 ## Initializing npm
 
 Run the command `npm init` inside your project's home folder in order to initialize npm for your Mini App project.
@@ -30,13 +34,14 @@ Run the following command in the directory where the Mini App's `package.json` i
 
 Click on the menu bar in the DevTools: Tools > Build npm
 
-![](https://files.readme.io/94da698-small-Screenshot_2023-05-12_at_10.40.22_AM.png)
+![](../../assets/images/94da698-small-Screenshot_2023-05-12_at_10.40.22_AM.png)
 
 **After building is completed, the npm package can be used.**
 
 Import the npm package into JS:
 
 ```javascript
+// javascript
 const myPackage = require('packageName');
 const packageOther = require('packageName/other');
 ```

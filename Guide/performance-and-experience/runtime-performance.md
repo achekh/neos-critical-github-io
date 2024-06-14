@@ -11,6 +11,8 @@ layout: "default"
 parent: "Performance and Experience"
 grand_parent: "Guide"
 ---
+# Runtime Performance 
+*** 
 ## setData
 
 `setData` is the most frequently used interface in Mini Program development and it is also the most likely to cause performance problems. A brief introduction before introducing common incorrect usage `setData` How it works behind it.

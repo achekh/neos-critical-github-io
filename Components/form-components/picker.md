@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Picker 
+*** 
 Currently, five pickers are supported and are identified by mode : general picker (default), multicolumn picker, time picker, date picker, and region picker.
 
 [block:parameters]

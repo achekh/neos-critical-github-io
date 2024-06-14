@@ -9,6 +9,8 @@ layout: "default"
 parent: "Basic Capabilities"
 grand_parent: "Guide"
 ---
+# Canvas 
+*** 
 All the drawings in canvas must be completed with JavaScript:
 
 WXML: (Unless otherwise specified, WXML is used as a template in the following example)

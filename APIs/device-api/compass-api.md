@@ -9,6 +9,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Compass 
+*** 
 - [stopCompass](doc:compass-api#wxstopcompassobject-object)
 - [startCompass](doc:compass-api#wxstartcompassobject-object)
 - [onCompassChange](doc:compass-api#wxoncompasschangefunction-callback)

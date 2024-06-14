@@ -12,6 +12,8 @@ layout: "default"
 parent: "Open APIs"
 grand_parent: "APIs"
 ---
+# Login 
+*** 
 ## wx.login(Object object)
 
 This API is currently not supported in Super Hub Mini App Studio, and it must be debugged within the host app. The content returned on calling this API must be provided by the host app.

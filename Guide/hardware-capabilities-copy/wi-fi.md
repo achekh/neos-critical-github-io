@@ -11,6 +11,8 @@ layout: "default"
 parent: "Hardware Capabilities"
 grand_parent: "Guide"
 ---
+# Wi-Fi 
+*** 
 In the Mini Program, it supports searching for peripheral Wi-Fi devices, and you can initiate a connection for the specified device and pass in the password.
 
 This series of interfaces is system native capability. If you want to seeWeChat with Wi-FiAbility and configuration jump Mini Program, please refer to document。

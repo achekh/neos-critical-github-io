@@ -12,6 +12,8 @@ layout: "default"
 parent: "Native components"
 grand_parent: "Components"
 ---
+# Native component 
+*** 
 ### Native Component
 
 Some of the components are native components created by the client. These components are:

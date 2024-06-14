@@ -9,6 +9,8 @@ layout: "default"
 parent: "Media"
 grand_parent: "APIs"
 ---
+# Map 
+*** 
 Following are the two important Map related APIs:
 
 - [Return value](doc:map-api#returned-value)

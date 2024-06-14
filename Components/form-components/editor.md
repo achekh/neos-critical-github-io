@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Editor 
+*** 
 Rich text editor can edit images and text.
 
 The editor can export `html` and `text` content with tags and uses the `delta` format for storage.

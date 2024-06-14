@@ -12,6 +12,8 @@ layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
 ---
+# Custom Component Extension 
+*** 
 In order to better customize the features of a custom component, you can use the custom component extension mechanism.
 
 ## Extended effect

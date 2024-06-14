@@ -9,6 +9,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Gyroscope 
+*** 
 - [stopGyroscope](doc:gyroscope-api#wxstopgyroscopeobject-object)
 - [startGyroscope](doc:gyroscope-api#wxstartgyroscopeobject-object)
 - [onGyroscopeChange](doc:gyroscope-api#wxongyroscopechangefunction-callback)

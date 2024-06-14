@@ -12,6 +12,8 @@ layout: "default"
 parent: "Mini App configuration"
 grand_parent: "Guide"
 ---
+# Page Configuration 
+*** 
 You can also use the `.json` file to configure the window display of each Mini App page.
 
 For the page configuration, you need to set only the content of certain `window` configuration items in `app.json` , and the page configuration items will overwrite the same configuration items in the window section of `app.json`.

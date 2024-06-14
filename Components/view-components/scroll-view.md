@@ -12,6 +12,8 @@ layout: "default"
 parent: "View components"
 grand_parent: "Components"
 ---
+# Scroll view 
+*** 
 To scroll vertically, you need to set a fixed height for `<scroll-view>` through WXSS.
 
 | Attribute             | Type          | Default Value | Required | Description                                                                                                                                     |

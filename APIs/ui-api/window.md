@@ -9,6 +9,8 @@ layout: "default"
 parent: "UI"
 grand_parent: "APIs"
 ---
+# Window 
+*** 
 - [onWindowResize](doc:window#onwindowresize)
 
 # onWindowResize

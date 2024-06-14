@@ -12,6 +12,8 @@ layout: "default"
 parent: "View components"
 grand_parent: "Components"
 ---
+# Movable view 
+*** 
 The movable view container, which can be dragged and scrolled on the page.
 
 | Attribute     | Type          | Default Value | Required | Description                                                                                                                                                                                                                                                                                                                           |

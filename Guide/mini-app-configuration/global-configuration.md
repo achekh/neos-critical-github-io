@@ -9,6 +9,8 @@ layout: "default"
 parent: "Mini App configuration"
 grand_parent: "Guide"
 ---
+# Global configuration 
+*** 
 The `app.json` file in the root directory of a Mini App is used to configure Super Hub Mini App, determine the page file path and window display, and set the network timeout period and customize the tab bar.
 
 ## Sample configuration

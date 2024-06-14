@@ -12,6 +12,8 @@ layout: "default"
 parent: "Logic layer"
 grand_parent: "Guide"
 ---
+# WXS 
+*** 
 WXS is a scripting language for Mini Apps. Combined with WXML, it can be used to construct the page structure.
 
 > 📘 Notes

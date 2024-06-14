@@ -11,6 +11,8 @@ layout: "default"
 parent: "Route"
 grand_parent: "APIs"
 ---
+# navigateBack (Object object) 
+*** 
 # Parameters
 
 **Object object**

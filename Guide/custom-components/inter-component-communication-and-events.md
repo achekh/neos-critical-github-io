@@ -12,6 +12,8 @@ layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
 ---
+# Component Event 
+*** 
 ## Inter-component communication
 
 The basic communication methods between components are as follows:

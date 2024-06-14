@@ -12,6 +12,8 @@ layout: "default"
 parent: "Basic"
 grand_parent: "APIs"
 ---
+# canIUse 
+*** 
 `canIUse` API determines if the Mini App APIs, callbacks, parameters, and components are available in the current version.  
 
 # Parameters

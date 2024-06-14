@@ -12,6 +12,8 @@ layout: "default"
 parent: "View Layer"
 grand_parent: "Guide"
 ---
+# Basic Component 
+*** 
 The framework provides a series of basic components, which can be used in combination for quick development.
 
 What is a component?

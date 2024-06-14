@@ -12,6 +12,8 @@ layout: "default"
 parent: "Guide"
 has_children: true
 ---
+# Logic layer 
+*** 
 The Mini App framework allows you to develop native-grade services in host apps in a way that is as simple and efficient as possible.  
 The framework provides its own view layer description languages `WXML` and `WXSS` , a logic layer framework based on `JavaScript` , as well as data transfer and event systems between the view layer and logic layer. This helps you focus more on data and logic.
 

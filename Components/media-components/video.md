@@ -12,6 +12,8 @@ layout: "default"
 parent: "Media components"
 grand_parent: "Components"
 ---
+# Video 
+*** 
 This component is native, so you should keep in mind relevant limits when using it.
 
 [block:parameters]

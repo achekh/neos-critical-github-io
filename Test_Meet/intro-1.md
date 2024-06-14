@@ -11,6 +11,8 @@ updatedAt: "Mon May 15 2023 06:38:52 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# Introduction 
+*** 
 Dear Developer, welcome to our Super Hub Mini App Studio also known as Mini App Studio!
 
 The Mini App studio provides several advantages over the Standalone app. Below are some of the advantages of using Mini App Studio:

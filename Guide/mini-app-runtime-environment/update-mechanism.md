@@ -11,6 +11,8 @@ layout: "default"
 parent: "Mini Program Runtime"
 grand_parent: "Guide"
 ---
+# Update Mechanism 
+*** 
 # Update Mechanism of Mini Programs
 
 ## Update When Not Enabled

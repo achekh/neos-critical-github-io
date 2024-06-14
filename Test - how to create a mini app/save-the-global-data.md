@@ -11,6 +11,8 @@ updatedAt: "Wed Jan 25 2023 10:02:51 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# Save the global data 
+*** 
 Prepare the app's global data for the data it will receive from pages
 
 ```Text app.js

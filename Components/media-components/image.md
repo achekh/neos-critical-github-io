@@ -9,6 +9,8 @@ layout: "default"
 parent: "Media components"
 grand_parent: "Components"
 ---
+# Image 
+*** 
 The[ image ](doc:image)component supports formats such as JPG, PNG, SVG, WEBP, and GIF.
 
 | Attribute  | Type          | Default Value | Required | Description                                                                                                                                        |

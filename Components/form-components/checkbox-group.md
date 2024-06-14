@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Checkbox-group 
+*** 
 Checkbox-group is a multiple selector that internally consists of multiple [checkboxes](doc:checkbox).
 
 [block:parameters]

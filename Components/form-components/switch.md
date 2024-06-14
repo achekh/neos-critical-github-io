@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Switch 
+*** 
 A switch component functions similar to a checkbox component but explicitly representing boolean on and off states.
 
 | Attribute  | Type         | Default Value | Required | Description                                                                                                           |

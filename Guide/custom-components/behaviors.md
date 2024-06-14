@@ -12,6 +12,8 @@ layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
 ---
+# Behaviors 
+*** 
 ## Defining and using a behavior
 
 A behavior is a feature for code sharing between components, similar to `mixins` or `traits` in some programming languages.

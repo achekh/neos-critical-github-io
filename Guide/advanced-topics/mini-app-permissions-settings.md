@@ -12,6 +12,8 @@ layout: "default"
 parent: "Advanced topics"
 grand_parent: "Guide"
 ---
+# Mini App permissions settings 
+*** 
 To direct the user to the Mini App permissions settings screen from the Mini App, use the following code:
 
 ```javascript

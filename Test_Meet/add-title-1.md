@@ -11,6 +11,8 @@ updatedAt: "Wed Feb 22 2023 11:09:39 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# Add title 
+*** 
 To add **"Near me"** title for all pages, please:
 
 - Copy the code snippet below to the global JSON object inside `app.json`

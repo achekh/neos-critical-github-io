@@ -11,6 +11,8 @@ layout: "default"
 parent: "Components"
 has_children: true
 ---
+# Open capability 
+*** 
 | Name                     | Function Explanation            |
 | :----------------------- | :------------------------------ |
 | [web-view](doc:web-view) | Container for hosting web pages |

@@ -11,6 +11,8 @@ updatedAt: "Wed Jan 25 2023 16:28:35 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# Register pages 
+*** 
 Let's register pages in app.json:
 
 1. Copy the code snippet below and Paste it into Mini App Studio and press ctrl/cmd S to save, please make sure to add the snippet inside the global JSON object inside the file

@@ -12,6 +12,8 @@ layout: "default"
 parent: "Components"
 has_children: true
 ---
+# Basic components 
+*** 
 | Name                       | Function Explanation |
 | :------------------------- | :------------------- |
 | [icon](doc:icon)           | Icon                 |

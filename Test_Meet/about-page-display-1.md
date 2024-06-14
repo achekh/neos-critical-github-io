@@ -11,6 +11,8 @@ updatedAt: "Tue Mar 14 2023 14:24:10 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# \"About\" page display 
+*** 
 Let's display the About page:
 
 - Copy the code from each of the 3 tabs below and paste it into the corresponding file in Mini App Studio.

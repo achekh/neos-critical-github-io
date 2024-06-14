@@ -9,6 +9,8 @@ layout: "default"
 parent: "APIs"
 has_children: true
 ---
+# Redirect 
+*** 
 | Name                                                   | Feature Description         |
 | :----------------------------------------------------- | :-------------------------- |
 | [navigateToMiniProgram](doc:navigate-to-mini-program)  | Opens another Mini App      |

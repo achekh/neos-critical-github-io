@@ -11,6 +11,8 @@ layout: "default"
 parent: "Hardware Capabilities"
 grand_parent: "Guide"
 ---
+# Bluetooth 
+*** 
 To use the Bluetooth functionality in the applet, you must first call wx.openBluetoothAdapter to initialize the Bluetooth adapter module. This must be done before calling wx.closeBluetoothAdapter or the applet will be destroyed. 
 
 The developer can use the Bluetooth-related Mini Program API normally and receive event callbacks related to the Bluetooth module only while the Bluetooth adapter module of the Mini Program is active (binding listeners are exempt from this restriction).

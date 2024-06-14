@@ -12,6 +12,8 @@ layout: "default"
 parent: "Backend assisted capabilities"
 grand_parent: "Guide"
 ---
+# Retrieving user information 
+*** 
 ### Getting the user's code from the Mini App
 
 The first step of retrieving the user's information is to call `wx.login()` from the Mini App, you will get back a code for the user, you can exchange this code with the user's information through backend calls:

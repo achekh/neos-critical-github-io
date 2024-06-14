@@ -9,6 +9,8 @@ layout: "default"
 parent: "Open APIs"
 grand_parent: "APIs"
 ---
+# Settings 
+*** 
 ## wx.openSetting(Object object)
 
 Calls the Mini App settings page and returns the operation result of the user. The user can be redirected to the settings page to manage authorizations after a click.

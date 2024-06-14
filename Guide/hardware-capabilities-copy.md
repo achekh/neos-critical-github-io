@@ -12,6 +12,8 @@ layout: "default"
 parent: "Guide"
 has_children: true
 ---
+# Hardware Capabilities 
+*** 
 Following are the three important types of hardware capabilities:
 
 - Bluetooth

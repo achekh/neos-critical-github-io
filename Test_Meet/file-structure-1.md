@@ -11,6 +11,8 @@ updatedAt: "Wed Feb 15 2023 10:55:15 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# File structure 
+*** 
 The default file structure has the following elements. 
 
 ![](https://files.readme.io/9cf8d0d-MiniApp_Studio_1.jpg)

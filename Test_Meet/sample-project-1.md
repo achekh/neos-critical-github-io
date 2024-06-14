@@ -11,6 +11,8 @@ updatedAt: "Tue Feb 21 2023 14:14:20 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# Sample Project 
+*** 
 Good start!
 
 Now, let us walk you through the process of building a sample Mini App project.

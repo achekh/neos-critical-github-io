@@ -9,6 +9,8 @@ layout: "default"
 parent: "APIs"
 nav_order: 3
 ---
+# Canvas 
+*** 
 - createCanvasContext
 - canvasToTempFilePath
 - canvasPutImageData

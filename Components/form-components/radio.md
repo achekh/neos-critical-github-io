@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Radio 
+*** 
 Radio is used for selecting one option from multiple given options and a radio component can be placed in a [radio-group](doc:radio-group).
 
 | Attribute  | Type    | Default Value | Required | Description                                                                                                          |

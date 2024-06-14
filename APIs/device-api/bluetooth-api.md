@@ -9,6 +9,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Bluetooth 
+*** 
 - [openBluetoothAdapter](doc:bluetooth-api#wxopenbluetoothadapterobject-object)
 - [getConnectedBluetoothDevices](doc:bluetooth-api#wxgetconnectedbluetoothdevicesobject-object)
 - [getBluetoothDevices](doc:bluetooth-api#wxgetbluetoothdevicesobject-object)

@@ -11,6 +11,8 @@ updatedAt: "Wed Feb 22 2023 13:17:54 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# Utils and Markers 
+*** 
 Let's process the data from Google API to convert them to markers later
 
 1. Copy and insert the code below to utils.js:

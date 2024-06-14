@@ -12,6 +12,8 @@ layout: "default"
 parent: "Advanced topics"
 grand_parent: "Guide"
 ---
+# Writing tests for Mini Apps 
+*** 
 In order to write tests for Mini apps, you can use the library `miniprogram-simulate`
 
 ### Introduction

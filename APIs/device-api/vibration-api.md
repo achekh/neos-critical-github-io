@@ -9,6 +9,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Vibration 
+*** 
 - [vibrateShort](doc:vibration-api#wxvibrateshortobject-object)
 - [vibrateLong](doc:vibration-api#wxvibratelongobject-object)
 

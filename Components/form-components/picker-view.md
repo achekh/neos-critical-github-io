@@ -12,6 +12,8 @@ layout: "default"
 parent: "Form components"
 grand_parent: "Components"
 ---
+# Picker-view 
+*** 
 The picker view component can be embedded in the page. User can manipulate picker-view wheeler to select items. The picker-view-column can be place only in picker-view and other components do not display. 
 
 | Attribute       | Type          | Description                                                                                                                                                                                                                                                      |

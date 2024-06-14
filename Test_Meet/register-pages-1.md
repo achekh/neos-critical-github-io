@@ -11,6 +11,8 @@ updatedAt: "Fri Feb 10 2023 14:44:03 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# Register pages 
+*** 
 > 📝 Note
 > 
 > Copy the code snippets below and paste it into Mini App Studio and press **ctrl/cmd + S** to save.

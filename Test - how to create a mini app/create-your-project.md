@@ -11,6 +11,8 @@ updatedAt: "Wed Mar 08 2023 12:04:17 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# Create your project 
+*** 
 ## Logging into Mini App Studio
 
 Please log into Mini App Studio

@@ -9,6 +9,8 @@ layout: "default"
 parent: "Components"
 has_children: true
 ---
+# View components 
+*** 
 | Name                             | Function Explanation                                                                   |
 | :------------------------------- | :------------------------------------------------------------------------------------- |
 | [cover-image](doc:cover-image)   | Picture view overlaid on native component                                              |

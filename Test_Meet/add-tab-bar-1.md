@@ -11,6 +11,8 @@ updatedAt: "Wed Feb 15 2023 11:04:45 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Meet the MiniApp"
 ---
+# Add Tab Bar 
+*** 
 To add Tab Bar icons, please
 
 - Copy the code snippet below 

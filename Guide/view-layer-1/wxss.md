@@ -12,6 +12,8 @@ layout: "default"
 parent: "View Layer"
 grand_parent: "Guide"
 ---
+# WXSS 
+*** 
 SuperHub Style Sheets (WXSS) is a style language used to describe the style of WXML components.
 
 WXSS determines how WXML components should be displayed.

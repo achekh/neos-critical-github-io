@@ -11,7 +11,11 @@ updatedAt: "Fri Jul 14 2023 11:30:03 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Using npm"
 grand_parent: "Guide"
+nav_order: 2
 ---
+# Publishing the npm package
+***
+
 ## Constraints on publishing the Mini App npm package
 
 The npm package to be published here refers to the npm package customized for the Mini App (hereinafter referred to as the Mini App npm package). Because of the special nature of the custom components of Mini Apps, the original npm package work flow needs to be adjusted. Therefore, some constraints should be made on the Mini App npm package:

@@ -12,6 +12,8 @@ layout: "default"
 parent: "Basic"
 grand_parent: "APIs"
 ---
+# Update 
+*** 
 - [getUpdateManager](doc:update#wxgetupdatemanager)
 - [UpdateManager](doc:update#updatemanager)
   - [UpdateManager.applyUpdate](doc:update#wxgetupdatemanager)

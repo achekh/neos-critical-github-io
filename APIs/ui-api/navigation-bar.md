@@ -9,6 +9,8 @@ layout: "default"
 parent: "UI"
 grand_parent: "APIs"
 ---
+# Navigation Bar 
+*** 
 - [setNavigationBarTitle](doc:navigation-bar#setnavigationbartitle-object-object)
 - [setNavigationBarColor](doc:navigation-bar#setnavigationbarcolor-object-object)
 - [hideHomeButton](doc:navigation-bar#hidehomebuttonobject-object)

@@ -9,6 +9,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Wi-Fi 
+*** 
 - [onWifiConnected](doc:wi-fi-api#wxonwificonnectedfunction-listener)
 - [offWifiConnected](doc:wi-fi-api#wxoffwificonnectedfunction-listener)
 - [WifiInfo](doc:wi-fi-api#wifiinfo)

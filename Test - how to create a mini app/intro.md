@@ -11,6 +11,8 @@ updatedAt: "Wed Mar 08 2023 12:04:27 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# Intro 
+*** 
 Dear developer, welcome to our Super Hub Mini App Studio or Mini App Studio!
 
 Below are some advantages for you to using Mini App Studio:

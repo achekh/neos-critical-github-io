@@ -9,6 +9,8 @@ layout: "default"
 parent: "Basic Capabilities"
 grand_parent: "Guide"
 ---
+# Storage 
+*** 
 Each Mini Program has its own local cache. You can read, write, and clear the local cache via [wx.setStorage/wx.setStorageSync, wx.getStorage/wx.getStorageSync](doc:data-cache#setstoragesync), [wx.clearStorage/wx.clearStorageSync](doc:data-cache#clearstorage-object-object), and [wx.removeStorage/wx.removeStorageSync](doc:data-cache#removestorage-object-object).
 
 ## Isolation Policy

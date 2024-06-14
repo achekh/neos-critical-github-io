@@ -12,6 +12,8 @@ layout: "default"
 parent: "Canvas"
 grand_parent: "Components"
 ---
+# Canvas 
+*** 
 | Attribute       | Type          | Default Value | Required | Description                                                                                                                       |
 | :-------------- | :------------ | :------------ | :------- | :-------------------------------------------------------------------------------------------------------------------------------- |
 | canvas-id       | String        |               | No       | Unique ID of the canvas component.                                                                                                |

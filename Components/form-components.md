@@ -12,6 +12,8 @@ layout: "default"
 parent: "Components"
 has_children: true
 ---
+# Form components 
+*** 
 | Name                                           | Function Explanation                                                |
 | :--------------------------------------------- | :------------------------------------------------------------------ |
 | [button](doc:button)                           | Button                                                              |

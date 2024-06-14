@@ -12,6 +12,8 @@ layout: "default"
 parent: "Device"
 grand_parent: "APIs"
 ---
+# Code scan 
+*** 
 # scanCode
 
 Opens the client's code scanning UI to scan a code.

@@ -12,6 +12,8 @@ layout: "default"
 parent: "Basic components"
 grand_parent: "Components"
 ---
+# Icon 
+*** 
 | Attribute  | Type          | Default Value | Required | Description                                                                                                                             |
 | :--------- | :------------ | :------------ | :------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
 | type       | String        |               | Yes      | Icon type. The valid values are: `success`, `success_no_circle`, `info`, `warn`, `waiting`, `cancel`, `download`, `search` and `clear`. |

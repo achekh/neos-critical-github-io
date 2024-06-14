@@ -12,6 +12,8 @@ layout: "default"
 parent: "Navigation"
 grand_parent: "Components"
 ---
+# Navigator 
+*** 
 Page link to another Mini App.
 
 | Attribute              | Type          | Default Value   | Required | Description                                                                                                                                                                  |

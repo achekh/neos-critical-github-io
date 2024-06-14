@@ -12,6 +12,8 @@ layout: "default"
 parent: "Components"
 has_children: true
 ---
+# Media components 
+*** 
 | Name                 | Function Explanation                              |
 | :------------------- | :------------------------------------------------ |
 | [camera](doc:camera) | System camera.                                    |

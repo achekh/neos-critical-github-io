@@ -12,6 +12,8 @@ layout: "default"
 parent: "Meet the MiniApp"
 has_children: true
 ---
+# Help Center 
+*** 
 ## Developer Support
 
 Please submit a support request if you have any questions or problems when developing apps using the development guide provided by our portal.

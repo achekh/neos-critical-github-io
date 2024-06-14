@@ -12,6 +12,8 @@ layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
 ---
+# Component Template and Style 
+*** 
 Just like pages, custom components have their own `wxml` templates and `wxss` styles.
 
 ## Component Template

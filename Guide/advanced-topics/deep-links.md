@@ -12,6 +12,8 @@ layout: "default"
 parent: "Advanced topics"
 grand_parent: "Guide"
 ---
+# Deep links 
+*** 
 You can set up links to take users to a link's specific content directly in your app, bypassing the app-selection dialog.
 
 ```http

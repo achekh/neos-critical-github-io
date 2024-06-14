@@ -12,6 +12,8 @@ layout: "default"
 parent: "Basic components"
 grand_parent: "Components"
 ---
+# Text 
+*** 
 | Attribute  | Type    | Default Value | Description                         |
 | :--------- | :------ | :------------ | :---------------------------------- |
 | selectable | Boolean | false         | Whether the text is selectable.     |

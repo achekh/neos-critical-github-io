@@ -12,6 +12,8 @@ layout: "default"
 parent: "View components"
 grand_parent: "Components"
 ---
+# Swiper 
+*** 
 A swiper is a slider view container that can only host a [swiper-item](doc:swiper-item) component.
 
 | Attribute               | Type          | Default Value     | Required | Description                                                                                                                                                                                              |

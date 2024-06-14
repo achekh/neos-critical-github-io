@@ -11,3 +11,5 @@ layout: "default"
 parent: "Guide"
 has_children: true
 ---
+# Open Capabilities (COPY) 
+*** 

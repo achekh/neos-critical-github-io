@@ -11,6 +11,8 @@ updatedAt: "Tue Feb 14 2023 08:39:50 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Test - how to create a mini app"
 ---
+# Utils and Markers 
+*** 
 Let's process the data from Google API to convert them to markers later
 
 1. Copy and insert the code below to utils.js:

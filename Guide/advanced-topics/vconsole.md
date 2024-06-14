@@ -12,6 +12,8 @@ layout: "default"
 parent: "Advanced topics"
 grand_parent: "Guide"
 ---
+# vConsole 
+*** 
 On a real device, if you want to view the log content and additional debugging information output by the console API, you need to click the button in  
 the top-right corner to open the menu and select Enable Debugging. Then, the mini app will exit, and after it is reopened, a vConsole button will appear in the bottom-right corner. Click vConsole to open the log panel.
 

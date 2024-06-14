@@ -11,6 +11,8 @@ updatedAt: "Mon May 29 2023 11:44:39 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
 ---
+# Debugging 
+*** 
 ## vConsole
 
 On a real device, if you want to view the log content and additional debugging information output by the console API, you need to click the button in the upper right corner of the screen to open the menu and select "Turn on Debugging". At this point, the Mini Program/Mini Game will exit, and a vConsole button will appear in the lower right corner after reopening. Click the vConsole button to open the log panel.
