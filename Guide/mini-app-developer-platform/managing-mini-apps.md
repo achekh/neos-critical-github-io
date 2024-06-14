@@ -11,10 +11,13 @@ updatedAt: "Mon May 22 2023 09:38:10 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Mini App developer platform"
 grand_parent: "Guide"
+nav_order: 1
 ---
+# Managing Mini apps
+***
 From the side menu, click on `My Mini app`, a page like the below should show:
 
-![](https://files.readme.io/6b2ce24-small-mini-app-management.png)
+![](../../assets/images/6b2ce24-small-mini-app-management.png)
 
 ### Editing Mini App details
 

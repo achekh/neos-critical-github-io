@@ -11,7 +11,11 @@ updatedAt: "Mon May 22 2023 09:39:00 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Mini App developer platform"
 grand_parent: "Guide"
+nav_order: 4
 ---
+# User and Mini App data analysis
+***
+
 From the `Statistics` side menu, you can view the Mini App user data and behavior.
 
 ### Mini App data
