@@ -11,6 +11,7 @@ updatedAt: "Wed Jun 07 2023 03:02:45 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
 has_children: true
+nav_order: 6
 ---
 # Logic layer 
 *** 
@@ -25,7 +26,8 @@ The whole Mini App framework system is divided into two parts: View layer (View)
 
 Below is a simple example:
 
-```html WXML
+```html
+<!-- WXML -->
 <!-- This is our View -->
 <view>Hello {{name}}!</view>
 <button bindtap="changeName">Click me!</button>
@@ -59,8 +61,8 @@ The framework manages the page routing of the entire **Mini App** to achieve a s
 
 ## Basic components
 
-The framework provides a set of basic components, which come with Super Hub styles and special logic. You can create a powerful **Super Hub Mini App** by combining such components. For more information, check the [components](doc:view-components) guide.
+The framework provides a set of basic components, which come with Super Hub styles and special logic. You can create a powerful **Super Hub Mini App** by combining such components. For more information, check the [components](/components) guide.
 
 ## Rich APIs
 
-The framework provides a diversity of native host app APIs for easily calling host app capabilities, such as user information acquisition, local storage, and payment features. For More information, check the [APIs](doc:basics-api) guide.
+The framework provides a diversity of native host app APIs for easily calling host app capabilities, such as user information acquisition, local storage, and payment features. For More information, check the [APIs](/APIs/basics-api) guide.

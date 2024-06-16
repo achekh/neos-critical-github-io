@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 10:57:32 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Mini App configuration"
 grand_parent: "Guide"
+nav_order: 2
 ---
 # Page Configuration 
 *** 
@@ -42,8 +43,8 @@ For the page configuration, you need to set only the content of certain `window`
 | backgroundTextStyle          | String   | dark     | Loading style during pull-to-refresh. Valid values: `dark`, `light`.                                                                                                     |
 | backgroundColorTop           | String   | # ffffff | Background color of the top of the window, which is supported only on iOS.                                                                                               |
 | backgroundColorBottom        | String   | # ffffff | Background color of the bottom of the window, which is supported only on iOS.                                                                                            |
-| enablePullDownRefresh        | Boolean  | false    | Whether to enable pull-to-refresh globally. For more information, see [Page.onPullDown Refresh](doc:logic-layer-section#page).                                           |
-| pageOrientation              | String   | portrait | Screen rotation settings. Valid values: auto , `portrait`, `landscape`.For more information, see [Response to Display Area Change](doc:response-to-display-area-change). |
+| enablePullDownRefresh        | Boolean  | false    | Whether to enable pull-to-refresh globally. For more information, see [Page.onPullDown Refresh](../framework/logic-layer-section#page).                                           |
+| pageOrientation              | String   | portrait | Screen rotation settings. Valid values: auto , `portrait`, `landscape`.For more information, see [Response to Display Area Change](../view-layer/response-to-display-area-change). |
 
 > 📘 Note
 > 

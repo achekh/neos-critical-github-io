@@ -10,6 +10,7 @@ createdAt: "Fri May 12 2023 11:11:06 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:28:01 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
+nav_order: 4
 ---
 # Directory Structure 
 *** 
@@ -19,18 +20,18 @@ The main part of a Mini App consists of three files which must be placed in the 
 
 | File                                       | Required | Purpose                               |
 | :----------------------------------------- | :------- | :------------------------------------ |
-| [app.js](doc:logic-layer-section#mini-app) | Yes      | Mini App logic.                       |
-| [app.json](doc:global-configuration)       | Yes      | Common configuration of the Mini App. |
-| [app.wxss](doc:wxss)                       | No       | Common style sheet of the Mini App.   |
+| [app.js](framework/logic-layer-section#mini-app) | Yes      | Mini App logic.                       |
+| [app.json](mini-app-configuration/global-configuration)       | Yes      | Common configuration of the Mini App. |
+| [app.wxss](view-layer/wxss)                       | No       | Common style sheet of the Mini App.   |
 
 A mini app page consists of four files:
 
 | File                               | Required | Purpose             |
 | :--------------------------------- | :------- | :------------------ |
-| [js](doc:logic-layer-section#page) | Yes      | Page logic.         |
-| [wxml](doc:wxml)                   | Yes      | Page structure.     |
-| [json](doc:page-configuration)     | Yes      | Page configuration. |
-| [wxss](doc:wxss)                   | No       | Page style sheet.   |
+| [js](framework/logic-layer-section#page) | Yes      | Page logic.         |
+| [wxml](view-layer/wxml)                   | Yes      | Page structure.     |
+| [json](mini-app-configuration/page-configuration)     | Yes      | Page configuration. |
+| [wxss](view-layer/wxss)                   | No       | Page style sheet.   |
 
 > 📘 Note:
 > 

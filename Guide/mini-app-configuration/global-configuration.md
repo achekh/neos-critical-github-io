@@ -8,6 +8,7 @@ updatedAt: "Tue Nov 28 2023 10:14:21 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Mini App configuration"
 grand_parent: "Guide"
+nav_order: 1
 ---
 # Global configuration 
 *** 
@@ -46,14 +47,14 @@ The following is an `app.json` contains some common configuration options:
 
 | Attribute                                                                                 | Type           | Required | Description                                                                                                               |
 | :---------------------------------------------------------------------------------------- | :------------- | :------- | :------------------------------------------------------------------------------------------------------------------------ |
-| [pages](doc:global-configuration#pages)                                                   | String <Array> | Yes      | List of page paths                                                                                                        |
-| [window](doc:global-configuration#window)                                                 | Object         | No       | Global default window display                                                                                             |
-| [tabBar](doc:global-configuration#tabbar)                                                 | Object         | No       | Bottom tabbar display                                                                                                     |
-| [networkTimeout](doc:global-configuration#networktimeout)                                 | Object         | No       | Network timeout period                                                                                                    |
-| [debug](doc:global-configuration#debug)                                                   | Boolean        | No       | Whether to enable the debug mode (disabled by default)                                                                    |
-| [requiredBackgroundModes](doc:global-configuration#requiredbackgroundmodes)               | String <Array> | No       | Capabilities required to be used in the background, such as "music playback".                                             |
-| [navigateToMiniProgramAppIdList](doc:global-configuration#navigatetominiprogramappidlist) | String <Array> | No       | List of mini apps to redirect to. For more information, see [navigateToMiniProgram](doc:navigate-to-mini-program).        |
-| [permission](doc:global-configuration#permission)                                         | Object         | No       | API permission configuration of the mini app                                                                              |
+| [pages](global-configuration#pages)                                                   | String <Array> | Yes      | List of page paths                                                                                                        |
+| [window](global-configuration#window)                                                 | Object         | No       | Global default window display                                                                                             |
+| [tabBar](global-configuration#tabbar)                                                 | Object         | No       | Bottom tabbar display                                                                                                     |
+| [networkTimeout](global-configuration#networktimeout)                                 | Object         | No       | Network timeout period                                                                                                    |
+| [debug](global-configuration#debug)                                                   | Boolean        | No       | Whether to enable the debug mode (disabled by default)                                                                    |
+| [requiredBackgroundModes](global-configuration#requiredbackgroundmodes)               | String <Array> | No       | Capabilities required to be used in the background, such as "music playback".                                             |
+| [navigateToMiniProgramAppIdList](global-configuration#navigatetominiprogramappidlist) | String <Array> | No       | List of mini apps to redirect to. For more information, see [navigateToMiniProgram](/APIs/redirect/navigate-to-mini-program).        |
+| [permission](global-configuration#permission)                                         | Object         | No       | API permission configuration of the mini app                                                                              |
 | darkmode                                                                                  | Boolean        | No       | When this parameter is `true` , it is allowed to get whether Mobile is currently in dark mode through `wx.getSystemInfo`. |
 
 ## pages
@@ -64,7 +65,7 @@ It is used to register the Mini App pages, each of which corresponds to the path
 
 For example, if the directory is as follows:
 
-![](https://files.readme.io/af55877-small-Screenshot_2023-05-12_at_4.54.52_PM.png)
+![](/assets/images/af55877-small-Screenshot_2023-05-12_at_4.54.52_PM.png)
 
 Then you need to write the following in `app.json` :
 
@@ -119,7 +120,7 @@ If the Mini App is a multi-tab app (there is a tab bar at the bottom or top of t
 | borderStyle     | String   | No       | black   | Color of the border on the tabbar. Valid values: `black` , `white`.                                   |
 | list            | Array    | Yes      |         | List of tabs, which can contain 2–5 tabs. For more information, see the `list` attribute description. |
 | position        | String   | No       | bottom  | Tabbar position. Valid values: `bottom`, `top`.                                                       |
-| custom          | Boolean  | No       | false   | Custom tabbar. For more information, see [custom tab bar.](doc:custom-tabbar-copy)                    |
+| custom          | Boolean  | No       | false   | Custom tabbar. For more information, see [custom tab bar.](../basic-capabilities/custom-tabbar)                    |
 
 `list` can only be an array of 2–5 tabs. The tabs are sorted in the order of the array, and each of them is an object with the following attributes:
 
@@ -140,8 +141,8 @@ It is the timeout period of various network requests in milliseconds.
 
 | Attribute  | Type   | Required | Default | Description                                                 |
 | :--------- | :----- | :------- | :------ | :---------------------------------------------------------- |
-| request    | Number | No       | 60000   | Timeout period of [request](doc:request) in milliseconds.   |
-| uploadFile | Number | No       | 60000   | Timeout period of [uploadFile](doc:upload) in milliseconds. |
+| request    | Number | No       | 60000   | Timeout period of [request](/APIs/network/request) in milliseconds.   |
+| uploadFile | Number | No       | 60000   | Timeout period of [uploadFile](/APIs/network/upload) in milliseconds. |
 
 ## debug
 

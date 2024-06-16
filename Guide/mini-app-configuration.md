@@ -11,10 +11,12 @@ updatedAt: "Sun May 28 2023 13:29:50 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
 has_children: true
+has_toc: false
+nav_order: 5
 ---
 # Mini App configuration 
 *** 
 This section explains the two important type of configuration required in Mini App:
 
-- [Global Configuration](doc:global-configuration)
-- [Page Configuration](doc:page-configuration)
+- [Global Configuration](mini-app-configuration/global-configuration)
+- [Page Configuration](mini-app-configuration/page-configuration)
