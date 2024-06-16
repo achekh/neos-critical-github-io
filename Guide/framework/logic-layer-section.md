@@ -508,6 +508,7 @@ The `setData` function is used to send data from the logic layer to the view lay
 ```html
 <!-- WXML -->
 <!--index.wxml-->
+{% raw %}
 <view>{{text}}</view>
 <button bindtap="changeText">Change normal data</button>
 <view>{{num}}</view>
@@ -518,6 +519,7 @@ The `setData` function is used to send data from the logic layer to the view lay
 <button bindtap="changeItemInObject">Change Object data</button>
 <view>{{newField.text}}</view>
 <button bindtap="addNewField">Add new data</button>
+{% endraw %}
 ```
 ```javascript
 // index.js
