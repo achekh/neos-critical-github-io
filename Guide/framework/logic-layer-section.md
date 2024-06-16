@@ -244,13 +244,14 @@ In addition to `Page` , pages can also be created by using `Component` like cust
 When the page is loaded, `data` will be passed from the logic layer to the rendering layer in the form of `JSON` string; therefore, the data in data must be of a type that can be converted to `JSON` , including string, number, Boolean, object, and array.
 
 The rendering layer can bind data through _WXML_.
-
 #### Sample code:
 
 ```html
 <!-- WXML -->
-<view>&#123;&#123;text&#125;&#125;</view>
-<view>&#123;&#123;array[0].msg&#125;&#125;</view>
+{% raw %}
+<view>{{text}}</view>
+<view>{{array[0].msg}}</view>
+{% endraw %}
 ```
 
 ```javascript
@@ -507,15 +508,15 @@ The `setData` function is used to send data from the logic layer to the view lay
 ```html
 <!-- WXML -->
 <!--index.wxml-->
-<view>&#123;&#123;text&#125;&#125;</view>
+<view>{{text}}</view>
 <button bindtap="changeText">Change normal data</button>
-<view>&#123;&#123;num&#125;&#125;</view>
+<view>{{num}}</view>
 <button bindtap="changeNum">Change normal num</button>
-<view>&#123;&#123;array[0].text&#125;&#125;</view>
+<view>{{array[0].text}}</view>
 <button bindtap="changeItemInArray">Change Array data</button>
-<view>&#123;&#123;object.text&#125;&#125;</view>
+<view>{{object.text}}</view>
 <button bindtap="changeItemInObject">Change Object data</button>
-<view>&#123;&#123;newField.text&#125;&#125;</view>
+<view>{{newField.text}}</view>
 <button bindtap="addNewField">Add new data</button>
 ```
 ```javascript
