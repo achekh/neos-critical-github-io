@@ -8,6 +8,7 @@ updatedAt: "Tue Nov 28 2023 09:53:04 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Logic layer"
 grand_parent: "Guide"
+nav_order: 1
 ---
 # Logic Layer 
 *** 
@@ -21,10 +22,10 @@ All the code you write will eventually be packaged into a `JavaScript` file and 
 
 On the basis of JavaScript , some features have been added to facilitate Mini App development:
 
-- [App](doc:logic-layer-section#appobject) and [Page](doc:logic-layer-section#page) methods are added to register apps and pages respectively.
+- [App](logic-layer-section#appobject) and [Page](logic-layer-section#page) methods are added to register apps and pages respectively.
 - `getApp` and `getCurrentPages` methods are added to get the App instance and current page stack respectively.
-- Rich [APIs](doc:api) unique to Super Hub are provided, such as user data acquisition, QR code scan, and payment.
-- Each page has an independent [scope](doc:page-routing#file-scope), and [module](doc:page-routing#module) capabilities are provided.
+- Rich [APIs](../../apis) unique to Super Hub are provided, such as user data acquisition, QR code scan, and payment.
+- Each page has an independent [scope](page-routing#file-scope), and [module](page-routing#module) capabilities are provided.
 
 > 📘 Note
 > 
@@ -42,11 +43,11 @@ The `App()` function is used to register a Mini App. It accepts an Object parame
 
 | Attribute                                                      | Type     | Description                                                                                   | Trigger Time                                                                                          |
 | :------------------------------------------------------------- | :------- | :-------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
-| [onLaunch](doc:logic-layer-section#onlaunchobject)             | Function | Lifecycle callback for listening for Mini App initialization                                  | Triggered when the initialization of the mini app is completed (triggered only once globally).        |
-| [onShow](doc:logic-layer-section#onshowobject)                 | Function | Lifecycle callback for listening for Mini App showing                                         | When the Mini App starts or enters the foreground from the background                                 |
-| [onHide](doc:logic-layer-section#onhide)                       | Function | Lifecycle callback for listening for Mini App hiding                                          | When the Mini App enters the background from the foreground                                           |
-| [onError](doc:logic-layer-section#onerrorstring-error)         | Function | Error listener                                                                                | Triggered when a script error or API call error occurs in the Mini App with the error message carried |
-| [onPageNotFound](doc:logic-layer-section#onpagenotfoundobject) | Function | Listener for page non-existence                                                               | Triggered when the page of the mini app to be opened doesn't exist with the page information carried  |
+| [onLaunch](logic-layer-section#onlaunchobject)             | Function | Lifecycle callback for listening for Mini App initialization                                  | Triggered when the initialization of the mini app is completed (triggered only once globally).        |
+| [onShow](logic-layer-section#onshowobject)                 | Function | Lifecycle callback for listening for Mini App showing                                         | When the Mini App starts or enters the foreground from the background                                 |
+| [onHide](logic-layer-section#onhide)                       | Function | Lifecycle callback for listening for Mini App hiding                                          | When the Mini App enters the background from the foreground                                           |
+| [onError](logic-layer-section#onerrorstring-error)         | Function | Error listener                                                                                | Triggered when a script error or API call error occurs in the Mini App with the error message carried |
+| [onPageNotFound](logic-layer-section#onpagenotfoundobject) | Function | Listener for page non-existence                                                               | Triggered when the page of the mini app to be opened doesn't exist with the page information carried  |
 | Other                                                          | Any      | You can add any function or data variable to the `Object` parameter and access it via `this`. |                                                                                                       |
 
 **Definitions of foreground and background:** When the user clicks **Close** in the top-right corner or presses the **Home** button of the device to leave the host app, the Mini App is not directly terminated but enters the background. When the user opens the host app or Mini App again, the Mini App will enter the foreground from the background. Note: Only when the Mini App enters the background for a certain period of time or the system resource utilization is too high will it be truly terminated.
@@ -79,7 +80,7 @@ Triggered when the initialization of the Mini App is completed (triggered only o
 
 #### Parameter description:
 
-Same as [wx.getLaunchOptionsSync](doc:mini-app-api#getLaunchOptionsSync).
+Same as [wx.getLaunchOptionsSync](../../APIs/basics-api/mini-app-api#getLaunchOptionsSync).
 
 ### onShow(Object)
 
@@ -95,7 +96,7 @@ Triggered when a script error or API call error occurs in the Mini App. You can 
 
 #### Parameter description:
 
-Same as [wx.onError](doc:mini-app-api#wxonerror).
+Same as [wx.onError](../../APIs/basics-api/mini-app-api#wxonerror).
 
 ### onPageNotFound(Object)
 
@@ -156,19 +157,19 @@ The `Page(Object)` function is used to register a page. It accepts an `Object` p
 
 | Attribute                                                            | Type     | Description                                                                                                                                |
 | :------------------------------------------------------------------- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| [data](doc:logic-layer-section#data)                                 | Object   | Initial data of the page                                                                                                                   |
-| [onLoad](doc:logic-layer-section#onloadobject-query)                 | Function | Lifecycle callback for listening for page loading                                                                                          |
-| [onShow](doc:logic-layer-section#onshow)                             | Function | Lifecycle callback for listening for page showing                                                                                          |
-| [onReady](doc:logic-layer-section#onready)                           | Function | Lifecycle callback for listening for the completion of initial page rendering                                                              |
-| [onHide](doc:logic-layer-section#onhide-1)                           | Function | Lifecycle callback for listening for page hiding                                                                                           |
-| [onUnload](doc:logic-layer-section#onunload)                         | Function | Lifecycle callback for listening for page unloading                                                                                        |
-| [onPullDownRefresh](doc:logic-layer-section#onpulldownrefresh)       | Function | Listens for pull-down by the user                                                                                                          |
-| [onReachBottom](doc:logic-layer-section#onreachbottom)               | Function | Function for processing the `onReachBottom` event                                                                                          |
-| [onShareAppMessage](doc:logic-layer-section#onshareappmessageobject) | Function | The user clicks **Share** in the top-right menu                                                                                            |
-| [onPageScroll](doc:logic-layer-section#onpagescrollobject)           | Function | Function for processing the `onPageScroll` event                                                                                           |
-| [onResize](doc:logic-layer-section#onresizeobject)                   | Function | Triggered when the page size is changed. For more information, see [Response to Display Area Change](doc:response-to-display-area-change). |
-| [onTabItemTap](doc:logic-layer-section#ontabitemtapobject)           | Function | Triggered when the tab is clicked on the current tab page                                                                                  |
-| [onAddToFavorites](doc:logic-layer-section#onaddtofavoritesobject)   | Function | The user clicks **Favourite** in the top-right menu (supported starting from base library v1.4.0)                                          |
+| [data](logic-layer-section#data)                                 | Object   | Initial data of the page                                                                                                                   |
+| [onLoad](logic-layer-section#onloadobject-query)                 | Function | Lifecycle callback for listening for page loading                                                                                          |
+| [onShow](logic-layer-section#onshow)                             | Function | Lifecycle callback for listening for page showing                                                                                          |
+| [onReady](logic-layer-section#onready)                           | Function | Lifecycle callback for listening for the completion of initial page rendering                                                              |
+| [onHide](logic-layer-section#onhide-1)                           | Function | Lifecycle callback for listening for page hiding                                                                                           |
+| [onUnload](logic-layer-section#onunload)                         | Function | Lifecycle callback for listening for page unloading                                                                                        |
+| [onPullDownRefresh](logic-layer-section#onpulldownrefresh)       | Function | Listens for pull-down by the user                                                                                                          |
+| [onReachBottom](logic-layer-section#onreachbottom)               | Function | Function for processing the `onReachBottom` event                                                                                          |
+| [onShareAppMessage](logic-layer-section#onshareappmessageobject) | Function | The user clicks **Share** in the top-right menu                                                                                            |
+| [onPageScroll](logic-layer-section#onpagescrollobject)           | Function | Function for processing the `onPageScroll` event                                                                                           |
+| [onResize](logic-layer-section#onresizeobject)                   | Function | Triggered when the page size is changed. For more information, see [Response to Display Area Change](../view-layer/response-to-display-area-change). |
+| [onTabItemTap](logic-layer-section#ontabitemtapobject)           | Function | Triggered when the tab is clicked on the current tab page                                                                                  |
+| [onAddToFavorites](logic-layer-section#onaddtofavoritesobject)   | Function | The user clicks **Favourite** in the top-right menu (supported starting from base library v1.4.0)                                          |
 | Others                                                               | Any      | You can add any function or data to the `Object` parameter and access it via `this`.                                                       |
 
 #### Sample code:
@@ -232,7 +233,7 @@ Page({
 
 ```
 
-In addition to `Page` , pages can also be created by using `Component` like custom components, so that the features of custom components such as `behaviours` can be used. For more information, see [Component Constructor](doc:component-constructor).
+In addition to `Page` , pages can also be created by using `Component` like custom components, so that the features of custom components such as `behaviours` can be used. For more information, see [Component Constructor](../custom-components/component-constructor).
 
 ### Initial data
 
@@ -246,7 +247,8 @@ The rendering layer can bind data through _WXML_.
 
 #### Sample code:
 
-```html WXML
+```html
+<!-- WXML -->
 <view>{{text}}</view>
 <view>{{array[0].msg}}</view>
 ```
@@ -296,7 +298,7 @@ Triggered when the page is unloaded. For example, the Mini App is switched to an
 
 Listens for the user's pull-to-refresh event.
 
-- You need to enable `enablePullDownRefresh` in the [window](doc:global-configuration#window) option of `app.json` or [page configuration](doc:page-configuration).
+- You need to enable `enablePullDownRefresh` in the [window](../mini-app-configuration/global-configuration#window) option of `app.json` or [page configuration](../mini-app-configuration/page-configuration).
 - Pull-to-refresh can be triggered by `wx.startPullDownRefresh`. After the call, the pull-to-refresh animation is triggered, and the effect is the same as a manual pull-to-refresh.
 - After data refresh is processed, `wx.stopPullDownRefresh` can stop the pull-to-refresh of the current page.
 
@@ -304,7 +306,7 @@ Listens for the user's pull-to-refresh event.
 
 Listens for the user's `onReachBottom` event.
 
-- You can set the trigger distance onReachBottomDistance in the [window](doc:global-configuration#window) option of `app.json` or [page configuration](doc:page-configuration).
+- You can set the trigger distance onReachBottomDistance in the [window](../mini-app-configuration/global-configuration#window) option of `app.json` or [page configuration](../mini-app-configuration/page-configuration).
 - During the scrolling period within the trigger distance, this event will be triggered only once.
 
 ### onPageScroll(Object)
@@ -330,8 +332,8 @@ Listens for the user's behavior of clicking **Favorite**( `button` component `op
 
 | Parameter  | Type   | Description                                                                                                                                | Minimum Version |
 | :--------- | :----- | :----------------------------------------------------------------------------------------------------------------------------------------- | :-------------- |
-| from       | String | Source of the forwarding event. `[button](doc:button)`: **Forward** button on the page. `menu`: **Forward** menu in the  top-right corner. |                 |
-| webviewUrl | String | URL of the current [<web-view>](doc:web-view) component if it is contained on the page                                                     |                 |
+| from       | String | Source of the forwarding event. [`button`](../../Components/form-components//button): **Forward** button on the page. `menu`: **Forward** menu in the  top-right corner. |                 |
+| webviewUrl | String | URL of the current [`<web-view>`](../../Components/open-capability/web-view) component if it is contained on the page                                                     |                 |
 
 This event needs to return an object, which is used to customize the favorite content. The content to be returned is as follows:
 
@@ -369,35 +371,12 @@ Listens for the user's behavior of clicking **Share with Friends**  in the top-r
 
 **`Object` parameter description:**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "from",
-    "0-1": "String",
-    "0-2": "Source of the forwarding event. `button` : **Forward** button on the page. `menu` : **Forward** menu in the  \ntop-right corner.",
-    "1-0": "target",
-    "1-1": "Object",
-    "1-2": "If the `from` value is button , then `target` is the `button` that triggered this forwarding event; otherwise, it is `undefined`.",
-    "2-0": "webViewUrl",
-    "2-1": "String",
-    "2-2": "URL of the current [web-view](doc:web-view) component if it is contained on the page",
-    "3-0": "shareTarget",
-    "3-1": "String",
-    "3-2": "The share target the user clicks. For more information, see the shareTarget parameter description below."
-  },
-  "cols": 3,
-  "rows": 4,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Parameter | Type | Description                                           |
+| :------------ | :------ | :------------------------------------------------ |
+| from | String | Source of the forwarding event. `button` : **Forward** button on the page. `menu` : **Forward** menu in the  \ntop-right corner. |
+| target | Object | If the `from` value is button , then `target` is the `button` that triggered this forwarding event; otherwise, it is `undefined`. |
+| webViewUrl | String | URL of the current [web-view](../../Components/open-capability/web-view) component if it is contained on the page |
+| shareTarget | String | The share target the user clicks. For more information, see the shareTarget parameter description below. |
 
 This event needs to return an object, which is used to customize the forwarded content. The content to be returned is as follows:
 
@@ -439,7 +418,7 @@ Page({
 
 ### onResize(object)
 
-Triggered when the Mini App screen is rotated. For more information, see [Response to Display Area Change](doc:response-to-display-area-change).
+Triggered when the Mini App screen is rotated. For more information, see [Response to Display Area Change](../view-layer/response-to-display-area-change).
 
 ### onTabItemTap(Object)
 
@@ -472,10 +451,12 @@ You can also define component event handlers in Page. Add event binding to the c
 
 ### Sample code:
 
-```html WXML
+```html
+<!-- WXML -->
  <view bindtap="viewTap">click me</view>
 ```
 ```javascript
+// javascript
 Page({
   viewTap() {
     console.log('view tap')
@@ -523,7 +504,8 @@ The `setData` function is used to send data from the logic layer to the view lay
 
 #### Sample code:
 
-```html WXML
+```html
+<!-- WXML -->
 <!--index.wxml-->
 <view>{{text}}</view>
 <button bindtap="changeText">Change normal data</button>
@@ -635,4 +617,4 @@ Therefore, pay attention to the following when calling `setData`:
 
 The following figure illustrates the lifecycle of a `Page` instance.
 
-![](https://files.readme.io/75a3269-small-Screenshot_2023-05-16_at_11.56.56_AM.png)
+![](../../assets/images/75a3269-small-Screenshot_2023-05-16_at_11.56.56_AM.png)

@@ -11,6 +11,7 @@ updatedAt: "Wed Jun 07 2023 07:15:37 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Logic layer"
 grand_parent: "Guide"
+nav_order: 4
 ---
 # WXS 
 *** 
@@ -28,7 +29,7 @@ The following are simple examples of WXS:
 
 ### Page rendering
 
-```html WXML
+```html
 <!--wxml-->
 <wxs module="m1">
   var msg = "hello world";
@@ -54,7 +55,7 @@ Page({
 })
 ```
 
-```html WXML
+```html
 <!--wxml-->
 <!-- The following `getMax` function takes an array and returns the value of the largest element in the array -->
 <wxs module="m1">
@@ -131,7 +132,7 @@ module.exports = {
 module.exports.msg = 'some msg'
 ```
 
-```html WXML
+```html
 <!-- page/index/index.wxml -->
 <wxs src="./../tools.wxs" module="tools" />
 <view>{{tools.msg}}</view>
@@ -177,7 +178,7 @@ console.log(tools.bar('logic.wxs'))
 console.log(tools.msg)
 ```
 
-```html WXML
+```html
 <!-- /page/index/index.wxml -->
 <wxs src="./../logic.wxs" module="logic" />
 ```
@@ -208,7 +209,7 @@ The name specified by the `module` attribute value must comply with the followin
 
 ### Sample code:
 
-```html WXML
+```html
 <!--wxml-->
 <wxs module="foo">
   var some_msg = "hello world";
@@ -246,7 +247,7 @@ Page({
 })
 ```
 
-```html WXML
+```html
 <!-- /pages/index/index.wxml -->
 <wxs src="./../comm.wxs" module="some_comms"></wxs>
 <!-- You can also directly use a single closed tag.
@@ -334,7 +335,7 @@ WXS uses three main annotation methods.
 
 ### Sample code:
 
-```html WXML
+```html
 <!--wxml -->
 <wxs module="sample">
   // Method 1: Single-line annotations
@@ -864,7 +865,7 @@ var b = function(x) {
 
 `function` also supports the following syntax (anonymous functions, closures, etc.):
 
-```
+```javascript
 var a = function(x) {
   return function() {
 		return x 
@@ -1122,7 +1123,7 @@ You can also use `typeof` to distinguish certain data types.
 
 #### Sample code:
 
-```
+```javascript
 var number = 10
 var boolean = true
 var object = {}
@@ -1194,7 +1195,7 @@ The `console.log` method is used to output messages in the console window. This 
 
 #### Sample code:
 
-```
+```javascript
 console.log(undefined === JSON.stringify())
 console.log(undefined === JSON.stringify(undefined))
 console.log('null' === JSON.stringify(null))

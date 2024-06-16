@@ -11,6 +11,7 @@ updatedAt: "Wed Jun 07 2023 03:51:57 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Logic layer"
 grand_parent: "Guide"
+nav_order: 2
 ---
 # Page Routing 
 *** 
@@ -45,11 +46,11 @@ The trigger method of routing and the page lifecycle functions are as follows:
 | Routing Method   | Trigger Time                                                                                                                                                                  | Page Before Routing | Page After Routing  |
 | :--------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ | :------------------ |
 | Initialization   | The first page is opened by the Mini App.                                                                                                                                     |                     | onLoad, onShow      |
-| New page opening | The [wx.navigateTo](doc:navigate-to-api) API or the <navigator open-type="navigateTo"/> component is used.                                                                    | onHide              | onLoad, onShow      |
-| Page redirection | The [wx.redirectTo](doc:redirect-to-api) API is called or the <navigator open-type="redirectTo"/> component is used.                                                          | onUnload            | onLoad, onShow      |
-| Page return      | The [wx.navigateBack](doc:navigate-back-api) API is called, the <navigator open-type="navigateBack"> component is used, or the back button in the top-left corner is clicked. | onUnload            | onShow              |
-| Tab switch       | The [wx.switchTab](doc:switch-tab-api) API is called, the <navigator open-type="switchTab"/> component is used, or the tab is switched.                                       |                     | See the table below |
-| Relaunch         | The [wx.reLaunch](doc:relaunch-api) API is called, or the <navigator open-type="reLaunch"/> component is used.                                                                | onUnload            | onLoad, onShow      |
+| New page opening | The [wx.navigateTo](../../APIs/route-api/navigate-to-api) API or the <navigator open-type="navigateTo"/> component is used.                                                                    | onHide              | onLoad, onShow      |
+| Page redirection | The [wx.redirectTo](../../APIs/route-api/redirect-to-api) API is called or the <navigator open-type="redirectTo"/> component is used.                                                          | onUnload            | onLoad, onShow      |
+| Page return      | The [wx.navigateBack](../../APIs/route-api/navigate-back-api) API is called, the <navigator open-type="navigateBack"> component is used, or the back button in the top-left corner is clicked. | onUnload            | onShow              |
+| Tab switch       | The [wx.switchTab](../../APIs/route-api/switch-tab-api) API is called, the <navigator open-type="switchTab"/> component is used, or the tab is switched.                                       |                     | See the table below |
+| Relaunch         | The [wx.reLaunch](../../APIs/route-api/relaunch-api) API is called, or the <navigator open-type="reLaunch"/> component is used.                                                                | onUnload            | onLoad, onShow      |
 
 The lifecycle corresponding to tab switch (in the following example, pages A and B are tabBar pages, page C is opened from page A, and page D is opened from page C):
 

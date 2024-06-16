@@ -8,16 +8,17 @@ updatedAt: "Tue Nov 28 2023 09:54:01 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Logic layer"
 grand_parent: "Guide"
+nav_order: 3
 ---
 # API 
 *** 
-The Mini App development framework provides a diversity of native APIs for easily calling host app capabilities, such as user information acquisition, local storage, and payment features. For more information, see the [API documentation](doc:basics-api).
+The Mini App development framework provides a diversity of native APIs for easily calling host app capabilities, such as user information acquisition, local storage, and payment features. For more information, see the [API documentation](../../APIs/basics-api).
 
 Generally, there are the following types of Mini App APIs:
 
 ## Event listener APIs
 
-It is agreed that APIs starting with `on` are used to listen whether an event is triggered, such as [wx.onCompassChange](doc:compass-api#wxoncompasschangefunction-callback)
+It is agreed that APIs starting with `on` are used to listen whether an event is triggered, such as [wx.onCompassChange](../../APIs/device-api/compass-api#wxoncompasschangefunction-callback)
 
 ## Sample code
 
@@ -66,7 +67,7 @@ A parameter of `Object` type will be passed in when the `success` , `fail` , or 
 | errCode   | number | Error code, which is supported only for certain APIs. For specific descriptions, see the API documentation. If the call succeeds, this parameter will be `0`. |
 | Other     | Any    | Other data returned by the API                                                                                                                                |
 
-The execution result of an async API needs to be obtained through the corresponding callback function passed in via the parameter of Object type. Some async APIs also have returned values, which can be used to implement richer features, such as [`[wx.request]`](doc:request).
+The execution result of an async API needs to be obtained through the corresponding callback function passed in via the parameter of Object type. Some async APIs also have returned values, which can be used to implement richer features, such as [`[wx.request]`](../../APIs/network/request).
 
 ### Sample code
 
