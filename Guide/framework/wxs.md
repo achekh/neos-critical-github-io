@@ -31,11 +31,13 @@ The following are simple examples of WXS:
 
 ```html
 <!--wxml-->
+{% raw %}
 <wxs module="m1">
   var msg = "hello world";
   module.exports.message = msg;
 </wxs>
 <view>{{m1.message}}</view>
+{% endraw %}
 ```
 
 ### Page output:
@@ -58,6 +60,7 @@ Page({
 ```html
 <!--wxml-->
 <!-- The following `getMax` function takes an array and returns the value of the largest element in the array -->
+{% raw %}
 <wxs module="m1">
   var getMax = function(array) {
     var max = undefined;
@@ -69,6 +72,7 @@ return max; }
 </wxs>
 <!-- Calls the `getMax` function in WXS with the `array` in `page.js` as the parameter -->
 <view>{{m1.getMax(array)}}</view>
+{% endraw %}
 ```
 
 ### Page output:
@@ -134,9 +138,11 @@ module.exports.msg = 'some msg'
 
 ```html
 <!-- page/index/index.wxml -->
+{% raw %}
 <wxs src="./../tools.wxs" module="tools" />
 <view>{{tools.msg}}</view>
 <view>{{tools.bar(tools.FOO)}}</view>
+{% endraw %}
 ```
 
 Page output:
@@ -211,11 +217,13 @@ The name specified by the `module` attribute value must comply with the followin
 
 ```html
 <!--wxml-->
+{% raw %}
 <wxs module="foo">
   var some_msg = "hello world";
   module.exports = { msg : some_msg, }
 </wxs>
 <view>{{foo.msg}}</view>
+{% endraw %}
 ```
 
 Page output:
@@ -249,6 +257,7 @@ Page({
 
 ```html
 <!-- /pages/index/index.wxml -->
+{% raw %}
 <wxs src="./../comm.wxs" module="some_comms"></wxs>
 <!-- You can also directly use a single closed tag.
 <wxs src="./../comm.wxs" module="some_comms" />
@@ -257,6 +266,7 @@ Page({
 <view>{{some_comms.bar(some_comms.foo)}}</view>
 <!-- Calls the `bar` function in the `some_comms` module, and the parameter is `msg` in `page/index/index.js`. -->
 <view>{{some_comms.bar(msg)}}</view>
+{% endraw %}
 ```
 
 ### Page output:
