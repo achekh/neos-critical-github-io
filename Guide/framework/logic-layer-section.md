@@ -249,8 +249,8 @@ The rendering layer can bind data through _WXML_.
 
 ```html
 <!-- WXML -->
-<view>{{text}}</view>
-<view>{{array[0].msg}}</view>
+<view>&#123;&#123;text&#125;&#125;</view>
+<view>&#123;&#123;array[0].msg&#125;&#125;</view>
 ```
 
 ```javascript
@@ -507,15 +507,15 @@ The `setData` function is used to send data from the logic layer to the view lay
 ```html
 <!-- WXML -->
 <!--index.wxml-->
-<view>{{text}}</view>
+<view>&#123;&#123;text&#125;&#125;</view>
 <button bindtap="changeText">Change normal data</button>
-<view>{{num}}</view>
+<view>&#123;&#123;num&#125;&#125;</view>
 <button bindtap="changeNum">Change normal num</button>
-<view>{{array[0].text}}</view>
+<view>&#123;&#123;array[0].text&#125;&#125;</view>
 <button bindtap="changeItemInArray">Change Array data</button>
-<view>{{object.text}}</view>
+<view>&#123;&#123;object.text&#125;&#125;</view>
 <button bindtap="changeItemInObject">Change Object data</button>
-<view>{{newField.text}}</view>
+<view>&#123;&#123;newField.text&#125;&#125;</view>
 <button bindtap="addNewField">Add new data</button>
 ```
 ```javascript
