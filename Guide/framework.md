@@ -61,8 +61,8 @@ The framework manages the page routing of the entire **Mini App** to achieve a s
 
 ## Basic components
 
-The framework provides a set of basic components, which come with Super Hub styles and special logic. You can create a powerful **Super Hub Mini App** by combining such components. For more information, check the [components](/components) guide.
+The framework provides a set of basic components, which come with Super Hub styles and special logic. You can create a powerful **Super Hub Mini App** by combining such components. For more information, check the [components](/components.md) guide.
 
 ## Rich APIs
 
-The framework provides a diversity of native host app APIs for easily calling host app capabilities, such as user information acquisition, local storage, and payment features. For More information, check the [APIs](/APIs/basics-api) guide.
+The framework provides a diversity of native host app APIs for easily calling host app capabilities, such as user information acquisition, local storage, and payment features. For More information, check the [APIs](/APIs/basics-api.md) guide.
