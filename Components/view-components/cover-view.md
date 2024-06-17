@@ -73,7 +73,8 @@ Page({
 </view>
 {% endraw %}
 ```
-```css WXSS
+```css
+/* WXSS */
 .cover-view {
   position: absolute;
   top: calc(50% - 150rpx);

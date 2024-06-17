@@ -130,7 +130,8 @@ The component's style corresponding to the `wxss` file only takes effect for the
 - Inherited styles such as `font` and `color` will be inherited from outside the component to inside the component.
 - Except inherited styles, styles in `app.wxss` and styles of the page where a custom component is located don't take effect for the component.
 
-```css WXSS
+```css
+/* WXSS */
 #a { } /* Cannot be used in components */
 [a] { } /* Cannot be used in components */
 button { } /* Cannot be used in components */
@@ -141,7 +142,8 @@ Additionally, you can specify the default style for the node where the component
 
 ### Code example:
 
-```css WXSS
+```css
+/* WXSS */
 /* Component custom-component.wxss */
 :host {
   color: yellow;
@@ -196,7 +198,8 @@ Therefore, the component user can specify the class corresponding to this style 
 {% endraw %}
 ```
 
-```css WXSS
+```css
+/* WXSS */
 .red-text {
   color: red;
 }

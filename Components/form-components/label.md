@@ -116,7 +116,8 @@ Page({
 </view>
 
 ```
-```css WXSS
+```css
+/* WXSS */
 .label-1,
 .label-2 {
 	margin-bottom: 15px;

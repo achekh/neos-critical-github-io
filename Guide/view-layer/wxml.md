@@ -352,12 +352,12 @@ The final result is the object `{foo: 'my-foo', bar:'my-bar'}`.
 > 
 > Any combination of the above methods is allowed, but if there are cases where identical variable names occur, the latter will overwrite the former, such as:
 > 
-> ```xml
-<!--WXML-->
-{% raw %}
+>```xml
+><!--WXML-->
+>{% raw %}
 >  <template is="objectCombine" data="{{...obj1, ...obj2, a, c: 6}}"></template>
-> {% endraw %}
-```
+>{% endraw %}
+>```
 > ```javascript JavaScript
 > Page({
 >   data: {
@@ -381,24 +381,24 @@ The final result is the object `{foo: 'my-foo', bar:'my-bar'}`.
 > If there are spaces between curly brackets and quotes, the content is ultimately parsed into a string:
 > 
 > ```html
-<!--WXML-->
-{% raw %}
+><!--WXML-->
+>{% raw %}
 > <view wx:for="{{[1,2,3]}} ">
 >   {{item}}
 > </view>
-> {% endraw %}
-```
+>{% endraw %}
+>```
 > 
 > equivalent to
 > 
 > ```html
-<!--WXML-->
-{% raw %}
+><!--WXML-->
+>{% raw %}
 > <view wx:for="{{[1,2,3] + ' '}}">
 >   {{item}}
 > </view>
-> {% endraw %}
-```
+>{% endraw %}
+>```
 
 ## List rendering
 

@@ -1,6 +1,6 @@
 ---
 title: "Animation"
-slug: "animation-1"
+slug: "animation"
 excerpt: ""
 hidden: false
 metadata: 
@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:24:19 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "View Layer"
 grand_parent: "Guide"
+nav_order: 6
 ---
 # Animation 
 *** 

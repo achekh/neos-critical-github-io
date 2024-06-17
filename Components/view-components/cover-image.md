@@ -69,7 +69,8 @@ Page({
 </video>
 {% endraw %}
 ```
-```css WXSS
+```css
+/* WXSS */
 .controls {
   position: relative;
   top: 50%;

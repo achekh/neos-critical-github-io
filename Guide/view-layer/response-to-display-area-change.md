@@ -11,6 +11,7 @@ updatedAt: "Thu Jun 08 2023 10:25:40 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "View Layer"
 grand_parent: "Guide"
+nav_order: 5
 ---
 # Response to Display Area Change 
 *** 
@@ -54,7 +55,8 @@ Sometimes, the page layout varies by display area size. In this case, a media qu
 
 ### Sample code:
 
-```css WXSS
+```css
+/* WXSS */
 .my-class {
   width: 40px;
 }
