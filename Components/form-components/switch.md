@@ -37,11 +37,14 @@ Page({
   }
 })
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <view class="body-view">
   <switch checked bindchange="switch1Change" />
   <switch bindchange="switch2Change" />
 </view>
+{% endraw %}
 ```
 
 > 📘 Notes

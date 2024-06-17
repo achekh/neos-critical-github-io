@@ -40,13 +40,16 @@ Page({
 })
 
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <radio-group class="radio-group" bindchange="radioChange">
   <label class="radio" wx.for="{{items}}">
   <radio value="{{item.name}}" checked="{{item.checked}}" />
   	{{item.value}}
   </label>
 </radio-group>
+{% endraw %}
 ```
 
 ![](https://files.readme.io/164e159-Screenshot_2023-06-15_at_5.16.50_PM.png)

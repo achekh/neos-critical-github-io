@@ -31,7 +31,9 @@ A view container represents container that can host one or more views.
 
 ### Sample code
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <view class="section">
   <view class="section__title">flex-direction: row</view>
   <view class="flex-wrp" style="flex-direction:row;">
@@ -48,6 +50,7 @@ A view container represents container that can host one or more views.
     <view class="flex-item bc_grey">C</view>
   </view>
 </view>
+{% endraw %}
 ```
 ```Text WXSS
 .flex-item {

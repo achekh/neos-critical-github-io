@@ -1002,8 +1002,11 @@ The height of the rectangular path.
 
 `clearRect` does not draw a white rectangle in the area. Instead, it clears the canvas object. For intuitive display, a background color is added to the canvas.
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <canvas canvas-id="myCanvas" style="border: 1px solid; background: #123456;" />
+{% endraw %}
 ```
 
 ```javascript JavaScript

@@ -185,8 +185,11 @@ console.log(tools.msg)
 ```
 
 ```html
+<!--WXML-->
+{% raw %}
 <!-- /page/index/index.wxml -->
 <wxs src="./../logic.wxs" module="logic" />
+{% endraw %}
 ```
 
 ### Console output:

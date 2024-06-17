@@ -41,11 +41,14 @@ Page({
   }
 })
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <checkbox-group bindchange="checkboxChange">
   <label class="checkbox" wx.for="{{items}}">
   	<checkbox value="{{item.name}}" checked="{{item.checked}}" />
   	{{item.value}}
   </label>
 </checkbox-group>
+{% endraw %}
 ```

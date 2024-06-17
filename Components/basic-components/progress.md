@@ -98,7 +98,9 @@ grand_parent: "Components"
 
 ### Sample code
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <view class="progress-box">
   <progress percent="20" show-info stroke-width="3"/>
 </view>
@@ -115,6 +117,7 @@ grand_parent: "Components"
 <view class="progress-box">
   <progress percent="80" color="#10AEFF" active stroke-width="3" />
 </view>
+{% endraw %}
 ```
 
 ![](https://files.readme.io/78fb0ac-Screenshot_2023-06-13_at_11.41.31_AM.png)

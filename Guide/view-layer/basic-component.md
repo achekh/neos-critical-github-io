@@ -22,10 +22,13 @@ What is a component?
 - A component comes with some styles which serve the same purpose as Super Hub styles.
 - A component typically includes the start tag and end tag and is described by attributes between the two tags.
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <tagname property="value">
   Content goes here ...
 </tagname>
+{% endraw %}
 ```
 
 > 📘 Notes

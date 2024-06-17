@@ -89,7 +89,9 @@ Page({
 	} 
 });
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <swiper
   indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}"
@@ -108,6 +110,7 @@ Page({
 interval
 <slider bindchange="durationChange" show-value min="1000" max="10000" />
 duration
+{% endraw %}
 ```
 
 > 📘 Bugs and tips

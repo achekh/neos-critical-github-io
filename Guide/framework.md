@@ -29,8 +29,10 @@ Below is a simple example:
 ```html
 <!-- WXML -->
 <!-- This is our View -->
+{% raw %}
 <view>Hello {{name}}!</view>
 <button bindtap="changeName">Click me!</button>
+{% endraw %}
 ```
 
 ```javascript

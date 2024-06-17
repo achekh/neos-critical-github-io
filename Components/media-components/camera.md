@@ -117,7 +117,9 @@ Page({
 })
 
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <camera
   device-position="back"
   flash="off"
@@ -127,4 +129,5 @@ Page({
 <button type="primary" bindtap="takePhoto">Shot</button>
 <view>Preview</view>
 <image mode="widthFix" src="{{src}}"></image>
+{% endraw %}
 ```

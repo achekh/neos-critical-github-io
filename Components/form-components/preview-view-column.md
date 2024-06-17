@@ -53,7 +53,9 @@ Page({
 })
 
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <view>
   <view>{{year}}Year{{month}}Month{{day}}Day</view>
   <picker-view
@@ -72,6 +74,7 @@ Page({
     </picker-view-column>
   </picker-view>
 </view>
+{% endraw %}
 ```
 
 > 📘 Notes

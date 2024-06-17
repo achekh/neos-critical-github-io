@@ -67,7 +67,9 @@ Page({
   }
 })
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <view class="section">
   <textarea bindblur="bindTextAreaBlur" auto-height Placeholder = "auto high" />
 </view>
@@ -89,4 +91,5 @@ Page({
     <button form-type="submit"> submit </button>
   </form>
 </view>
+{% endraw %}
 ```

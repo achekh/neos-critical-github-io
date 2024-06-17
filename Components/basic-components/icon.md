@@ -36,7 +36,9 @@ Page({
   }
 })
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <view class="group">
   <block wx:for="{{iconSize}}">
     <icon type="success" size="{{item}}" />
@@ -53,6 +55,7 @@ Page({
   </block>
 </view>
 
+{% endraw %}
 ```
 
 ![](https://files.readme.io/078f2ff-Screenshot_2023-06-13_at_11.39.44_AM.png)

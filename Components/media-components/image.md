@@ -97,7 +97,9 @@ Page({
 })
 
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <view class="page">
   <view class="page__hd">
     <text class="page__title">image</text>
@@ -117,4 +119,5 @@ Page({
   </view>
 </view>
 
+{% endraw %}
 ```

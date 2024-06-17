@@ -82,7 +82,9 @@ Page({
   }
 });
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <view class="section">
   <view class="section__title">vertical scroll</view>
   <view class="section__title">Vertical scroll</view>
@@ -107,6 +109,7 @@ Page({
     <view id="red" class="scroll-view-item_H bc_blue"></view>
   </scroll-view>
 </view>
+{% endraw %}
 ```
 
 ### Bugs and tips

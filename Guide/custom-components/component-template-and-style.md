@@ -24,15 +24,20 @@ A `<slot>` node can be provided in the component template to host the child node
 
 ### Code example:
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <!-- Component template -->
 <view class="wrapper">
   <view>This indicates the internal node of the component</view>
   <slot></slot>
 </view>
+{% endraw %}
 ```
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <!--Page template where the component is referenced-->
 <view>
   <component-tag-name>
@@ -40,6 +45,7 @@ A `<slot>` node can be provided in the component template to host the child node
     <view>This is inserted in the slot component</view>
   </component-tag-name>
 </view>
+{% endraw %}
 ```
 
 > 📘 Note
@@ -52,7 +58,9 @@ Like an ordinary WXML template, data binding can also be employed to pass dynami
 
 ## Code example:
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <!--Page template where the component is referenced-->
 <view>
   <component-tag-name prop-a="{{dataFieldA}}" prop-b="{{dataFieldB}}">
@@ -60,6 +68,7 @@ Like an ordinary WXML template, data binding can also be employed to pass dynami
     <view>This is inserted in the slot component</view>
   </component-tag-name>
 </view>
+{% endraw %}
 ```
 
 In the above example, the component properties `propA` and `propB` receive data passed from the page, and the page can change linked data field via `setData`.
@@ -82,18 +91,23 @@ Component({
 
 At this point, multiple slots can be used in the `wxml` of this component, which are distinguished by `name`.
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <!-- Component template -->
 <view class="wrapper">
   <slot name="before"></slot>
   <view>This indicates the internal details of the component</view>
   <slot name="after"></slot>
 </view>
+{% endraw %}
 ```
 
 Use the `slot` attribute to insert nodes into different slots.
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <!--Page template where the component is referenced-->
 <view>
   <component-tag-name>
@@ -103,6 +117,7 @@ Use the `slot` attribute to insert nodes into different slots.
     <view slot="after">This is inserted in the slot name="after" component</view>
   </component-tag-name>
 </view>
+{% endraw %}
 ```
 
 ## Component Style
@@ -133,9 +148,12 @@ Additionally, you can specify the default style for the node where the component
 }
 ```
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <!-- Page's WXML -->
 <custom-component>The text here is highlighted in yellow</custom-component>
+{% endraw %}
 ```
 
 ## External Style Class
@@ -155,21 +173,27 @@ Component({
 })
 ```
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <!-- Component custom-component.wxml -->
 <custom-component class="my-class">The color of this text is determined by the  class  outside the component</custom-component>
+{% endraw %}
 ```
 
 Therefore, the component user can specify the class corresponding to this style class, just like using ordinary properties. From base library 2.7.1 and later, multiple corresponding classes can be specified.
 
 ### Code example:
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <!-- Page's WXML -->
 <custom-component my-class="red-text" />
 <custom-component my-class="large-text" />
 <!-- The following code is supported as of base library 2.7.1 -->
 <custom-component my-class="red-text large-text" />
+{% endraw %}
 ```
 
 ```css WXSS

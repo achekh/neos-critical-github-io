@@ -132,6 +132,9 @@ Page({
   }
 })
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+{% endraw %}
 ```

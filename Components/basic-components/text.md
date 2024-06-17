@@ -60,7 +60,9 @@ Page({
   }
 })
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <view class="btn-area">
   <view class="body-view">
     <text>{{text}}</text>
@@ -68,6 +70,7 @@ Page({
     <button bindtap="remove">remove line</button>
   </view>
 </view>
+{% endraw %}
 ```
 
 ![](https://files.readme.io/6484796-Screenshot_2023-06-13_at_11.44.42_AM.png)

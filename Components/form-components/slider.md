@@ -47,7 +47,9 @@ for (let i = 1; i < 5; i++) {
 }
 Page(pageData)
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <view class="section section_gap">
   <text class="section__title">Set the step</text>
   <view class="body-view">
@@ -67,6 +69,7 @@ Page(pageData)
   </view>
 </view>
 
+{% endraw %}
 ```
 
 ![](https://files.readme.io/9eb48f4-Screenshot_2023-06-15_at_5.18.20_PM.png)

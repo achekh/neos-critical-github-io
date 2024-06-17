@@ -35,7 +35,9 @@ Page({
   }
 })
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <form bindsubmit="formSubmit" bindreset="formReset">
   <view class="section section_gap">
     <view class="section__title">switch</view>
@@ -81,6 +83,7 @@ Page({
   </view>
 </form>
 
+{% endraw %}
 ```
 
 ### Built-in component behaviors
@@ -123,18 +126,24 @@ Component({
 
 The send form component recognizes all form controls within this custom component. For example, the page is structured as follows:
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <form bindsubmit="submit">
   <custom-comp></custom-comp>
   <button form-type="submit">submit</button>
 </form>
+{% endraw %}
 ```
 
 The structure of the assembly `custom-component`  is as follows:
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <input name="name" />
 <switch name="student" />
+{% endraw %}
 ```
 
 If the component `custom-component` is configured with:
@@ -151,17 +160,23 @@ At this point, the form's `submit` event `value` will include `name` and `studen
 
 The send form component recognizes the button. If the custom component has settings inside the form-type of button, it will be checked by the accept form. For example, the page is structured as follows:
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <form bindsubmit="submit">
   <input name="name" Placeholder = "Please enter name"></input>
   <custom-comp></custom-comp>
 </form>
+{% endraw %}
 ```
 
 The structure of the assembly `custom-component`  is as follows:
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <button form-type="submit">submit</button>
+{% endraw %}
 ```
 
 If the component `custom-component` is configured with:

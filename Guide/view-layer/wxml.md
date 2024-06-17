@@ -8,10 +8,11 @@ updatedAt: "Tue Nov 28 2023 09:56:59 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "View Layer"
 grand_parent: "Guide"
+nav_order: 1
 ---
 # WXML 
 *** 
-WXML is a markup language for framework design. It can be used to build the page structure when combined with [base components](doc:view-components) and event system.
+WXML is a markup language for framework design. It can be used to build the page structure when combined with [base components](../../Components/view-components) and event system.
 
 > 📘 Notes
 > 
@@ -20,9 +21,11 @@ WXML is a markup language for framework design. It can be used to build the page
 The samples below demonstrate what WXML is capable of.:
 
 - **Data binding**
-  ```html WXML
+  ```html
   <!--WXML-->
+  {% raw %}
   <view>{{message}}</view>
+  {% endraw %}
   ```
   ```javascript
   // page.js
@@ -33,9 +36,11 @@ The samples below demonstrate what WXML is capable of.:
   })
   ```
 - **List rendering**
-  ```html WXML
+  ```html
   <!--WXML-->
+  {% raw %}
   <view wx:for="{{array}}">{{item}}</view>
+  {% endraw %}
   ```
   ```javascript
   // page.js
@@ -46,11 +51,13 @@ The samples below demonstrate what WXML is capable of.:
   })
   ```
 - **Conditional rendering**
-  ```html WXML
+  ```html
   <!--WXML-->
+  {% raw %}
   <view wx:if="{{view == 'WEBVIEW'}}">WEBVIEW</view>
   <view wx:elif="{{view == 'APP'}}">APP</view>
   <view wx:else="{{view == 'MINA'}}">MINA</view>
+  {% endraw %}
   ```
   ```javascript
   // page.js
@@ -61,8 +68,9 @@ The samples below demonstrate what WXML is capable of.:
   })
   ```
 - **Template**
-  ```html WXML
+  ```html
   <!--WXML-->
+  {% raw %}
   <template name="staffName">
     <view>
       FirstName: {{firstName}}, LastName: {{lastName}}
@@ -71,6 +79,7 @@ The samples below demonstrate what WXML is capable of.:
   <template is="staffName" data="{{...staffA}}"></template>
   <template is="staffName" data="{{...staffB}}"></template>
   <template is="staffName" data="{{...staffC}}"></template>
+  {% endraw %}
   ```
   ```javascript
   // page.js
@@ -83,8 +92,11 @@ The samples below demonstrate what WXML is capable of.:
   });
   ```
 - **Event**
-  ```html WXML
+  ```html
+  <!--WXML-->
+  {% raw %}
    <view bindtap="add">{{count}}</view>
+   {% endraw %}
   ```
   ```javascript
   Page({
@@ -111,8 +123,11 @@ Data binding uses the Mustache syntax (double curly brackets) to wrap the variab
 
 #### Content
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <view>{{ message }}</view>
+ {% endraw %}
 ```
 ```javascript
 Page({
@@ -124,8 +139,11 @@ Page({
 
 ### Component attribute (must be enclosed in double quotes)
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <view id="item-{{id}}"></view>
+ {% endraw %}
 ```
 ```javascript
 Page({
@@ -137,8 +155,11 @@ Page({
 
 ### Control attribute (must be enclosed in double quotes)
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <view wx:if="{{condition}}"></view>
+ {% endraw %}
 ```
 ```javascript
 Page({
@@ -154,8 +175,11 @@ Page({
 
 `false` : Boolean-type false.
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <checkbox checked="{{false}}"></checkbox>
+{% endraw %}
 ```
 
 > 📘 Note
@@ -168,14 +192,20 @@ You can implement simple operations in {{}} . This syntax supports the following
 
 #### Ternary operation
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <view hidden="{{flag ? true : false}}">Hidden</view>
+ {% endraw %}
 ```
 
 #### Arithmetic operation
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <view>{{a + b}} + {{c}} + d</view>
+ {% endraw %}
 ```
 ```javascript
 Page({
@@ -191,14 +221,20 @@ The content in view is `3 + 3 + d`.
 
 ### Logical judgment
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <view wx:if="{{length > 5}}"></view>
+ {% endraw %}
 ```
 
 ### String operation
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <view>{{"hello" + name}}</view>
+{% endraw %}
 ```
 ```javascript
 Page({
@@ -210,8 +246,11 @@ Page({
 
 ### Data path operation
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <view>{{object.key}} {{array[0]}}</view>
+{% endraw %}
 ```
 ```javascript
 Page({
@@ -230,8 +269,11 @@ You can also directly implement combinations in Mustache syntax to build new obj
 
 ### Array
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <view wx:for="{{[zero, 1, 2, 3, 4]}}">{{item}}</view>
+{% endraw %}
 ```
 ```javascript
 Page({
@@ -245,8 +287,11 @@ The final result is the array `[0, 1, 2, 3, 4]`.
 
 ### Object
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <template is="objectCombine" data="{{for: a, bar: b}}"></template>
+{% endraw %}
 ```
 ```javascript
 Page({
@@ -261,8 +306,11 @@ The final result is the object `{for: 1, bar: 2}`.
 
 You can also use the extended operator `...` to extend the object.
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <template is="objectCombine" data="{{...obj1, ...obj2, e: 5}}"></template>
+{% endraw %}
 ```
 ```javascript
 Page({
@@ -283,8 +331,11 @@ The final result is the object `{a: 1, b: 2, c: 3, d: 4, e: 5}`.
 
 If the object's `key` and `value` are identical, this can be indirectly expressed.
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <template is="objectCombine" data="{{foo, bar}}"></template>
+{% endraw %}
 ```
 ```javascript
 Page({
@@ -301,9 +352,12 @@ The final result is the object `{foo: 'my-foo', bar:'my-bar'}`.
 > 
 > Any combination of the above methods is allowed, but if there are cases where identical variable names occur, the latter will overwrite the former, such as:
 > 
-> ```xml WXML
+> ```xml
+<!--WXML-->
+{% raw %}
 >  <template is="objectCombine" data="{{...obj1, ...obj2, a, c: 6}}"></template>
-> ```
+> {% endraw %}
+```
 > ```javascript JavaScript
 > Page({
 >   data: {
@@ -326,19 +380,25 @@ The final result is the object `{foo: 'my-foo', bar:'my-bar'}`.
 > 
 > If there are spaces between curly brackets and quotes, the content is ultimately parsed into a string:
 > 
-> ```html WXML
+> ```html
+<!--WXML-->
+{% raw %}
 > <view wx:for="{{[1,2,3]}} ">
 >   {{item}}
 > </view>
-> ```
+> {% endraw %}
+```
 > 
 > equivalent to
 > 
-> ```html WXML
+> ```html
+<!--WXML-->
+{% raw %}
 > <view wx:for="{{[1,2,3] + ' '}}">
 >   {{item}}
 > </view>
-> ```
+> {% endraw %}
+```
 
 ## List rendering
 
@@ -348,10 +408,13 @@ In a component, by binding an array using the `wx:for` control attribute, you ca
 
 The subscript variable name of the current item of the default array defaults to `index`, and the variable name of the current item of the array defaults to `item`.
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view wx:for="{{array}}">
   {{index}}: {{item.message}}
 </view>
+{% endraw %}
 ```
 ```javascript
 Page({
@@ -372,15 +435,20 @@ You can use `wx:for-item` to specify the variable name of the array's current el
 
 You can use `wx:for-index` to specify the variable name of the array's current subscript:
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
   {{idx}}: {{itemName.message}}
 </view>
+{% endraw %}
 ```
 
 `wx:for` can also be embedded. Below is the multiplication table:
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
   <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
     <view wx:if="{{i <= j}}">
@@ -388,17 +456,21 @@ You can use `wx:for-index` to specify the variable name of the array's current s
     </view>
   </view>
 </view>
+{% endraw %}
 ```
 
 ### block wx:for
 
 Similar to block `wx:if`, you can use `wx:for` on a `<block/>` tag to render a structural block containing multiple nodes. For example:
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <block wx:for="{{[1, 2, 3]}}">
   <view>{{index}}:</view>
   <view>{{item}}</view>
 </block>
+{% endraw %}
 ```
 
 ### wx:key
@@ -416,7 +488,9 @@ When a data change triggers re-rendering at the rendering layer, the components 
 
 #### Sample code:
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <switch wx:for="{{objectArray}}" wx:key="unique" style="display: block;">
   {{item.id}}
 </switch>
@@ -426,6 +500,7 @@ When a data change triggers re-rendering at the rendering layer, the components 
   {{item}}
 </switch>
 <button bindtap="addNumberToFront">Add to the front</button>
+{% endraw %}
 ```
 ```javascript
 Page({
@@ -478,34 +553,46 @@ Page({
 
 When the `wx:for` value is a string, the string is parsed into a string array
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view wx:for="array">
   {{item}}
 </view>
+{% endraw %}
 ```
 
 equivalent to
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view wx:for="{{['a','r','r','a','y']}}">
   {{item}}
 </view>
+{% endraw %}
 ```
 
 **Note:** If there are spaces between curly brackets and quotes, the content is ultimately parsed into a string
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view wx:for="{{[1,2,3]}} ">
   {{item}}
 </view>
+{% endraw %}
 ```
 
 equivalent to
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view wx:for="{{[1,2,3] + ' '}}">
   {{item}}
 </view>
+{% endraw %}
 ```
 
 ## Conditional rendering
@@ -514,27 +601,36 @@ equivalent to
 
 In the framework, use `wx:if="{{condition}}"` to determine whether or not to render this code block:
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view wx:if="{{condition}}">True</view>
+{% endraw %}
 ```
 
 You can also use `wx:elif` and `wx:else` to add an "else" block:
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view wx:if="{{length > 5}}">1</view>
 <view wx:elif="{{length > 2}}">2</view>
 <view wx:else>3</view>
+{% endraw %}
 ```
 
 ### block wx:if
 
 Because `wx:if` is a control attribute, you must add it to a tag. To judge multiple component tags at once, you can use a `<block/>` tag to package multiple components together and use the `wx:if` control attribute above.
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <block wx:if="{{true}}">
   <view>view1</view>
   <view>view2</view>
 </block>
+{% endraw %}
 ```
 
 `Note:` <block/> is not a component, but merely a package element. It does not perform any rendering on the page and only accepts control attributes.
@@ -557,7 +653,9 @@ WXML provides templates, where you can define code snippets and then call them i
 
 Use the `name` attribute to specify the name of the template. Then, define a code snippet in `<template/>`. For example:
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <!--
   index: int
   msg: string
@@ -569,14 +667,18 @@ Use the `name` attribute to specify the name of the template. Then, define a cod
     <text>Time: {{time}}</text>
   </view>
 </template>
+{% endraw %}
 ```
 
 ### Using a template
 
 Use the `is` attribute to declare the template to be used. Then, pass the data needed by the template. For example:
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <template is="msgItem" data="{{...item}}" />
+{% endraw %}
 ```
 ```javascript
 Page({
@@ -592,7 +694,9 @@ Page({
 
 The `is` attribute can use Mustache syntax to dynamically determine the template to be rendered:
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <template name="odd">
   <view>odd</view>
 </template>
@@ -602,6 +706,7 @@ The `is` attribute can use Mustache syntax to dynamically determine the template
 <block wx:for="{{[1, 2, 3, 4, 5]}}">
   <template is="{{item % 2 == 0 ? 'even' : 'odd'}}" />
 </block>
+{% endraw %}
 ```
 
 ### Template scope
@@ -623,8 +728,11 @@ Templates have their own scopes. They can only use the `data` passed in by data 
 
 For example, if the event is `bindtap`, the event handler can be found in the Page when a user clicks the component.
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
  <view id="tapTest" data-hi="WeChat" bindtap="tapName">Click me!</view>
+{% endraw %}
 ```
 
 - Write the event handler in the Page definition with event as the parameter.
@@ -686,10 +794,13 @@ The WXS function accepts two parameters. One is `event`, with an additional `eve
 
 - Bind and register the WXS function for event handling in the component.
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <wxs module="wxs" src="./test.wxs"></wxs>
 <view id="tapTest" data-hi="TMF" bindtap="{{wxs.tapName}}">Click me!</view>
 **Note: The bound WXS function must be enclosed with {{}}.**
+{% endraw %}
 ```
 
 - The `test.wxs` file implements the `tapName` function.
@@ -746,7 +857,9 @@ Similar to component attributes, an event is bound in the form of `key` and `val
 
 In the sample shown below, click "inner view" to call `handleTap3` and `handleTap2` (because the `tap` event is propagated to middle view, which prevents the `tap` event from being propagated to the parent node); click "middle view" to trigger `handleTap2` and click "outer view" to trigger `handleTap1`.
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view id="outer" bindtap="handleTap1">
   outer view
   <view id="middle" catchtap="handleTap2">
@@ -756,13 +869,16 @@ In the sample shown below, click "inner view" to call `handleTap3` and `handleTa
     </view>
   </view>
 </view>
+{% endraw %}
 ```
 
 ### Event capturing
 
 Touch-related events support capturing. During event capturing, which precedes bubbling, events arrive at nodes in an order reverse of that in which they do during bubbling. To listen for events during capturing, use `capture-bind` or `capture-catch` as the keyword. The latter interrupts the capturing and cancels the bubbling.
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view
   id="outer"
   bind:touchstart="handleTap1"
@@ -777,11 +893,14 @@ Touch-related events support capturing. During event capturing, which precedes b
     inner view
   </view>
 </view>
+{% endraw %}
 ```
 
 If the first `capture-bind` in the above code is changed to `capture-catch`, only `handleTap2` is triggered.
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view
   id="outer"
   bind:touchstart="handleTap1"
@@ -796,6 +915,7 @@ If the first `capture-bind` in the above code is changed to `capture-catch`, onl
     inner view
   </view>
 </view>
+{% endraw %}
 ```
 
 ### Event object
@@ -864,10 +984,13 @@ You can customize data in the component, which will be passed to the service thr
 
 **Sample:**
 
-```html WXML
+```html
+<!--WXML-->
+{% raw %}
 <view data-alpha-beta="1" data-alphaBeta="2" bindtap="bindViewTap">
   DataSet Test
 </view>
+{% endraw %}
 ```
 ```javascript
 Page({

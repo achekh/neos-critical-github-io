@@ -48,7 +48,9 @@ Page({
   }
 })
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <video
   id="myVideo"
   src="https://qzonestyle.gtimg.cn/qzone/qzact/act/external/qq-video/qq-video.mp4"
@@ -65,6 +67,7 @@ Page({
     <cover-view class="time">00:00</cover-view>
   </cover-view>
 </video>
+{% endraw %}
 ```
 ```css WXSS
 .controls {

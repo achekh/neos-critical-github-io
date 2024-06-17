@@ -299,7 +299,9 @@ Page({
   }
 })
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <view class="section">
   <view class="section__title">Common selector</view>
   <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
@@ -341,6 +343,7 @@ Page({
     </view>
   </picker>
 </view>
+{% endraw %}
 ```
 
 ![](https://files.readme.io/0548cbc-Screenshot_2023-06-15_at_5.06.41_PM.png)

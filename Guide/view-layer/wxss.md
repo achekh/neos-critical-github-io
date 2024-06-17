@@ -89,13 +89,19 @@ Outline style sheets can be imported with the `@import` statement followed by th
 Framework components support using `style` and `class` attributes to control component styles.
 
 - style: Static styles are uniformly written in `class`.`style` receives dynamic styles, which will be parsed at runtime. Try to avoid writing static styles into `style`; otherwise, rendering will become slower.
-  ```html WXML
+  ```html
+<!--WXML-->
+{% raw %}
    <view style="color:{{color}};" />
-  ```
+  {% endraw %}
+```
 - class: It is used to specify a style rule, and its attribute value is a collection of class selector names (style class names) in the style rule. Style class names don't need to contain `.` and are separated by space.
-  ```html WXML
+  ```html
+<!--WXML-->
+{% raw %}
    <view class="normal_view" />
-  ```
+  {% endraw %}
+```
 
 ## Selector
 

@@ -47,7 +47,9 @@ Page({
   }
 })
 ```
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <view class="container">
   <view class="page-body">
     <view class="page-section page-section-gap">
@@ -69,6 +71,7 @@ Page({
     </view>
   </view>
 </view>
+{% endraw %}
 ```
 ```css WXSS
 .cover-view {

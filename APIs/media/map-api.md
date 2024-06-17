@@ -78,13 +78,16 @@ Translates the marker (with animation).
 
 ### Sample code
 
-```xml WXML
+```xml
+<!--WXML-->
+{% raw %}
 <!-- map.wxml -->
 <map id="myMap" show-location />
 <button type="primary" bindtap="getCenterLocation">Get the location</button>
 <button type="primary" bindtap="moveToLocation">Move the location</button>
 <button type="primary" bindtap="translateMarker">Move the marker</button>
 <button type="primary" bindtap="includePoints">Zoom out to show all latitudes and longitudes</button>
+{% endraw %}
 ```
 
 ```javascript JavaScript
