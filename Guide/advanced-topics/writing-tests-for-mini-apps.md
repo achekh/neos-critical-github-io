@@ -123,6 +123,7 @@ module. exports = function(config) {
 Then the test case is written as follows (using mocha + chai as an example):
 
 ```javascript
+// javascript
 const path = require('path')
 const expect = require('chai').expect
 
@@ -155,6 +156,7 @@ const simulate = require('miniprogram-simulate')
 Example:
 
 ```javascript
+// javascript
 test('comp', () => {
      const id = simulate.load(path.join(__dirname, './comp')) // load custom component, return component id
      const comp = simulate.render(id) // use id to render the custom component, and return the package instance of the component
@@ -172,6 +174,7 @@ test('comp', () => {
 Pass in initial rendering props:
 
 ```javascript
+// javascript
 test('comp', () => {
      const comp = simulate.render(id, {
          propName: 'propValue',
@@ -193,6 +196,7 @@ test('comp', () => {
 Update data:
 
 ```javascript
+// javascript
 test('comp', () => {
      // update component data
      comp.setData({
@@ -204,6 +208,7 @@ test('comp', () => {
 Get child components:
 
 ```javascript
+// javascript
 test('comp', () => {
      const childComp = comp. querySelector('#child-id')
      expect(childComp.dom.innerHTML).toBe('<div>child</div>')
@@ -213,6 +218,7 @@ test('comp', () => {
 Get the list of child components:
 
 ```javascript
+// javascript
 test('comp', () => {
      const childrenComp = comp.querySelectorAll('.child-item')
      expect(childrenComp. length).toBe(3)
@@ -222,6 +228,7 @@ test('comp', () => {
 Trigger event:
 
 ```javascript
+// javascript
 test('comp', () => {
      comp.dispatchEvent('touchstart') // Trigger the touchstart event of the component
      childComp.dispatchEvent('tap') // Trigger the tap event of the child component
@@ -231,6 +238,7 @@ test('comp', () => {
 Trigger life cycle event:
 
 ```javascript
+// javascript
 test('comp', () => {
      comp.triggerLifeTime('ready') // Trigger the ready life cycle of the component
      childComp.triggerLifeTime('moved') // trigger the moved life cycle of the child component
@@ -240,6 +248,7 @@ test('comp', () => {
 Get component instance (this)
 
 ```javascript
+// javascript
 test('comp', () => {
      const that = comp.instance // Note that comp is not returned here, comp is an object encapsulated on the component instance, and what is returned here is the component instance, that is, this in the component method definition
 
@@ -269,12 +278,14 @@ Load the custom component and return componentId. There are two ways to load the
 **componentPath:** Custom component resides absolute path.
 
 ```javascript
+// javascript
 const id = simulate.load('/path/to/component')
 ```
 
 **tagName:** optional field, the dom node's tag name that should be used when the custom component is instantiated. If this field is not passed, it defaults to main.
 
 ```javascript
+// javascript
 const id = simulate.load('/path/to/component', 'custom-comp')
 const comp = simulate.render(id)
 console.log(comp.dom.tagName)
@@ -295,6 +306,7 @@ console.log(comp.dom.tagName)
 > When using karma to test, only official compilers are supported to compile WXML files, and JavaScript simulated compilers are not supported, so even if compiler: `simulate` is configured in the simulate.load method, it will not take effect.
 
 ```javascript
+// javascript
 // Don't pass tagName
 const id1 = simulate.load('/path/to/component', {
     rootPath: 'path/to/component/dir'
@@ -326,6 +338,7 @@ const id2 = simulate.load('/path/to/component', 'custom-comp', {
 | options.classPrefix | String | The private prefix of the component style, the default is an empty string, that is, there is no prefix.                                                                                                                                                        |
 
 ```javascript
+// javascript
 simulate.load({
     id: 'view',
     tagName: 'wx-view',
@@ -362,6 +375,7 @@ Render the custom component, return RootComponent.
 **properties:** Optional field, when creating component instances, the initial Properties object received by the component.
 
 ```javascript
+// javascript
 const rootComp = simulate.render(id)
 ```
 
@@ -370,6 +384,7 @@ const rootComp = simulate.render(id)
 Check whether the content of the dom node conforms to the given html structure, usually used to compare whether the rendering result is as expected.
 
 ```javascript
+// javascript
 const isMatch = simulate.match(dom, '<view>123</view>')
 ```
 
@@ -378,6 +393,7 @@ const isMatch = simulate.match(dom, '<view>123</view>')
 Delaying the execution of subsequent codes for a certain period of time is mainly used to deal with situations where it is necessary to wait for a certain period of time before performing subsequent operations. This method returns a promise object.
 
 ```javascript
+// javascript
 await simulate.sleep(300)
 ```
 
@@ -390,6 +406,7 @@ Simulate element scrolling. `destOffset` is the scroll target value; times is th
 > Times are invalid in the real browser environment, and the number of times the specific scroll event is triggered depends on the browser's implementation.
 
 ```javascript
+// javascript
 simulate.scroll(component, 100, 15)
 ```
 
@@ -414,6 +431,7 @@ Get the first node matching the given matching string, return Component instance
 > Supports selector and selectComponent interface of Mini App custom components.
 
 ```javascript
+// javascript
 const childComp = comp.querySelector('#a')
 ```
 
@@ -426,6 +444,7 @@ Get all nodes that match the given matching string, and return a list of Compone
 > Supports selector and selectAllComponents interface of Mini app custom components
 
 ```javascript
+// javascript
 const childComps = comp.querySelectorAll('.a')
 ```
 
@@ -434,6 +453,7 @@ const childComps = comp.querySelectorAll('.a')
 Call the setData method of the component instance.
 
 ```javascript
+// javascript
 comp.setData({ text: 'a' }, () => {})
 ```
 
@@ -442,6 +462,7 @@ comp.setData({ text: 'a' }, () => {})
 Used to simulate triggering events on the component instance node.
 
 ```javascript
+// javascript
 // Trigger events on nodes in the component tree
 comp.dispatchEvent('touchstart', {
   touches: [{ x: 0, y: 0 }],
@@ -461,6 +482,7 @@ comp.dispatchEvent('customevent', {
 Events triggered by external listening components.
 
 ```javascript
+// javascript
 comp.addEventListener('customevent', evt => {
     console.log(evt)
 })
@@ -471,6 +493,7 @@ comp.addEventListener('customevent', evt => {
 Used to externally unlisten for events triggered by components.
 
 ```javascript
+// javascript
 const handler = evt => {
     console.log(evt)
     comp.removeEventListener('customevent', handler)
@@ -483,6 +506,7 @@ comp.addEventListener('customevent', handler)
 Triggers a lifecycle hook for a component instance.
 
 ```javascript
+// javascript
 comp.triggerLifeTime('moved', {test: 'xxx'})
 ```
 
@@ -491,6 +515,7 @@ comp.triggerLifeTime('moved', {test: 'xxx'})
 Triggers a lifecycle hook for the page configured in the component instance.
 
 ```javascript
+// javascript
 comp.triggerPageLifeTime('show', {test: 'xxx'})
 ```
 
@@ -499,6 +524,7 @@ comp.triggerPageLifeTime('show', {test: 'xxx'})
 Generate a JSON tree from the node tree under the node component.
 
 ```javascript
+// javascript
 comp.toJSON()
 ```
 
@@ -513,6 +539,7 @@ Root component, inherited from Component. That is to say, all attributes/interfa
 Mount the root component instance on the passed dom node.
 
 ```javascript
+// javascript
 const parent = document.createElement('div')
 rootComp.attach(parent)
 ```
@@ -522,6 +549,7 @@ rootComp.attach(parent)
 Remove the root component instance from the parent dom node.
 
 ```javascript
+// javascript
 rootComp.detach()
 ```
 
@@ -538,6 +566,7 @@ Suppose the template of the custom component comp is:
 ```
 
 ```javascript
+// javascript
 simulate.load('/comp') // The rendered result is <comp><wx-view class="main--abc">123</wx-view></comp>
 simulate.load('/comp', 'custom-comp') // The rendered result is <comp><wx-view class="custom-comp--abc">123</wx-view></comp 
 ```
@@ -592,6 +621,7 @@ With this absolute path writing method, it will start looking for the correspond
 A wx object will be injected into the Mini app running environment, which provides various interfaces for development and use. However, this test environment runs on nodejs, and there is no underlying implementation of these interfaces, so developers simulate the interfaces they will use when writing test cases, for example:
 
 ```javascript
+// javascript
 const simulate = require('miniprogram-simulate');
 
 test('test some', () => {
@@ -610,6 +640,7 @@ The data that needs to be returned by the interface can also be drawn up by the 
 Officially provided view, image, etc. are all built-in components. Currently, the built-in components provided in this test environment are only used for ordinary rendering and have not implemented any functions. If these built-in components do not meet your needs, you can rewrite the built-in components yourself. Override built-in components provided in this test environment, for example:
 
 ```javascript
+// javascript
 simulate.load({
      id: 'view',
      tagName: 'wx-view',

@@ -50,6 +50,7 @@ mode has 13 modes: 4 zooming modes and 9 cropping modes.
 ### Sample Code
 
 ```javascript
+// javascript
 Page({
   data: {
     array: [{

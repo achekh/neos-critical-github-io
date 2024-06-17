@@ -50,6 +50,7 @@ To scroll vertically, you need to set a fixed height for `<scroll-view>` through
 ### Sample code
 
 ```javascript
+// javascript
 const order = ['red', 'yellow', 'blue', 'green', 'red']
 Page({
   data: {

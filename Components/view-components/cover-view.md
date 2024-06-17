@@ -34,6 +34,7 @@ A native component that supports same-layer rendering, and it is recommended to 
 ### Sample code
 
 ```javascript
+// javascript
 Page({
   onShareAppMessage() {
     return {

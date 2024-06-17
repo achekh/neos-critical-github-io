@@ -113,6 +113,7 @@ The class and style attributes are supported globally, but the `id` **attribute*
 ### Sample code
 
 ```javascript
+// javascript
 Page({
   data: {
     nodes: [{

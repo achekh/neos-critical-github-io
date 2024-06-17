@@ -25,6 +25,7 @@ grand_parent: "Components"
 ### Sample code
 
 ```javascript
+// javascript
 Page({
   data: {
     items: [

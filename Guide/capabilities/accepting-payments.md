@@ -135,6 +135,7 @@ Response results:
 ### Request the payment (from the Mini App):
 
 ```javascript
+// javascript
 var opts = {
   api_name: 'requestPayment', // api name
   success: function(res) {},

@@ -65,6 +65,7 @@ When the view changes, `regionchange` will be triggered twice and return the typ
 The `setting` object provides map configuration.
 
 ```javascript
+// javascript
 // Default value
 const setting = {
   rotate: 0,

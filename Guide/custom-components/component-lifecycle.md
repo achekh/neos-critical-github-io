@@ -33,6 +33,7 @@ Component lifecycle can also be declared in the `lifetimes` field (this is the r
 ### Sample code:
 
 ```javascript
+// javascript
 Component({
   lifetimes: {
 		attached() {
@@ -79,6 +80,7 @@ There are also some special lifecycle functions. They are not strongly associate
 ### Sample code:
 
 ```javascript
+// javascript
 Component({
   pageLifetimes: {
 		show() {

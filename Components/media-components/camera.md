@@ -99,6 +99,7 @@ The user should 'authorize' `scope.camera`.
 ### Sample code
 
 ```javascript
+// javascript
 Page({
   takePhoto() {
     const ctx = wx.createCameraContext()

@@ -79,6 +79,7 @@ Events that change the page size can be listened for by using the page's `onResi
 ### Sample code:
 
 ```javascript
+// javascript
 Page({
   onResize(res) {
     res.size.windowWidth // New display area width
@@ -88,6 +89,7 @@ Page({
 ```
 
 ```javascript
+// javascript
 Component({
   pageLifetimes: {
     resize(res) {

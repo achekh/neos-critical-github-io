@@ -36,6 +36,7 @@ Below is a simple example:
 ```
 
 ```javascript
+// javascript
 // This is our App Service.
 // This is our data.
 const helloData = {

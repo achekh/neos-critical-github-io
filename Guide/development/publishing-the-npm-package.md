@@ -50,6 +50,7 @@ If some already published npm packages cannot be transformed into the structure 
 > Some Node.js built-in libraries implemented in pure JS (such as the path module) can be supported by additionally installing npm packages implemented by other developers.
 
 ```javascript
+// javascript
 const addon = require('./addon.node'); // Not supported
 const http = require('http'); // Not supported
 ```
@@ -57,6 +58,7 @@ const http = require('http'); // Not supported
 1. The following methods are also not allowed when the require dependency is used:
 
 ```javascript
+// javascript
 // It is not allowed to assign `require` to other variables before using it. For example, the following code will not parse the dependencies:
 let r;
 r = require;

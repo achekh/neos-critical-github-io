@@ -26,6 +26,7 @@ When the user clicks the [button](doc:button) component whose `form-type` is `su
 ### Sample code
 
 ```javascript
+// javascript
 Page({
   formSubmit(e) {
   	console.log('A submit event occurred in `form`, which carried the data', e.detail.value)

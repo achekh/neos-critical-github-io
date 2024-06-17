@@ -57,6 +57,7 @@ The generated component instance can be accessed via `this` in the component's m
 **Sample code:**
 
 ```javascript
+// javascript
 Component({
   behaviors: [],
   properties: {

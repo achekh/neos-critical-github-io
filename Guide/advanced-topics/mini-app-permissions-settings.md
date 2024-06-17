@@ -17,6 +17,7 @@ grand_parent: "Guide"
 To direct the user to the Mini App permissions settings screen from the Mini App, use the following code:
 
 ```javascript
+// javascript
 var opts = {
    api_name: 'openSetting', // api name
    success: function(res) {},

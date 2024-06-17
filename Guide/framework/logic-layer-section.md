@@ -57,6 +57,7 @@ Mini App closing: When the user enters the Mini App through methods such as QR c
 #### Sample code:
 
 ```javascript
+// javascript
 App({
   onLaunch(options) {
     // Do something initial when launch.
@@ -105,6 +106,7 @@ Triggered when the page of the Mini App to be opened does not exist.
 #### Sample code:
 
 ```javascript
+// javascript
 App({
   onPageNotFound(res) {
     wx.redirectTo({
@@ -127,6 +129,7 @@ The global `getApp()` function can be used to get the `App` instance of the Mini
 #### Sample code:
 
 ```javascript
+// javascript
 
 const appInstance = getApp()
 console.log(appInstance.globalData)
@@ -175,6 +178,7 @@ The `Page(Object)` function is used to register a page. It accepts an `Object` p
 #### Sample code:
 
 ```javascript
+// javascript
 // index.js
 Page({
   data: {
@@ -255,6 +259,7 @@ The rendering layer can bind data through _WXML_.
 ```
 
 ```javascript
+// javascript
 Page({
   data: {
     text: 'init data',
@@ -349,6 +354,7 @@ This event needs to return an object, which is used to customize the favorite co
 **Sample code**
 
 ```javascript
+// javascript
 Page({
   onAddToFavorites: function(res) {
     console.log('webviewUrl', res.webviewUrl);
@@ -402,6 +408,7 @@ It is used to specify the type of sharing. Currently, there are two types: shari
 ### Sample code
 
 ```javascript
+// javascript
 Page({
   onShareAppMessage(res) {
     if (res.from === "button") {
@@ -436,6 +443,7 @@ Triggered when a tab is clicked.
 ### Sample code:
 
 ```javascript
+// javascript
 Page({
   onTabItemTap(item) {
     console.log(item.index);
@@ -472,6 +480,7 @@ Page({
 Path of the current page, which is of `String` type.
 
 ```javascript
+// javascript
 Page({
   onShow() {
     console.log(this.route)
@@ -522,6 +531,7 @@ The `setData` function is used to send data from the logic layer to the view lay
 {% endraw %}
 ```
 ```javascript
+// javascript
 // index.js
 Page({
   data: {

@@ -43,6 +43,7 @@ Checkbox-group is a multiple selector that internally consists of multiple [chec
 ### Sample code
 
 ```javascript
+// javascript
 Page({
   data: {
     items: [

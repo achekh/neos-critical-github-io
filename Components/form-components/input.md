@@ -71,6 +71,7 @@ Input component is a native component, so you should keep in mind relevant limit
 ### Sample code
 
 ```javascript
+// javascript
 Page({
   data: {
     focus: false,

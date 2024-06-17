@@ -82,6 +82,7 @@ The global application instance can be obtained through the global function `get
 For example:
 
 ```javascript
+// javascript
 // app.js
 App({
   globalData: 1
@@ -89,6 +90,7 @@ App({
 ```
 
 ```javascript
+// javascript
 // a.js
 // The localValue can only be used in file a.js.
 const localValue = 'a'
@@ -99,6 +101,7 @@ app.globalData++
 ```
 
 ```javascript
+// javascript
 // b.js
 // You can redefine localValue in file b.js, without interference with the localValue in a.js.
 const localValue = 'b'
@@ -130,6 +133,7 @@ Some common code can be extracted into a separate JS file as a module. Modules c
 In the files that need to use these modules, use require(path) to import the common code:
 
 ```javascript
+// javascript
 const common = require('common.js')
 Page({
   helloMINA() {

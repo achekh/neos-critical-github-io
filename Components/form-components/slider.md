@@ -37,6 +37,7 @@ The slider component lets users perform selection by moving the slider within a 
 ### Sample code
 
 ```javascript
+// javascript
 const pageData = {}
 for (let i = 1; i < 5; i++) {
   (function (index) {

@@ -69,6 +69,7 @@ You can do a simple polyfill to fix some global variables used when `lodash` is 
 Under normal circumstances, as long as you redefine the global object, you can use the features of lodash properly. Note that the **redefined code must be imported before** `lodash` is referenced. The sample code is as follows:
 
 ```javascript
+// javascript
 // fix-lodash.js
 
 global.Object = Object;
@@ -104,6 +105,7 @@ global.setTimeout = setTimeout;
 As long as you reference the file reassigning a value to global above before importing `lodash` in the page file, you can use the features of `lodash` normally. The sample code is as follows:
 
 ```javascript
+// javascript
 import "./fix-lodash.js";
 import _ from "../miniprogram_npm/lodash/index";
 

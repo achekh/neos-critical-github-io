@@ -27,7 +27,8 @@ The samples below demonstrate what WXML is capable of.:
   <view>{{message}}</view>
   {% endraw %}
   ```
-  ```javascript
+```javascript
+// javascript
   // page.js
   Page({
     data: {
@@ -42,7 +43,8 @@ The samples below demonstrate what WXML is capable of.:
   <view wx:for="{{array}}">{{item}}</view>
   {% endraw %}
   ```
-  ```javascript
+```javascript
+// javascript
   // page.js
   Page({
     data: {
@@ -59,7 +61,8 @@ The samples below demonstrate what WXML is capable of.:
   <view wx:else="{{view == 'MINA'}}">MINA</view>
   {% endraw %}
   ```
-  ```javascript
+```javascript
+// javascript
   // page.js
   Page({
     data: {
@@ -81,7 +84,8 @@ The samples below demonstrate what WXML is capable of.:
   <template is="staffName" data="{{...staffC}}"></template>
   {% endraw %}
   ```
-  ```javascript
+```javascript
+// javascript
   // page.js
   Page({
     data: {
@@ -98,7 +102,8 @@ The samples below demonstrate what WXML is capable of.:
    <view bindtap="add">{{count}}</view>
    {% endraw %}
   ```
-  ```javascript
+```javascript
+// javascript
   Page({
     data: {
   	count: 1, 
@@ -130,6 +135,7 @@ Data binding uses the Mustache syntax (double curly brackets) to wrap the variab
  {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
     message: 'Hello MINA!',
@@ -146,6 +152,7 @@ Page({
  {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
 		id: 0, 
@@ -162,6 +169,7 @@ Page({
  {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
     condition: true,
@@ -208,6 +216,7 @@ You can implement simple operations in {{}} . This syntax supports the following
  {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
     a: 1,
@@ -237,6 +246,7 @@ The content in view is `3 + 3 + d`.
 {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
     name: 'MINA',
@@ -253,6 +263,7 @@ Page({
 {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
     object: {
@@ -276,6 +287,7 @@ You can also directly implement combinations in Mustache syntax to build new obj
 {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
 		zero: 0, 
@@ -294,6 +306,7 @@ The final result is the array `[0, 1, 2, 3, 4]`.
 {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
 		a: 1,
@@ -313,6 +326,7 @@ You can also use the extended operator `...` to extend the object.
 {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
     obj1: {
@@ -338,6 +352,7 @@ If the object's `key` and `value` are identical, this can be indirectly expresse
 {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
     foo: 'my-foo',
@@ -417,6 +432,7 @@ The subscript variable name of the current item of the default array defaults to
 {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
 		array: [ 
@@ -503,6 +519,7 @@ When a data change triggers re-rendering at the rendering layer, the components 
 {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
     objectArray: [
@@ -681,6 +698,7 @@ Use the `is` attribute to declare the template to be used. Then, pass the data n
 {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   data: {
     item: {
@@ -738,6 +756,7 @@ For example, if the event is `bindtap`, the event handler can be found in the Pa
 - Write the event handler in the Page definition with event as the parameter.
 
 ```javascript
+// javascript
 Page({
   tapName(event) {
     console.log(event)
@@ -748,6 +767,7 @@ Page({
 - The log content is as follows:
 
 ```javascript
+// javascript
 {
   "type": "tap",
     "timeStamp": 895,
@@ -806,6 +826,7 @@ The WXS function accepts two parameters. One is `event`, with an additional `eve
 - The `test.wxs` file implements the `tapName` function.
 
 ```javascript
+// javascript
 function tapName(event, ownerInstance) {
   console.log('tap wechat', JSON.stringify(event))
 }
@@ -993,6 +1014,7 @@ You can customize data in the component, which will be passed to the service thr
 {% endraw %}
 ```
 ```javascript
+// javascript
 Page({
   bindViewTap(event) {
     event.currentTarget.dataset.alphaBeta === 1 // `-` converts to camel case.
@@ -1049,6 +1071,7 @@ The solution is about reducing the number of rounds of communication to respond 
 The [WXS]\(Need to add link) function can only be used to respond to the events of built-in components of a Mini App and does not support custom component events. In addition to purely logic operations, the WXS function can also access and set the class and style of a component through the encapsulated `ComponentDescriptor` instance. Setting the style and class is sufficient for interactive animations. The following is an example of the WXS function:
 
 ```javascript
+// javascript
 const wxsFunction = function(event, ownerInstance) {
   const instance = ownerInstance.selectComponent('.classSelector') // Return the instance of the component
   instance.setStyle({
@@ -1102,6 +1125,7 @@ The `change:prop` above (an attribute prefixed by `change:`) triggers the WXS fu
 The event handler and the functions triggered when attributes are changed are defined in and exported from the WXS file `test.wxs`:
 
 ```javascript
+// javascript
 module.exports = {
   touchmove(event, instance) {
     console.log('log event', JSON.stringify(event))

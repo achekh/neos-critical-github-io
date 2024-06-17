@@ -29,6 +29,7 @@ A component that hosts the [moveable-view](doc:movable-view).
 ### Sample code
 
 ```javascript
+// javascript
 Page({
   data: {
     x: 0,

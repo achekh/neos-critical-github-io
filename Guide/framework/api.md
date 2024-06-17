@@ -23,6 +23,7 @@ It is agreed that APIs starting with `on` are used to listen whether an event is
 ## Sample code
 
 ```javascript
+// javascript
 wx.onCompassChange(function (res) {
   console.log(res.direction)
 })
@@ -37,6 +38,7 @@ The execution result of a sync API is directly obtained through the returned val
 ### Sample code
 
 ```javascript
+// javascript
 try {
   wx.setStorageSync('key', 'value')
 } catch (e) {
@@ -72,6 +74,7 @@ The execution result of an async API needs to be obtained through the correspond
 ### Sample code
 
 ```javascript
+// javascript
 wx.login({
   success(res) {
     console.log(res.code)

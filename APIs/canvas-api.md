@@ -83,6 +83,7 @@ Exports the content of the specified area on the current canvas as an image of t
 ## Sample code
 
 ```javascript
+// javascript
 wx.canvasToTempFilePath({
   x: 100,
   y: 200,
@@ -124,6 +125,7 @@ Draws pixel data on the canvas. In a custom component, pass in the `this` of the
 ### Sample code
 
 ```javascript
+// javascript
 const data = new Uint8ClampedArray([255, 0, 0, 1])
 wx.canvasPutImageData({
   canvasId: 'myCanvas',
@@ -176,6 +178,7 @@ The pixel data of the image, which is a one-dimensional array. Every four items 
 ### Sample code
 
 ```javascript
+// javascript
 wx.canvasGetImageData({
   canvasId: 'myCanvas',
   x: 0,
@@ -489,6 +492,7 @@ Sets the endpoint style of the line.
 ### Sample code
 
 ```javascript
+// javascript
 const ctx = wx.createCanvasContext('myCanvas')
 ctx.beginPath()
 ctx.moveTo(10, 10)

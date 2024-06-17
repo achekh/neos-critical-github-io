@@ -24,6 +24,7 @@ Most commonly, it is used to query the current position of a node and the scroll
 ### Sample code:
 
 ```javascript
+// javascript
 const query = wx.createSelectorQuery()
 query.select('#the-id').boundingClientRect(function (res) {
   res.top // Top boundary coordinate of the `#the-id` node (relative to the display area)
@@ -55,6 +56,7 @@ In the following sample code, the callback function is triggered every time the 
 ### Sample code:
 
 ```javascript
+// javascript
 Page({
   onLoad() {
     wx.createIntersectionObserver().relativeToViewport().observe('.target-class', (res) => {
@@ -74,6 +76,7 @@ Page({
 In the following sample code, the target node (specified with the `.target-class` selector) and the reference node (specified with the `.relative-class selector`) can be intersected or separated within the display area of the page, and when the ratio of intersection or separation reaches 20% or 50% of the target node's layout area, callback functions will be triggered.
 
 ```javascript
+// javascript
 Page({
   onLoad() {
     wx.createIntersectionObserver(this, {

@@ -38,6 +38,7 @@ grand_parent: "Components"
 ### Sample Code
 
 ```javascript
+// javascript
 const initData = 'this is first line\nthis is second line'
 const extraLine = []
 Page({

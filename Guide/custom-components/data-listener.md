@@ -16,6 +16,7 @@ grand_parent: "Guide"
 A data listener (or observer) can be used to listen for and respond to changes in any attribute or data field. Sometimes, certain operations need to be performed when certain data fields are set by `setData`. For example, `this.data.sum` is always the sum of `this.data.numberA` and `this.data.numberB`. In this case, you can use a data listener for the following implementation:
 
 ```javascript
+// javascript
 Component({
     attached: function() {
       this.setData({
@@ -39,6 +40,7 @@ Component({
 A data listener can listen for changes in multiple attributes or internal data items. A `setData` operation triggers a listener at most once. In addition, a listener can listen for child data fields as shown in the following example:
 
 ```javascript
+// javascript
 Component({
     observers: {
       'some.subfield': function(subfield) {
@@ -58,6 +60,7 @@ Component({
 If you want to listen for changes in all child data fields, you can use the wildcard \*\*.
 
 ```javascript
+// javascript
 Component({
     observers: {
       'some.field.**': function(field) {
@@ -86,6 +89,7 @@ Component({
 In particular, all `setData` operations can be listened for by using only the wildcard \*\*.
 
 ```javascript
+// javascript
 Component({
     observers: {
       '**': function() {

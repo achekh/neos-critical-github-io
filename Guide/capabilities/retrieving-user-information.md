@@ -19,6 +19,7 @@ grand_parent: "Guide"
 The first step of retrieving the user's information is to call `wx.login()` from the Mini App, you will get back a code for the user, you can exchange this code with the user's information through backend calls:
 
 ```javascript
+// javascript
 wx.login({
   success(res) {
     console.log(res.code)

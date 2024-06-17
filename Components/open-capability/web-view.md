@@ -47,6 +47,7 @@ On a `<web-view>` webpage, you can use APIs provided by JSSDK to return to a min
 ### Sample Code
 
 ```javascript
+// javascript
 // <script type="text/javascript" src="https://res.wx.tonomus.com/open/js/jssdk-1.3.2.js"></script>
 
 // javascript

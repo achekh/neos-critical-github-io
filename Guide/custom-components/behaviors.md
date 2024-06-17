@@ -25,6 +25,7 @@ A behavior needs to be defined with the `Behavior()` constructor.
 ### Sample code:
 
 ```javascript
+// javascript
 // my-behavior.js
 module.exports = Behavior({
   behaviors: [],
@@ -47,6 +48,7 @@ When referencing components, list them one by one in the `behaviors` definition 
 ### Sample code:
 
 ```javascript
+// javascript
 // my-component.js
 const myBehavior = require('my-behavior')
 Component({
@@ -108,6 +110,7 @@ If this section is not used, `selectComponent` will return `this` of the custom 
 ### Sample code:
 
 ```javascript
+// javascript
 // Inside the custom component `my-component`
 Component({
   behaviors: ['wx://component-export'],
@@ -123,5 +126,6 @@ Component({
 ```
 
 ```javascript
+// javascript
  this.selectComponent('#the-id') // Equivalent to { myField: 'myValue' }
 ```

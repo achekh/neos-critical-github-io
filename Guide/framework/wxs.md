@@ -49,6 +49,7 @@ The following are simple examples of WXS:
 ### Data processing
 
 ```javascript
+// javascript
 // page.js
 Page({
   data: {
@@ -102,6 +103,7 @@ In **Super Hub Mini App Studio**, right-click to create a `.wxs` file. You can w
 ### Sample code:
 
 ```javascript
+// javascript
 // /pages/comm.wxs
 var foo = "'hello world' from comm.wxs"
 var bar = function(d) {
@@ -125,6 +127,7 @@ Each `wxs` module contains a built-in `module` object.
 ### Sample code:
 
 ```javascript
+// javascript
 // /pages/tools.wxs
 var foo = "'hello world' from tools.wxs"
 var bar = function(d) {
@@ -165,6 +168,7 @@ When referencing another `wxs` file module, you must note the following:
 ### Sample code:
 
 ```javascript
+// javascript
 // /pages/tools.wxs
 var foo = "'hello world' from tools.wxs"
 var bar = function(d) {
@@ -177,6 +181,7 @@ module.exports.msg = 'some msg'
 ```
 
 ```javascript
+// javascript
 // /pages/logic.wxs
 var tools = require('./tools.wxs')
 console.log(tools.FOO)
@@ -250,6 +255,7 @@ When referencing another `wxs` file module, you must note the following:
 ### Sample code:
 
 ```javascript
+// javascript
 // /pages/index/index.js
 Page({
   data: {
@@ -296,6 +302,7 @@ In the above sample, the `<wxs>` tag is used to reference the `/page/comm.wxs` m
 - The `var` performance is consistent with JavaScript and variable hoisting is performed.
 
 ```javascript
+// javascript
 var foo = 1
 var bar = 'hello world'
 var i // i === undefined
@@ -368,6 +375,7 @@ In the above sample, all WXS code is annotated.
 #### Sample code:
 
 ```javascript
+// javascript
 var a = 10, b = 20
 // Addition
 console.log(30 === a + b)
@@ -384,6 +392,7 @@ console.log(10 === a % b)
 - The addition operation (`+`) can also be used to concatenate strings.
 
 ```javascript
+// javascript
 var a = '.q', b = 's'
 // String concatenation
 console.log('.wxs' === a + b)
@@ -394,6 +403,7 @@ console.log('.wxs' === a + b)
 #### Sample code:
 
 ```javascript
+// javascript
 var a = 10, b = 20
 // Auto increment
 console.log(10 === a++)
@@ -422,6 +432,7 @@ console.log('number' === typeof a)
 #### Sample code:
 
 ```javascript
+// javascript
 var a = 10, b = 20
 // Left shift
 console.log(80 === a << 3)
@@ -442,6 +453,7 @@ console.log(11 === (a | 3))
 #### Sample code:
 
 ```javascript
+// javascript
 var a = 10, b = 20
 // Less than
 console.log(true === a < b)
@@ -458,6 +470,7 @@ console.log(false === a >= b)
 #### Sample code:
 
 ```javascript
+// javascript
 var a = 10, b = 20
 // Equal sign
 console.log(false === (a == b))
@@ -474,6 +487,7 @@ console.log(true === (a !== b))
 #### Sample code:
 
 ```javascript
+// javascript
 var a = 10
 a = 10
 a *= 10
@@ -515,6 +529,7 @@ console.log(11 === a)
 #### Sample code:
 
 ```javascript
+// javascript
 var a = 10, b = 20
 // Logical AND
 console.log(20 === (a && b))
@@ -527,6 +542,7 @@ console.log(10 === (a || b))
 #### Sample code:
 
 ```javascript
+// javascript
 var a = 10, b = 20
 //Conditional operator
 console.log(20 === (a >= 10 ? a + 10 : b + 10))
@@ -602,6 +618,7 @@ In WXS, you can use `if` statements in the following formats:
 ### Sample syntax:
 
 ```javascript
+// javascript
 // if ...
 if (expression) statement
 if (expression) statement
@@ -635,6 +652,7 @@ if (expression) {
 Sample syntax:
 
 ```javascript
+// javascript
 switch (expression) {
   case variable:
     statement;
@@ -654,6 +672,7 @@ switch (expression) {
 ### Sample code:
 
 ```javascript
+// javascript
 var exp = 10;
 switch (exp) {
   case "10":
@@ -681,6 +700,7 @@ number 10
 Sample syntax:
 
 ```javascript
+// javascript
 for (statement; statement; statement) statement
 for (statement; statement; statement) {
   code block
@@ -692,6 +712,7 @@ for (statement; statement; statement) {
 ### Sample code:
 
 ```javascript
+// javascript
 for (var i = 0; i < 3; ++i) {
   console.log(i)
   if (i >= 1) break
@@ -710,6 +731,7 @@ for (var i = 0; i < 3; ++i) {
 Sample syntax:
 
 ```javascript
+// javascript
 while (expression) statement
 while (expression) {
   code block
@@ -742,6 +764,7 @@ The WXS language currently supports the following data types:
 There are two types of numbers: integers and decimals.
 
 ```javascript
+// javascript
 var a = 10
 var PI = 3.141592653589793
 ```
@@ -768,6 +791,7 @@ var PI = 3.141592653589793
 There are two ways to write a string:
 
 ```javascript
+// javascript
 'hello world'
 "hello world"
 ```
@@ -827,6 +851,7 @@ Boolean values can take either of the two values: `true` and `false`.
 An object is a type of unordered key-value pair, which can be used in the following ways:
 
 ```javascript
+// javascript
 var o = {} // Generate a new empty object
 // Generate a new non-empty object
 o= {
@@ -851,6 +876,7 @@ console.log(13 === o.const_var)
 - `constructor` : Returns the string `"Object"`.
 
 ```javascript
+// javascript
 console.log('Object' === { k: '1', v: '2' }.constructor)
 ```
 
@@ -865,6 +891,7 @@ console.log('Object' === { k: '1', v: '2' }.constructor)
 `function` supports the following definition methods:
 
 ```javascript
+// javascript
 //Method 1
 function a(x) {
 return x 
@@ -879,6 +906,7 @@ var b = function(x) {
 `function` also supports the following syntax (anonymous functions, closures, etc.):
 
 ```javascript
+// javascript
 var a = function(x) {
   return function() {
 		return x 
@@ -899,6 +927,7 @@ In `function` , you can use the `arguments` keyword. This keyword only has the f
 #### Sample code:
 
 ```javascript
+// javascript
 var a = function() {
   console.log(3 === arguments.length)
   console.log(100 === arguments[0])
@@ -921,6 +950,7 @@ a(100, 200, 300)
 #### Sample code:
 
 ```javascript
+// javascript
 var func = function(a, b, c) {}
 console.log('Function' === func.constructor)
 console.log(3 === func.length)
@@ -935,6 +965,7 @@ console.log('[function Function]' === func.toString())
 `array` supports the following definition methods:
 
 ```javascript
+// javascript
 var a = [] //Generate a new empty array
 
 a = [1, '2', {}, function() {}] //Generate a new non-empty array, with array elements of any type
@@ -979,6 +1010,7 @@ a = [1, '2', {}, function() {}] //Generate a new non-empty array, with array ele
 Generates the `getDate` function required by the `date` object and returns a current time object.
 
 ```javascript
+// javascript
 getDate()
 getDate(milliseconds)
 getDate(datestring)
@@ -993,6 +1025,7 @@ getDate(year, month[, date[, hours[, minutes[, seconds[, milliseconds]]]]])
 #### Sample code:
 
 ```javascript
+// javascript
 var date = getDate() //Return the current time object
 
 date = getDate(1500000000000)
@@ -1064,6 +1097,7 @@ date = getDate(2017, 6, 14, 10, 40, 0, 0)
 Generates the `getRegExp` function to be used by the `regexp` object.
 
 ```javascript
+// javascript
 getRegExp(pattern[, flags])
 ```
 
@@ -1077,6 +1111,7 @@ getRegExp(pattern[, flags])
 #### Sample code:
 
 ```javascript
+// javascript
 var a = getRegExp('x', 'img')
 console.log('x' === a.source)
 console.log(true === a.global)
@@ -1112,6 +1147,7 @@ You can use the `constructor` attribute to determine the data type.
 #### Sample code:
 
 ```javascript
+// javascript
 var number = 10
 console.log('Number' === number.constructor)
 var string = 'str'
@@ -1137,6 +1173,7 @@ You can also use `typeof` to distinguish certain data types.
 #### Sample code:
 
 ```javascript
+// javascript
 var number = 10
 var boolean = true
 var object = {}
@@ -1209,6 +1246,7 @@ The `console.log` method is used to output messages in the console window. This 
 #### Sample code:
 
 ```javascript
+// javascript
 console.log(undefined === JSON.stringify())
 console.log(undefined === JSON.stringify(undefined))
 console.log('null' === JSON.stringify(null))

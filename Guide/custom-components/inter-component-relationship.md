@@ -28,6 +28,7 @@ Sometimes, it is necessary to implement components like the following:
 In this sample, `custom-ul` and `custom-li` are both custom components, which have a mutual relationship and often involve complicated communication. At this time, adding the `relations` definition section when the components are defined can solve this problem. Sample:
 
 ```javascript
+// javascript
 // path/to/custom-ul.js
 Component({
   relations: {
@@ -60,6 +61,7 @@ Component({
 ```
 
 ```javascript
+// javascript
 // path/to/custom-li.js
 Component({
   relations: {
@@ -89,6 +91,7 @@ Component({
 Sometimes, a class of components needs to be associated; for example:
 
 ```javascript
+// javascript
 <custom-form>
   <view>
 input
@@ -101,6 +104,7 @@ input
 You want to associate the `custom-form` component with two components: `custom-input` and `custom-submit`. In this case, if both components have the same behavior:
 
 ```javascript
+// javascript
 // path/to/custom-form-controls.js
 module.exports = Behavior({
   // ...
@@ -108,6 +112,7 @@ module.exports = Behavior({
 ```
 
 ```javascript
+// javascript
 // path/to/custom-input.js
 const customFormControls = require('./custom-form-controls')
 Component({
@@ -121,6 +126,7 @@ Component({
 ```
 
 ```javascript
+// javascript
 // path/to/custom-submit.js
 const customFormControls = require('./custom-form-controls')
 Component({
@@ -136,6 +142,7 @@ Component({
 Then, in the `relations` definition, you can use this behavior instead of the component path as the associated target node:
 
 ```javascript
+// javascript
 // path/to/custom-form.js
 const customFormControls = require('./custom-form-controls')
 Component({

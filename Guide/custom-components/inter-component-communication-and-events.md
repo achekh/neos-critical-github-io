@@ -38,6 +38,7 @@ The method of listening for custom component events is exactly the same as that 
 ```
 
 ```javascript
+// javascript
 Page({
   onMyEvent(e) {
     e.detail // The `detail` object provided when the custom component triggers an event
@@ -55,6 +56,7 @@ When a custom component triggers an event, you need to use the `triggerEvent` me
 ```
 
 ```javascript
+// javascript
 Component({
   properties: {},
   methods: {
@@ -98,6 +100,7 @@ For the concepts of bubbling and capture phase, see [Event](doc:wxml#event).
 ```
 
 ```javascript
+// javascript
 // `my-component.js` of the component
 Component({
   methods: {

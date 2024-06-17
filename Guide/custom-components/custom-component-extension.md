@@ -19,6 +19,7 @@ In order to better customize the features of a custom component, you can use the
 ## Extended effect
 
 ```javascript
+// javascript
 // behavior.js
 module.exports = Behavior({
   definitionFilter(defFields) {
@@ -46,6 +47,7 @@ The `Behavior()` constructor provides the new definition section `definitionFilt
 ### Below is a sample:
 
 ```javascript
+// javascript
 // behavior3.js
 module.exports = Behavior({
   definitionFilter(defFields, definitionFilterArr) {},
@@ -81,6 +83,7 @@ In summary, the definitionFilter function can be understood as when A uses B, th
 The following uses an extension to simply implement the feature of calculating attributes of a custom component:
 
 ```javascript
+// javascript
 // behavior.js
 module.exports = Behavior({
   lifetimes: {
@@ -121,6 +124,7 @@ module.exports = Behavior({
 Use the following in the component:
 
 ```javascript
+// javascript
 const beh = require('./behavior.js')
 Component({
   behaviors: [beh],

@@ -35,6 +35,7 @@ Due to the limitations of the implementation mechanism, the log content printed 
 - Objects with circular references cannot be printed.
 
 ```javascript
+// javascript
 const a = {}
 a.b = a
 console.log(a)
@@ -43,6 +44,7 @@ console.log(a)
 #### In response to the above problems, the mini app's use of vConsole has been fine-tuned:
 
 ```javascript
+// javascript
 const circular = {x: {}, c: {}}
 circular.x = [{promise: Promise.resolve()}]
 circular.a = circular

@@ -49,6 +49,7 @@ After creating the above files, you will be able to start developing your page. 
 ### JavaScript file structure
 
 ```javascript
+// javascript
 // page.js
 Page({
   data: {
@@ -107,6 +108,7 @@ Page({
 When you want to change the data declared in the `Page`  method call object, you need to call `this.setData()` and provide it with the new data value:
 
 ```javascript
+// javascript
 // page.js
 Page({
   data: {

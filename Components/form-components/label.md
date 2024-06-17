@@ -23,6 +23,7 @@ You can use the `for` attribute to match the corresponding ID or place the targe
 ### Sample code
 
 ```javascript
+// javascript
 Page({
   data: {
     checkboxItems: [

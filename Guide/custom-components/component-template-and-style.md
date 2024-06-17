@@ -80,6 +80,7 @@ The slot `node` can be included in the `wxml` of a component, which is used to s
 By default, there can be only one slot in the component's `wxml`. If you need to use multiple slots, you can declare and enable them in the component's `js`.
 
 ```javascript
+// javascript
 Component({
   options: {
     multipleSlots: true // Enable multiple slots in the options of component definition.
@@ -169,6 +170,7 @@ This feature can be used to implement the `hover-class` attribute similar to the
 > Avoid using an ordinary style class and an external style class on the same node because their priorities are not defined.
 
 ```javascript
+// javascript
 /* Component custom-component.js */
 Component({
   externalClasses: ['my-class']
@@ -220,6 +222,7 @@ To activate the `addGlobalClass` option, simply set the `options.addGlobalClass`
 **Note: When the `addGlobalClass` option is activated, there is a risk of external styles contaminating component styles. You should exercise caution.**
 
 ```javascript
+// javascript
 /* `custom-component.js` of the component */
 Component({
   options: {
