@@ -11,14 +11,16 @@ updatedAt: "Fri Jul 14 2023 11:24:31 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
 has_children: true
+has_toc: false
+nav_order: 8
 ---
 # Backend assisted capabilities 
 *** 
 This section goes over the Mini App capabilities that require backend integration:
 
-- [Sending push notifications](doc:sending-push-notifications)
-- [Retrieving user information](doc:retrieving-user-information)
-- [Accepting payments](doc:accepting-payments)
+- [Sending push notifications](capabilities/sending-push-notifications)
+- [Retrieving user information](capabilities/retrieving-user-information)
+- [Accepting payments](capabilities/accepting-payments)
 
 ## API requests
 
@@ -42,7 +44,8 @@ Signing steps:
 
 Code sample:
 
-```javascript NodeJS
+```javascript
+// NodeJS
 import { createHash } from 'crypto';
 
 // List all parameters except of sign:

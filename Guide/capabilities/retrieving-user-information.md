@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:24:59 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Backend assisted capabilities"
 grand_parent: "Guide"
+nav_order: 2
 ---
 # Retrieving user information 
 *** 
