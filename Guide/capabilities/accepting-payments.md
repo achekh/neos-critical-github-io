@@ -27,11 +27,11 @@ Request Parameter:
 | Parameter | Type | Required | Description | Remark |
 | :-------- | :----- | :---- | :------------ | :---------------------------------- |
 | appid | String | Yes | Mini App ID |  |
-| merchantId | String | No | Merchant ID | If it is empty, it will be searched  \naccording to the Mini App ID first, if it is not found, it will be automatically generated according to the Mini App ID. |
+| merchantId | String | No | Merchant ID | If it is empty, it will be searched  <br>according to the Mini App ID first, if it is not found, it will be automatically generated according to the Mini App ID. |
 | description | String | No | Payment description. |  |
 | outTradeNo | String | Yes | Merchant order number | The internal order number can only be numbers, uppercase and lowercase letters \\_ - and unique under the same merchant number. |
 | timeExpire | Long | No | Transaction expiry time | Timestamp in milliseconds |
-| notifyUrl | String | Yes | The callback URL to receive payment result notifications asynchronously. | The notification URL must be an extranet-accessible URL without parameters. The public network  Domain Name must be  \nhttps. If you are accessing through a  \nleased line, use a leased line NAT IP or a private callback Domain Name that can use http. |
+| notifyUrl | String | Yes | The callback URL to receive payment result notifications asynchronously. | The notification URL must be an extranet-accessible URL without parameters. The public network  Domain Name must be  <br>https. If you are accessing through a  <br>leased line, use a leased line NAT IP or a private callback Domain Name that can use http. |
 | amount | Integer | Yes | Transaction amount | Amount in cents. |
 | currency | String | Yes | Transaction currency | SAR: Saudi Arabia |
 | openId | String | Yes | User open ID | Openid is the unique user ID of the Super App user under the appid (if the appid is different, the obtained openid will be different), which can beused to permanently mark a user. |
