@@ -115,13 +115,15 @@ The lifecycle methods of the page (i.e. methods beginning with `on`) should be w
 
 ### Sample code:
 
-```Text code
+```Text
+// code
 {
   "usingComponents": {}
 }
 ```
 
-```Text code
+```Text
+// code
 Component({
 
   properties: {

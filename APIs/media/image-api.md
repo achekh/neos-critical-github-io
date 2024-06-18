@@ -96,7 +96,8 @@ Chooses an image from the local album or takes a photo.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.chooseImage({
   count: 1,
   sizeType: ['original', 'compressed'],
@@ -127,7 +128,8 @@ Saves the image to the system album.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.saveImageToPhotosAlbum({
 	success(res) {},
 })
@@ -151,7 +153,8 @@ Previews the image in full screen mode on a new page. During the preview, the us
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.previewImage({
   current: '', // HTTP URL of the currently displayed image
   urls: [], // List of HTTP URLs of the images to be previewed
@@ -202,7 +205,8 @@ Valid values of `res.orientation`
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getImageInfo({
   src: 'images/a.jpg',
   success(res) {

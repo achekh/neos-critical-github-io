@@ -70,7 +70,8 @@ Dynamically sets the overall style of the tab bar.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.setTabBarStyle({
   color: '#FF0000',
   selectedColor: '#00FF00',
@@ -137,7 +138,8 @@ Dynamically sets the content of a tab bar item.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.setTabBarItem({
   index: 0,
   text: 'text',
@@ -179,7 +181,8 @@ Adds text in the top-right corner of an item on the tab bar.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.setTabBarBadge({
   index: 0,
   text: '1'

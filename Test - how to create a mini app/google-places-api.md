@@ -17,7 +17,8 @@ Let's add Google places API:
 
 1. Copy the code below
 
-```Text map.js
+```Text
+// map.js
 wx.showLoading({title: "Fetching nearby restaurants"})
 wx.request({
   url: `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${this.data.userLocation.latitude},${this.data.userLocation.longitude}&radius=15000&type=restaurant&key=YOUR_API_KEY`,
@@ -35,7 +36,8 @@ wx.request({
 
 2. Insert and format it like the one below:
 
-```Text map.js
+```Text
+// map.js
 Page({
   data: {
     userLocation: {

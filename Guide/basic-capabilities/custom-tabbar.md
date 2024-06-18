@@ -35,7 +35,8 @@ Perform the following steps to use the custom tabBar:
 
 ### Example:
 
-```Text code
+```Text
+// code
 {
   "tabBar": {
     "custom": true,
@@ -58,7 +59,8 @@ Perform the following steps to use the custom tabBar:
 
 Add the entry files in the code root directory:
 
-```Text code
+```Text
+// code
 custom-tab-bar/index.js
 custom-tab-bar/index.json
 custom-tab-bar/index.wxml

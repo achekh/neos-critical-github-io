@@ -41,7 +41,8 @@ Stores the data in the specified key in the local cache. The original content wi
 
 # Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.setStorage({
   key:"key",
   data:"value"
@@ -64,7 +65,8 @@ The content that needs to be stored. Only objects of native types, dates, and ob
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 try {
 	wx.setStorageSync('key', 'value')
 } catch (e) {
@@ -89,7 +91,8 @@ Removes the specified key from the local cache.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.removeStorage({
   key: 'key',
   success (res) {
@@ -110,7 +113,8 @@ The key specified in the local cache
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 try {
 	wx.removeStorageSync('key')
 } catch (e) {
@@ -145,7 +149,8 @@ Asynchronously gets the content of the specified key from the local cache.
 
 # Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getStorage({
   key: 'key',
   success (res) {
@@ -172,7 +177,8 @@ The content corresponding to the key.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 try {
   var value = wx.getStorageSync('key')
   if (value) {
@@ -211,7 +217,8 @@ Asynchronously gets the information of the current storage.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getStorageInfo({
   success(res) {
     console.log(res.keys)
@@ -237,7 +244,8 @@ Synchronous version of wx.getStorageInfo.
 
 # Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 try {
   const res = wx.getStorageInfoSync()
   console.log(res.keys)
@@ -264,7 +272,8 @@ Clears the local data cache.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.clearStorage()
 ```
 
@@ -274,7 +283,8 @@ Synchronous version of wx.clearStorage.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 try {
 	wx.clearStorageSync()
 } catch(e) {

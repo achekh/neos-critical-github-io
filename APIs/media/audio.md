@@ -248,7 +248,8 @@ Time point for audio buffering (read-only). The system only guarantees that the 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const innerAudioContext = wx.createInnerAudioContext()
 innerAudioContext.autoplay = true
 innerAudioContext.src = 'https://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?

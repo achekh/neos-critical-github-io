@@ -17,7 +17,8 @@ To add Tab Bar icons, please
 
 - Copy the code snippet below 
 
-```Text app.json
+```Text
+// app.json
 
 "tabBar": {
     "color": "#000000",

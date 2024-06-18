@@ -153,7 +153,8 @@ The data eventually sent to the server is of string type. If the input data is o
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.request({
   url: 'test.url', // This is just an example but not a real API address.
   data: {
@@ -189,7 +190,8 @@ Unlistens for the HTTP response header event.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const requestTask = wx.request({
   url: 'test.url', // This is just an example but not a real API address.
   data: {
@@ -264,7 +266,8 @@ The listener function passed in when `onChunkReceived` is called. If this parame
 
 ## Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const listener = function (res) { console.log(res) }
 
 RequestTask.onChunkReceived(listener)
@@ -283,7 +286,8 @@ The listener function passed in when `onHeadersReceived` is called. If this para
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const listener = function (res) { console.log(res) }
 
 RequestTask.onHeadersReceived(listener)

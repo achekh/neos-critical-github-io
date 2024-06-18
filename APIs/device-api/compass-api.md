@@ -32,7 +32,8 @@ Listens for compass data.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.startCompass()
 ```
 
@@ -52,7 +53,8 @@ Unlistens for compass data.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.stopCompass()
 ```
 
@@ -77,7 +79,8 @@ Callback function for the compass data change event.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.onCompassChange(function (res) {
 	console.log(res.direction)
 })
@@ -111,7 +114,8 @@ The listener function passed in when `onCompassChange` is called. If this parame
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const listener = function (res) { console.log(res) }
 
 wx.onCompassChange(listener)

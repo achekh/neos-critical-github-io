@@ -32,7 +32,8 @@ The following sections describe the use of  `app.json` and `project.config.json`
 
 `app.json` is used for the global configuration of the Mini Program by setting all the page paths, interface behaviors, network timeouts, and bottom tabs. The `app.json` is configured in the QuickStart project as below:
 
-```Text code
+```Text
+// code
 {
   "pages":[
     "pages/index/index",
@@ -92,7 +93,8 @@ All web page programmers know that web pages are built using HTML, CSS and JavaS
 
 Similar roles exist in the Mini Program, where `WXML` is the equivalent of `HTML`. By opening `pages/index/index.wxml`, the following option displays:
 
-```Text code
+```Text
+// code
 <view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}"> Get profile photo and alias </button>
@@ -146,14 +148,16 @@ Refer to [WXSS](<>) for more details.
 
 It's not enough for a service to just display the interface. Interaction with users is required, such as responding to user's clicks and obtaining user's location. In the Mini Program, we process user's operations by writing JS scripts.
 
-```Text code
+```Text
+// code
 <view>{{ msg }}</view>
 <button bindtap="clickMe">Click me</button>
 ```
 
 When a `button` is clicked, we want to display `msg` as `"Hello World"` on the interface. To do this, we declare the `bindtap` property on the `button` and the clickMe method in the JS file to respond to this click:
 
-```Text code
+```Text
+// code
 Page({
   clickMe: function() {
     this.setData({ msg: "Hello World" })

@@ -36,7 +36,8 @@ Version comparison can be used in any circumstance. In some cases, you can also 
 
 See the sample code below:
 
-```Text code
+```Text
+// code
 function compareVersion(v1, v2) {
   v1 = v1.split('.')
   v2 = v2.split('.')
@@ -66,7 +67,8 @@ function compareVersion(v1, v2) {
 compareVersion('1.11.0', '1.9.9') // 1
 ```
 
-```Text code
+```Text
+// code
 const version = wx.getSystemInfoSync().SDKVersion
 
 if (compareVersion(version, '1.1.0') >= 0) {
@@ -84,7 +86,8 @@ if (compareVersion(version, '1.1.0') >= 0) {
 
 For a new API, you can judge the existence of the API to determine if a user’s base library is supported. For example:
 
-```Text code
+```Text
+// code
 if (wx.openBluetoothAdapter) {
   wx.openBluetoothAdapter()
 } else {
@@ -104,7 +107,8 @@ In addition to a direct judgment by the version number, you can also use wx.canI
 
 When API parameters and return values contain a new parameter, you can determine compatibility using the following code.
 
-```Text code
+```Text
+// code
 wx.showModal({
   success: function(res) {
     if (wx.canIUse('showModal.success.cancel')) {
@@ -118,7 +122,8 @@ wx.showModal({
 
 New components or properties cannot be processed by older versions, and no error is reported. In special cases, you can downgrade components for compatibility with older versions.
 
-```Text code
+```Text
+// code
 Page({
   data: {
     canIUse: wx.canIUse('cover-view')
@@ -126,7 +131,8 @@ Page({
 })
 ```
 
-```Text code
+```Text
+// code
 <video controls="{{!canIUse}}">
   <cover-view wx:if="{{canIUse}}">play</cover-view>
 </video>

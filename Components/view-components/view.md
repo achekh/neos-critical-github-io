@@ -52,7 +52,8 @@ A view container represents container that can host one or more views.
 </view>
 {% endraw %}
 ```
-```Text WXSS
+```Text
+// WXSS
 .flex-item {
     width: 33%;
     height: 150rpx;

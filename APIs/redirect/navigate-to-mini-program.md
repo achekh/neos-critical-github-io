@@ -54,7 +54,8 @@ The list can be updated only when a new version is released. For the configurati
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.navigateToMiniProgram({
   appId: '',
   path: 'page/index/index?id=123',

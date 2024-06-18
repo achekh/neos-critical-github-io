@@ -96,7 +96,8 @@ Base library 2.4.0 provides a variety of mDNS APIs such as wx.startLocalServiceD
 
 In this case, no security domain check is performed and https/wss is not necessarily required (http/ws can be used instead).
 
-```Text code
+```Text
+// code
 wx.request({
   url: 'http://10.9.176.40:828'
   // The other parameters are omitted

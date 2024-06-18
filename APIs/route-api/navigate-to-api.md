@@ -31,12 +31,14 @@ Keeps the current page and redirects to a page in the Mini App (which cannot be 
 
 ### Sample code
 
-```javascript page2.js
+```javascript
+// page2.js
 wx.navigateTo({
 	url: 'page1?id=1',
 })   
 ```
-```javascript page1.js
+```javascript
+// page1.js
 Page({
 	onLoad: (option){
 			console.log(option.query)

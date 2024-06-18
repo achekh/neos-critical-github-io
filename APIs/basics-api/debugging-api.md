@@ -44,7 +44,8 @@ Object object
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 // Enable debugging
 wx.setEnableDebug({
 	enableDebug: true
@@ -80,7 +81,8 @@ LogManager
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const logger = wx.getLogManager({level: 1})
 logger.log({str: 'hello world'}, 'basic log', 100, [1, 2, 3])
 logger.info({str: 'hello world'}, 'info log', 100, [1, 2, 3])

@@ -31,7 +31,8 @@ For details, see [Mini Program Framework.](<>)
 
 The Mini app downloads the code package of the Mini Program to the local device before opening it. This allows you to get all the page paths of the Mini Program from the `pages` field of `app.json:`
 
-```Text code
+```Text
+// code
 {
   "pages":[
     "pages/index/index",
@@ -46,7 +47,8 @@ The Mini app loads the code of the homepage and render it via the underlying mec
 
 When the Mini Program is launched, the `onLaunch` callback of the `App` instance defined in `app.js `is executed:
 
-```Text code
+```Text
+// code
 App({
   onLaunch: function () {
     //Triggered when the Mini Program is launched
@@ -60,7 +62,8 @@ Now let's take a look at how the page of the Mini Program is written.
 
 Four types of files can be found in the `pages/logs/logs` directory. The Mini app first generates an interface based on the `logs.json` configuration file in which the top color and text can be defined. The app then loads the `WXML` structure and `WXSS `style of the page, and finally the logs.js file. The content of the `logs.js `file looks like this:
 
-```Text code
+```Text
+// code
 Page({
   data: { // Data used for page rendering
     logs: []
@@ -83,19 +86,22 @@ With the wide range of basic components provided by the Mini Program, developers
 
 Like` div`,` p` and other tags in `HTML`, in the Mini Program, you just need to provide the tag name of a component in `WXML` to display the component on the interface. For example, if you want to display the map on the interface, then write like this:
 
-```Text code
+```Text
+// code
 <map></map>
 ```
 
 When using the component, you can also pass values to it via properties to display the component differently. For example, if you want the center latitude and longitude of the map to be those of Guangzhou at the very beginning, you need to declare the map's longitude (center longitude) and latitude (center latitude) properties:
 
-```Text code
+```Text
+// code
 <map longitude="Longitude of Guangzhou" latitude="Latitude of Guangzhou"></map>
 ```
 
 The internal behavior of the component can also be perceived by developers as an event. For example, if a user taps a marker on the map, you can write a `markertap` function in the `js`:
 
-```Text code
+```Text
+// code
 <map bindmarkertap="markertap" longitude="Longitude of Guangzhou" latitude="Latitude of Guangzhou"></map>
 ```
 
@@ -109,7 +115,8 @@ To make it easy for developers to call the capabilities provided by Mini app, su
 
 To obtain user's geographical location, then write like this:
 
-```Text code
+```Text
+// code
 wx.getLocation({
   type: 'wgs84',
   success: (res) => {
@@ -121,7 +128,8 @@ wx.getLocation({
 
 To use the "Scan" feature, then write like this:
 
-```Text code
+```Text
+// code
 wx.scanCode({
   success: (res) => {
     console.log(res)

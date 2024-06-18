@@ -161,7 +161,8 @@ Uses the built-in map to view the location.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getLocation({
   type: 'gcj02', // Return a latitude and longitude value that can be used for `wx.openLocation`
   success (res) {
@@ -202,7 +203,8 @@ Callback function for the real-time geographic location change event.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const locationChangeFn = function(res) {
 	console.log('location change', res)
 }
@@ -280,7 +282,8 @@ Gets the current geographic location and speed. This API cannot be called after 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getLocation({
   type: 'gcj02',
   success(res) {
@@ -453,7 +456,8 @@ Gets the current vague geographic location.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getFuzzyLocation({
   type: 'wgs84',
   success (res) {

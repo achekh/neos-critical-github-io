@@ -30,7 +30,8 @@ The method of listening for custom component events is exactly the same as that 
 
 ### Sample code:
 
-```Text WXML
+```Text
+// WXML
 <!-- When the custom component triggers the `myevent` event, call the `onMyEvent` method. -->
 <component-tag-name bindmyevent="onMyEvent" />
 <!-- Or, it can be written as: -->
@@ -50,7 +51,8 @@ Page({
 
 When a custom component triggers an event, you need to use the `triggerEvent` method to specify the event name, `detail` object, and event options:
 
-```Text WXML
+```Text
+// WXML
 <!-- In the custom component -->
 <button bindtap="onTap">Clicking this button will trigger the `myevent` event.</button>
 ```
@@ -78,21 +80,24 @@ Options for triggered events include:
 
 For the concepts of bubbling and capture phase, see [Event](doc:wxml#event).
 
-```Text WXML
+```Text
+// WXML
 // `page.wxml` of the page
 <another-component bindcustomevent="pageEventListener1">
   <my-component bindcustomevent="pageEventListener2"></my-component>
 </another-component>
 ```
 
-```Text WXML
+```Text
+// WXML
 // `another-component.wxml` of the component
 <view bindcustomevent="anotherEventListener">
   <slot />
 </view>
 ```
 
-```Text WXML
+```Text
+// WXML
 // `my-component.wxml` of the component
 <view bindcustomevent="myEventListener">
   <slot />

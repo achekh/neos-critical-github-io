@@ -11,6 +11,7 @@ updatedAt: "Fri Jun 16 2023 09:43:47 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Advanced topics"
 grand_parent: "Guide"
+nav_exclude: true
 ---
 # Performance and network monitoring 
 *** 

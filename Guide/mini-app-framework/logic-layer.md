@@ -25,7 +25,8 @@ For each Mini Program, a Mini Program instance needs to be registered by calling
 
 For specific definitions and usage of the parameters, refer to App Reference Documents.
 
-```Text code
+```Text
+// code
 //app.js
 App({
   onLaunch (options) {
@@ -46,7 +47,8 @@ App({
 
 A Mini Program has only one app instance, which is shared to all pages. Developers can obtain the globally unique app instance by using the `getApp` method, and then obtain data in the app or call a function registered with `App` by the developers.
 
-```Text code
+```Text
+// code
 // xxx.js
 const appInstance = getApp()
 console.log(appInstance.globalData) // I am global data
@@ -58,7 +60,8 @@ For each page of a Mini Program, a page instance needs to be registered by calli
 
 For specific definitions and usage of the parameters, refer to Page Reference Documents.
 
-```Text code
+```Text
+// code
 // index.js
 Page({
   data: {
@@ -222,7 +225,8 @@ Some common codes can be extracted to create an independent js file as a module.
 > - `exports` is a reference to `module.exports`. Therefore, a random modification to the point of exports in the module may cause an unknown error. Developers are advised to expose module APIs via `module.exports` if they do not know the relationship between them.
 > - Currently, `node_modules` cannot be directly passed into Mini Programs. To use `node_modules`, developers are advised to copy relevant code to the directory of the Mini Program or use the npm feature supported by Mini Programs.
 
-```Text code
+```Text
+// code
 // common.js
 function sayHello(name) {
   console.log(`Hello ${name} !`)
@@ -237,7 +241,8 @@ exports.sayGoodbye = sayGoodbye
 
 To pass common code into files that need to access these modules, use `require`.
 
-```Text code
+```Text
+// code
 var common = require('common.js')
 Page({
   helloMINA: function() {
@@ -257,14 +262,16 @@ The global application instance can be obtained via the global function getApp. 
 
 For example:
 
-```Text code
+```Text
+// code
 //app.js
 App({
   globalData: 1
 })
 ```
 
-```Text code
+```Text
+// code
 // a.js
 // The localValue can only be used in file a.js.
 var localValue = 'a'
@@ -274,7 +281,8 @@ var app = getApp()
 app.globalData++
 ```
 
-```Text code
+```Text
+// code
 // b.js
 // You can redefine localValue in file b.js, without interference with the localValue in a.js.
 var localValue = 'b'
@@ -296,7 +304,8 @@ this kind API Accepts a callback function as a parameter that is called when an 
 
 **Code examples**
 
-```Text code
+```Text
+// code
 wx.onCompassChange(function (res) {
   console.log(res.direction)
 })
@@ -310,7 +319,8 @@ synchronization API Can be obtained directly from the return value of the functi
 
 Code examples:
 
-```Text code
+```Text
+// code
 try {
   wx.setStorageSync('key', 'value')
 } catch (e) {
@@ -346,7 +356,8 @@ In Partially asynchronous APIs, there are also return values that can be used to
 
 **Code examples**
 
-```Text code
+```Text
+// code
 wx.login({
   success(res) {
     console.log(res.code)
@@ -364,7 +375,8 @@ wx.login({
 
 **Code examples**
 
-```Text code
+```Text
+// code
 // callback Formal invocation
 wx.chooseImage({
   success(res) {
@@ -382,7 +394,8 @@ While accessing and using Mini AppCloud Development, you can use the cloud devel
 
 **Code examples**
 
-```Text code
+```Text
+// code
 wx.cloud.callFunction({
   // Cloud function name
   name: 'cloudFunc',

@@ -25,7 +25,8 @@ Whenever a Mini Program is enabled via **cold startup**, it will check if a new 
 
 If you need to apply the latest version immediately, use the [wx.getUpdateManager](<>) API.
 
-```Text code
+```Text
+// code
 const updateManager = wx.getUpdateManager()
 
 updateManager.onCheckForUpdate(function (res) {

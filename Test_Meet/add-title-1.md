@@ -17,7 +17,8 @@ To add **"Near me"** title for all pages, please:
 
 - Copy the code snippet below to the global JSON object inside `app.json`
 
-```Text app.json
+```Text
+// app.json
 "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
@@ -28,7 +29,8 @@ To add **"Near me"** title for all pages, please:
 
 - After adding the above code to the existing code (code for register pages) your `app.json` file should look like the one below.
 
-```Text app.json
+```Text
+// app.json
 {
   "pages":[
     "pages/map/map",

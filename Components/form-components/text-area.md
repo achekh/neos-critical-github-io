@@ -48,7 +48,8 @@ This component is a native component; hence it is important to know the limitati
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   data: {
     height: 20,

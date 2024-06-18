@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:26:35 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Advanced topics"
 grand_parent: "Guide"
+nav_order: 4
 ---
 # vConsole 
 *** 
@@ -19,7 +20,7 @@ the top-right corner to open the menu and select Enable Debugging. Then, the min
 
 The vConsole display of the mini app is as follows:
 
-![](https://files.readme.io/cd81523-vConsole.png)
+![](../../assets/images/cd81523-vConsole.png)
 
 ### vConsole instructions
 

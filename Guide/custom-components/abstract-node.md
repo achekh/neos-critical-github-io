@@ -20,7 +20,8 @@ Sometimes, for some nodes in a custom component template, the corresponding cust
 
 For example, you want to implement a "selectable-group" component, where radio buttons (custom-radio) or checkboxes (custom-checkbox) can be placed. The `wxml` of this component can be written as follows:
 
-```Text WXML
+```Text
+// WXML
 <!-- selectable-group.wxml -->
 <view qq:for="{{labels}}">
   <label>
@@ -44,13 +45,15 @@ Among them, `selectable` is not any component declared in the `usingComponents` 
 
 When using the `selectable-group` component, you must specify which component is `selectable`:
 
-```Text WXML
+```Text
+// WXML
  <selectable-group generic:selectable="custom-radio" />
 ```
 
 In this way, when generating an instance of this `selectable-group` component, the `selectable` node will generate an instance of the `custom-radio` component. Similarly, if the following is used:
 
-```Text WXML
+```Text
+// WXML
  <selectable-group generic:selectable="custom-checkbox" />
 ```
 

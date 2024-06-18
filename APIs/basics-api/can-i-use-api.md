@@ -38,7 +38,8 @@ Call with` ${API}.${method}.${param}.${options}` or `${component}.${attribute}.$
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.canIUse('openBluetoothAdapter')
 wx.canIUse('getSystemInfoSync.return.screenWidth')
 wx.canIUse('getSystemInfo.success.screenWidth')

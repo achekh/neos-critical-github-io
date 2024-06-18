@@ -17,7 +17,8 @@ Let's register pages in app.json:
 
 1. Copy the code snippet below and Paste it into Mini App Studio and press ctrl/cmd S to save, please make sure to add the snippet inside the global JSON object inside the file
 
-```Text app.json
+```Text
+// app.json
  "pages":[
     "pages/map/map",
     "pages/list/list",
@@ -27,17 +28,20 @@ Let's register pages in app.json:
 
 2. Register pages in their own <page name>.json files:
 
-```Text about.json
+```Text
+// about.json
 {
   "usingComponents": {}
 }
 ```
-```Text list.json
+```Text
+// list.json
 {
   "usingComponents": {}
 }
 ```
-```Text map.json
+```Text
+// map.json
 {
   "usingComponents": {}
 }
@@ -45,7 +49,8 @@ Let's register pages in app.json:
 
 3. Add Global styling to app.wxss:
 
-```Text app.wxss
+```Text
+// app.wxss
 .container {
   height: 100%;
   display: flex;

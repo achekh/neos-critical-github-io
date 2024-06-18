@@ -22,7 +22,8 @@ The development of Mini Apps is not a new concept. ​As WebView became increasi
 
 Below is an example of Code 1-1 that implements a JS API that calls the native compoenents to view images:
 
-```Text Code 1-1
+```Text
+// Code 1-1
 WeixinJSBridge.invoke('imagePreview', {
     current: 'http://inews.gtimg.com/newsapp_bt/0/1693121381/641',
     urls: [ // List of URLs of all images (in an array format)
@@ -43,7 +44,8 @@ Code 1-2 also shows how to view images by calling a native component.
 
 Code 1-2 Call image preview component using JS-SDK
 
-```Text code 1-2
+```Text
+// code 1-2
 wx.previewImage({
   current: 'https://img1.gtimg.com/10/1048/104857/10485726_980x1200_0.jpg',
   urls: [ // List of URLs of all images (in an array format)

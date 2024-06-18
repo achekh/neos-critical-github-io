@@ -49,7 +49,8 @@ Page({
   }
 })
 ```
-```xml WXML
+```xml
+// WXML
 <view class="section">
   <view class="section__title">`movable-view` smaller than `movable-area`</view>
   <movable-area style="height: 200px; width: 200px; background: red;">

@@ -103,7 +103,8 @@ To retrieve information about the system through a callback.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getSystemInfo({
 	success(res) {
     console.log(res.model)
@@ -193,7 +194,8 @@ Sync version of [wx.getSystemInfo](doc:system-api#getsysteminfo-object-object).
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 try {
  const res = wx.getSystemInfoSync()
  console.log(res.model)

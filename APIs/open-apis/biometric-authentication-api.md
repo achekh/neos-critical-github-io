@@ -31,7 +31,8 @@ Starts biometric authentication.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.startSoterAuthentication({
   authContent: 'biometric authentication unlock',
   success() {
@@ -56,7 +57,8 @@ Verifies whether the device supports biometric authentication, call back 'succes
 
 ### Sample code
 
-```javascript ,JavaScript
+```javascript
+// ,JavaScript
 wx.checkIsSupportSoterAuthentication({
   success() {
   	// support biometric authentication
@@ -91,7 +93,8 @@ Verifies whether biometric information such as fingerprint is enrolled in the de
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.checkIsSoterEnrolledInDevice({
   success(res) {
   	console.log(res.isEnrolled)

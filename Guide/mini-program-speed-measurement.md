@@ -35,7 +35,8 @@ After the developer defines the monitoring ID, it needs to be called in the Mini
 
 Method 1: use canIUse To make judgments
 
-```Text code
+```Text
+// code
 // * Need to use canIUse Determine whether the interface is available
 if (wx.canIUse('reportPerformance')) {
   wx.reportPerformance(id, val)
@@ -44,7 +45,8 @@ if (wx.canIUse('reportPerformance')) {
 
 Method 2: Use compareVersion To make judgments
 
-```Text code
+```Text
+// code
 // * Need to use first compareVersion Determine whether the interface is available
 const sdkVersion = wx.getSystemInfoSync().SDKVersion
 if (compareVersion(sdkVersion, '2.9.2') >= 0) {
@@ -62,7 +64,8 @@ After completing the code reporting, can be in the Mini Program management backg
 
 Two curves can be observed for each index, namely the average curve and the reported times curve.
 
-```Text code
+```Text
+// code
  ![img](./img/3.png)  
 ```
 
@@ -80,7 +83,8 @@ For more complex user scenarios, users may need to segment speed data based on d
 
 To use a custom dimension, just add a third parameter, dimension, to wx.reportPerformance to report the custom dimension:
 
-```Text code
+```Text
+// code
 wx.reportPerformance(id, value, dimensions)
 ```
 

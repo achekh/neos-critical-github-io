@@ -26,7 +26,8 @@ grand_parent: "APIs"
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 // Note: When `navigateTo` is called for a redirect. Pages calling this method will be added to the stack, while pages calling the `redirectTo`
 method will not. See the sample code below.
 // Here is page A

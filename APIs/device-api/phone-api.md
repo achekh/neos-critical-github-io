@@ -31,7 +31,8 @@ Makes a phone call.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.makePhoneCall({
 	phoneNumber: '1340000' // This is just an example but not a real phone number.
 })

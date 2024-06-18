@@ -56,7 +56,8 @@ grand_parent: "APIs"
 
 ### Sample code
 
-```javascript page2.js
+```javascript
+// page2.js
 wx.redirectTo({
 	url: 'page1?id=1'
 })

@@ -28,7 +28,8 @@ Due to the limitations of the implementation mechanism, the log content printed 
 - undefined, ArrayBuffer, Function types cannot be displayed.
 - Unable to print objects with circular references.
 
-```Text code
+```Text
+// code
 let a = {}
 a.b = a
 console.log(a) // For base libraries below 2.3.2, `An object width circular reference can't be logged` is output.
@@ -38,7 +39,8 @@ console.log(a) // For base libraries below 2.3.2, `An object width circular refe
 
 - Version 2.3.2 and later, support printing circular reference objects. The object properties of the circular reference show the reference path, @Represents the object itself.
 
-```Text code
+```Text
+// code
 const circular = { x: {}, c: {} }
 circular.x = [{ promise: Promise.resolve() }]
 circular.a = circular

@@ -545,7 +545,8 @@ Sets the text alignment.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 ctx.setStrokeStyle('red')
@@ -589,7 +590,8 @@ Sets the vertical alignment of the text.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 ctx.setStrokeStyle('red')
@@ -638,7 +640,8 @@ Draws the borders of the current path. The default color is black.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 ctx.moveTo(10, 10)
 ctx.lineTo(100, 10)
@@ -651,7 +654,8 @@ ctx.draw()
 
 The path drawn by `stroke()` begins at `beginPath()` but does not include `strokeRect() `.
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 // begin path
 ctx.rect(10, 10, 100, 30)
@@ -691,7 +695,8 @@ Draws a rectangle (no fill). Use [`setStrokeStyle`](<>) to set the stroke color 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 ctx.setStrokeStyle('red')
 ctx.strokeRect(10, 10, 150, 75)
@@ -746,7 +751,8 @@ Vertical coordinate offset.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 ctx.strokeRect(10, 10, 150, 100)
@@ -797,7 +803,8 @@ Whether the radian is counterclockwise.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 // Draw coordinates
@@ -892,7 +899,8 @@ Starts creating a path. You need to call `fill` or `stroke` to use the path for 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 // begin path
 ctx.rect(10, 10, 100, 30)
@@ -925,7 +933,8 @@ Creates a cubic Bézier curve. The start point of the curve is the last point in
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 // Draw points
@@ -1013,7 +1022,8 @@ The height of the rectangular path.
 {% endraw %}
 ```
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 ctx.setFillStyle('red')
 ctx.fillRect(0, 0, 150, 200)
@@ -1034,7 +1044,8 @@ access to other areas on the canvas). You can save the current canvas area throu
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 wx.downloadFile({
@@ -1061,7 +1072,8 @@ Closes a path to connect the start and end points. After the path is closed, if 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 ctx.moveTo(10, 10)
 ctx.lineTo(100, 10)
@@ -1073,7 +1085,8 @@ ctx.draw()
 
 ![](https://files.readme.io/def123d-13.PNG)
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 // begin path
 ctx.rect(10, 10, 100, 30)
@@ -1123,7 +1136,8 @@ Circle radius.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 // Create circular gradient
@@ -1169,7 +1183,8 @@ The Y coordinate of the end point.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 // Create linear gradient
@@ -1212,7 +1227,8 @@ Specifies how to repeat an image.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 const pattern = ctx.createPattern('/path/to/image', 'repeat-x')
 ctx.fillStyle = pattern
@@ -1240,7 +1256,8 @@ Callback function for drawing completion
 
 If `reserve` is true in the second `draw()` , the result of the last drawing will be retained, and the `fillStyle` value of `red` set in the context will become the default `black`.
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 ctx.setFillStyle('red')
@@ -1256,7 +1273,8 @@ ctx.draw(true)
 
 If `reserve` is false in the second `draw()` , the result of the last drawing and the `fillStyle` value of `red` set in the context will not be retained.
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 ctx.setFillStyle('red')
@@ -1320,7 +1338,8 @@ It can be written in three ways:
 - drawImage(imageResource, dx, dy, dWidth, dHeight)
 - drawImage(imageResource, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 wx.chooseImage({
@@ -1343,7 +1362,8 @@ Fills the content in the current path. The default fill color is black.
 
 If the current path is not closed, the `fill()` method will connect the start and end points and fill the path.
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 ctx.moveTo(10, 10)
 ctx.lineTo(100, 10)
@@ -1356,7 +1376,8 @@ The path filled by `fill()` begins at `beginPath()` but does not include `fillRe
 
 ![](https://files.readme.io/898a1bf-20.PNG)
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 // begin path
 ctx.rect(10, 10, 100, 30)
@@ -1407,7 +1428,8 @@ The height of the rectangular path.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 ctx.setFillStyle('red')
 ctx.fillRect(10, 10, 150, 75)
@@ -1442,7 +1464,8 @@ The maximum width to be drawn, which is optional
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 ctx.setFontSize(20)
@@ -1472,7 +1495,8 @@ The Y coordinate of the target position.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 ctx.moveTo(10, 10)
 ctx.rect(10, 10, 100, 50)
@@ -1503,7 +1527,8 @@ The text to be measured.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 ctx.font = 'italic bold 20px cursive'
 const metrics = ctx.measureText('Hello World')
@@ -1528,7 +1553,8 @@ The Y coordinate of the target position.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 ctx.moveTo(10, 10)
 ctx.lineTo(100, 10)
@@ -1567,7 +1593,8 @@ The Y coordinate of the end point.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 // Draw points
@@ -1641,7 +1668,8 @@ The height of the rectangular path.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 ctx.rect(10, 10, 150, 75)
 ctx.setFillStyle('red')
@@ -1659,7 +1687,8 @@ Restores a previously saved drawing context.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 // save the default fill style
@@ -1690,7 +1719,8 @@ The rotation angle calculated in the radians of `degrees * Math.PI/180` . The va
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 ctx.strokeRect(100, 10, 150, 100)
@@ -1712,7 +1742,8 @@ Saves the drawing context.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 // save the default fill style
@@ -1747,7 +1778,8 @@ The zoom factor of the ordinate (1 = 100%, 0.5 = 50%, 2 = 200%)
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 ctx.strokeRect(10, 10, 25, 15)
@@ -1789,7 +1821,8 @@ The color of the gradient point.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const ctx = wx.createCanvasContext('myCanvas')
 
 // Create circular gradient

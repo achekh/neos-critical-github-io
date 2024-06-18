@@ -126,7 +126,8 @@ To ensure the security of the user data returned via the open API, the plaintext
 
 rawData returned by the API:
 
-```Text code
+```Text
+// code
 {
   "nickName": "Band",
   "gender": 1,
@@ -140,19 +141,22 @@ rawData returned by the API:
 
 The user's session-key:
 
-```Text code
+```Text
+// code
 HyVFkGl5F5OQWJZZaNzBBg==
 ```
 
 The string for signing is:
 
-```Text code
+```Text
+// code
 {"nickName":"Band","gender":1,"language":"zh_CN","city":"Guangzhou","province":"Guangdong","country":"CN","avatarUrl":"http://wx.qlogo.cn/mmopen/vi_32/1vZvI39NWFQ9XM4LtQpFrQJ1xlgZxx3w7bQxKARol6503Iuswjjn6nIGBiaycAjAtpujxyzYsrztuuICqIM5ibXQ/0"}HyVFkGl5F5OQWJZZaNzBBg==
 ```
 
 The result returned when data is signed using sha1:
 
-```Text code
+```Text
+// code
 75e81ceda165f4ffa64f4068af58c64b8f54b88c
 ```
 
@@ -178,7 +182,8 @@ In addition, to allow apps to verify the data validity, watermark will be added 
 
 Example of watermark in the sensitive data of the wx.getUserInfo API:
 
-```Text code
+```Text
+// code
 {
     "openId": "OPENID",
     "nickName": "NICKNAME",
@@ -225,7 +230,8 @@ When the cloud function is called, if the value of a top-level field is CloudID 
 
 A call is initiated after the Mini Program obtains the `cloudID`:
 
-```Text code
+```Text
+// code
 wx.cloud.callFunction({
   name: 'myFunction',
   data: {
@@ -239,7 +245,8 @@ wx.cloud.callFunction({
 
 Example of event received in the cloud function:
 
-```Text code
+```Text
+// code
 // event
 {
   // The value of weRunData has been replaced with open data
@@ -267,7 +274,8 @@ Example of event received in the cloud function:
 
 If `cloudID` is invalid or expires, an object with error code, error message and original cloudID will be obtained from `event`. See the example below:
 
-```Text code
+```Text
+// code
 // event
 {
   "weRunData": {
@@ -301,11 +309,13 @@ During the callback, calling wx.login login may refresh the login status. In thi
 
 ## Code Sample
 
-```Text code
+```Text
+// code
 <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber"></button>
 ```
 
-```Text code
+```Text
+// code
 Page({
   getPhoneNumber (e) {
     console.log(e.detail.errMsg)
@@ -327,7 +337,8 @@ There are two ways to acquire sensitive data, one is to use the [Decryption Algo
 
 The acquired open data has the following json structure:
 
-```Text code
+```Text
+// code
 {
     "phoneNumber": "13580006666",
     "purePhoneNumber": "13580006666",
@@ -364,19 +375,22 @@ Currently, only fingerprint identification verification is supported. The biomet
 
 ### API address:
 
-```Text code
+```Text
+// code
 POST http://api.weixin.qq.com/cgi-bin/soter/verify_signature?access_token=%access_token
 ```
 
 post data contents (JSON encoded):
 
-```Text code
+```Text
+// code
 {"openid":"$openid", "json_string" : "$resultJSON", "json_signature" : "$resultJSONSignature" }
 ```
 
 Request to return data contents (JSON encoded):
 
-```Text JSON encoded
+```Text
+// JSON encoded
 // Verification successful is returned
 {"is_ok":true}
 // Verification failed is returned

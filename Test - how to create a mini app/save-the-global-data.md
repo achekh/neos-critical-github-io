@@ -15,7 +15,8 @@ parent: "Test - how to create a mini app"
 *** 
 Prepare the app's global data for the data it will receive from pages
 
-```Text app.js
+```Text
+// app.js
 App({
   onLaunch: function () {
   },

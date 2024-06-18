@@ -106,7 +106,8 @@ It makes the custom components behave like form controls. The form components ca
 
 ### Code example
 
-```javascript JavaScript
+```javascript
+// JavaScript
 // custom-form-field.js
 Component({
  behaviors: ['wx://form-field'],
@@ -149,7 +150,8 @@ The structure of the assembly `custom-component`  is as follows:
 
 If the component `custom-component` is configured with:
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Component({
  behaviors: ['wx://form-field-group']
 })
@@ -182,7 +184,8 @@ The structure of the assembly `custom-component`  is as follows:
 
 If the component `custom-component` is configured with:
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Component({
  behaviors: ['wx://form-field-button']
 })

@@ -27,7 +27,8 @@ grand_parent: "APIs"
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.showShareMenu({
 	withShareTicket: true
 })

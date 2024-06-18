@@ -34,7 +34,8 @@ Listener function for the keyboard height change event
 | :-------- | :----- | :--------------- |
 | height    | Number | Keyboard height. |
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.onKeyboardHeightChange(res => {
 	console.log(res.height)
 })
@@ -56,7 +57,8 @@ Hides the keyboard manually after it appears because of the focus in the input o
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.hideKeyboard({
   complete: res => {
   	console.log('hideKeyboard res', res)
@@ -76,7 +78,8 @@ The listener function passed in when `onKeyboardHeightChange` is called. If this
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const listener = function (res) { console.log(res) }
 
 wx.onKeyboardHeightChange(listener)
@@ -110,7 +113,8 @@ Gets the cursor position of the input box after `input `and `textarea` are focus
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getSelectedTextRange({
   complete: res => {
   	console.log('getSelectedTextRange res', res.start, res.end)

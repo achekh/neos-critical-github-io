@@ -22,7 +22,8 @@ Developers can abstract feature modules in a page into custom components to reus
 
 Similar to a page, a custom component consists of `json`, `wxml`,` wxss`, and `js` files. To write a custom component, you first need to make a custom component declaration in the json file (set the files as custom components by setting the `component` field to `true`):
 
-```Text code
+```Text
+// code
 {
   "component": true
 }
@@ -32,7 +33,8 @@ In the meanwhile, write a component template in the `wxml` file and a component 
 
 ### Code example:
 
-```Text code
+```Text
+// code
 <!-- This is the internal WXML structure of the custom component -->
 <view class="inner">
   {{innerText}}
@@ -40,7 +42,8 @@ In the meanwhile, write a component template in the `wxml` file and a component 
 <slot></slot>
 ```
 
-```Text code
+```Text
+// code
 /*  This style only applies to this custom component  */
 .inner {
   color: red;
@@ -57,7 +60,8 @@ The property values and internal data of the component are used to render the co
 
 ### Code example:
 
-```Text code
+```Text
+// code
 Component({
   properties: {
     // The innerText property is defined here, and the property value can be specified when the component is used.
@@ -82,7 +86,8 @@ Using
 
 Before using a registered custom component, make a reference declaration in the json file of the page. You need to provide the tag name of each custom component and the file path of the corresponding custom component:
 
-```Text code
+```Text
+// code
 {
   "usingComponents": {
     "component-tag-name": "path/to/the/custom/component"
@@ -94,7 +99,8 @@ As such, you can use custom components like you would with base components in th
 
 ### Code example:
 
-```Text code
+```Text
+// code
 <view>
   <!-- The following is a reference to a custom component -->
   <component-tag-name inner-text="Some text"></component-tag-name>

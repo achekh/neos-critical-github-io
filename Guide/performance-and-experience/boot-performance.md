@@ -173,7 +173,8 @@ Typically, all the JS code of the subcontract and the main package (except the s
 
 Self-Base Library Version 2.11.1 Mini Program supports injecting only the custom components and current page code required by the current page to reduce Mini Program startup time and runtime memory. The developer can find the file in the `app.json` Configuration in:
 
-```Text code
+```Text
+// code
 {
   "lazyCodeLoading": "requiredComponents"
 }

@@ -59,7 +59,8 @@ Before the redirect to another Mini App, a pop-up window is added to ask for con
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 // redirect.js navigator.js
 Page({
   onLoad(options) {
@@ -69,15 +70,18 @@ Page({
   }
 })
 ```
-```xml redirect.wxml
+```xml
+// redirect.wxml
 <view style="text-align:center">{{title}}</view>
 <view>Click "Back" in the top-left corner to go back to the page at a higher level</view>
 ```
-```xml navigator.wxml
+```xml
+// navigator.wxml
 <view style="text-align:center">{{title}}</view>
 <view>Click "Back" in the top-left corner to go back to the previous page</view>
 ```
-```xml sample.wxml
+```xml
+// sample.wxml
 <view class="btn-area">
   <navigator
     url="/page/navigate/navigate?title=navigate"
@@ -99,7 +103,8 @@ Page({
 </view>
 
 ```
-```css WXSS
+```css
+// WXSS
 /** wxss **/
 /** Modify the default click state of `navigator` **/
 .navigator-hover {

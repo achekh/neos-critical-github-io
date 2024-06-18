@@ -85,14 +85,16 @@ Animation object
 
 ### Sample code
 
-```Text code
+```Text
+// code
 <view
   animation="{{animationData}}"
   style="background:red;height:100rpx;width:100rpx"
 ></view>
 ```
 
-```Text code
+```Text
+// code
 Page({
 	data: {
 		animationData: {}

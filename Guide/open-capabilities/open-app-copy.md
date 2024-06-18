@@ -60,11 +60,13 @@ For third-party apps for Android, the Weixin callback of `ShowMessageFromWX.req`
 
 ### Code Sample
 
-```Text code
+```Text
+// code
 <button open-type="launchApp" app-parameter="wechat" binderror="launchAppError">Open APP</button>
 ```
 
-```Text code
+```Text
+// code
 Page({
   launchAppError (e) {
     console.log(e.detail.errMsg)

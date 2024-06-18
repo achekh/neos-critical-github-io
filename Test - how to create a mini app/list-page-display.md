@@ -19,17 +19,20 @@ Let's display the List page:
 
 > 🚧 Need Ben's help on design for wxss
 
-```Text list.wxml
+```Text
+// list.wxml
 <view class="container">
   <view wx:for="{{markers}}" wk:key="{{item.label.content}}">
     <text>{{index+1}}: {{item.label.content}}</text>
   </view>
 </view>
 ```
-```Text list.wxss
+```Text
+// list.wxss
 ben help!
 ```
-```Text list.js
+```Text
+// list.js
 const app = getApp()
 
 Page({
@@ -44,13 +47,15 @@ Page({
 
 2. Copy the code from each of 3 tabs below:
 
-```Text maps.wxml
+```Text
+// maps.wxml
 <view bindtap="listClicked" class="list-button">
   <cover-image src="../../assets/images/list.png" />
   <text>List</text>
 </view>
 ```
-```Text maps.wxss
+```Text
+// maps.wxss
 .list-button {
   position: absolute;
   bottom: 50rpx;
@@ -63,7 +68,8 @@ Page({
   width: 30rpx;
 }
 ```
-```Text maps.js
+```Text
+// maps.js
 listClicked: function () {
     wx.navigateTo({url: "../../list/list"})
   }
@@ -71,7 +77,8 @@ listClicked: function () {
 
 3. Insert and format them to see the one below
 
-```Text maps.wxml
+```Text
+// maps.wxml
 <view class="container">
   <map id="map" show-location latitude="{{userLocation.latitude}}" longitude="{{userLocation.longitude}}" markers="{{markers}}" />
   <view bindtap="listClicked" class="list-button">
@@ -80,7 +87,8 @@ listClicked: function () {
   </view>
 </view>
 ```
-```Text maps.wxss
+```Text
+// maps.wxss
 #map {
   height: 100vh;
   width: 100vw;
@@ -97,7 +105,8 @@ listClicked: function () {
   width: 30rpx;
 }
 ```
-```Text maps.js
+```Text
+// maps.js
 const util = require('../../utils/util.js')
 
 const app = getApp()

@@ -231,14 +231,16 @@ Component({
 })
 ```
 
-```Text WXML
+```Text
+// WXML
 <!-- `custom-component.wxml` of the component -->
 <text class="red-text">
   The color of this paragraph is determined by the styles defined in the `app.wxss` and the page's `wxss`.
 </text>
 ```
 
-```Text WXSS
+```Text
+// WXSS
 /* app.wxss */
 .red-text {
   color: red;

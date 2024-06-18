@@ -27,12 +27,14 @@ grand_parent: "APIs"
 
 ### Sample code
 
-```javascript page2.js
+```javascript
+// page2.js
 wx.reLaunch({
 	url: 'page1?id=1'
 })
 ```
-```javascript page1.js
+```javascript
+// page1.js
 Page({
 	onLoad (option) {
 		console.log(option.query)

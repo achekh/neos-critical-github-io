@@ -18,7 +18,8 @@ grand_parent: "Guide"
 
 Sometimes, it is necessary to implement components like the following:
 
-```Text WXML
+```Text
+// WXML
 <custom-ul>
   <custom-li>item 1</custom-li>
   <custom-li>item 2</custom-li>

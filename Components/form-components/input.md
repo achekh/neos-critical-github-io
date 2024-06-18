@@ -107,7 +107,8 @@ Page({
 })
 
 ```
-```xml WXML
+```xml
+// WXML
 <view class="section">
 	<input placeholder="This is an input that can be automatically focused on" auto-focus />
 </view>

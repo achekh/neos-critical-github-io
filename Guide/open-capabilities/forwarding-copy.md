@@ -91,7 +91,8 @@ The default validity period for an activity is 24 hours. At the end of the activ
 
 Pass in the` isUpdatableMessage: true,` `templateInfo`, and `activityId` parameters by calling the wx.updateShareMenu API, where `activityId` is obtained from step 1.
 
-```Text code
+```Text
+// code
 wx.updateShareMenu({
   withShareTicket: true,
   isUpdatableMessage: true,

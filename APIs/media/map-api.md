@@ -90,7 +90,8 @@ Translates the marker (with animation).
 {% endraw %}
 ```
 
-```javascript JavaScript
+```javascript
+// JavaScript
 // map.js
 Page({
   onReady: function (e) {

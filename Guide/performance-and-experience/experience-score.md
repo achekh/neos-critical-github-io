@@ -219,7 +219,8 @@ for`position: fixed`Of interchangeable components if rendered on an iPhone Outsi
 
 It is recommended to use the following wxss for compatibility
 
-```Text code
+```Text
+// code
 padding-bottom: constant(safe-area-inset-bottom)
 padding-bottom: env(safe-area-inset-bottom)
 ```

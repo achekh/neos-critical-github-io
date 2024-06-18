@@ -17,7 +17,8 @@ Let's process the data from Google API to convert them to markers later
 
 1. Copy and insert the code below to utils.js:
 
-```Text util.js
+```Text
+// util.js
 const processPlacesResponse = response => {
   const markers = [];
   for (result of response.data.results) {
@@ -40,14 +41,16 @@ module.exports = {
 
 2. Copy the code below to maps.js:
 
-```Text map.js
+```Text
+// map.js
 const util = require('../../utils/util.js')
 const app = getApp()
 ```
 
 3. Copy the code below to maps.js:
 
-```Text map.js
+```Text
+// map.js
 const markers = util.processPlacesResponse(res)
 if (markers.length === 0) {
     wx.showToast({title: "Sorry, there is no restaurants around you", duration: 5000})
@@ -58,7 +61,8 @@ app.globalData.markers = markers
 
 4. Insert and format them to see the one below:
 
-```Text map.js
+```Text
+// map.js
 const util = require('../../utils/util.js')
 
 const app = getApp()

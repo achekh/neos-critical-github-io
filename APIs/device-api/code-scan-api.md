@@ -124,7 +124,8 @@ Opens the client's code scanning UI to scan a code.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 // Allow scanning codes from the camera and the album
 wx.scanCode({
   success (res) {

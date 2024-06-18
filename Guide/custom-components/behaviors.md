@@ -120,7 +120,8 @@ Component({
 })
 ```
 
-```Text WXML
+```Text
+// WXML
 <!-- If the custom component is used -->
 <my-component id="the-id" />
 ```

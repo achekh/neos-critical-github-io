@@ -25,7 +25,8 @@ The `web-view` component is a container that displays webpages. It will automati
 
 ### Sample code
 
-```Text WXML
+```Text
+// WXML
 <!-- wxml -->
 <web-view src="https://fmp.tmf.stage.neuxnet.com:30001/#/login"></web-view>
 ```
@@ -63,7 +64,8 @@ When sharing a webpage, the user can get the URL of the current `<web-view>`, i.
 
 ### Sample Code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   onShareAppMessage(options) {
     console.log(options.webViewUrl)
@@ -77,7 +79,8 @@ On the webpage, you can determine whether a mini app environment exists through 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 function ready() {
 	console.log(window.__wxjs_environment === 'miniprogram') // true
 }

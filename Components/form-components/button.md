@@ -54,7 +54,8 @@ Button component is triggered by the user to perform an action such as submittin
 
 ### Sample code
 
-```xml WXML
+```xml
+// WXML
 <button
   type="default"
   size="{{defaultSize}}"
@@ -90,7 +91,8 @@ Button component is triggered by the user to perform an action such as submittin
 </button>
 
 ```
-```css WXSS
+```css
+// WXSS
 /** wxss **/
 /** Modify the default style class of the click state of `button`**/
 .button-hover {

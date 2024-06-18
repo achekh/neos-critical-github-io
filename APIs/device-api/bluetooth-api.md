@@ -109,7 +109,8 @@ Initializes the Bluetooth module. This API is called only once when the central 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.openBluetoothAdapter({
   success (res) {
   	console.log(res)
@@ -168,7 +169,8 @@ Object res
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getConnectedBluetoothDevices({
   services: ['FEE7'],
   success (res) {
@@ -264,7 +266,8 @@ Gets all the Bluetooth devices found when the Bluetooth module is in effect, inc
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 // Example of converting ArrayBuffer to a hex string
 function ab2hex(buffer) {
   var hexArr = Array.prototype.map.call(
@@ -335,7 +338,8 @@ Gets the status of the local Bluetooth adapter.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getBluetoothAdapterState({
   success (res) {
   	console.log(res)
@@ -378,7 +382,8 @@ Disables the Bluetooth module. Calling this method will close all the establishe
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.closeBluetoothAdapter({
   success (res) {
     console.log(res)

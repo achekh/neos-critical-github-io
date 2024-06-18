@@ -68,7 +68,8 @@ Dynamically sets the background color of the window.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.setBackgroundColor({
 	backgroundColor: '#ffffff', // The background color of the window is white.
 })
@@ -102,7 +103,8 @@ Dynamically sets the style of the background font and loading image.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.setBackgroundTextStyle({
 	textStyle: 'dark' // The style of the background font and loading image is `dark`.
 })

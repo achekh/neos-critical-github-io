@@ -137,7 +137,8 @@ In addition to the general properties above, for different modes, **Picker** hav
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   data: {
     array: ['United States', 'China', 'Brazil', 'Japan'],

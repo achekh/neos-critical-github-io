@@ -17,18 +17,21 @@ Let's display the Map page:
 
 1. Copy the code from each of 3 tabs below and paste it into the corresponding file in Mini App Studio. Please note, that for demo purposes the user location is predefined
 
-```Text map.wxml
+```Text
+// map.wxml
 <view class="container">
   <map id="map" show-location latitude="{{userLocation.latitude}}" longitude="{{userLocation.longitude}}" markers="{{markers}}" />
 </view>
 ```
-```Text map.wxss
+```Text
+// map.wxss
 #map {
   height: 100vh;
   width: 100vw;
 }
 ```
-```Text map.js
+```Text
+// map.js
 Page({
   data: {
     userLocation: {

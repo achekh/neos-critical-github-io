@@ -30,7 +30,8 @@ This API is currently not supported in Super Hub Mini App Studio, and it must be
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.login({
   success(res) {
  	 console.log(res ,"info, host app return");

@@ -41,7 +41,8 @@ Valid values of `object.interval`
 
 ## Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.startAccelerometer({
 	interval: 'game'
 })
@@ -67,7 +68,8 @@ Unlistens for accelerometer data.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.stopAccelerometer()
 ```
 
@@ -93,7 +95,8 @@ Callback function for the accelerometer data event
 
 # Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.onAccelerometerChange(function (res) {
   console.log(res.x)
   console.log(res.y)
@@ -113,7 +116,8 @@ The listener function passed in when `onAccelerometerChange` is called. If this 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const listener = function (res) { console.log(res) }
 
 wx.onAccelerometerChange(listener)

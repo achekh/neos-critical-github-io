@@ -37,7 +37,8 @@ Scrolls the page to the target position.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.pageScrollTo({
   scrollTop: 0,
   duration: 300
@@ -64,7 +65,8 @@ Enhanced ScrollView instance, which can be obtained through the `NodesRef.node` 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.createSelectorQuery()
   .select('#scrollview')
   .node()

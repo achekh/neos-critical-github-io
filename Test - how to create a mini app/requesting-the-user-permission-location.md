@@ -17,7 +17,8 @@ Let's register the user location permission message:
 
 1. Copy the code below:
 
-```Text app.json
+```Text
+// app.json
   "permission": {
     "scope.userLocation": {
       "desc": "In order to use this mini app properly, we need your location permission"
@@ -27,7 +28,8 @@ Let's register the user location permission message:
 
 2. Insert and format it as the one below:
 
-```Text app.json
+```Text
+// app.json
 {
   "pages":[
     "pages/map/map",

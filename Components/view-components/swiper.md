@@ -54,7 +54,8 @@ It can be placed in the [<swiper>](doc:swiper) component only. The width and hei
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   data: {
     imgUrls: [

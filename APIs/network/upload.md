@@ -55,7 +55,8 @@ Uploads a local resource to the server. The client initiates an HTTPS POST reque
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.chooseImage({
   success (res) {
     const tempFilePaths = res.tempFilePaths
@@ -105,7 +106,8 @@ Unlistens for the HTTP response header event.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const uploadTask = wx.uploadFile({
   url: 'https://test.url/upload', // This is just an example but not a real API address.
   filePath: tempFilePaths[0],
@@ -223,7 +225,8 @@ Unlistens for the HTTP response header event.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const listener = function (res) { console.log(res) }
 
 UploadTask.onHeadersReceived(listener)

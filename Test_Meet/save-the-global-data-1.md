@@ -17,7 +17,8 @@ Prepare the app's global data for the data it will receive from pages. To do so,
 
 - Copy the code below.
 
-```Text app.js
+```Text
+// app.js
 App({
   onLaunch: function () {
   },

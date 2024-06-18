@@ -31,7 +31,8 @@ Sets the content in the system clipboard. This API should be called for no more 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.setClipboardData({
   data: 'data',
   success(res) {
@@ -70,7 +71,8 @@ Gets the content in the system clipboard. This API should be called for no more 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getClipboardData({
   success(res) {
   	console.log(res.data)

@@ -64,7 +64,8 @@ Hide the "Share with Friends" and "Share to Qzone" buttons when the menu in the 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.hideShareMenu({
 	hideShareItems: ['qq', 'qzone', 'wechatFriends', 'wechatMoment']
 })

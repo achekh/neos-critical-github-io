@@ -22,7 +22,8 @@ Custom APIs can also be extended for implementation in the host app.
 
 ## Usage in Mini App
 
-```javascript JavaScript
+```javascript
+// JavaScript
 var opts = {
   api_name: '', // API name
   success: function(res) {},
@@ -54,75 +55,87 @@ For usage, see `iOS Access`.
 
 **View onCreateLoadingView()**
 
-```Text code
+```Text
+// code
 Creates a loading view. The host is allowed to present the mini app/game's brand and custom display style. If null is returned, the default
 loading view will be displayed.
 ```
 
 **View onCreateCapsuleView()**
 
-```Text code
+```Text
+// code
 Creates a capsule button. The host is allowed to customize the style of the capsule button. If null is returned, the default capsule button
 will be displayed.
 ```
 
 **boolean onShowMenu()**
 
-```Text code
+```Text
+// code
 Triggered when the "..." (more) button is clicked. If `onCreateCapsuleView` returns null and `onShowMenu` returns `false`, the default menu
 will be displayed.
 ```
 
 **void onExit()**
 
-```Text code
+```Text
+// code
 Triggered when the "〇" (exit) button is clicked. If `onCreateCapsuleView` returns null and `onExit` returns `false`, the default operation
 will be executed.
 ```
 
 **boolean onAuthorize(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.authorize` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onOpenSetting(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.openSetting` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onGetSetting(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.getSetting` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onLogin(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.login` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onRefreshSession(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.checkSession` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onRequestPayment(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.requestPayment` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onGetUserInfo(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.getUserInfo` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
-```Text code
+```Text
+// code
 -(void)onGetUserInfoWithParams:(NSDictionary *)params inApp:(NSString *)appId callbackHandler:(WebAPICallbackHandler)handler {
     //TODO
     		NSDictionary* userInfo = @{
@@ -158,79 +171,92 @@ will be executed.
 
 **boolean onShareAppMessage(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.shareAppMessage` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onNavigateToMiniProgram(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.navigateToMiniProgram` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onScanCode(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.scanCode` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onOpenDocument(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.openDocument` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onOpenLocation(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.openLocation` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onChooseLocation(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.chooseLocation` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onPreviewImage(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.rviewImage` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onChooseImage(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.chooseImage` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onChooseVideo(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.chooseVideo` API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
 **boolean onShowToast(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.showToast` and `wx.showLoading` API implementation. If `false` is returned, the default style will be displayed.
 ```
 
 **boolean onHideToast(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.hideToast` and `wx.hideLoading` API implementation. If `false` is returned, the default style will be displayed.
 ```
 
 **boolean onShowModal(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 `wx.showModal` API implementation. If `false` is returned, the default style will be displayed.
 ```
 
 **boolean onLaunchApp(JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 Custom `wx msLaunchApp` API implementation to notify the third-party app to start. If `false` is returned, a call failure will be directly
 notified to the wx API. If `true` is returned, the client needs to implement the corresponding feature. We recommend you use async callback.
 For detailed directions, see the demo code.
@@ -238,11 +264,13 @@ For detailed directions, see the demo code.
 
 **boolean onInvokeWebAPI(String event, JSONObject params, ValueCallback callback)**
 
-```Text code
+```Text
+// code
 Custom wx API implementation. If `false` is returned, a call failure will be directly notified to the wx API.
 ```
 
-```Text code
+```Text
+// code
 - (BOOL)onInvokeWebAPIWithEvent:(NSString*)event params:(NSDictionary*)params callbackHandler:(WebAPICallbackHandler _Nullable)handler {
     NSLog(@"onInvokeWebAPIWithEvent, event:%@, params:%@", event, params);
     if (handler) {
@@ -254,7 +282,8 @@ Custom wx API implementation. If `false` is returned, a call failure will be dir
 
 **boolean onReportEvent(String event, Map params)**
 
-```Text code
+```Text
+// code
 Reports an event. Supported events are as follows:
   1. Mini app start. event: MS_EVENT_LAUNCH. params key: pagePath,d;
   2. Mini app usage duration. event: MS_EVENT_USE_TIME. params key: useTime, startId, appId. `useTime` is in milliseconds; 3. Successful mini

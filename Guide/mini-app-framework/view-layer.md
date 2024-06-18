@@ -35,12 +35,14 @@ The following examples show what WXML can do:
 
 ## Data Binding
 
-```Text code
+```Text
+// code
 <!--wxml-->
 <view> {{message}} </view>
 ```
 
-```Text code
+```Text
+// code
 // page.js
 Page({
   data: {
@@ -51,12 +53,14 @@ Page({
 
 ## List Rendering
 
-```Text code
+```Text
+// code
 <!--wxml-->
 <view wx:for="{{array}}"> {{item}} </view>
 ```
 
-```Text code
+```Text
+// code
 // page.js
 Page({
   data: {
@@ -67,14 +71,16 @@ Page({
 
 ## Condition Rendering
 
-```Text code
+```Text
+// code
 <!--wxml-->
 <view wx:if="{{view == 'WEBVIEW'}}"> WEBVIEW </view>
 <view wx:elif="{{view == 'APP'}}"> APP </view>
 <view wx:else="{{view == 'MINA'}}"> MINA </view>
 ```
 
-```Text code
+```Text
+// code
 // page.js
 Page({
   data: {
@@ -85,7 +91,8 @@ Page({
 
 ## Template
 
-```Text code
+```Text
+// code
 <!--wxml-->
 <template name="staffName">
   <view>
@@ -98,7 +105,8 @@ Page({
 <template is="staffName" data="{{...staffC}}"></template>
 ```
 
-```Text code
+```Text
+// code
 // page.js
 Page({
   data: {
@@ -146,14 +154,16 @@ You can use the `@import` statement to import external style sheet. The `@import
 
 **Sample code:**
 
-```Text code
+```Text
+// code
 /** common.wxss **/
 .small-p {
   padding:5px;
 }
 ```
 
-```Text code
+```Text
+// code
 /** app.wxss **/
 @import "common.wxss";
 .middle-p {
@@ -167,7 +177,8 @@ You can use "style" and "class" properties for framework components to control t
 
 - style: Static styles are all written to "class". "style" receives dynamic styles and parses them at runtime. It is not recommended to write static styles to "style" to avoid affecting the rendering speed.
 
-```Text code
+```Text
+// code
 <view style="color:{{color}};" />
 ```
 
@@ -210,7 +221,8 @@ The following are simple examples of WXS. For more information on WXS syntax, se
 
 ## Page Rendering
 
-```Text code
+```Text
+// code
 <!--wxml-->
 <wxs module="m1">
 var msg = "hello world";
@@ -223,13 +235,15 @@ module.exports.message = msg;
 
 Page output:
 
-```Text code
+```Text
+// code
 hello world
 ```
 
 ## Data Processing
 
-```Text code
+```Text
+// code
 // page.js
 Page({
   data: {
@@ -238,7 +252,8 @@ Page({
 })
 ```
 
-```Text code
+```Text
+// code
 <!--wxml-->
 <!-- The following getMax function takes an array and returns the value of the largest element in the array -->
 <wxs module="m1">
@@ -274,13 +289,15 @@ module.exports.getMax = getMax;
 
 For example, if the event is `bindtap`, the event handler can be found in the page when a user taps the component.
 
-```Text code
+```Text
+// code
 <view id="tapTest" data-hi="Weixin" bindtap="tapName"> Click me! </view>
 ```
 
 - Write the event handler in the Page definition with "event" as the parameter.
 
-```Text code
+```Text
+// code
 Page({
   tapName: function(event) {
     console.log(event)
@@ -290,7 +307,8 @@ Page({
 
 - The log content is as follows:
 
-```Text code
+```Text
+// code
 {
   "type":"tap",
   "timeStamp":895,
@@ -335,7 +353,8 @@ As of base library version `2.4.4`, you can bind events using the WXS function, 
 
 - Bind and register the WXS function for event handling in component.
 
-```Text code
+```Text
+// code
 <wxs module="wxs" src="./test.wxs"></wxs>
 <view id="tapTest" data-hi="Weixin" bindtap="{{wxs.tapName}}"> Click me! </view>
 **Note: The bound WXS function must be enclosed with {{}}.**
@@ -395,7 +414,8 @@ Binding `bind` event does not prevent a bubbling event from bubbling, but bindin
 
 In the example shown below, tap "inner view" to call `handleTap3` and `handleTap2` (because the tap event is propagated to middle view, which prevents the tap event from being propagated to the parent node); tap "middle view" to trigger `handleTap2` and tap "outer view" to trigger `handleTap1`.
 
-```Text code
+```Text
+// code
 <view id="outer" bindtap="handleTap1">
   outer view
   <view id="middle" catchtap="handleTap2">
@@ -413,7 +433,8 @@ As of base library 1.5.0, touch-related events support capturing. In event captu
 
 In the code below, tap "inner view" to call `handleTap2`, `handleTap4`, `handleTap3`, and `handleTap1` in turn.
 
-```Text code
+```Text
+// code
 <view id="outer" bind:touchstart="handleTap1" capture-bind:touchstart="handleTap2">
   outer view
   <view id="inner" bind:touchstart="handleTap3" capture-bind:touchstart="handleTap4">
@@ -424,7 +445,8 @@ In the code below, tap "inner view" to call `handleTap2`, `handleTap4`, `handleT
 
 If the first capture-bind in the above code is changed to capture-catch, only handleTap2 is triggered.
 
-```Text code
+```Text
+// code
 <view id="outer" bind:touchstart="handleTap1" capture-catch:touchstart="handleTap2">
   outer view
   <view id="inner" bind:touchstart="handleTap3" capture-bind:touchstart="handleTap4">
@@ -505,11 +527,13 @@ In WXML, these custom data begins with `data-` and multiple words are joined wit
 
 **Example:**
 
-```Text code
+```Text
+// code
 <view data-alpha-beta="1" data-alphaBeta="2" bindtap="bindViewTap"> DataSet Test </view>
 ```
 
-```Text code
+```Text
+// code
 Page({
   bindViewTap:function(event){
     event.currentTarget.dataset.alphaBeta === 1 // - Converts to camel case
@@ -528,7 +552,8 @@ When an event is triggered, all `mark`s on the event bubbling path are merged an
 
 Preview with Developer Tool
 
-```Text code
+```Text
+// code
 <view mark:myMark="last" bindtap="bindViewTap">
   <button mark:anotherMark="leaf" bindtap="bindButtonTap">Button</button>
 </view>
@@ -536,7 +561,8 @@ Preview with Developer Tool
 
 In the above WXML, if a button is tapped, events `bindViewTap` and `bindButtonTap` are triggered. The `event.mark` carried by the event contains `myMark` and `anotherMark`.
 
-```Text code
+```Text
+// code
 Page({
   bindViewTap: function(e) {
     e.mark.myMark === "last" // true
@@ -679,7 +705,8 @@ What is component?
 - A component comes with some features and Weixin styles.
 - A component includes a `start tag`, `end tag`, `property` (modifies the component), and `content` (between the two tags).
 
-```Text code
+```Text
+// code
 <tagname property="value">
 Content goes here ...
 </tagname>
@@ -757,7 +784,8 @@ This API is mostly used to query the current position and scroll position of a n
 
 **Sample code:**
 
-```Text code
+```Text
+// code
 const query = wx.createSelectorQuery()
 query.select('#the-id').boundingClientRect(function(res){
   res.top // The upper boundary coordinates of the #the-id node (relative to the display area)
@@ -786,7 +814,8 @@ The following example shows how to enable screen rotation in a single page json 
 
 ### Code example:
 
-```Text code
+```Text
+// code
 {
   "pageOrientation": "auto"
 }
@@ -802,7 +831,8 @@ Mini Programs running on iPad support screen rotation as of base library 2.3.0. 
 
 ### Code example:
 
-```Text code
+```Text
+// code
 {
   "resizable": true
 }
@@ -816,7 +846,8 @@ Sometimes, the page layout varies with the size of the display area. You can use
 
 ### Code example:
 
-```Text code
+```Text
+// code
 .my-class {
   width: 40px;
 }
@@ -839,7 +870,8 @@ The `onResize` of the page can be used to listen to the page resizing event. For
 
 ### Code example:
 
-```Text code
+```Text
+// code
 Page({
   onResize(res) {
     res.size.windowWidth // New width of display area
@@ -848,7 +880,8 @@ Page({
 })
 ```
 
-```Text code
+```Text
+// code
 Component({
   pageLifetimes: {
     resize(res) {

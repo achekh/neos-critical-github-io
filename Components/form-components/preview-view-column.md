@@ -18,7 +18,8 @@ It can be placed only in [picker-view](doc:picker-view). The height of its child
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const date = new Date()
 const years = []
 const months = []

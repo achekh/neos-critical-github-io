@@ -30,7 +30,8 @@ For example, when the `setData` API of the parent component triggers the `trigge
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Component({
   doSth() {
     this.setData({ number: 1 }) // Execute directly in the current sync process

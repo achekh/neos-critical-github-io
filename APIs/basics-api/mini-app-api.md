@@ -111,7 +111,8 @@ Callback function for the Mini App error event.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const listener = function (res) { console.log(res) }
 
 wx.onError(listener)
@@ -172,7 +173,8 @@ The listener function passed in when `onThemeChange` is called. If this paramete
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const listener = function (res) { console.log(res) }
 
 wx.onThemeChange(listener)

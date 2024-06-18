@@ -21,7 +21,8 @@ parent: "Meet the MiniApp"
 
  Please make sure to add the snippet inside the global JSON object inside the file.
 
-```Text app.json
+```Text
+// app.json
  "pages":[
     "pages/map/map",
     "pages/list/list",
@@ -50,17 +51,20 @@ parent: "Meet the MiniApp"
 
 ### Register pages in their own `<page name>.json files`
 
-```Text about.json
+```Text
+// about.json
 {
   "usingComponents": {}
 }
 ```
-```Text list.json
+```Text
+// list.json
 {
   "usingComponents": {}
 }
 ```
-```Text map.json
+```Text
+// map.json
 {
   "usingComponents": {}
 }
@@ -126,7 +130,8 @@ parent: "Meet the MiniApp"
 
 ### Add Global styling to `app.wxss`.
 
-```Text app.wxss
+```Text
+// app.wxss
 .container {
   height: 100%;
   display: flex;

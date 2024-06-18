@@ -211,7 +211,8 @@ The listener function passed in when `onDiscovered` is called. If this parameter
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const listener = function (res) { console.log(res) }
 NFCAdapter.onDiscovered(listener)
 NFCAdapter.offDiscovered(listener) // You should pass in the same function object as for the listener.

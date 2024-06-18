@@ -30,11 +30,13 @@ The developer needs to set the `open-type` value of the button component to cont
 
 ## Code sample
 
-```Text code
+```Text
+// code
 <button open-type="contact" bindcontact="handleContact"></button>
 ```
 
-```Text code
+```Text
+// code
 Page({
     handleContact (e) {
         console.log(e.path)

@@ -36,7 +36,8 @@ The image view that covers the native components, which can be nested in `cover-
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   onReady() {
     this.videoCtx = wx.createVideoContext('myVideo')

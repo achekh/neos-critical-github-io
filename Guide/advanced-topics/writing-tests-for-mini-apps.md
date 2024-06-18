@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:25:45 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Advanced topics"
 grand_parent: "Guide"
+nav_order: 1
 ---
 # Writing tests for Mini Apps 
 *** 
@@ -24,13 +25,15 @@ This toolset relies on a js runtime environment and a dom environment, so it can
 
 ### Installation
 
-```shell npm
+```shell
+// npm
 npm install --save-dev miniprogram-simulate
 ```
 
 ### Usage
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const simulate = require('miniprogram-simulate')
 
 test('test sth', () => {
@@ -64,7 +67,8 @@ It can be used with most popular frameworks, as long as it meets the js runtime 
 
 For specific jest configuration, please refer to configuration the following configurations:
 
-```json jest.config.js
+```json
+// jest.config.js
 module.exports = {
     bail: 1,
     verbose: true,
@@ -87,13 +91,15 @@ Karma can use the real environment of the browser to run test cases, but because
 
 Install preprocessors:
 
-```shell npm
+```shell
+// npm
 npm install --save-dev karma-dirname-preprocessor karma-filemap-preprocessor karma-webpack
 ```
 
 Configure the basePath, files, preprocessors, webpack fields in karma.conf.js:
 
-```json karma.conf.js
+```json
+// karma.conf.js
 module. exports = function(config) {
      config.set({
          // Other configuration  …
@@ -149,7 +155,8 @@ describe('component', () => {
 
 Import test tools:
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const simulate = require('miniprogram-simulate')
 ```
 
@@ -184,7 +191,8 @@ test('comp', () => {
 
 Retrieve data:
 
-```javascript JavaScript
+```javascript
+// JavaScript
 test('comp', () => {
      // Determine component data
      expect(comp.data).toEqual({
@@ -265,7 +273,8 @@ Register and return the object of behavior.
 
 **Definition:** behavior defines the object, the support field and the Mini app Behavior constructor parameters are consistent.
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const behavior = simulate.behavior({
     /* Mini app behavior support definition section */
 });

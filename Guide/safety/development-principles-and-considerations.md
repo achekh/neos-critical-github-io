@@ -188,7 +188,8 @@ A more common example of conditional competition is an attacker passing concurre
 
 - Vulnerability code example
 
-```Text code
+```Text
+// code
 // Query the remaining number of awards from DB, the initial value is 1
 int remain_times = SelectRemainTimes()
 

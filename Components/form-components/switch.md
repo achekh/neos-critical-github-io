@@ -27,7 +27,8 @@ A switch component functions similar to a checkbox component but explicitly repr
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   switch1Change(e) {
   	console.log('A change event occurred in `switch1`, and the carried value is ', e.detail.value)

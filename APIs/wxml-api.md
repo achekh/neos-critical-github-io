@@ -58,7 +58,8 @@ Returns a `SelectorQuery` object instance. In custom components or on pages cont
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const query = wx.createSelectorQuery()
 query.select('#the-id').boundingClientRect()
 query.selectViewport().scrollOffset()
@@ -243,7 +244,8 @@ The boundaries used to expand (or shrink) the reference node layout area
 
 In the sample code below, if the target node (specified with the `.target-class` selector) enters 100 px below the display area, the callback function will be triggered.
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   onLoad() {
     wx.createIntersectionObserver().relativeToViewport({bottom: 100}).observe('.target-class', (res) => {
@@ -310,7 +312,8 @@ Callback function. After the `[SelectorQuery.exec](<>)` method is executed, the 
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   getRect() {
     wx.createSelectorQuery().select('#the-id').boundingClientRect(function (rect) {
@@ -367,7 +370,8 @@ Callback function, which will return the node information after the `[SelectorQu
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   getContext() {
     wx.createSelectorQuery().select('.the-video-class').context(function (res) {
@@ -447,7 +451,8 @@ Gets the node information. The fields to be obtained are specified in` fields` .
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   getFields() {
     wx.createSelectorQuery().select('#the-id').fields({
@@ -500,7 +505,8 @@ Callback function, which will return the node information after the `SelectorQue
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   getNode() {
     wx.createSelectorQuery().select('.canvas').node(function(res){
@@ -538,7 +544,8 @@ Callback function. After the [`SelectorQuery.exec`](doc:wxml-api#nodesref-select
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   getScrollOffset() {
     wx.createSelectorQuery().selectViewport().scrollOffset(function (res) {
@@ -606,7 +613,8 @@ Custom component instance
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Component({
   queryMultipleNodes() {
     const query = wx.createSelectorQuery().in(this)

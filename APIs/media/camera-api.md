@@ -79,7 +79,8 @@ Callback function
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const context = wx.createCameraContext()
 const listener = context.onCameraFrame((frame) => {
 	console.log(frame.data instanceof ArrayBuffer, frame.width, frame.height)

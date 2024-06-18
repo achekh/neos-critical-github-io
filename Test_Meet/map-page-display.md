@@ -21,18 +21,21 @@ To display the Map page:
 > 
 > For demo purposes the user location is predefined.
 
-```Text map.wxml
+```Text
+// map.wxml
 <view class="container">
   <map id="map" show-location latitude="{{userLocation.latitude}}" longitude="{{userLocation.longitude}}" markers="{{markers}}" />
 </view>
 ```
-```Text map.wxss
+```Text
+// map.wxss
 #map {
   height: 100vh;
   width: 100vw;
 }
 ```
-```Text map.js
+```Text
+// map.js
 Page({
   data: {
     userLocation: {

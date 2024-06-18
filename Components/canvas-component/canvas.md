@@ -33,7 +33,8 @@ grand_parent: "Components"
 
 ### Sample code
 
-```xml WXML
+```xml
+// WXML
 <!-- canvas.wxml -->
 <canvas style="width: 300px; height: 200px;" canvas-id="firstCanvas"></canvas>
 <!-- When the absolute location is used, the canvas after the normal flow has a higher priority for showing than the canvas before the normal
@@ -48,7 +49,8 @@ to the AppService. -->
   ></canvas>
 
 ```
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   canvasIdErrorCallback(e) {
   	console.error(e.detail.errMsg)

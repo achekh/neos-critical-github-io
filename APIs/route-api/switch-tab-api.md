@@ -27,7 +27,8 @@ grand_parent: "APIs"
 
 ### Sample code
 
-```Text app.json
+```Text
+// app.json
 // app.json
 {
 	"tabBar": {
@@ -44,7 +45,8 @@ grand_parent: "APIs"
 	}
 }
 ```
-```javascript page.js
+```javascript
+// page.js
 wx.switchTab({
   url: '/index'
 })

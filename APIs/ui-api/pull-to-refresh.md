@@ -30,7 +30,8 @@ Starts pull-to-refresh. After the call, the pull-to-refresh animation is trigger
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.startPullDownRefresh()
 ```
 
@@ -50,7 +51,8 @@ Stops pull-to-refresh on the current page.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   onPullDownRefresh () {
   	wx.stopPullDownRefresh()

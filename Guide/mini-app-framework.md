@@ -27,13 +27,15 @@ Here is a simple example:
 
 [Preview with Developer Tool](<>)
 
-```Text code
+```Text
+// code
 <!-- This is our View -->
 <view> Hello {{name}}! </view>
 <button bindtap="changeName"> Click me! </button>
 ```
 
-```Text code
+```Text
+// code
 // This is our App Service.
 // This is our data.
 var helloData = {

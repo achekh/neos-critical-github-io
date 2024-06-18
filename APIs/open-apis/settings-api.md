@@ -37,7 +37,8 @@ Calls the Mini App settings page and returns the operation result of the user. T
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.openSetting({
   success(res) {
     console.log(res.authSetting)
@@ -107,7 +108,8 @@ Gets the current settings of the user.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getSetting({
   success(res) {
     console.log(res.authSetting)
@@ -119,7 +121,8 @@ wx.getSetting({
 })
 ```
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getSetting({
   withSubscriptions: true,
   success (res) {

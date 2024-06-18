@@ -45,7 +45,8 @@ The listener function passed in when `onWifiConnected` is called. If this parame
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const listener = function (res) { console.log(res) }
 
 wx.onWifiConnected(listener)

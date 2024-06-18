@@ -71,7 +71,8 @@ Page({
 })
 
 ```
-```xml WXML
+```xml
+// WXML
 <view class="section section_gap">
   <view class="section__title">The form component is in the label</view>
   <checkbox-group class="group" bindchange="checkboxChange">

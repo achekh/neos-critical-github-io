@@ -17,7 +17,8 @@ Let's request the user's location:
 
 1. copy the code snippet below
 
-```Text map.js
+```Text
+// map.js
 wx.getLocation({
   type: 'wgs84',
   success: (res) => {
@@ -35,7 +36,8 @@ wx.getLocation({
 
 2. insert and format the code like the one below
 
-```Text map.js
+```Text
+// map.js
 Page({
   data: {
     userLocation: {

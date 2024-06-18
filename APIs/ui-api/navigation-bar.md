@@ -30,7 +30,8 @@ Dynamically sets the title of the current page.
 | fail      | Function | No       | Callback function for a failed API call.                                               |
 | complete  | Function | No       | Callback function for an API call end (executed for both successful and failed calls). |
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.setNavigationBarTitle({
 	title: 'Current page'
 }
@@ -71,7 +72,8 @@ Sets the color of the page navigation bar.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.setNavigationBarColor({
   frontColor: '#ffffff',
   backgroundColor: '#ff0000',

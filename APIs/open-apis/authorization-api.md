@@ -31,7 +31,8 @@ Sends an authorization request to the user in advance. Immediately after the cal
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 // You can first check whether the user has authorized the "scope.record" scope through `wx.getSetting`.
   wx.getSetting({
     success(res) {

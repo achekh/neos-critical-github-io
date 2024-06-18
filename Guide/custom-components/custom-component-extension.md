@@ -146,7 +146,8 @@ Component({
 })
 ```
 
-```Text WXML
+```Text
+// WXML
 <view>data: {{a}}</view>
 <view>computed: {{b}}</view>
 <button bindtap="onTap">click</button>

@@ -17,17 +17,20 @@ Let's display the About page:
 
 - Copy the code from each of the 3 tabs below and paste it into the corresponding file in Mini App Studio.
 
-```Text about.wxml
+```Text
+// about.wxml
 <view>
     <text class="title">About app</text>
 </view>
 ```
-```Text about.wxss
+```Text
+// about.wxss
 .title {
     padding-left: 20rpx;
 }
 ```
-```Text about.js
+```Text
+// about.js
 Page({
 
 })

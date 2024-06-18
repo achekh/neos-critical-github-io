@@ -15,13 +15,15 @@ All the drawings in canvas must be completed with JavaScript:
 
 WXML: (Unless otherwise specified, WXML is used as a template in the following example)
 
-```Text code
+```Text
+// code
 <canvas canvas-id="myCanvas" style="border: 1px solid;"/>
 ```
 
 JS: (JS is placed in onLoad in the following example)
 
-```Text code
+```Text
+// code
 const ctx = wx.createCanvasContext('myCanvas')
 ctx.setFillStyle('red')
 ctx.fillRect(10, 10, 150, 75)
@@ -36,13 +38,15 @@ First, we need to create a Canvas drawing context CanvasContext. A CanvasContext
 
 Next, we will describe what content to draw on the Canvas. You can set the fill color of the drawing context to red by writing the below code:
 
-```Text code
+```Text
+// code
 ctx.setFillStyle('red')
 ```
 
 Draw a rectangle using the fillRect(x, y, width, height) method, and fill it with red as just set:
 
-```Text code
+```Text
+// code
 ctx.fillRect(10, 10, 150, 75)
 ```
 
@@ -68,7 +72,8 @@ In the previous section, we used the method `fillRect(0, 0, 150, 75)`. This indi
 
 We can add events in canvas to observe its coordinate system.
 
-```Text code
+```Text
+// code
 <canvas canvas-id="myCanvas"
   style="margin: 5px; border:1px solid #d3d3d3;"
   bindtouchstart="start"
@@ -80,7 +85,8 @@ We can add events in canvas to observe its coordinate system.
 </view>
 ```
 
-```Text code
+```Text
+// code
 Page({
   data: {
     x: 0,
@@ -129,7 +135,8 @@ You can use the `setFillStyle` and `setStrokeStyle` methods to set the gradient 
 
 **Use** `createLinearGradient()`
 
-```Text code
+```Text
+// code
 const ctx = wx.createCanvasContext('myCanvas')
 
 // Create linear gradient
@@ -147,7 +154,8 @@ ctx.draw()
 
 **Use**` createCircularGradient()`
 
-```Text code
+```Text
+// code
 const ctx = wx.createCanvasContext('myCanvas')
 
 // Create circular gradient

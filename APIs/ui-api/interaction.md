@@ -101,7 +101,8 @@ Displays the message prompt box.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.showToast({
   title: 'Success',
   icon: 'success',
@@ -160,7 +161,8 @@ Shows the modal dialog box.
 | confirm   | Boolean | `true` indicates that the user clicked "Confirm".                                                                                                          |
 | cancel    | Boolean | `true` indicates that the user clicked "Cancel" (this is used on Android to distinguish between tapping outside the modal and clicking "Cancel" to close). |
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.showModal({
   title: 'Prompt',
   content: 'This is a modal pop-up',
@@ -190,7 +192,8 @@ Shows the loading prompt box. To close the prompt box, the developer need to act
 | fail      | Function |         | No       | Callback function for failed API call.                                                         |
 | complete  | Function |         | No       | Callback function for API call end (executed for both successful and failed calls).            |
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.showLoading({
 	title: 'Loading',
 })
@@ -286,7 +289,8 @@ Shows a menu modal.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.showActionSheet({
   itemList: ['A', 'B', 'C'],
   success (res) {

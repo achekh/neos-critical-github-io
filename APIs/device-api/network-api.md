@@ -46,7 +46,8 @@ Valid values of `networkType`
 
 ### sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.onNetworkStatusChange(function (res) {
   console.log(res.isConnected)
   console.log(res.networkType)
@@ -90,7 +91,8 @@ Valid values of `res.networkType`
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 wx.getNetworkType({
   success(res) {
  	 const networkType = res.networkType

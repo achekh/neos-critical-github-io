@@ -35,7 +35,8 @@ Update manager object.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 const updateManager = wx.getUpdateManager()
 updateManager.onCheckForUpdate(function (res) {
   // Callback after requesting the new version information

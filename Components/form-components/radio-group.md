@@ -22,7 +22,8 @@ Radio group is composed of multiple radio components.
 
 ### Sample code
 
-```javascript JavaScript
+```javascript
+// JavaScript
 Page({
   data: {
     items: [
