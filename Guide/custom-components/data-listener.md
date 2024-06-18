@@ -8,6 +8,7 @@ updatedAt: "Tue Nov 28 2023 10:13:10 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
+nav_order: 9
 ---
 # Data Listener 
 *** 

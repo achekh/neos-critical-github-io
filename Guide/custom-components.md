@@ -11,6 +11,7 @@ updatedAt: "Thu Jun 08 2023 10:45:26 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
 has_children: true
+nav_order: 10
 ---
 # Custom Components 
 *** 
@@ -36,10 +37,12 @@ In the meanwhile, write a component template in the `wxml` file and a component 
 ```Text
 // code
 <!-- This is the internal WXML structure of the custom component -->
+<% raw %>
 <view class="inner">
   {{innerText}}
 </view>
 <slot></slot>
+<% endraw %>
 ```
 
 ```Text
@@ -62,6 +65,7 @@ The property values and internal data of the component are used to render the co
 
 ```Text
 // code
+<% raw %>
 Component({
   properties: {
     // The innerText property is defined here, and the property value can be specified when the component is used.
@@ -79,7 +83,7 @@ Component({
     customMethod: function(){}
   }
 })
-Using 
+<% endraw %>
 ```
 
 ## Using Custom Component

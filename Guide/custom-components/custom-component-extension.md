@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:02:16 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
+nav_order: 8
 ---
 # Custom Component Extension 
 *** 
@@ -146,11 +147,13 @@ Component({
 })
 ```
 
-```Text
+```xml
 // WXML
+<% raw %>
 <view>data: {{a}}</view>
 <view>computed: {{b}}</view>
 <button bindtap="onTap">click</button>
+<% endraw %>
 ```
 
 The implementation principle is very simple. The existing `setData` is encapsulated again, and the value of each field in `computed` is calculated everytime `setData` is performed and then set to data to achieve the effect of attribute calculation.

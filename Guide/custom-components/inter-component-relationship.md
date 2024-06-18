@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:01:08 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
+nav_order: 6
 ---
 # Relationship Between Components 
 *** 
@@ -18,8 +19,8 @@ grand_parent: "Guide"
 
 Sometimes, it is necessary to implement components like the following:
 
-```Text
-// WXML
+```xml
+<!-- WXML -->
 <custom-ul>
   <custom-li>item 1</custom-li>
   <custom-li>item 2</custom-li>

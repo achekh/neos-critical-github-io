@@ -11,6 +11,7 @@ updatedAt: "Fri Jun 09 2023 07:06:59 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
+nav_order: 1
 ---
 # Component Template and Style 
 *** 
@@ -231,16 +232,16 @@ Component({
 })
 ```
 
-```Text
-// WXML
+```xml
+<!-- WXML -->
 <!-- `custom-component.wxml` of the component -->
 <text class="red-text">
   The color of this paragraph is determined by the styles defined in the `app.wxss` and the page's `wxss`.
 </text>
 ```
 
-```Text
-// WXSS
+```css
+/* WXSS */
 /* app.wxss */
 .red-text {
   color: red;

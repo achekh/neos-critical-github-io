@@ -11,6 +11,7 @@ updatedAt: "Fri Jun 09 2023 09:02:28 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
+nav_order: 3
 ---
 # Component Event 
 *** 
@@ -18,20 +19,20 @@ grand_parent: "Guide"
 
 The basic communication methods between components are as follows:
 
-- WXML data binding: It is used by the parent component to set only JSON-compatible data for the specified attribute of the child component (functions can also be included in the data). For more information, see [Component Template and Style](doc:component-template-and-style#component-template).
+- WXML data binding: It is used by the parent component to set only JSON-compatible data for the specified attribute of the child component (functions can also be included in the data). For more information, see [Component Template and Style](component-template-and-style#component-template).
 - Event: It is used for the child component to pass any data to the parent component.
 - If the above two methods cannot meet your needs, you can also make the parent component get the child component's instance object through the `this.selectComponent` method, so that it can directly access any data and methods of the child component.
 
 ## Listening for an event
 
-The event system is one of the major means of communication between components. Custom components can trigger arbitrary events, and pages that reference such components can listen for these events. For the basic concepts and usage of events, see [Event](doc:wxml#event).
+The event system is one of the major means of communication between components. Custom components can trigger arbitrary events, and pages that reference such components can listen for these events. For the basic concepts and usage of events, see [Event](../view-layer/wxml#event).
 
 The method of listening for custom component events is exactly the same as that of listening for basic component events:
 
 ### Sample code:
 
-```Text
-// WXML
+```xml
+<!-- WXML -->
 <!-- When the custom component triggers the `myevent` event, call the `onMyEvent` method. -->
 <component-tag-name bindmyevent="onMyEvent" />
 <!-- Or, it can be written as: -->
@@ -51,8 +52,8 @@ Page({
 
 When a custom component triggers an event, you need to use the `triggerEvent` method to specify the event name, `detail` object, and event options:
 
-```Text
-// WXML
+```xml
+<!-- WXML -->
 <!-- In the custom component -->
 <button bindtap="onTap">Clicking this button will trigger the `myevent` event.</button>
 ```
@@ -78,27 +79,27 @@ Options for triggered events include:
 | composed     | Boolean | No       | false   | Whether the event can cross the boundary of the component. If this parameter is false , the event can only be triggered on the node tree of the referenced component and will not enter any other components. |
 | capturePhase | Boolean | No       | false   | Whether the event has a capture phase                                                                                                                                                                         |
 
-For the concepts of bubbling and capture phase, see [Event](doc:wxml#event).
+For the concepts of bubbling and capture phase, see [Event](../view-layer/wxml#event).
 
-```Text
-// WXML
-// `page.wxml` of the page
+```xml
+<!-- WXML -->
+<!-- `page.wxml` of the page -->
 <another-component bindcustomevent="pageEventListener1">
   <my-component bindcustomevent="pageEventListener2"></my-component>
 </another-component>
 ```
 
-```Text
-// WXML
-// `another-component.wxml` of the component
+```xml
+<!-- WXML -->
+<!-- `another-component.wxml` of the component -->
 <view bindcustomevent="anotherEventListener">
   <slot />
 </view>
 ```
 
-```Text
-// WXML
-// `my-component.wxml` of the component
+```xml
+<!--  WXML -->
+<!-- `my-component.wxml` of the component -->
 <view bindcustomevent="myEventListener">
   <slot />
 </view>
@@ -113,7 +114,8 @@ Component({
       this.triggerEvent('customevent', {}) // Only `pageEventListener2` will be triggered.
       this.triggerEvent('customevent', {}, {bubbles: true}) // `pageEventListener2` and `pageEventListener1` will be triggered in turn.
       this.triggerEvent('customevent', {}, {bubbles: true, composed: true}) // `pageEventListener2`, `anotherEventListener`, and
-`pageEventListener1` will be triggered in turn.
-} }
+      `pageEventListener1` will be triggered in turn.
+    } 
+  }
 })
 ```

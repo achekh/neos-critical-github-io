@@ -11,6 +11,7 @@ updatedAt: "Fri Jun 09 2023 09:18:56 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
+nav_order: 4
 ---
 # Component Lifecycle 
 *** 

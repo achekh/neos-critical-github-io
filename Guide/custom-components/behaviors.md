@@ -11,6 +11,7 @@ updatedAt: "Fri Jun 09 2023 09:46:01 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
+nav_order: 5
 ---
 # Behaviors 
 *** 
@@ -82,7 +83,8 @@ A component and its referenced behavior can contain fields with the same name, w
 
 Custom components can get the behaviors of built-in components by referencing built-in behaviors.
 
-```
+```javascript
+// JavaScript
 Component({
   behaviors: ['wx://form-field']
 })
@@ -120,8 +122,8 @@ Component({
 })
 ```
 
-```Text
-// WXML
+```xml
+<!-- WXML -->
 <!-- If the custom component is used -->
 <my-component id="the-id" />
 ```

@@ -11,6 +11,7 @@ updatedAt: "Fri Jun 09 2023 10:09:07 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Custom Components"
 grand_parent: "Guide"
+nav_order: 7
 ---
 # Abstract Node 
 *** 
@@ -20,15 +21,17 @@ Sometimes, for some nodes in a custom component template, the corresponding cust
 
 For example, you want to implement a "selectable-group" component, where radio buttons (custom-radio) or checkboxes (custom-checkbox) can be placed. The `wxml` of this component can be written as follows:
 
-```Text
-// WXML
+```xml
+<!-- WXML -->
 <!-- selectable-group.wxml -->
+<% raw %>
 <view qq:for="{{labels}}">
   <label>
     <selectable disabled="{{false}}"></selectable>
 {{item}}
   </label>
 </view>
+<% endraw %>
 ```
 
 Among them, `selectable` is not any component declared in the `usingComponents` field of the `json` file but an abstract node. It needs to be declared in the `componentGenerics` field:
@@ -45,15 +48,15 @@ Among them, `selectable` is not any component declared in the `usingComponents` 
 
 When using the `selectable-group` component, you must specify which component is `selectable`:
 
-```Text
-// WXML
+```xml
+<!-- WXML -->
  <selectable-group generic:selectable="custom-radio" />
 ```
 
 In this way, when generating an instance of this `selectable-group` component, the `selectable` node will generate an instance of the `custom-radio` component. Similarly, if the following is used:
 
-```Text
-// WXML
+```xml
+<!-- WXML -->
  <selectable-group generic:selectable="custom-checkbox" />
 ```
 
