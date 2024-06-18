@@ -27,21 +27,21 @@ To send a push notification to Mini Apps' users, you can call the following API:
 
 | Parameter | Type | Available | Description             | Example         |
 | :-------- | :--- | :-------- | :---------------------- | :-------------- |
-| sign | String | Yes | Authenticated security key. | c09636a3a529a  \n386fdaa389228  \ne36fac |
+| sign | String | Yes | Authenticated security key. | c09636a3a529a  <br>386fdaa389228  <br>e36fac |
 | timestamp | Long | Yes | Unix Epoch timestamp within 5 minutes of the current calling interface, unit: milliseconds. | 1600140360000 |
 | appid | String | Yes | Mini App ID. | 6364a1ec8754dd1a55d6b8de |
-| notifyType | Integer | Yes | Message type;  \n1-plain text type | 1 |
-| rulesType | String | Yes | Rules:  \n1-send to everyone  \n2- send by phone number  \n3-uid | 1 |
+| notifyType | Integer | Yes | Message type;  <br>1-plain text type | 1 |
+| rulesType | String | Yes | Rules:  <br>1-send to everyone  <br>2- send by phone number  <br>3-uid | 1 |
 | countryCode | String | No | Country code. | +966 |
 | mobileNumber | String | No | Telephone number | 123456789 |
 | openIds | Attay<String> | No | Mini App user's openid | 15555555555 |
 | title | String | Yes | Push notification title | "Hello World" |
 | text | String | Yes | Push notification content| "This is a test push notification" |
-| navigateType | String | Yes | Deep link navigation type;  \n1- Mini App, 2- URL | 1 |
-| miniAppId | String | No| mini App ID  \nNote: When  \nnavigateType is 1 (navigation type is Mini App), this value is required.| |
-| url| String | No | Note: When  \nnavigateType is  \n2 (navigation type is URL), this value  \nis required.| |
+| navigateType | String | Yes | Deep link navigation type;  <br>1- Mini App, 2- URL | 1 |
+| miniAppId | String | No| mini App ID  <br>Note: When  <br>navigateType is 1 (navigation type is Mini App), this value is required.| |
+| url| String | No | Note: When  <br>navigateType is  <br>2 (navigation type is URL), this value  <br>is required.| |
 | link | String | No | Mini App page link | |
-| language | String | No | Push notification language  \nNote:  \nWhen the  \nnavigate type is  1 (navigation type is Mini  \nApp), this  \nvalue is required. | en_US;  \nar_SA;" |
+| language | String | No | Push notification language  <br>Note:  <br>When the  <br>navigate type is  1 (navigation type is Mini  <br>App), this  <br>value is required. | en_US;  <br>ar_SA;" |
 
 Response Result:
 
@@ -60,8 +60,8 @@ Response Parameters:
 
 | Parameter | Description | Type | Example |
 | :-------- | :-------------------------------------- | :-------- | :--------- |
-| responseHeader | Response header | Object| {  \nstatus: 200,  \nmsg: \"OK\"  \n} |
-| response | Whether the sending of the  \nmessage was successful; true  \nmeans that the sending of the  \nnotification was successful and  \nfailed | Boolean | True |
+| responseHeader | Response header | Object| {  <br>status: 200,  <br>msg: \"OK\"  <br>} |
+| response | Whether the sending of the  <br>message was successful; true  <br>means that the sending of the  <br>notification was successful and  <br>failed | Boolean | True |
 
 Response header parameters:
 
