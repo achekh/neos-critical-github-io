@@ -8,6 +8,7 @@ updatedAt: "Tue Nov 28 2023 10:11:12 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Basic Capabilities"
 grand_parent: "Guide"
+nav_order: 1
 ---
 # Network
 
@@ -96,7 +97,7 @@ Base library 2.4.0 provides a variety of mDNS APIs such as wx.startLocalServiceD
 
 In this case, no security domain check is performed and https/wss is not necessarily required (http/ws can be used instead).
 
-```Text
+```javascript
 // code
 wx.request({
   url: 'http://10.9.176.40:828'

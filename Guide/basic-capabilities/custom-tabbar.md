@@ -8,6 +8,7 @@ updatedAt: "Tue Nov 28 2023 10:31:55 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Basic Capabilities"
 grand_parent: "Guide"
+nav_order: 4
 ---
 # Custom tabBar 
 *** 
@@ -35,7 +36,7 @@ Perform the following steps to use the custom tabBar:
 
 ### Example:
 
-```Text
+```javascript
 // code
 {
   "tabBar": {

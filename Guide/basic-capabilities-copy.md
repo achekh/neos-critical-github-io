@@ -8,14 +8,16 @@ updatedAt: "Tue Nov 28 2023 10:12:12 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
 has_children: true
+has_toc: false
+nav_order: 11
 ---
 # Basic Capabilities 
 *** 
 The following are the important basic capabilities of Mini App:
 
-- Network
+- [Network](basic-capabilities/network)
   - Instructions
   - Communication over LAN
-- Storage
-- Canvas
-- Custom tabBar
+- [Storage](basic-capabilities/storage)
+- [Canvas](basic-capabilities/canvas)
+- [Custom tabBar](basic-capabilities/custom-tabbar)
