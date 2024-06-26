@@ -11,9 +11,11 @@ updatedAt: "Tue Jun 13 2023 06:10:10 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Basic components"
 grand_parent: "Components"
+nav_order: 1
 ---
 # Icon 
 *** 
+
 | Attribute  | Type          | Default Value | Required | Description                                                                                                                             |
 | :--------- | :------------ | :------------ | :------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
 | type       | String        |               | Yes      | Icon type. The valid values are: `success`, `success_no_circle`, `info`, `warn`, `waiting`, `cancel`, `download`, `search` and `clear`. |
@@ -59,4 +61,4 @@ Page({
 {% endraw %}
 ```
 
-![](https://files.readme.io/078f2ff-Screenshot_2023-06-13_at_11.39.44_AM.png)
+![](../../assets/images/078f2ff-Screenshot_2023-06-13_at_11.39.44_AM.png)

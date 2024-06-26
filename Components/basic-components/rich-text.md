@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:04:58 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Basic components"
 grand_parent: "Components"
+nav_order: 4
 ---
 # Rich text 
 *** 

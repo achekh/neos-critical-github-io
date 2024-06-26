@@ -11,9 +11,11 @@ updatedAt: "Fri Jul 14 2023 11:04:50 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Basic components"
 grand_parent: "Components"
+nav_order: 3
 ---
 # Text 
 *** 
+
 | Attribute  | Type    | Default Value | Description                         |
 | :--------- | :------ | :------------ | :---------------------------------- |
 | selectable | Boolean | false         | Whether the text is selectable.     |
@@ -74,4 +76,4 @@ Page({
 {% endraw %}
 ```
 
-![](https://files.readme.io/6484796-Screenshot_2023-06-13_at_11.44.42_AM.png)
+![](../../assets/images/6484796-Screenshot_2023-06-13_at_11.44.42_AM.png)

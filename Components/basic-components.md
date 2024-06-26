@@ -11,12 +11,15 @@ updatedAt: "Fri May 12 2023 11:06:09 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Components"
 has_children: true
+has_toc: false
+nav_order: 2
 ---
 # Basic components 
 *** 
+
 | Name                       | Function Explanation |
 | :------------------------- | :------------------- |
-| [icon](doc:icon)           | Icon                 |
-| [progress](doc:progress)   | Progress bar         |
-| [rich-text](doc:rich-text) | Rich text            |
-| [text](doc:text)           | Text                 |
+| [icon](basic-components/icon)           | Icon                 |
+| [progress](basic-components/progress)   | Progress bar         |
+| [rich-text](basic-components/rich-text) | Rich text            |
+| [text](basic-components/text)           | Text                 |
