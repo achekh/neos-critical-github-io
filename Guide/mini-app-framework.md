@@ -10,6 +10,7 @@ updatedAt: "Wed May 03 2023 10:15:03 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
 has_children: true
+nav_exclude: true
 ---
 # Mini Program Framework 
 *** 
@@ -27,14 +28,15 @@ Here is a simple example:
 
 [Preview with Developer Tool](<>)
 
-```Text
-// code
+```xml
+<% raw %>
 <!-- This is our View -->
 <view> Hello {{name}}! </view>
 <button bindtap="changeName"> Click me! </button>
+<% endraw %>
 ```
 
-```Text
+```javascript
 // code
 // This is our App Service.
 // This is our data.

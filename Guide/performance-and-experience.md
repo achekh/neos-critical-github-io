@@ -10,6 +10,7 @@ updatedAt: "Mon May 29 2023 11:47:51 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
 has_children: true
+nav_exclude: true
 ---
 # Performance and Experience 
 *** 

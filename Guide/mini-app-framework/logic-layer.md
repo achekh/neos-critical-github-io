@@ -25,8 +25,7 @@ For each Mini Program, a Mini Program instance needs to be registered by calling
 
 For specific definitions and usage of the parameters, refer to App Reference Documents.
 
-```Text
-// code
+```javascript
 //app.js
 App({
   onLaunch (options) {
@@ -47,8 +46,7 @@ App({
 
 A Mini Program has only one app instance, which is shared to all pages. Developers can obtain the globally unique app instance by using the `getApp` method, and then obtain data in the app or call a function registered with `App` by the developers.
 
-```Text
-// code
+```javascript
 // xxx.js
 const appInstance = getApp()
 console.log(appInstance.globalData) // I am global data
@@ -60,8 +58,7 @@ For each page of a Mini Program, a page instance needs to be registered by calli
 
 For specific definitions and usage of the parameters, refer to Page Reference Documents.
 
-```Text
-// code
+```javascript
 // index.js
 Page({
   data: {
@@ -126,7 +123,7 @@ For details, see `Component` Constructor.
 
 The following figure describes the lifecycle of a `Page` instance.
 
-![](https://files.readme.io/1218b0b-10.png)
+![](../../assets/images/1218b0b-10.png)
 
 ## Page Routing
 
@@ -151,49 +148,14 @@ Developers can obtain the current page stack by using the `getCurrentPages()` fu
 
 The following shows how page routing is triggered and the lifecycle functions for pages.
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Routing",
-    "h-1": "Trigger Condition",
-    "h-2": "Source Page",
-    "h-3": "Routed-To Page",
-    "0-0": "Initialization",
-    "0-1": "A page of the Mini Program is opened for the first time.",
-    "0-2": "",
-    "0-3": "onLoad, onShow",
-    "1-0": "Opening a new page",
-    "1-1": "The API wx.navigateTo is called.  \nThe component `<navigator open-type=\"navigateTo\"/>` is used.",
-    "1-2": "onHide",
-    "1-3": "onLoad, onShow",
-    "2-0": "Page redirection",
-    "2-1": "The API wx.redirectTo is called.  \nThe component `<navigator open-type=\"redirectTo\"/>` is used.",
-    "2-2": "onUnload",
-    "2-3": "onLoad, onShow",
-    "3-0": "Page return",
-    "3-1": "The API wx.navigateBack is called.  \nThe component `<navigator open-type=\"navigateBack\">` is used.  \nThe user taps the return button on the top left.",
-    "3-2": "onUnload",
-    "3-3": "onShow",
-    "4-0": "Tab switching",
-    "4-1": "The API wx.switchTab is called.  \nThe component `<navigator open-type=\"switchTab\"/>` is used.  \nThe user switches between tabs.",
-    "4-2": "",
-    "4-3": "For details, refer to the following table.",
-    "5-0": "Restart",
-    "5-1": "The API wx.reLaunch is called.  \nThe component `<navigator open-type=\"reLaunch\"/>` is used.",
-    "5-2": "onUnload",
-    "5-3": "onLoad, onShow"
-  },
-  "cols": 4,
-  "rows": 6,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Routing | Trigger Condition | Source Page | Routed-To Page |
+| :------ | :---------------- | :---------- | :------------- |
+| Initialization | A page of the Mini Program is opened for the first time. |  | onLoad, onShow |
+| Opening a new page | The API wx.navigateTo is called.  <br />The component `<navigator open-type=\"navigateTo\"/>` is used. | onHide | onLoad, onShow |
+| Page redirection | The API wx.redirectTo is called.  <br />The component `<navigator open-type=\"redirectTo\"/>` is used. | onUnload | onLoad, onShow |
+| Page return | The API wx.navigateBack is called.  <br />The component `<navigator open-type=\"navigateBack\">` is used.  <br />The user taps the return button on the top left. | onUnload | onShow |
+| Tab switching | The API wx.switchTab is called.  <br />The component `<navigator open-type=\"switchTab\"/>` is used.  <br />The user switches between tabs. |  | For details, refer to the following table. |
+| Restart | The API wx.reLaunch is called.  <br />The component `<navigator open-type=\"reLaunch\"/>` is used. | onUnload | onLoad, onShow |
 
 Lifecycle functions corresponding to tab switching (in the following example, pages A and B are Tabbar pages, page C is obtained after page A is opened, and page D is obtained after page C is opened):
 
@@ -225,8 +187,7 @@ Some common codes can be extracted to create an independent js file as a module.
 > - `exports` is a reference to `module.exports`. Therefore, a random modification to the point of exports in the module may cause an unknown error. Developers are advised to expose module APIs via `module.exports` if they do not know the relationship between them.
 > - Currently, `node_modules` cannot be directly passed into Mini Programs. To use `node_modules`, developers are advised to copy relevant code to the directory of the Mini Program or use the npm feature supported by Mini Programs.
 
-```Text
-// code
+```javascript
 // common.js
 function sayHello(name) {
   console.log(`Hello ${name} !`)
@@ -241,8 +202,7 @@ exports.sayGoodbye = sayGoodbye
 
 To pass common code into files that need to access these modules, use `require`.
 
-```Text
-// code
+```javascript
 var common = require('common.js')
 Page({
   helloMINA: function() {
@@ -262,16 +222,14 @@ The global application instance can be obtained via the global function getApp. 
 
 For example:
 
-```Text
-// code
+```javascript
 //app.js
 App({
   globalData: 1
 })
 ```
 
-```Text
-// code
+```javascript
 // a.js
 // The localValue can only be used in file a.js.
 var localValue = 'a'
@@ -281,8 +239,7 @@ var app = getApp()
 app.globalData++
 ```
 
-```Text
-// code
+```javascript
 // b.js
 // You can redefine localValue in file b.js, without interference with the localValue in a.js.
 var localValue = 'b'
@@ -304,7 +261,7 @@ this kind API Accepts a callback function as a parameter that is called when an 
 
 **Code examples**
 
-```Text
+```javascript
 // code
 wx.onCompassChange(function (res) {
   console.log(res.direction)
@@ -319,7 +276,7 @@ synchronization API Can be obtained directly from the return value of the functi
 
 Code examples:
 
-```Text
+```javascript
 // code
 try {
   wx.setStorageSync('key', 'value')
@@ -356,7 +313,7 @@ In Partially asynchronous APIs, there are also return values that can be used to
 
 **Code examples**
 
-```Text
+```javascript
 // code
 wx.login({
   success(res) {
@@ -375,8 +332,7 @@ wx.login({
 
 **Code examples**
 
-```Text
-// code
+```javascript
 // callback Formal invocation
 wx.chooseImage({
   success(res) {
@@ -394,7 +350,7 @@ While accessing and using Mini AppCloud Development, you can use the cloud devel
 
 **Code examples**
 
-```Text
+```javascript
 // code
 wx.cloud.callFunction({
   // Cloud function name

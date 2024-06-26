@@ -9,6 +9,7 @@ createdAt: "Thu Apr 27 2023 07:25:27 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed May 03 2023 10:12:54 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
+nav_exclude: true
 ---
 # Directory Structure 
 *** 

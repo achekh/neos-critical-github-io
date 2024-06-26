@@ -10,6 +10,7 @@ createdAt: "Mon May 08 2023 10:43:52 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Mon May 29 2023 11:20:38 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
+nav_exclude: true
 ---
 # Data Analysis 
 *** 

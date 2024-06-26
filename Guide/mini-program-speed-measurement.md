@@ -9,6 +9,7 @@ createdAt: "Tue May 09 2023 07:15:36 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Tue May 30 2023 05:28:02 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
+nav_exclude: true
 ---
 # Mini Program speed measurement
 
@@ -23,11 +24,11 @@ Click "New" to create a new ID, you need to select the indicator type and fill i
 - **NetRequest Class**： This kind of time is mainly affected by the network environment, including operating system, operators, network environment and other statistical dimensions. Such as: network api Time consuming, cloud calls time consuming and network data read and write time consuming etc. Note that up to 20 such indicators can be created.
 - **to load/Rendering class**This kind of time is mainly affected by device performance, including operating system, type and other statistical dimensions. Can be used to measure page switching time, component rendering time, etc. Note that up to 20 such indicators can be created.
 
-![](https://files.readme.io/5d4d9cb-small-08cfcaf-47.translated.jpg)
+![](../assets/images/5d4d9cb-small-08cfcaf-47.translated.jpg)
 
 After new, you can see the monitoring that needs to be used ID.
 
-![](https://files.readme.io/69cb6b1-small-9223439-48.translated.jpg)
+![](../assets/images/69cb6b1-small-9223439-48.translated.jpg)
 
 ## Speed reporting
 
@@ -79,7 +80,7 @@ For network request indicators, we provide a regional map to help you quickly lo
 
 For more complex user scenarios, users may need to segment speed data based on dimensions such as url, page, So we provide custom dimension, users can fill in some business dimension strings into custom dimension to facilitate business analysis. Currently, the number of custom latitude values per metric needs to be limited to 50 (over-limited data is discarded) and the length of custom dimension values to 256 bytes (over-restricted values are truncated). The use of custom dimensions has the following effects:
 
-![](https://files.readme.io/805d683-small-1a6607f-51.translated.jpg)
+![](../assets/images/805d683-small-1a6607f-51.translated.jpg)
 
 To use a custom dimension, just add a third parameter, dimension, to wx.reportPerformance to report the custom dimension:
 
