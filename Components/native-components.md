@@ -14,7 +14,9 @@ has_children: true
 ---
 # Native components 
 For using native components, you must mind their limits and restriction.
-*** 
+
+***
+
 | Name                                     | Function Explanation                                     |
 | :--------------------------------------- | :------------------------------------------------------- |
 | [native-component](doc:native-component) | Some of the components in the SDK are native components. |

@@ -11,7 +11,9 @@ grand_parent: "APIs"
 ---
 # Tab Bar 
 Show, hide and set the tab bar and items in it.
-*** 
+
+***
+
 - [showTabBar](doc:tab-bar#showtabbar-object-object)
 - [hideTabBar](doc:tab-bar#hidetabbar-object-object)
 - [setTabBarStyle](doc:tab-bar#settabbarstyle-object-object)

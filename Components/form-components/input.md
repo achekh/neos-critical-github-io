@@ -15,7 +15,9 @@ nav_order: 6
 ---
 # Input 
 The input component allows users to enter data.
-*** 
+
+***
+
 Input component is a native component, so you should keep in mind relevant limits when using it.
 
 | Attribute                | Type          | Default Value     | Required | Description                                                                                                                                                                                                                            |

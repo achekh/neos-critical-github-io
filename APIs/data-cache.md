@@ -10,7 +10,9 @@ parent: "APIs"
 ---
 # Data Cache 
 This section consists of list of all APIS related with data storage.
-*** 
+
+***
+
 | Name                                                                  | Feature Description                                                        |
 | :-------------------------------------------------------------------- | :------------------------------------------------------------------------- |
 | [setStorageSync](doc:data-cache#setstoragesync)                       | Stores the data in the specified key in the local cache.                   |

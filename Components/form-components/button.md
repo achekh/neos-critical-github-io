@@ -15,7 +15,9 @@ nav_order: 1
 ---
 # Button 
 Button is an interactive element activated when a user taps it.
-*** 
+
+***
+
 Button component is triggered by the user to perform an action such as submitting a form or opening a dialog box.
 
 | Attribute              | Type    | Default Value | Description                                                                                                       |

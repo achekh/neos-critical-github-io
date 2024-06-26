@@ -15,7 +15,9 @@ nav_order: 12
 ---
 # Radio-group 
 Radio group is a selector that can select only one option from a given set of options.
-*** 
+
+***
+
 Radio group is composed of multiple radio components.
 
 | Attribute  | Type          | Required | Description                                                                                                                                                     |

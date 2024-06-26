@@ -15,7 +15,9 @@ nav_order: 3
 ---
 # Component Event 
 This section explains the concept of inter-component communication and events.
-*** 
+
+***
+
 ## Inter-component communication
 
 The basic communication methods between components are as follows:

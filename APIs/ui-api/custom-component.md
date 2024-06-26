@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # Custom Component 
 This API delays a part of the operation until the next time slice.
-*** 
+
+***
+
 # nextTick
 
 Delays a part of the operation until the next time slice. (This API is similar to `setTimeout`).

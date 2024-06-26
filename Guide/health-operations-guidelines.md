@@ -14,7 +14,9 @@ nav_exclude: true
 ---
 # Health Operations Guidelines 
 This section details the health operations guidelines.
-*** 
+
+***
+
 - User Security Solutions
 - Content Security Solutions
 

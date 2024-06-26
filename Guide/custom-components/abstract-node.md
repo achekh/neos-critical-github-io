@@ -15,7 +15,9 @@ nav_order: 7
 ---
 # Abstract Node 
 This section explains the concept of Abstract Node.
-*** 
+
+***
+
 ## Using an abstract node in a component
 
 Sometimes, for some nodes in a custom component template, the corresponding custom component is not determined by the custom component itself but by the caller of the custom component. In this case, this node can be declared as an "abstract node".

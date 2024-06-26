@@ -11,7 +11,9 @@ has_children: true
 ---
 # Redirect 
 This section consists of APIs related with opening other Mini Apps and exiting the current Mini App.
-*** 
+
+***
+
 | Name                                                   | Feature Description         |
 | :----------------------------------------------------- | :-------------------------- |
 | [navigateToMiniProgram](doc:navigate-to-mini-program)  | Opens another Mini App      |

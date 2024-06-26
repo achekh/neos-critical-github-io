@@ -13,7 +13,9 @@ grand_parent: "Guide"
 ---
 # Update Mechanism 
 This section explains the concept of update mechanism.
-*** 
+
+***
+
 # Update Mechanism of Mini Programs
 
 ## Update When Not Enabled

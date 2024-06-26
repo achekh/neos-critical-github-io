@@ -11,7 +11,9 @@ nav_order: 4
 ---
 # Custom API 
 This section explains the different types of Custom APIs used in Mini App.
-*** 
+
+***
+
 | Name                                                    | Feature Description |
 | :------------------------------------------------------ | :------------------ |
 | [invokeNativePlugin](doc:custom-api#invokenativeplugin) | Custom API.         |

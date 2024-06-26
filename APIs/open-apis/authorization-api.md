@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # Authorization 
 This section list all APIs related with Authorization functionality of the Mini App.
-*** 
+
+***
+
 ## wx.authorize(Object object)
 
 Sends an authorization request to the user in advance. Immediately after the call, a window will pop up to ask the user whether to allow the mini app to use a certain feature or to access certain user data. However, the corresponding APIs is not called actually. If the user has already granted the permission, no pop-up window displays, and a success returns directly.

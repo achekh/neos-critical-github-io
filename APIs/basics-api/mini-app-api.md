@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # Mini App 
 Global Mini App APIs.
-*** 
+
+***
+
 - [Lifecycle](doc:mini-app-api#lifecycle)
   - [getLaunchOptionsSync](doc:mini-app-api#getLaunchOptionsSync)
 - [App-level event](doc:mini-app-api#app-level-event)

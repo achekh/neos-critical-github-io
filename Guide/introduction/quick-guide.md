@@ -12,7 +12,9 @@ nav_order: 4
 ---
 # Quick guide
 Overview of Super Hub Platform
+
 ***
+
 Now that you have created a developer account, downloaded the IDE and started a project, you must have some Mini App development knowledge.
 
 ### Technologies used in developing Mini Apps:

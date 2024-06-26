@@ -11,7 +11,9 @@ has_chidlren: true
 ---
 # Open APIs 
 This section consists of list of Open APIs for the Mini App.
-*** 
+
+***
+
 | Name                           | Feature Description                    |
 | :----------------------------- | :------------------------------------- |
 | [login](doc:login-api#wxlogin) | Gets the login credentials` ( code )`. |

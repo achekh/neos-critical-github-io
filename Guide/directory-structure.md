@@ -13,7 +13,9 @@ nav_exclude: true
 ---
 # Directory Structure 
 This section explains the concept of Directory Structure.
-*** 
+
+***
+
 The Mini Program comes with an `app` directory that describes the overall program and consists of multiple `page` directories to describe the respective pages.
 
 The main part of a Mini Program is composed of below three files that must be placed in the project’s root directory:

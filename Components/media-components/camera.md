@@ -14,7 +14,9 @@ grand_parent: "Components"
 ---
 # Camera 
 Native camera component.
-*** 
+
+***
+
 This component is native, so you should keep in mind relevant limits when using it.
 
 The user should 'authorize' `scope.camera`.

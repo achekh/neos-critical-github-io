@@ -14,7 +14,9 @@ grand_parent: "Guide"
 ---
 # User Information 
 This section explains the concept of Mini Program login in the application.
-*** 
+
+***
+
 # Mini Program Login
 
 Mini Programs can easily obtain the user identity identification provided by WeChat through the login ability provided by WeChat official, and quickly establish a user system within the Mini Program.

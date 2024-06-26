@@ -15,7 +15,9 @@ nav_order: 10
 ---
 # Preview-view-column 
 Preview-view-column can be placed only in the picker-view component.
-*** 
+
+***
+
 It can be placed only in [picker-view](picker-view). The height of its child nodes will be automatically set to the same value as that of the selection box of [picker-view](picker-view).
 
 ### Sample code

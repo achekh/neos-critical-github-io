@@ -14,7 +14,9 @@ nav_exclude: true
 ---
 # Mini Program Framework 
 This section explains the concept of Mini Program framework.
-*** 
+
+***
+
 # Framework
 
 The Mini Program development framework is designed to allow developers to develop services with a native app experience in Mini App in the simplest and efficient way.

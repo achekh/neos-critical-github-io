@@ -14,7 +14,9 @@ grand_parent: "Guide"
 ---
 # Compatibility with Older Versions 
 This section explains the compatibility of new mini programs with the older versions of the mini app.
-*** 
+
+***
+
 # Compatibility
 
 The functions of the Mini Program are constantly increasing, but the old version of the WeChat client does not support new features, so it needs to be compatible when using these new capabilities.

@@ -11,7 +11,9 @@ has_chidlren: true
 ---
 # Media 
 This section consists of list of all APIs related to Media.
-*** 
+
+***
+
 ### Map
 
 | Name                                       | Feature Description                               |

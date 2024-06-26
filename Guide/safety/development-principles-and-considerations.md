@@ -14,7 +14,9 @@ grand_parent: "Guide"
 ---
 # Development Principles and Considerations 
 This section explains the developmental principles and considerations.
-*** 
+
+***
+
 This document collates some common security risks and vulnerabilities in the development of Mini Programs, used to help developers find and repair related vulnerabilities in development links, to avoid business and data losses after the launch. Developers must base their development on the following principles:
 
 - Non-trust principle, do not trust the data submitted by users, including data provided by third-party systems, necessary data verification must be put in the background verification.

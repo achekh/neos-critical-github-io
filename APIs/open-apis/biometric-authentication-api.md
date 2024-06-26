@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # Biometric authentication 
 This section displays the details of APIs related to biometric authentication.
-*** 
+
+***
+
 # startSoterAuthentication (Object object)
 
 Starts biometric authentication.

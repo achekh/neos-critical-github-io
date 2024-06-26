@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # navigateTo 
 Keeps the current page and redirects to a page in the Mini App (which cannot be a tab bar page).
-*** 
+
+***
+
 # wx.navigateTo (Object object)
 
 Keeps the current page and redirects to a page in the Mini App (which cannot be a tabbar page). `wx.navigateBack` can be called to return to the original page. The page stack in the Mini App can have up to 10 pages.

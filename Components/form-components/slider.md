@@ -15,7 +15,9 @@ nav_order: 13
 ---
 # Slider 
 Slider allows users to specify a numeric value within a range of minimum and maximum.
-*** 
+
+***
+
 The slider component lets users perform selection by moving the slider within a range.
 
 | Attribute       | Type          | Default Value | Required | Description                                                                        |

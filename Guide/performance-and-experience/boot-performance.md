@@ -13,7 +13,9 @@ grand_parent: "Guide"
 ---
 # Boot performance 
 This section explains the concept of boot performance.
-*** 
+
+***
+
 # Starting performance
 
 Mini Program startup is an extremely important part of the user experience of Mini Program, and too long to start will cause the loss of Mini Program users and affect the user experience.

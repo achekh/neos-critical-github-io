@@ -14,7 +14,9 @@ has_children: true
 ---
 # Help Center 
 This section is available to help you with any technical and operational questions and needs.
-*** 
+
+***
+
 ## Developer Support
 
 Please submit a support request if you have any questions or problems when developing apps using the development guide provided by our portal.

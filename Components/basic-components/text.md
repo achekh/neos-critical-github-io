@@ -15,7 +15,9 @@ nav_order: 3
 ---
 # Text 
 Text field to render text.
-*** 
+
+***
+
 
 | Attribute  | Type    | Default Value | Description                         |
 | :--------- | :------ | :------------ | :---------------------------------- |

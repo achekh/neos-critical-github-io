@@ -13,7 +13,9 @@ grand_parent: "APIs"
 ---
 # navigateBack (Object object) 
 Closes the current page and returns to a previous page.
-*** 
+
+***
+
 # Parameters
 
 **Object object**

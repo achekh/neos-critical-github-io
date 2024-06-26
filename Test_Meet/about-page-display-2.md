@@ -13,7 +13,9 @@ parent: "Meet the MiniApp"
 ---
 # \"About\" page display 
 This section explains the procedure to display About page in Mini App.
-*** 
+
+***
+
 Let's display the About page:
 
 - Copy the code from each of the 3 tabs below and paste it into the corresponding file in Mini App Studio.

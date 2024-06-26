@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # Phone 
 Phone calls related functionality.
-*** 
+
+***
+
 # makePhoneCall
 
 Makes a phone call.

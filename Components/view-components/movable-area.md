@@ -15,7 +15,9 @@ nav_order: 5
 ---
 # Movable area 
 A host view for the moveable view.
-*** 
+
+***
+
 A component that hosts the [moveable-view](movable-view).
 
 | Attribute  | Type    | Default Value | Description                                                                                                                                                          |

@@ -13,7 +13,9 @@ parent: "Meet the MiniApp"
 ---
 # \"List\" page display 
 This section explains the procedure to display List page in Mini App.
-*** 
+
+***
+
 To display the List page:
 
 1. Copy the code from each of 3 tabs below and paste it into the corresponding file in Mini App Studio

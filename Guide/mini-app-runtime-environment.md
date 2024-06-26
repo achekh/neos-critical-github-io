@@ -14,7 +14,9 @@ nav_exclude: true
 ---
 # Mini Program Runtime 
 This section explains the concept of Mini Program Runtime.
-*** 
+
+***
+
 # Runtime Environment of Mini Programs
 
 The Mini Program runs on 3 platforms: iOS (iPhone/iPad), Android, and the Mini App DevTools used for debugging.

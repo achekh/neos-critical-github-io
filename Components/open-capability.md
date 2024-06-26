@@ -13,7 +13,9 @@ has_children: true
 ---
 # Open capability 
 Used to display open capabilities of Super Hub.
-*** 
+
+***
+
 | Name                     | Function Explanation            |
 | :----------------------- | :------------------------------ |
 | [web-view](doc:web-view) | Container for hosting web pages |

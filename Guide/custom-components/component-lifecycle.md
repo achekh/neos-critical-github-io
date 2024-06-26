@@ -15,7 +15,9 @@ nav_order: 4
 ---
 # Component Lifecycle 
 This section explains the concept of component lifecycle.
-*** 
+
+***
+
 ## Main lifecycle functions of a component
 
 The lifecycle of a component refers to some functions of the component itself, which are automatically triggered at special time points or when some special framework events occur.

@@ -14,7 +14,9 @@ grand_parent: "Meet the MiniApp"
 ---
 # Toolbar 
 Allows quick access to commonly used functions.
-*** 
+
+***
+
 Toolbar in Mini App Studio consists of following panes:
 
 ![](https://files.readme.io/ac9e067-Toolbar1.png)

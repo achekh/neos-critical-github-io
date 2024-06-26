@@ -14,7 +14,9 @@ grand_parent: "Meet the MiniApp"
 ---
 # Simulator 
 Creates virtual mobile devices on your computer.
-*** 
+
+***
+
 Mini App Studio allows you to build, run and test your app using a simulated iOS or Android device. 
 
 [block:image]

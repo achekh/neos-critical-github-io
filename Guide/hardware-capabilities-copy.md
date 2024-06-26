@@ -15,7 +15,9 @@ nav_exclude: true
 ---
 # Hardware Capabilities 
 This sections explains the different types of hardware capabilities of the Mini App.
-*** 
+
+***
+
 Following are the three important types of hardware capabilities:
 
 - Bluetooth

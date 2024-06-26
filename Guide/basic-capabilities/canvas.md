@@ -12,7 +12,9 @@ nav_order: 3
 ---
 # Canvas 
 This section explains the concept of Canvas.
-*** 
+
+***
+
 All the drawings in canvas must be completed with JavaScript:
 
 WXML: (Unless otherwise specified, WXML is used as a template in the following example)

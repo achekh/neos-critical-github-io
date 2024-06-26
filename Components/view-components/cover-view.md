@@ -15,7 +15,9 @@ nav_order: 8
 ---
 # Cover view 
 A view holder for native views that renders natively.
-*** 
+
+***
+
 A native component that supports same-layer rendering, and it is recommended to use the [view](view) instead where applicable. Coverable native components include [map](../map-capability/map), [video](../media-components/video), [canvas](../canvas-component/canvas) and [camera](../media-components/camera).
 
 | Attribute  | Type          | Description                                                                                            |

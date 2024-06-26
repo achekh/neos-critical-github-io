@@ -13,7 +13,9 @@ grand_parent: "APIs"
 ---
 # Interaction 
 APIs to display messages and actions to the user.
-*** 
+
+***
+
 # showToast (Object object)
 
 Displays the message prompt box.

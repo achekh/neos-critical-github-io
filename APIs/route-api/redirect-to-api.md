@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # redirectTo(Object object) 
 Closes the current page and jumps to another page within the Mini App. However, jumping to the tabbar page is not allowed.
-*** 
+
+***
+
 # Parameters
 
 **Object object**

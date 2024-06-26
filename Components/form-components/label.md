@@ -15,7 +15,9 @@ nav_order: 7
 ---
 # Label 
 Used to improve the usability of form components.
-*** 
+
+***
+
 You can use the `for` attribute to match the corresponding ID or place the target control under the label. In this case, when the user clicks the label, the target control will be triggered. for has a higher priority than internal controls. If there are multiple internal controls, the first one will be triggered by default. Currently, the following controls can be bound: [button](button), [checkbox](checkbox), [radio](radio), [switch](switch), and [input](input).
 
 | Attribute | Type   | Required | Description              |

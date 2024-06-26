@@ -11,7 +11,9 @@ grand_parent: "APIs"
 ---
 # Bluetooth 
 `This section displays list of Bluetooth related APIs for the Mini App.
-*** 
+
+***
+
 - [openBluetoothAdapter](doc:bluetooth-api#wxopenbluetoothadapterobject-object)
 - [getConnectedBluetoothDevices](doc:bluetooth-api#wxgetconnectedbluetoothdevicesobject-object)
 - [getBluetoothDevices](doc:bluetooth-api#wxgetbluetoothdevicesobject-object)

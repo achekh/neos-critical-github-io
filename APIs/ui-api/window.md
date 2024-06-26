@@ -11,7 +11,9 @@ grand_parent: "APIs"
 ---
 # Window 
 API listens to the window size change event.
-*** 
+
+***
+
 - [onWindowResize](doc:window#onwindowresize)
 
 # onWindowResize

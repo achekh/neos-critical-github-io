@@ -14,7 +14,9 @@ has_children: true
 ---
 # Media components 
 This section displays the list of media components.
-*** 
+
+***
+
 | Name                 | Function Explanation                              |
 | :------------------- | :------------------------------------------------ |
 | [camera](doc:camera) | System camera.                                    |

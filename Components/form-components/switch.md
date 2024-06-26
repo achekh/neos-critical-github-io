@@ -15,7 +15,9 @@ nav_order: 14
 ---
 # Switch 
 Used for switching between two states; on and off.
-*** 
+
+***
+
 A switch component functions similar to a checkbox component but explicitly representing boolean on and off states.
 
 | Attribute  | Type         | Default Value | Required | Description                                                                                                           |

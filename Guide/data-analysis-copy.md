@@ -14,7 +14,9 @@ nav_exclude: true
 ---
 # Data Analysis 
 This section explains the concept of Data Analysis in Mini App.
-*** 
+
+***
+
 # Data Analysis API
 
 Through the data analysis API, the developers can obtain various Mini Program statistics and indicators to facilitate data storage and collation. 

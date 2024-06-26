@@ -13,7 +13,9 @@ parent: "Meet the MiniApp"
 ---
 # Register pages 
 This section walks you through the process of registering pages in various files.
-*** 
+
+***
+
 > 📝 Note
 > 
 > Copy the code snippets below and paste it into Mini App Studio and press **ctrl/cmd + S** to save.

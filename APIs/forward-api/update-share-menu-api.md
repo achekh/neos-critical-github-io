@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # updateShareMenu (Object object) 
 Updates the share attribute.
-*** 
+
+***
+
 # Parameters
 
 **Object object**

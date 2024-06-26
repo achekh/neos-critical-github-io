@@ -14,7 +14,9 @@ has_children: true
 ---
 # Route 
 This section consists of All APIs related to Mini app routing.
-*** 
+
+***
+
 | Name                                  | Feature Description                                                             |
 | :------------------------------------ | :------------------------------------------------------------------------------ |
 | [switchTab](doc:switch-tab-api)       | Redirects to the tabbar page and closes all other non-tabbar pages.             |

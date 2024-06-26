@@ -14,7 +14,9 @@ grand_parent: "Guide"
 ---
 # Version Distribution 
 This section explains the concept of version distribution.
-*** 
+
+***
+
 # Best Practices
 
 ## 1. Avoid JS exceptions

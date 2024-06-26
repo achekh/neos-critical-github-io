@@ -15,7 +15,9 @@ nav_order: 2
 ---
 # Swiper 
 A slider view container.
-*** 
+
+***
+
 A swiper is a slider view container that can only host a [swiper-item](swiper-item) component.
 
 | Attribute               | Type          | Default Value     | Required | Description                                                                                                                                                                                              |

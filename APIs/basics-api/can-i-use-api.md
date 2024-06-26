@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # canIUse 
 This API is used for checking the compatibility of features with the current version.
-*** 
+
+***
+
 `canIUse` API determines if the Mini App APIs, callbacks, parameters, and components are available in the current version.  
 
 # Parameters

@@ -10,7 +10,9 @@ parent: "APIs"
 ---
 # Location 
 This section displays the list of all Location related APIs for the Mini App.
-*** 
+
+***
+
 | Name                                                                                          | Feature Description                                                                                                                                      |
 | :-------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [startLocationUpdate](doc:location-api#startlocationupdate-object-object)                     | Enables the Mini App to receive location information on the foreground.                                                                                  |

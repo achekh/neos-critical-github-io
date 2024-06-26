@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # navigateToMiniProgram (Object object) 
 Opens another Mini App.
-*** 
+
+***
+
 # Parameters
 
 **Object object**

@@ -11,7 +11,9 @@ has_children: true
 ---
 # Forward 
 This section consists of all APIs related to forwarding properties in the Mini App.
-*** 
+
+***
+
 | Name                                         | Feature description                           |
 | :------------------------------------------- | :-------------------------------------------- |
 | [updateShareMenu](doc:update-share-menu-api) | Updates the share attribute.                  |

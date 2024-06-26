@@ -15,7 +15,9 @@ nav_order: 11
 ---
 # Radio 
 Radio component allows the users to select only one option from multiple options.
-*** 
+
+***
+
 Radio is used for selecting one option from multiple given options and a radio component can be placed in a [radio-group](radio-group).
 
 | Attribute  | Type    | Default Value | Required | Description                                                                                                          |

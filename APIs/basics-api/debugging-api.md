@@ -11,7 +11,9 @@ grand_parent: "APIs"
 ---
 # Debugging 
 APIs related to debugging the functionality of Mini apps.
-*** 
+
+***
+
 - [setEnableDebug](doc:debugging-api#setenabledebug-object-object)
 - [getLogManager](doc:debugging-api#wxgetlogmanager)
 - [console](doc:debugging-api#console)

@@ -13,7 +13,9 @@ grand_parent: "Guide"
 ---
 # Mini Program Collaboration and Release 
 This section explains the concept of Mini Program collaboration and release.
-*** 
+
+***
+
 In medium and large companies, the division of labor is very fine. Generally, employees with different roles are involved in the same Mini Program project. Therefore, we designed different management permissions for the Mini Program platform to allow project managers to more effectively manage the collaboration of the entire team.
 
 Earlier when the webpage development was completed, developers have to put the code and resources of the webpage on the server, and the users access it through the Internet. In the Mini Program platform, after completing the development, the developers need to submit the code package of the Mini Program in the Mini App DevTools. This package is then released via the Mini Program admin console,and users can access the Mini Program through searching or other entries.

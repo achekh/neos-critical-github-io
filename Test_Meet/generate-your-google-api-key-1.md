@@ -13,7 +13,9 @@ parent: "Meet the MiniApp"
 ---
 # Generate your Google API Key 
 This section describes the procedure to generate your Google API Key.
-*** 
+
+***
+
 To get your Google API keys, first:
 
 - Go to the Google Places API Platform > [Credentials page](https://console.cloud.google.com/project/_/google/maps-apis/credentials?utm_source=Docs_Credentials&_gl=1*1v16cg8*_ga*MTE5NjA2MTk0Mi4xNjc0NTcwNDIw*_ga_NRWSTWS78N*MTY3NDU3MDQyMC4xLjAuMTY3NDU3MDQ0MC4wLjAuMA..) 

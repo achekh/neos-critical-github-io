@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # Pull-to-Refresh 
 Start and stop pull down refresh.
-*** 
+
+***
+
 # startPullDownRefresh
 
 Starts pull-to-refresh. After the call, the pull-to-refresh animation is triggered, and the effect is the same as a manual pull-to-refresh.

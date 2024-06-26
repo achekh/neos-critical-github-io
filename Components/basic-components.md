@@ -16,7 +16,9 @@ nav_order: 2
 ---
 # Basic components 
 This section displays the list of basic components.
-*** 
+
+***
+
 
 | Name                       | Function Explanation |
 | :------------------------- | :------------------- |

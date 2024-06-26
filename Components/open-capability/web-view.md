@@ -14,7 +14,9 @@ grand_parent: "Components"
 ---
 # Web-view 
 A container that displays webpages.
-*** 
+
+***
+
 The `web-view` component is a container that displays webpages. It will automatically cover the entire Mini App UI.
 
 | Attribute   | Type          | Description                                                                                                                                                                                                                                                                |

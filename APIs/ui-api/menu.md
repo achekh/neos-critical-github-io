@@ -11,7 +11,9 @@ grand_parent: "APIs"
 ---
 # Menu 
 Gets the layout position information of the menu button.
-*** 
+
+***
+
 - [getMenuButtonBoundingClientRect](doc:menu#object-wxgetmenubuttonboundingclientrect)
 
 ## Object wx.getMenuButtonBoundingClientRect()

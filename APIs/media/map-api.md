@@ -11,7 +11,9 @@ grand_parent: "APIs"
 ---
 # Map 
 This section consits of the list of APIs related with Map feature of the Mini App.
-*** 
+
+***
+
 Following are the two important Map related APIs:
 
 - [Return value](doc:map-api#returned-value)

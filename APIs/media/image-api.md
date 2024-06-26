@@ -11,7 +11,9 @@ grand_parent: "APIs"
 ---
 # Image 
 This section consists of the list of Image related APIs in Mini App.
-*** 
+
+***
+
 - [saveImageToPhotosAlbum](doc:image-api#wxsaveimagetophotosalbumobject-object)
 - [previewImage](doc:image-api#wxpreviewimageobject-object)
 - [getImageInfo](doc:image-api#wxgetimageinfoobject-object)

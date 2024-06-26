@@ -13,7 +13,9 @@ parent: "Meet the MiniApp"
 ---
 # Introduction 
 This guide will walk you through the basic tools and functionalities offered by the Mini App Studio.
-*** 
+
+***
+
 Dear Developer, welcome to our Super Hub Mini App Studio also known as Mini App Studio!
 
 The Mini App studio provides several advantages over the Standalone app. Below are some of the advantages of using Mini App Studio:

@@ -15,7 +15,9 @@ nav_order: 9
 ---
 # Picker-view 
 The wheel picker embedded in the page to display one or more set of values.
-*** 
+
+***
+
 The picker view component can be embedded in the page. User can manipulate picker-view wheeler to select items. The picker-view-column can be place only in picker-view and other components do not display. 
 
 | Attribute       | Type          | Description                                                                                                                                                                                                                                                      |

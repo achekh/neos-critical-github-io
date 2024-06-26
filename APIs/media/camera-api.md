@@ -11,7 +11,9 @@ grand_parent: "APIs"
 ---
 # Camera 
 This section consists of Camera related APIs for Mini App.
-*** 
+
+***
+
 - [createCameraContext](doc:camera-api#cameracontext-wxcreatecameracontext)
 - [CameraContext](doc:camera-api#cameracontext)
 - [CameraFrameListener](doc:camera-api#cameraframelistener-cameracontextoncameraframeoncameraframecallback-callback)

@@ -15,7 +15,9 @@ nav_exclude: true
 ---
 # Safety 
 This section explains the concept, development principles and considerations of safety in Mini App.
-*** 
+
+***
+
 - Development Principles and Considerations
 - Generic
 - Background

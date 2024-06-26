@@ -16,7 +16,9 @@ nav_order: 3
 ---
 # Form components 
 Form components are used for handling the user's input.
-*** 
+
+***
+
 
 | Name                                           | Function Explanation                                                |
 | :--------------------------------------------- | :------------------------------------------------------------------ |

@@ -11,7 +11,9 @@ grand_parent: "APIs"
 ---
 # Animation 
 This section consists of the APIs related to animation.
-*** 
+
+***
+
 # Animation.left(number|string value)Length value.
 
 If a number is passed in, px will be used as the unit by default. A length value in another custom unit can also be passed in. Sets the height. Sets the bottom value.string valueAnimationLength value. If a number is passed in, px will be used as the unit by default. A length value in another custom unit can also be passed in. Sets the width.Translates the Y axis.Animationnumber tzcreateAnimation

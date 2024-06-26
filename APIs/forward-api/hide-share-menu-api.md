@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # hideShareMenu (Object object) 
 Hides the share button on the current page.
-*** 
+
+***
+
 Hide the "Share with Friends" and "Share to Qzone" buttons when the menu in the top-right corner is clicked.
 
 # Parameters

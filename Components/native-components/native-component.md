@@ -14,7 +14,9 @@ grand_parent: "Components"
 ---
 # Native component 
 Some of the components in the Mini Program are native components created by the client.
-*** 
+
+***
+
 ### Native Component
 
 Some of the components are native components created by the client. These components are:

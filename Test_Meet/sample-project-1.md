@@ -13,7 +13,9 @@ parent: "Meet the MiniApp"
 ---
 # Sample Project 
 This section contains all the steps and required components for creating a sample Mini App project.
-*** 
+
+***
+
 Good start!
 
 Now, let us walk you through the process of building a sample Mini App project.

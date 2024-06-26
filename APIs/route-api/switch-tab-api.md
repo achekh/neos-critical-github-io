@@ -14,7 +14,9 @@ grand_parent: "APIs"
 ---
 # switchTab (Object object) 
 Redirects to the tab bar page and closes all other non-tab bar pages.
-*** 
+
+***
+
 # Parameters
 
 **Object object**

@@ -13,7 +13,9 @@ parent: "Meet the MiniApp"
 ---
 # Add title 
 This section explains the procedure to add a title to the pages in Mini App.
-*** 
+
+***
+
 To add **"Near me"** title for all pages, please:
 
 - Copy the code snippet below to the global JSON object inside `app.json`

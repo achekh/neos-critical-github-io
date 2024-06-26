@@ -14,7 +14,9 @@ grand_parent: "Components"
 ---
 # Canvas 
 This component is native. Hence, you should keep in mind relevant limits when using it.
-*** 
+
+***
+
 | Attribute       | Type          | Default Value | Required | Description                                                                                                                       |
 | :-------------- | :------------ | :------------ | :------- | :-------------------------------------------------------------------------------------------------------------------------------- |
 | canvas-id       | String        |               | No       | Unique ID of the canvas component.                                                                                                |

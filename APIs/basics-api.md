@@ -15,7 +15,9 @@ has_children: true
 ---
 # Basic 
 This section consists of all basic APIs of Mini App.
-*** 
+
+***
+
 ## CanIUse
 
 | Name                         | Feature Description                                                                                               |

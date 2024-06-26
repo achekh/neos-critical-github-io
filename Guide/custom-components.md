@@ -15,7 +15,9 @@ nav_order: 10
 ---
 # Custom Components 
 This section explains the concept of Custom Components.
-*** 
+
+***
+
 Mini Programs support concise componential programming.
 
 Developers can abstract feature modules in a page into custom components to reuse them in different pages, or split a page into multiple low-coupling modules for easy code maintenance. Custom components are used in almost the same way as base components.

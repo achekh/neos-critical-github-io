@@ -13,7 +13,9 @@ nav_order: 11
 ---
 # Basic Capabilities 
 This section explains the concept of basic capabilities of the Mini App.
-*** 
+
+***
+
 The following are the important basic capabilities of Mini App:
 
 - [Network](basic-capabilities/network)

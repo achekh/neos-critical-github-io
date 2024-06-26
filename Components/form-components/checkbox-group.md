@@ -15,7 +15,9 @@ nav_order: 3
 ---
 # Checkbox-group 
 Checkbox-group is a container that consists of multiple checkbox components.
-*** 
+
+***
+
 Checkbox-group is a multiple selector that internally consists of multiple [checkboxes](doc:checkbox).
 
 | Attribute | Type | Required | Description |

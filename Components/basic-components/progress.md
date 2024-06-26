@@ -15,7 +15,9 @@ nav_order: 2
 ---
 # Progress 
 Progress bar component.
-*** 
+
+***
+
 
 | Attribute | Type | Default Value | Required | Description |
 | :-------- | :--- | :------------ | :------- | :---------- |

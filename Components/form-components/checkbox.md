@@ -15,7 +15,9 @@ nav_order: 2
 ---
 # Checkbox 
 Checkbox element is used as a component to select multiple items.
-*** 
+
+***
+
 
 | Attribute  | Type    | Default Value | Required | Description                                                                                                                                                             |
 | :--------- | :------ | :------------ | :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

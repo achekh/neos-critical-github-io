@@ -15,7 +15,9 @@ nav_order: 8
 ---
 # Picker 
 A wheel selector that pops up from the bottom.
-*** 
+
+***
+
 Currently, five pickers are supported and are identified by mode : general picker (default), multicolumn picker, time picker, date picker, and region picker.
 
 | Attribute | Type | Default Value | Required | Description |

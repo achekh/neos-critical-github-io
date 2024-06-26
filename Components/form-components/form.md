@@ -15,7 +15,9 @@ nav_order: 5
 ---
 # Form 
 Component that holds form elements and submits their data.
-*** 
+
+***
+
 Form. It submits its [switch](witch), [input](input), [checkbox](checkbox), [slider](slider), [radio](radio), and [picker](picker) information input by the user.
 
 When the user clicks the [button](doc:button) component whose `form-type` is `submit` , the values in the form component will be submitted, and a name needs to be added as the key in the form component.

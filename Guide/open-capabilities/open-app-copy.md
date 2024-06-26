@@ -14,7 +14,9 @@ grand_parent: "Guide"
 ---
 # Open App 
 This section explains the concept of Open App.
-*** 
+
+***
+
 "Open App" allows the Mini Program's linked app to be opened from within the Mini Program. Since "Open App" can only be triggered by the user, this feature is not called by an API, but is triggered by clicking the button component with the value of `open-type` as `launchApp`.
 
 When a Mini Program is opened from a message card shared from an app (scene value 1036; see the documentation on sharing a Mini Program from an app for iOS/Android), or opened from an app (scene value 1069), the Mini Program will have the ability to open the app. In this case, the user can tap the button to open the app that shares the Mini Program card/starts the Mini Program. That is to say, the Mini Program cannot open any app, but can only return to the app.

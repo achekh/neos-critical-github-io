@@ -13,7 +13,9 @@ grand_parent: "Guide"
 ---
 # JavaScript Support 
 This section explains the concept of JavaScript Support.
-*** 
+
+***
+
 # Supports for JavaScript
 
 ## Operation Limits

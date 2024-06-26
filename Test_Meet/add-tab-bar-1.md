@@ -13,7 +13,9 @@ parent: "Meet the MiniApp"
 ---
 # Add Tab Bar 
 This section explains the procedure to add a Tab bar to Mini App.
-*** 
+
+***
+
 To add Tab Bar icons, please
 
 - Copy the code snippet below 

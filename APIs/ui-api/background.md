@@ -11,7 +11,9 @@ grand_parent: "APIs"
 ---
 # Background 
 APIs to manipulate background color and text style.
-*** 
+
+***
+
 - [setBackgroundColor](doc:background#setbackgroundcolor-object-object)
 - [setBackgroundTextStyle](doc:background#wxsetbackgroundtextstyle-object-object)
 
