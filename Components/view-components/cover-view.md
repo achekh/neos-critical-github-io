@@ -11,10 +11,11 @@ updatedAt: "Fri Jul 14 2023 11:04:15 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "View components"
 grand_parent: "Components"
+nav_order: 8
 ---
 # Cover view 
 *** 
-A native component that supports same-layer rendering, and it is recommended to use the [view](doc:view) instead where applicable. Coverable native components include [map](doc:map), [video](doc:video), [canvas](doc:canvas) and [camera](doc:camera).
+A native component that supports same-layer rendering, and it is recommended to use the [view](view) instead where applicable. Coverable native components include [map](../map-capability/map), [video](../media-components/video), [canvas](../canvas-component/canvas) and [camera](../media-components/camera).
 
 | Attribute  | Type          | Description                                                                                            |
 | :--------- | :------------ | :----------------------------------------------------------------------------------------------------- |

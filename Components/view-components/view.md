@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:03:40 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "View components"
 grand_parent: "Components"
+nav_order: 4
 ---
 # View 
 *** 
@@ -27,7 +28,7 @@ A view container represents container that can host one or more views.
 
 > 📘 Notes
 > 
-> - If you have large content and scrolling is needed, use the [scroll-view](doc:scroll-view) component.
+> - If you have large content and scrolling is needed, use the [scroll-view](scroll-view) component.
 
 ### Sample code
 
@@ -52,7 +53,7 @@ A view container represents container that can host one or more views.
 </view>
 {% endraw %}
 ```
-```Text
+```css
 // WXSS
 .flex-item {
     width: 33%;
@@ -72,8 +73,8 @@ A view container represents container that can host one or more views.
 }
 ```
 
-![](https://files.readme.io/c998e8e-Screenshot_2023-06-12_at_12.08.05_PM.png)
+![](../../assets/images/c998e8e-Screenshot_2023-06-12_at_12.08.05_PM.png)
 
 > 🚧 Bugs and tips
 > 
-> - Tip: To use scroll view, use [scroll-view](doc:scroll-view).
+> - Tip: To use scroll view, use [scroll-view](scroll-view).

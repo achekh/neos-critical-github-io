@@ -11,7 +11,8 @@ updatedAt: "Mon Jun 12 2023 06:02:27 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "View components"
 grand_parent: "Components"
+nav_order: 3
 ---
 # Swiper item 
 *** 
-It can be placed in the [swiper](doc:swiper) component only. The width and height are automatically set to 100%.
+It can be placed in the [swiper](swiper) component only. The width and height are automatically set to 100%.

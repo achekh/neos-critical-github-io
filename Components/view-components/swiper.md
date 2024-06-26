@@ -11,10 +11,11 @@ updatedAt: "Mon Jun 12 2023 05:59:32 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "View components"
 grand_parent: "Components"
+nav_order: 2
 ---
 # Swiper 
 *** 
-A swiper is a slider view container that can only host a [swiper-item](doc:swiper-item) component.
+A swiper is a slider view container that can only host a [swiper-item](swiper-item) component.
 
 | Attribute               | Type          | Default Value     | Required | Description                                                                                                                                                                                              |
 | :---------------------- | :------------ | :---------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -46,7 +47,7 @@ The `detail` returned by the `change` event contains a `source` field, which cau
 
 ## swiper-item
 
-It can be placed in the [<swiper>](doc:swiper) component only. The width and height are automatically set to 100%.
+It can be placed in the [swiper](swiper) component only. The width and height are automatically set to 100%.
 
 | Attribute | Type   | Default | Description             |
 | :-------- | :----- | :------ | :---------------------- |

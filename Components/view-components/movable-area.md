@@ -11,10 +11,11 @@ updatedAt: "Tue Jun 13 2023 04:29:55 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "View components"
 grand_parent: "Components"
+nav_order: 5
 ---
 # Movable area 
 *** 
-A component that hosts the [moveable-view](doc:movable-view).
+A component that hosts the [moveable-view](movable-view).
 
 | Attribute  | Type    | Default Value | Description                                                                                                                                                          |
 | :--------- | :------ | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -23,8 +24,8 @@ A component that hosts the [moveable-view](doc:movable-view).
 > 📘 Notes
 > 
 > - You need to set the `width` and `height` attributes for movable-area; otherwise, the default value of 10 px is used. 
-> - When the [movable-view](doc:movable-view) is smaller than the movable-area, the movable-view moves within the movable-area.
-> - When [movable-view](doc:movable-view) is larger than movable-area, the moveable-view must move within a moveable-area (x and y directions are considered separately).
+> - When the [movable-view](movable-view) is smaller than the movable-area, the movable-view moves within the movable-area.
+> - When [movable-view](movable-view) is larger than movable-area, the moveable-view must move within a moveable-area (x and y directions are considered separately).
 
 ### Sample code
 
@@ -51,6 +52,7 @@ Page({
 ```
 ```xml
 // WXML
+<% raw %>
 <view class="section">
   <view class="section__title">`movable-view` smaller than `movable-area`</view>
   <movable-area style="height: 200px; width: 200px; background: red;">
@@ -87,4 +89,5 @@ Page({
     </movable-view>
   </movable-area>
 </view>
+<% endraw %>
 ```

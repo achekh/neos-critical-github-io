@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:03:55 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "View components"
 grand_parent: "Components"
+nav_order: 6
 ---
 # Movable view 
 *** 

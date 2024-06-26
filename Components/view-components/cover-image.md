@@ -11,10 +11,11 @@ updatedAt: "Tue Jun 13 2023 04:27:38 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "View components"
 grand_parent: "Components"
+nav_order: 7
 ---
 # Cover image 
 *** 
-The image view that covers the native components, which can be nested in `cover-view`. Coverable native components are those listed for `cover- view`.
+The image view that covers the native components, which can be nested in `cover-view`. Coverable native components are those listed for `cover-view`.
 
 | Attribute  | Type          | Default | Description                                                                                              |
 | :--------- | :------------ | :------ | :------------------------------------------------------------------------------------------------------- |
@@ -26,7 +27,7 @@ The image view that covers the native components, which can be nested in `cover-
 
 > 📘 Bugs and tips
 > 
-> - Tip: You can set the aria-role of `[<cover-view>](<>)` and `<cover-image>` only to `button`, which can be clicked only in screen reading mode, with the button text read out. If it is empty, it can be focused but not clicked.
+> - Tip: You can set the aria-role of [`<cover-view>`](cover-view) and `<cover-image>` only to `button`, which can be clicked only in screen reading mode, with the button text read out. If it is empty, it can be focused but not clicked.
 > - Tip: The event model follows the bubble model but will not bubble into native components.
 > - Tip: We recommend you add the `cover-view` tag for text to avoid layout errors.
 > - Tip: You can only set the basic location, layout, and text style but not `single-side border`, `background-image`, `shadow`, and `overflow: visible`.
