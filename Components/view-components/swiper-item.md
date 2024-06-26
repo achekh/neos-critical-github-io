@@ -14,5 +14,6 @@ grand_parent: "Components"
 nav_order: 3
 ---
 # Swiper item 
+Swiper-item component is a slider view container that must be hosted in a swiper component.
 *** 
 It can be placed in the [swiper](swiper) component only. The width and height are automatically set to 100%.

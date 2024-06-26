@@ -12,6 +12,7 @@ layout: "default"
 parent: "Meet the MiniApp"
 ---
 # \"About\" page display 
+This section explains the procedure to display About page in Mini App.
 *** 
 Let's display the About page:
 

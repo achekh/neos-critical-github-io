@@ -14,6 +14,7 @@ grand_parent: "Components"
 nav_order: 1
 ---
 # Icon 
+Displays an icon from a predefined icons set.
 *** 
 
 | Attribute  | Type          | Default Value | Required | Description                                                                                                                             |

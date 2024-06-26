@@ -9,6 +9,7 @@ layout: "default"
 parent: "APIs"
 ---
 # Data Cache 
+This section consists of list of all APIS related with data storage.
 *** 
 | Name                                                                  | Feature Description                                                        |
 | :-------------------------------------------------------------------- | :------------------------------------------------------------------------- |

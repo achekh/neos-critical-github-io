@@ -13,6 +13,7 @@ parent: "Hardware Capabilities"
 grand_parent: "Guide"
 ---
 # NFC 
+This section explains the concept of NFC in Mini App.
 *** 
 Supports the HCE (Host-Based Card Emulation) mode, which mimics a physical smart card with an Android phone. The phone can be used as a card reader because it supports NFC read and write.
 

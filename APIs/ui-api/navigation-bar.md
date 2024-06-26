@@ -10,6 +10,7 @@ parent: "UI"
 grand_parent: "APIs"
 ---
 # Navigation Bar 
+APIs to manipulate the navigation bar.
 *** 
 - [setNavigationBarTitle](doc:navigation-bar#setnavigationbartitle-object-object)
 - [setNavigationBarColor](doc:navigation-bar#setnavigationbarcolor-object-object)

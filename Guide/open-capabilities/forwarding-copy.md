@@ -13,6 +13,7 @@ parent: "Open Capabilities (COPY)"
 grand_parent: "Guide"
 ---
 # Forwarding 
+This section explains the concept of forwarding in Mini App.
 *** 
 After a dynamic message is sent, the message content can be modified through updatableMessage.setUpdatableMsg.
 

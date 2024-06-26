@@ -10,6 +10,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # Wi-Fi 
+This section consists of list of Wi-Fi related APIs.
 *** 
 - [onWifiConnected](doc:wi-fi-api#wxonwificonnectedfunction-listener)
 - [offWifiConnected](doc:wi-fi-api#wxoffwificonnectedfunction-listener)

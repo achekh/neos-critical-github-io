@@ -12,6 +12,7 @@ layout: "default"
 parent: "Meet the MiniApp"
 ---
 # File structure 
+This section provides detailed information about the file structure in Mini App Studio.
 *** 
 The default file structure has the following elements. 
 

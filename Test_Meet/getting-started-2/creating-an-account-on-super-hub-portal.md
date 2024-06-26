@@ -13,6 +13,7 @@ parent: "Getting started"
 grand_parent: "Meet the MiniApp"
 ---
 # Creating an account on Super Hub portal 
+This section provides instructions for creating an account on Super Hub portal.
 *** 
 1. First, you will need to sign-up to create an account on Super Hub portal. 
 2. On the **Sign-up** page, start with entering your contact number in order to receive a code through SMS. 

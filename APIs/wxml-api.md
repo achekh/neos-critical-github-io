@@ -9,10 +9,12 @@ layout: "default"
 parent: "APIs"
 ---
 # WXML 
+This section lists the WXML APIs.
 *** 
 # WXML 
 *** 
 # WXML 
+This section lists the WXML APIs.
 *** 
 | Name                                                                                                                  | Feature Description                                            |
 | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |

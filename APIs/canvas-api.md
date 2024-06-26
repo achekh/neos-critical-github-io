@@ -10,6 +10,7 @@ parent: "APIs"
 nav_order: 3
 ---
 # Canvas 
+This section consists of the list of APIs related with Canvas.
 *** 
 - createCanvasContext
 - canvasToTempFilePath

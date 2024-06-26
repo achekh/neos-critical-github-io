@@ -10,6 +10,7 @@ parent: "APIs"
 has_chidlren: true
 ---
 # Open APIs 
+This section consists of list of Open APIs for the Mini App.
 *** 
 | Name                           | Feature Description                    |
 | :----------------------------- | :------------------------------------- |

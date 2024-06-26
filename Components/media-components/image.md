@@ -10,6 +10,7 @@ parent: "Media components"
 grand_parent: "Components"
 ---
 # Image 
+It is used to render an image.
 *** 
 The[ image ](doc:image)component supports formats such as JPG, PNG, SVG, WEBP, and GIF.
 

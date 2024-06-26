@@ -12,6 +12,7 @@ parent: "Hardware Capabilities"
 grand_parent: "Guide"
 ---
 # Bluetooth 
+This section explains the concept of use of Bluetooth in Mini App.
 *** 
 To use the Bluetooth functionality in the applet, you must first call wx.openBluetoothAdapter to initialize the Bluetooth adapter module. This must be done before calling wx.closeBluetoothAdapter or the applet will be destroyed. 
 

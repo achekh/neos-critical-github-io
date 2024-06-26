@@ -10,6 +10,7 @@ parent: "Media"
 grand_parent: "APIs"
 ---
 # Audio 
+This section consists of the list of Audio related APIs for Mini App.
 *** 
 - [createInnerAudioContext](doc:audio#inneraudiocontext-wxcreateinneraudiocontext)
 - [InnerAudioContext](doc:audio#inneraudiocontext)

@@ -13,6 +13,7 @@ has_children: true
 nav_exclude: true
 ---
 # Mini Program Framework 
+This section explains the concept of Mini Program framework.
 *** 
 # Framework
 

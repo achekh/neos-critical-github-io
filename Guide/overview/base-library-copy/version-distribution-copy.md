@@ -13,6 +13,7 @@ parent: "Overview"
 grand_parent: "Guide"
 ---
 # Version Distribution 
+This section explains the concept of version distribution.
 *** 
 # Best Practices
 

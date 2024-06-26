@@ -11,10 +11,12 @@ updatedAt: "Fri Jul 14 2023 11:34:53 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 10
 ---
 # Preview-view-column 
+Preview-view-column can be placed only in the picker-view component.
 *** 
-It can be placed only in [picker-view](doc:picker-view). The height of its child nodes will be automatically set to the same value as that of the selection box of [picker-view](doc:picker-view).
+It can be placed only in [picker-view](picker-view). The height of its child nodes will be automatically set to the same value as that of the selection box of [picker-view](picker-view).
 
 ### Sample code
 

@@ -11,62 +11,21 @@ updatedAt: "Thu Jun 15 2023 11:36:58 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 8
 ---
 # Picker 
+A wheel selector that pops up from the bottom.
 *** 
 Currently, five pickers are supported and are identified by mode : general picker (default), multicolumn picker, time picker, date picker, and region picker.
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Default Value",
-    "h-3": "Required",
-    "h-4": "Description",
-    "0-0": "range",
-    "0-1": "Array/Object  \nArray",
-    "0-2": "",
-    "0-3": "No",
-    "0-4": "range will take effect if `mode` is `selector` or `multiSelector`.",
-    "1-0": "range-key",
-    "1-1": "String",
-    "1-2": "",
-    "1-3": "No",
-    "1-4": "If `range` is an object array, use `range-key` to specify key values in the object array to be displayed in the picker.",
-    "2-0": "value",
-    "2-1": "Number",
-    "2-2": "0",
-    "2-3": "No",
-    "2-4": "The number of the element selected from `range` (the subscript starts from 0)",
-    "3-0": "disabled",
-    "3-1": "Boolean",
-    "3-2": "false",
-    "3-3": "No",
-    "3-4": "Whether it is disabled.",
-    "4-0": "bindchange",
-    "4-1": "Event Handler",
-    "4-2": "",
-    "4-3": "No",
-    "4-4": "The `change` event triggered when `value` changes: `event.detail = {value: value}`",
-    "5-0": "bindcancel",
-    "5-1": "Event Handler",
-    "5-2": "",
-    "5-3": "No",
-    "5-4": "The event triggered when the user deselects or clicks the mask layer to collapse the picker."
-  },
-  "cols": 5,
-  "rows": 6,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Default Value | Required | Description |
+| :-------- | :--- | :------------ | :------- | :---------- |
+| range | Array/Object Array |  | No | range will take effect if `mode` is `selector` or `multiSelector`. |
+| range-key | String |  | No | If `range` is an object array, use `range-key` to specify key values in the object array to be displayed in the picker. |
+| value | Number | 0 | No | The number of the element selected from `range` (the subscript starts from 0) |
+| disabled | Boolean | false | No | Whether it is disabled. |
+| bindchange | Event Handler |  | No | The `change` event triggered when `value` changes: `event.detail = {value: value}` |
+| bindcancel | Event Handler |  | No | The event triggered when the user deselects or clicks the mask layer to collapse the picker. |
 
 ### Mode valid value
 
@@ -347,4 +306,4 @@ Page({
 {% endraw %}
 ```
 
-![](https://files.readme.io/0548cbc-Screenshot_2023-06-15_at_5.06.41_PM.png)
+![](../../assets/images/0548cbc-Screenshot_2023-06-15_at_5.06.41_PM.png)

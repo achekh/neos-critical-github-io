@@ -10,6 +10,7 @@ parent: "APIs"
 has_chidlren: true
 ---
 # Network 
+This sections consists of list of network related APIs.
 *** 
 # Request
 

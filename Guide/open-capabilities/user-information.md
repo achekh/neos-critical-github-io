@@ -13,6 +13,7 @@ parent: "Open Capabilities (COPY)"
 grand_parent: "Guide"
 ---
 # User Information 
+This section explains the concept of Mini Program login in the application.
 *** 
 # Mini Program Login
 

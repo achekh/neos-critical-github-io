@@ -12,6 +12,7 @@ parent: "Overview"
 grand_parent: "Guide"
 ---
 # Mini Program Development Guide 
+This section explains the concept of Mini Program Development Guide.
 *** 
 ​
 

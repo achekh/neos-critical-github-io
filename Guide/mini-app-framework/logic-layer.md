@@ -12,6 +12,7 @@ parent: "Mini Program Framework"
 grand_parent: "Guide"
 ---
 # Logic Layer 
+This section explains the concept of Logic layer in Mini Program framework.
 *** 
 In Logic layer, the code examples, variables, and functions declared in the JavaScript file are valid only in the file. Variables and functions with the same names can be declared in different files without affecting each other.
 

@@ -13,6 +13,7 @@ parent: "Media components"
 grand_parent: "Components"
 ---
 # Video 
+Component used to render videos.
 *** 
 This component is native, so you should keep in mind relevant limits when using it.
 

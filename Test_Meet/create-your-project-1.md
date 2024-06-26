@@ -13,6 +13,7 @@ parent: "Meet the MiniApp"
 has_children: true
 ---
 # Create your project 
+The Mini App Studio makes it easy to create apps for phones. This section explains how to start a new sample NEARME app project.
 *** 
 You can create a new project by following the 2 steps given below:
 

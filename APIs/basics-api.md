@@ -14,6 +14,7 @@ nav_order: 2
 has_children: true
 ---
 # Basic 
+This section consists of all basic APIs of Mini App.
 *** 
 ## CanIUse
 

@@ -10,6 +10,7 @@ parent: "Open APIs"
 grand_parent: "APIs"
 ---
 # Settings 
+This section consists of Settings related APIs of Mini App.
 *** 
 ## wx.openSetting(Object object)
 

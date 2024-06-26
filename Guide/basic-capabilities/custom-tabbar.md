@@ -11,6 +11,7 @@ grand_parent: "Guide"
 nav_order: 4
 ---
 # Custom tabBar 
+This section explains the concept of custom tabBar.
 *** 
 Custom tabBar allows developers to set tabBar styles and achieve greater personalization with flexibility.
 

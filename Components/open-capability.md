@@ -12,6 +12,7 @@ parent: "Components"
 has_children: true
 ---
 # Open capability 
+Used to display open capabilities of Super Hub.
 *** 
 | Name                     | Function Explanation            |
 | :----------------------- | :------------------------------ |

@@ -11,10 +11,12 @@ updatedAt: "Thu Jun 15 2023 11:17:37 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 5
 ---
 # Form 
+Component that holds form elements and submits their data.
 *** 
-Form. It submits its [switch](doc:switch), [input](doc:input), [checkbox](doc:checkbox), [slider](doc:slider), [radio](doc:radio), and [picker](doc:picker) information input by the user.
+Form. It submits its [switch](witch), [input](input), [checkbox](checkbox), [slider](slider), [radio](radio), and [picker](picker) information input by the user.
 
 When the user clicks the [button](doc:button) component whose `form-type` is `submit` , the values in the form component will be submitted, and a name needs to be added as the key in the form component.
 

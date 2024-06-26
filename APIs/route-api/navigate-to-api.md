@@ -13,6 +13,7 @@ parent: "Route"
 grand_parent: "APIs"
 ---
 # navigateTo 
+Keeps the current page and redirects to a page in the Mini App (which cannot be a tab bar page).
 *** 
 # wx.navigateTo (Object object)
 

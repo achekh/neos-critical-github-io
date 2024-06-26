@@ -13,6 +13,7 @@ parent: "Guide"
 nav_exclude: true
 ---
 # Debugging 
+This section explains the concept of debugging.
 *** 
 ## vConsole
 

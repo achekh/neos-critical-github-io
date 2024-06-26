@@ -13,6 +13,7 @@ parent: "Redirect"
 grand_parent: "APIs"
 ---
 # exitMiniProgram (Object object) 
+Exits the current Mini App. There must be a click action for the call to succeed.
 *** 
 # Parameters
 

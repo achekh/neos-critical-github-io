@@ -13,6 +13,7 @@ parent: "Route"
 grand_parent: "APIs"
 ---
 # reLaunch (Object object) 
+Closes all pages and opens a specific page in the Mini App.
 *** 
 # Parameters
 

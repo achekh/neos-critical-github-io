@@ -11,8 +11,10 @@ updatedAt: "Thu Jun 15 2023 11:21:32 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 6
 ---
 # Input 
+The input component allows users to enter data.
 *** 
 Input component is a native component, so you should keep in mind relevant limits when using it.
 
@@ -108,7 +110,8 @@ Page({
 
 ```
 ```xml
-// WXML
+<!--WXML-->
+{% raw %}
 <view class="section">
 	<input placeholder="This is an input that can be automatically focused on" auto-focus />
 </view>
@@ -143,7 +146,7 @@ Page({
 <view class="section">
 	<input placeholder-style="color:red" placeholder="The placeholder style is red" />
 </view>
-
+{% endraw %}
 ```
 
-![](https://files.readme.io/96a23d1-Screenshot_2023-06-15_at_4.51.15_PM.png)
+![](../../assets/images/96a23d1-Screenshot_2023-06-15_at_4.51.15_PM.png)

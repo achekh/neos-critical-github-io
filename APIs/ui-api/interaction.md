@@ -12,6 +12,7 @@ parent: "UI"
 grand_parent: "APIs"
 ---
 # Interaction 
+APIs to display messages and actions to the user.
 *** 
 # showToast (Object object)
 

@@ -10,6 +10,7 @@ parent: "Network"
 grand_parent: "APIs"
 ---
 # Request 
+This API initiates a HTTPS network request.
 *** 
 - [request](doc:request#request)
 - [RequestTask](doc:request#requesttask)

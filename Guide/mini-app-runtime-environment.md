@@ -13,6 +13,7 @@ has_children: true
 nav_exclude: true
 ---
 # Mini Program Runtime 
+This section explains the concept of Mini Program Runtime.
 *** 
 # Runtime Environment of Mini Programs
 

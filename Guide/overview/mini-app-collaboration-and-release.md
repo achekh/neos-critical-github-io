@@ -12,6 +12,7 @@ parent: "Overview"
 grand_parent: "Guide"
 ---
 # Mini Program Collaboration and Release 
+This section explains the concept of Mini Program collaboration and release.
 *** 
 In medium and large companies, the division of labor is very fine. Generally, employees with different roles are involved in the same Mini Program project. Therefore, we designed different management permissions for the Mini Program platform to allow project managers to more effectively manage the collaboration of the entire team.
 

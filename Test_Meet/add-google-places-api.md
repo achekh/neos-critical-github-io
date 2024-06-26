@@ -12,6 +12,7 @@ layout: "default"
 parent: "Meet the MiniApp"
 ---
 # Add Google places API 
+This section describes the procedure to add Google Places API.
 *** 
 To add Google Places API:
 

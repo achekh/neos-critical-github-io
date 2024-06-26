@@ -13,6 +13,7 @@ parent: "Basic"
 grand_parent: "APIs"
 ---
 # System 
+This API is used to get the system information.
 *** 
 - [getSystemInfo](doc:system-api#getsysteminfo-object-object) To retrieve information about the system through a callback.
 - [getSystemInfoSync](doc:system-api#getsysteminfosync)- To retrieve information about the system synchronously.

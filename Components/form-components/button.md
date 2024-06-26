@@ -11,8 +11,10 @@ updatedAt: "Thu Jun 15 2023 11:09:30 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 1
 ---
 # Button 
+Button is an interactive element activated when a user taps it.
 *** 
 Button component is triggered by the user to perform an action such as submitting a form or opening a dialog box.
 
@@ -56,6 +58,7 @@ Button component is triggered by the user to perform an action such as submittin
 
 ```xml
 // WXML
+{% raw %}
 <button
   type="default"
   size="{{defaultSize}}"
@@ -89,7 +92,7 @@ Button component is triggered by the user to perform an action such as submittin
 <button bindtap="setLoading">Click to set the `loading` attribute of the above button</button>
 	Loading
 </button>
-
+{% endraw %}
 ```
 ```css
 // WXSS
@@ -104,4 +107,4 @@ Button component is triggered by the user to perform an action such as submittin
 }
 ```
 
-![](https://files.readme.io/8431148-Screenshot_2023-06-15_at_4.38.59_PM.png)
+![](../../assets/images/8431148-Screenshot_2023-06-15_at_4.38.59_PM.png)

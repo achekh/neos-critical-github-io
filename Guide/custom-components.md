@@ -14,6 +14,7 @@ has_children: true
 nav_order: 10
 ---
 # Custom Components 
+This section explains the concept of Custom Components.
 *** 
 Mini Programs support concise componential programming.
 

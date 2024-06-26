@@ -12,6 +12,7 @@ layout: "default"
 parent: "Meet the MiniApp"
 ---
 # Register pages 
+This section walks you through the process of registering pages in various files.
 *** 
 > 📝 Note
 > 

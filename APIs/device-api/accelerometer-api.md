@@ -10,6 +10,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # Accelerometer 
+This section lists the Accelerometer related APIs.
 *** 
 - [stopAccelerometer](doc:accelerometer-api#wxstopaccelerometerobject-object)
 - [startAccelerometer](doc:accelerometer-api#wxstartaccelerometerobject-object)

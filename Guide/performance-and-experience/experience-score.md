@@ -12,6 +12,7 @@ parent: "Performance and Experience"
 grand_parent: "Guide"
 ---
 # Experience score 
+This section explains the concept of experience score.
 *** 
 Experience scoring is a function that scores the experience of the Mini Program, which will check in real time during the operation of the Mini Program, analyze some areas that may cause a bad experience, and locate where there are problems, and give some optimization suggestions.
 

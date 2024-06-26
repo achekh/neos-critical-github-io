@@ -13,6 +13,7 @@ parent: "Forward"
 grand_parent: "APIs"
 ---
 # showShareMenu (Object object) 
+Updates the share attribute.
 *** 
 # Parameters
 

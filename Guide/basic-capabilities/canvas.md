@@ -11,6 +11,7 @@ grand_parent: "Guide"
 nav_order: 3
 ---
 # Canvas 
+This section explains the concept of Canvas.
 *** 
 All the drawings in canvas must be completed with JavaScript:
 

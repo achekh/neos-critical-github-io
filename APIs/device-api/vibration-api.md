@@ -10,6 +10,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # Vibration 
+This section lists the Vibration related APIs.
 *** 
 - [vibrateShort](doc:vibration-api#wxvibrateshortobject-object)
 - [vibrateLong](doc:vibration-api#wxvibratelongobject-object)

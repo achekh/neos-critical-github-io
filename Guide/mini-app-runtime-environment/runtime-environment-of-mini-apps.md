@@ -12,6 +12,7 @@ parent: "Mini Program Runtime"
 grand_parent: "Guide"
 ---
 # Runtime Environment of Mini Programs 
+This section explains the concept of Runtime Environment of Mini Programs.
 *** 
 The Mini Program runs on 3 platforms: iOS (iPhone/iPad), Android, and the Mini App DevTools used for debugging.
 

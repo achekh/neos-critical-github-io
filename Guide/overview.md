@@ -13,6 +13,7 @@ has_children: true
 nav_exclude: true
 ---
 # Overview 
+This user guide is intended for developers to help them understand the different aspects of Mini Program development.
 *** 
 The Mini Program comes with a simple and efficient app development framework and a wide range of components and APIs to help developers develop services with a native app experience.
 

@@ -10,6 +10,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # Calender 
+This section consists of the list of Calendar related APIs.
 *** 
 - [ addPhoneRepeatCalendar](doc:calender-api#addphonerepeatcalendarobject-object)
 - [addPhoneCalendar](doc:calender-api#addphonecalendarobject-object)

@@ -13,6 +13,7 @@ parent: "Meet the MiniApp"
 has_children: true
 ---
 # Getting started 
+This section provides basic information and instructions for first-time users of Mini App Studio.
 *** 
 - ### [Creating an account on Super Hub portal](doc:creating-an-account-on-super-hub-portal)
   Instructions for creating an account on Super Hub portal. 

@@ -13,6 +13,7 @@ parent: "Meet the MiniApp"
 has_children: true
 ---
 # Help Center 
+This section is available to help you with any technical and operational questions and needs.
 *** 
 ## Developer Support
 

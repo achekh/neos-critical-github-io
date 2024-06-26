@@ -12,6 +12,7 @@ parent: "Mini Program Framework"
 grand_parent: "Guide"
 ---
 # Scene Value 
+This section explains the concept of scene value in Mini Program framework.
 *** 
 The scene value describes a path in which a user enters a Mini Program. For the definition of the scene value, refer to the [Scene Value List](<>).
 

@@ -10,6 +10,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # NFC 
+This section consists of the list of all NFC APIs.
 *** 
 - [getNFCAdapter](doc:nfc#nfcadapter-wxgetnfcadapter) 
 - [NFCAdapter](doc:nfc#nfcadapter)

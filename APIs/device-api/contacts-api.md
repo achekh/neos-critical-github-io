@@ -13,6 +13,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # Contacts 
+This section lists the contact related API details that helps in selecting a contact by opening the phone contacts.
 *** 
 # wx.chooseContact(Object object)
 

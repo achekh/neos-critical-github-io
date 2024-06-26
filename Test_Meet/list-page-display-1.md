@@ -12,6 +12,7 @@ layout: "default"
 parent: "Meet the MiniApp"
 ---
 # \"List\" page display 
+This section explains the procedure to display List page in Mini App.
 *** 
 To display the List page:
 

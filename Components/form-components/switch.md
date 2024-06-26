@@ -11,8 +11,10 @@ updatedAt: "Fri Jul 14 2023 11:07:56 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 14
 ---
 # Switch 
+Used for switching between two states; on and off.
 *** 
 A switch component functions similar to a checkbox component but explicitly representing boolean on and off states.
 
@@ -52,4 +54,4 @@ Page({
 > 
 > - Changing the switch type will generate the vibration feedback on iOS, which can be disabled from "Settings" > "Sounds & Haptics" > "System Haptics".
 
-![](https://files.readme.io/9b8b98a-Screenshot_2023-06-15_at_5.19.18_PM.png)
+![](../../assets/images/9b8b98a-Screenshot_2023-06-15_at_5.19.18_PM.png)

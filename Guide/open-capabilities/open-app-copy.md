@@ -13,6 +13,7 @@ parent: "Open Capabilities (COPY)"
 grand_parent: "Guide"
 ---
 # Open App 
+This section explains the concept of Open App.
 *** 
 "Open App" allows the Mini Program's linked app to be opened from within the Mini Program. Since "Open App" can only be triggered by the user, this feature is not called by an API, but is triggered by clicking the button component with the value of `open-type` as `launchApp`.
 

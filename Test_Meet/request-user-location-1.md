@@ -12,6 +12,7 @@ layout: "default"
 parent: "Meet the MiniApp"
 ---
 # Request user location 
+This section explains the procedure to request the user location in Mini App.
 *** 
 To request the user's location:
 

@@ -10,6 +10,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # Clipboard 
+This section lists the Clipboard related APIs.
 *** 
 - [setClipboardData](doc:clipboard-api#wxsetclipboarddataobject-object)
 - [getClipboardData](doc:clipboard-api#wxgetclipboarddataobject-object)

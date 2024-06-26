@@ -14,6 +14,7 @@ grand_parent: "Guide"
 nav_order: 4
 ---
 # Component Lifecycle 
+This section explains the concept of component lifecycle.
 *** 
 ## Main lifecycle functions of a component
 

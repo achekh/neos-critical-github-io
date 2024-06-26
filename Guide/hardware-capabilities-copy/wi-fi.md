@@ -12,6 +12,7 @@ parent: "Hardware Capabilities"
 grand_parent: "Guide"
 ---
 # Wi-Fi 
+This section explains the concept of Wi-Fi in Mini App.
 *** 
 In the Mini Program, it supports searching for peripheral Wi-Fi devices, and you can initiate a connection for the specified device and pass in the password.
 

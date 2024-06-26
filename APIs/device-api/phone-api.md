@@ -13,6 +13,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # Phone 
+Phone calls related functionality.
 *** 
 # makePhoneCall
 

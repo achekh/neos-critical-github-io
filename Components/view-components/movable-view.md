@@ -14,6 +14,7 @@ grand_parent: "Components"
 nav_order: 6
 ---
 # Movable view 
+A movable view container that can be dragged and slid across the page.
 *** 
 The movable view container, which can be dragged and scrolled on the page.
 

@@ -11,8 +11,10 @@ updatedAt: "Fri Jul 14 2023 11:08:27 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 15
 ---
 # Textarea 
+Multi-line plain text input box used to collect user input.
 *** 
 This component is a native component; hence it is important to know the limitations when using it.
 

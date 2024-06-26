@@ -14,6 +14,7 @@ grand_parent: "Guide"
 nav_order: 5
 ---
 # Behaviors 
+This section explains the concept of Behaviors.
 *** 
 ## Defining and using a behavior
 

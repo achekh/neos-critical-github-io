@@ -13,6 +13,7 @@ parent: "Open APIs"
 grand_parent: "APIs"
 ---
 # Login 
+This section lists all the APIS related with Login functionality of Mini App.
 *** 
 ## wx.login(Object object)
 

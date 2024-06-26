@@ -11,6 +11,7 @@ grand_parent: "Guide"
 nav_order: 9
 ---
 # Data Listener 
+This section explains the concept of Data Listener.
 *** 
 ## Defining and using a data listener
 

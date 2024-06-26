@@ -10,6 +10,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # Gyroscope 
+This section list the Gyroscope related APIs.
 *** 
 - [stopGyroscope](doc:gyroscope-api#wxstopgyroscopeobject-object)
 - [startGyroscope](doc:gyroscope-api#wxstartgyroscopeobject-object)

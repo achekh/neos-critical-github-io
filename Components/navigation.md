@@ -13,6 +13,7 @@ parent: "Components"
 has_children: true
 ---
 # Navigation 
+This section lists the navigator component.
 *** 
 | Name                       | Function Explanation |
 | :------------------------- | :------------------- |

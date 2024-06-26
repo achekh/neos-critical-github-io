@@ -13,6 +13,7 @@ has_children: true
 nav_exclude: true
 ---
 # Performance and Experience 
+This section explains the concept of performance and experience.
 *** 
 Currently, we provide two performance analysis tools, an experience scoring plugin, and several performance optimization recommendations that developers can refer to.
 

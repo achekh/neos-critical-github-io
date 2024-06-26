@@ -14,6 +14,7 @@ grand_parent: "Components"
 nav_order: 1
 ---
 # Scroll view 
+Scrollable view container.
 *** 
 To scroll vertically, you need to set a fixed height for `<scroll-view>` through WXSS.
 

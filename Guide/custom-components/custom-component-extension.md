@@ -14,6 +14,7 @@ grand_parent: "Guide"
 nav_order: 8
 ---
 # Custom Component Extension 
+This section explains the concept of custom component extension.
 *** 
 In order to better customize the features of a custom component, you can use the custom component extension mechanism.
 

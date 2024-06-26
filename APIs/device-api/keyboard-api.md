@@ -10,6 +10,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # Keyboard 
+This section lists the list of Keyboard related APIs.
 *** 
 - [onKeyboardHeightChange](doc:keyboard-api#onkeyboardheightchangefunction-listener)
 - [hideKeyboard](doc:keyboard-api#hidekeyboardobject-object)

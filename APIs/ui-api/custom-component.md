@@ -13,6 +13,7 @@ parent: "UI"
 grand_parent: "APIs"
 ---
 # Custom Component 
+This API delays a part of the operation until the next time slice.
 *** 
 # nextTick
 

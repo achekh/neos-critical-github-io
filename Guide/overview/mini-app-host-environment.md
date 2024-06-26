@@ -12,6 +12,7 @@ parent: "Overview"
 grand_parent: "Guide"
 ---
 # Mini Program Host Environment 
+This chapter explains the concept of Mini Program host environment.
 *** 
 The environment provided by the Mini app for the Mini Program is called host environment. With the capabilities provided by the host environment, the Mini Program can deliver many features that are not available in other web pages.
 

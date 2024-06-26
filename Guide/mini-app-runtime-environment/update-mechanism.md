@@ -12,6 +12,7 @@ parent: "Mini Program Runtime"
 grand_parent: "Guide"
 ---
 # Update Mechanism 
+This section explains the concept of update mechanism.
 *** 
 # Update Mechanism of Mini Programs
 

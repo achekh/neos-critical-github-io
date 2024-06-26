@@ -13,6 +13,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # Code scan 
+This section lists the Code scan related APIs.
 *** 
 # scanCode
 

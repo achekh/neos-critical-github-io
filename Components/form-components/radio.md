@@ -11,10 +11,12 @@ updatedAt: "Mon May 22 2023 12:12:07 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 11
 ---
 # Radio 
+Radio component allows the users to select only one option from multiple options.
 *** 
-Radio is used for selecting one option from multiple given options and a radio component can be placed in a [radio-group](doc:radio-group).
+Radio is used for selecting one option from multiple given options and a radio component can be placed in a [radio-group](radio-group).
 
 | Attribute  | Type    | Default Value | Required | Description                                                                                                          |
 | :--------- | :------ | :------------ | :------- | :------------------------------------------------------------------------------------------------------------------- |

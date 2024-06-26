@@ -10,6 +10,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # Compass 
+This section lists the Compass related APIs.
 *** 
 - [stopCompass](doc:compass-api#wxstopcompassobject-object)
 - [startCompass](doc:compass-api#wxstartcompassobject-object)

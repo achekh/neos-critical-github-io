@@ -10,6 +10,7 @@ parent: "APIs"
 has_children: true
 ---
 # UI 
+This section consists of all UI related APIs.
 *** 
 # Interaction
 

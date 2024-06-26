@@ -13,6 +13,7 @@ parent: "Open APIs"
 grand_parent: "APIs"
 ---
 # Authorization 
+This section list all APIs related with Authorization functionality of the Mini App.
 *** 
 ## wx.authorize(Object object)
 

@@ -13,6 +13,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # SMS 
+This section contains SMS related API that opens the SMS sending UI of the phone.
 *** 
 # wx.sendSms(Object object)
 

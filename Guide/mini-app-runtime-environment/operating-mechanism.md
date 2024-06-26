@@ -12,6 +12,7 @@ parent: "Mini Program Runtime"
 grand_parent: "Guide"
 ---
 # Operating Mechanism 
+This section explains the concept of operating mechanism.
 *** 
 # Operating Mechanism of Mini Programs
 

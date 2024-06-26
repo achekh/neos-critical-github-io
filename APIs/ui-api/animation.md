@@ -10,6 +10,7 @@ parent: "UI"
 grand_parent: "APIs"
 ---
 # Animation 
+This section consists of the APIs related to animation.
 *** 
 # Animation.left(number|string value)Length value.
 

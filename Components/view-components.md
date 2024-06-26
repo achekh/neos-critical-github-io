@@ -12,6 +12,7 @@ has_toc: false
 nav_order: 1
 ---
 # View components 
+View components occupy a rectangular area on the screen and supports drawing and event handling.
 *** 
 
 | Name                             | Function Explanation                                                                   |

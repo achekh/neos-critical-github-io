@@ -13,6 +13,7 @@ parent: "Navigation"
 grand_parent: "Components"
 ---
 # Navigator 
+Navigator component is used to navigate to other Mini Apps.
 *** 
 Page link to another Mini App.
 

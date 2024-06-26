@@ -12,6 +12,7 @@ layout: "default"
 parent: "Meet the MiniApp"
 ---
 # Sample Project 
+This section contains all the steps and required components for creating a sample Mini App project.
 *** 
 Good start!
 

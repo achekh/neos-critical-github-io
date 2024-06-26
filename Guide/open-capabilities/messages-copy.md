@@ -13,6 +13,7 @@ parent: "Open Capabilities (COPY)"
 grand_parent: "Guide"
 ---
 # Messages 
+This section explains the concept of messages.
 *** 
 # Uniform Service Messages
 

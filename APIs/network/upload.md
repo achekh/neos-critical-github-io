@@ -10,6 +10,7 @@ parent: "Network"
 grand_parent: "APIs"
 ---
 # Upload 
+This section consists of the APIs related with Upload feature in the Mini App.
 *** 
 - [uploadFile](doc:upload#uploadfile-object-object)
 - [UploadTask](doc:upload#uploadtask)

@@ -12,6 +12,7 @@ layout: "default"
 parent: "Meet the MiniApp"
 ---
 # Requesting the user permission (location) 
+This section explains the procedure to request the user permission in Mini App.
 *** 
 To register the user location permission message:
 

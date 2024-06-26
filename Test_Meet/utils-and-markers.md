@@ -12,6 +12,7 @@ layout: "default"
 parent: "Meet the MiniApp"
 ---
 # Utils and Markers 
+This section describes the procedure to process the data from Google API to convert them to markers.
 *** 
 Let's process the data from Google API to convert them to markers later
 

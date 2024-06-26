@@ -11,8 +11,10 @@ updatedAt: "Thu Jun 15 2023 11:47:10 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 12
 ---
 # Radio-group 
+Radio group is a selector that can select only one option from a given set of options.
 *** 
 Radio group is composed of multiple radio components.
 
@@ -53,4 +55,4 @@ Page({
 {% endraw %}
 ```
 
-![](https://files.readme.io/164e159-Screenshot_2023-06-15_at_5.16.50_PM.png)
+![](../../assets/images/164e159-Screenshot_2023-06-15_at_5.16.50_PM.png)

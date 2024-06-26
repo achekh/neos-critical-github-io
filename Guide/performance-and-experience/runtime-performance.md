@@ -12,6 +12,7 @@ parent: "Performance and Experience"
 grand_parent: "Guide"
 ---
 # Runtime Performance 
+This section explains the concept of runtime performance.
 *** 
 ## setData
 

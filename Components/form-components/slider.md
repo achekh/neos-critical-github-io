@@ -11,8 +11,10 @@ updatedAt: "Fri Jul 14 2023 11:07:36 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 13
 ---
 # Slider 
+Slider allows users to specify a numeric value within a range of minimum and maximum.
 *** 
 The slider component lets users perform selection by moving the slider within a range.
 
@@ -73,4 +75,4 @@ Page(pageData)
 {% endraw %}
 ```
 
-![](https://files.readme.io/9eb48f4-Screenshot_2023-06-15_at_5.18.20_PM.png)
+![](../../assets/9eb48f4-Screenshot_2023-06-15_at_5.18.20_PM.png)

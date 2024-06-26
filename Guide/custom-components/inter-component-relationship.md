@@ -14,6 +14,7 @@ grand_parent: "Guide"
 nav_order: 6
 ---
 # Relationship Between Components 
+This section explains the concept of inter-component relationship.
 *** 
 ## Defining and using a relationship between components
 

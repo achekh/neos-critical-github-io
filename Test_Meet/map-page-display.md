@@ -12,6 +12,7 @@ layout: "default"
 parent: "Meet the MiniApp"
 ---
 # \"Map\" page display 
+This section explains the procedure to display Map page in Mini App.
 *** 
 To display the Map page:
 

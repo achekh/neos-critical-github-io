@@ -13,6 +13,7 @@ parent: "Components"
 has_children: true
 ---
 # Native components 
+For using native components, you must mind their limits and restriction.
 *** 
 | Name                                     | Function Explanation                                     |
 | :--------------------------------------- | :------------------------------------------------------- |

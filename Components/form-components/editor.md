@@ -11,8 +11,10 @@ updatedAt: "Thu Jun 15 2023 11:16:07 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 4
 ---
 # Editor 
+Rich text editor..
 *** 
 Rich text editor can edit images and text.
 
@@ -50,25 +52,10 @@ Tags not meeting the conditions will be ignored, and `<div>` tags will be conver
 
 ### Supported inline styles
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Type",
-    "h-1": "Style",
-    "0-0": "Block-level style",
-    "0-1": "`text-align, direction, margin, margin-top, margin-left, margin-right, margin-bottom `  \n`padding, padding-top, padding-left, padding-right, padding-bottom, line-height, text-indent`",
-    "1-0": "Inline style",
-    "1-1": "`font, font-size, font-style, font-variant, font-weight, font-family, letter-spacing, text-decoration, color, background-color `"
-  },
-  "cols": 2,
-  "rows": 2,
-  "align": [
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Type | Style |
+| :--- | :---- |
+| Block-level style | `text-align, direction, margin, margin-top, margin-left, margin-right, margin-bottom `  <br />`padding, padding-top, padding-left, padding-right, padding-bottom, line-height, text-indent` |
+| Inline style | `font, font-size, font-style, font-variant, font-weight, font-family, letter-spacing, text-decoration, color, background-color ` |
 
 > 📘 Bugs and tips
 > 

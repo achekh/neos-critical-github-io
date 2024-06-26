@@ -13,6 +13,7 @@ parent: "UI"
 grand_parent: "APIs"
 ---
 # Pull-to-Refresh 
+Start and stop pull down refresh.
 *** 
 # startPullDownRefresh
 

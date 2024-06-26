@@ -10,6 +10,7 @@ parent: "Device"
 grand_parent: "APIs"
 ---
 # Network 
+This section lists the Network related APIs.
 *** 
 - [onNetworkStatusChange](doc:network-api#wxonnetworkstatuschangefunction-callback)
 - [getNetworkType](doc:network-api#wxgetnetworktypeobject-object)

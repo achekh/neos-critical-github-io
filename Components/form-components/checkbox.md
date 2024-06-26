@@ -11,12 +11,15 @@ updatedAt: "Thu Jun 15 2023 11:10:48 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 2
 ---
 # Checkbox 
+Checkbox element is used as a component to select multiple items.
 *** 
+
 | Attribute  | Type    | Default Value | Required | Description                                                                                                                                                             |
 | :--------- | :------ | :------------ | :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| value      | String  |               | No       | It represents the checkbox ID. When the checkbox is selected, a change event will occur in [checkbox-group](doc:checkbox-group), which will hold the value of checkbox. |
+| value      | String  |               | No       | It represents the checkbox ID. When the checkbox is selected, a change event will occur in [checkbox-group](checkbox-group), which will hold the value of checkbox. |
 | disabled   | Boolean | False         | No       | Whether it is disabled.                                                                                                                                                 |
 | checked    | Boolean | False         | No       | Whether the checkbox is selected. It can be used to set the checkbox to be selected by default.                                                                         |
 | color      | String  | # 09BB07      | No       | It represents the checkbox color, which uses the same color specifications of CSS.                                                                                      |

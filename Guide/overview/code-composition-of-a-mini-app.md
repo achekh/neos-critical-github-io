@@ -12,6 +12,7 @@ parent: "Overview"
 grand_parent: "Guide"
 ---
 # Code Composition of a Mini App 
+This chapter explains the code composition of a Mini Program.
 *** 
 ​In the previous chapter, we quickly created a QuickStart project via Mini App DevTools, where the following types of files are generated:
 

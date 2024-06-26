@@ -11,34 +11,16 @@ updatedAt: "Fri Jul 14 2023 11:05:48 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Form components"
 grand_parent: "Components"
+nav_order: 3
 ---
 # Checkbox-group 
+Checkbox-group is a container that consists of multiple checkbox components.
 *** 
 Checkbox-group is a multiple selector that internally consists of multiple [checkboxes](doc:checkbox).
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Required",
-    "h-3": "Description",
-    "0-0": "bindchange",
-    "0-1": "Event Handler",
-    "0-2": "No",
-    "0-3": "Triggers change event when a check box item checked state changes.  \n`event.detail = {value:[Array of values for the selected checkbox]}`"
-  },
-  "cols": 4,
-  "rows": 1,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Required | Description |
+| :-------- | :--- | :------- | :---------- |
+| bindchange | Event Handler | No | Triggers change event when a check box item checked state changes.  <br />`event.detail = {value:[Array of values for the selected checkbox]}`" |
 
 ### Sample code
 

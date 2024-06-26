@@ -14,6 +14,7 @@ grand_parent: "Components"
 nav_order: 4
 ---
 # View 
+View container.
 *** 
 A view container represents container that can host one or more views.
 

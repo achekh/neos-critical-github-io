@@ -12,6 +12,7 @@ parent: "Components"
 has_children: true
 ---
 # Canvas 
+This component is native, so you should keep in mind relevant limits when using it.
 *** 
 | Name                   | Function Explanation |
 | :--------------------- | :------------------- |

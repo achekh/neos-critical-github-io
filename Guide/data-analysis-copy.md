@@ -13,6 +13,7 @@ parent: "Guide"
 nav_exclude: true
 ---
 # Data Analysis 
+This section explains the concept of Data Analysis in Mini App.
 *** 
 # Data Analysis API
 

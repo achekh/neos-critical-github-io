@@ -13,6 +13,7 @@ parent: "Overview"
 grand_parent: "Guide"
 ---
 # Compatibility with Older Versions 
+This section explains the compatibility of new mini programs with the older versions of the mini app.
 *** 
 # Compatibility
 

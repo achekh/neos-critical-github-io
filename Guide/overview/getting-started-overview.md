@@ -12,6 +12,7 @@ parent: "Overview"
 grand_parent: "Guide"
 ---
 # Getting Started 
+This section explains you the concept required to develop a Mini Program.
 *** 
 Before developing a Mini Program, you need to have a Mini Program account, which allows you to manage your Mini Program.
 

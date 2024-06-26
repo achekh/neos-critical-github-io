@@ -14,6 +14,7 @@ grand_parent: "Guide"
 nav_order: 3
 ---
 # Component Event 
+This section explains the concept of inter-component communication and events.
 *** 
 ## Inter-component communication
 

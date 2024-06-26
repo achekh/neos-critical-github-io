@@ -13,6 +13,7 @@ parent: "Getting started"
 grand_parent: "Meet the MiniApp"
 ---
 # Before you begin 
+This section contains system prerequisites and requirements for installing Super Hub Mini App.
 *** 
 If you don't have an account yet, please [create an account](doc:creating-an-account-on-super-hub-portal) on Super Hub portal first.
 

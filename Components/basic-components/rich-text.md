@@ -14,6 +14,7 @@ grand_parent: "Components"
 nav_order: 4
 ---
 # Rich text 
+A component that displays formatted rich text.
 *** 
 The `rich-text` allows entering or editing formatted rich text.
 

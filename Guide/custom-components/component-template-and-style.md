@@ -14,6 +14,7 @@ grand_parent: "Guide"
 nav_order: 1
 ---
 # Component Template and Style 
+This section explains the concept of component template and style.
 *** 
 Just like pages, custom components have their own `wxml` templates and `wxss` styles.
 

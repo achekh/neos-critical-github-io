@@ -13,6 +13,7 @@ parent: "Basic"
 grand_parent: "APIs"
 ---
 # Update 
+A collection of APIs to check Mini App updates and apply them.
 *** 
 - [getUpdateManager](doc:update#wxgetupdatemanager)
 - [UpdateManager](doc:update#updatemanager)

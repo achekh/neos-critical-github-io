@@ -10,6 +10,7 @@ parent: "APIs"
 has_children: true
 ---
 # Forward 
+This section consists of all APIs related to forwarding properties in the Mini App.
 *** 
 | Name                                         | Feature description                           |
 | :------------------------------------------- | :-------------------------------------------- |

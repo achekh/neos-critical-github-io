@@ -12,6 +12,7 @@ parent: "Performance and Experience"
 grand_parent: "Guide"
 ---
 # Boot performance 
+This section explains the concept of boot performance.
 *** 
 # Starting performance
 

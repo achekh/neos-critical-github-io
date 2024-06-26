@@ -13,6 +13,7 @@ parent: "APIs"
 has_children: true
 ---
 # Route 
+This section consists of All APIs related to Mini app routing.
 *** 
 | Name                                  | Feature Description                                                             |
 | :------------------------------------ | :------------------------------------------------------------------------------ |

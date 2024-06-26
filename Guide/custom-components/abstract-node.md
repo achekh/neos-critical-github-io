@@ -14,6 +14,7 @@ grand_parent: "Guide"
 nav_order: 7
 ---
 # Abstract Node 
+This section explains the concept of Abstract Node.
 *** 
 ## Using an abstract node in a component
 

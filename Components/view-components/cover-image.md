@@ -14,6 +14,7 @@ grand_parent: "Components"
 nav_order: 7
 ---
 # Cover image 
+An image view that renders images natively.
 *** 
 The image view that covers the native components, which can be nested in `cover-view`. Coverable native components are those listed for `cover-view`.
 

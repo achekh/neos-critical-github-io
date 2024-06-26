@@ -12,6 +12,7 @@ layout: "default"
 parent: "Meet the MiniApp"
 ---
 # Generate your Google API Key 
+This section describes the procedure to generate your Google API Key.
 *** 
 To get your Google API keys, first:
 

@@ -13,6 +13,7 @@ parent: "Map"
 grand_parent: "Components"
 ---
 # Map 
+Component used to render maps.
 *** 
 Map component is native, so you should keep in mind relevant limits when using it.
 
