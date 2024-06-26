@@ -149,11 +149,11 @@ Component({
 
 ```xml
 // WXML
-<% raw %>
+{% raw %}
 <view>data: {{a}}</view>
 <view>computed: {{b}}</view>
 <button bindtap="onTap">click</button>
-<% endraw %>
+{% endraw %}
 ```
 
 The implementation principle is very simple. The existing `setData` is encapsulated again, and the value of each field in `computed` is calculated everytime `setData` is performed and then set to data to achieve the effect of attribute calculation.

@@ -52,7 +52,7 @@ Page({
 ```
 ```xml
 // WXML
-<% raw %>
+{% raw %}
 <view class="section">
   <view class="section__title">`movable-view` smaller than `movable-area`</view>
   <movable-area style="height: 200px; width: 200px; background: red;">
@@ -89,5 +89,5 @@ Page({
     </movable-view>
   </movable-area>
 </view>
-<% endraw %>
+{% endraw %}
 ```

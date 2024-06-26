@@ -73,7 +73,7 @@ In the previous section, we used the method `fillRect(0, 0, 150, 75)`. This indi
 We can add events in canvas to observe its coordinate system.
 
 ```xml
-<% raw %>
+{% raw %}
 <canvas canvas-id="myCanvas"
   style="margin: 5px; border:1px solid #d3d3d3;"
   bindtouchstart="start"
@@ -83,7 +83,7 @@ We can add events in canvas to observe its coordinate system.
 <view hidden="{{hidden}}">
   Coordinates: ({{x}}, {{y}})
 </view>
-<% endraw %>
+{% endraw %}
 ```
 
 ```javascript

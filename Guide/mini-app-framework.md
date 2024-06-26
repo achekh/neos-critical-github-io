@@ -29,11 +29,11 @@ Here is a simple example:
 [Preview with Developer Tool](<>)
 
 ```xml
-<% raw %>
+{% raw %}
 <!-- This is our View -->
 <view> Hello {{name}}! </view>
 <button bindtap="changeName"> Click me! </button>
-<% endraw %>
+{% endraw %}
 ```
 
 ```javascript

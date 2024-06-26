@@ -24,14 +24,14 @@ For example, you want to implement a "selectable-group" component, where radio b
 ```xml
 <!-- WXML -->
 <!-- selectable-group.wxml -->
-<% raw %>
+{% raw %}
 <view qq:for="{{labels}}">
   <label>
     <selectable disabled="{{false}}"></selectable>
 {{item}}
   </label>
 </view>
-<% endraw %>
+{% endraw %}
 ```
 
 Among them, `selectable` is not any component declared in the `usingComponents` field of the `json` file but an abstract node. It needs to be declared in the `componentGenerics` field:

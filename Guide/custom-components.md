@@ -34,15 +34,15 @@ In the meanwhile, write a component template in the `wxml` file and a component 
 
 ### Code example:
 
-```Text
+```xml
 // code
 <!-- This is the internal WXML structure of the custom component -->
-<% raw %>
+{% raw %}
 <view class="inner">
   {{innerText}}
 </view>
 <slot></slot>
-<% endraw %>
+{% endraw %}
 ```
 
 ```Text
@@ -63,9 +63,7 @@ The property values and internal data of the component are used to render the co
 
 ### Code example:
 
-```Text
-// code
-<% raw %>
+```javascript
 Component({
   properties: {
     // The innerText property is defined here, and the property value can be specified when the component is used.
@@ -83,7 +81,6 @@ Component({
     customMethod: function(){}
   }
 })
-<% endraw %>
 ```
 
 ## Using Custom Component
