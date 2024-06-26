@@ -15,7 +15,9 @@ nav_order: 15
 ---
 # Textarea 
 Multi-line plain text input box used to collect user input.
+
 *** 
+
 This component is a native component; hence it is important to know the limitations when using it.
 
 | Attribute         | Type          | Default Value        | Description                                                                                                                                                                                                                                                                                              |
