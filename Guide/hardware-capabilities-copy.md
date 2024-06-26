@@ -11,6 +11,7 @@ updatedAt: "Fri May 26 2023 09:20:18 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
 has_children: true
+nav_exclude: true
 ---
 # Hardware Capabilities 
 *** 

@@ -10,6 +10,6 @@ updatedAt: "Mon May 29 2023 07:23:06 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Guide"
 has_children: true
-nav_eclude: true
+nav_exclude: true
 ---
 # Open Capabilities (COPY) 
