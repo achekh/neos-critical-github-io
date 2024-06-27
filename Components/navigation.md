@@ -11,6 +11,8 @@ updatedAt: "Fri May 12 2023 10:54:47 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Components"
 has_children: true
+has_toc: false
+nav_order: 4
 ---
 # Navigation 
 This section lists the navigator component.
@@ -19,4 +21,4 @@ This section lists the navigator component.
 
 | Name                       | Function Explanation |
 | :------------------------- | :------------------- |
-| [navigator](doc:navigator) | Page link            |
+| [navigator](navigation/navigator) | Page link            |

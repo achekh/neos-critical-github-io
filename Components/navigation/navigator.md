@@ -75,16 +75,21 @@ Page({
 ```
 ```xml
 // redirect.wxml
+{% raw %}
 <view style="text-align:center">{{title}}</view>
 <view>Click "Back" in the top-left corner to go back to the page at a higher level</view>
+{% endraw %}
 ```
 ```xml
 // navigator.wxml
+{% raw %}
 <view style="text-align:center">{{title}}</view>
 <view>Click "Back" in the top-left corner to go back to the previous page</view>
+{% endraw %}
 ```
 ```xml
 // sample.wxml
+{% raw %}
 <view class="btn-area">
   <navigator
     url="/page/navigate/navigate?title=navigate"
@@ -104,7 +109,7 @@ Page({
   	Switch the tab
   </navigator>
 </view>
-
+{% endraw %}
 ```
 ```css
 // WXSS
