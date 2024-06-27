@@ -29,7 +29,7 @@ The user should 'authorize' `scope.camera`.
 | flash | String | car | No | Valid values: `auto`, `on`, `off`. |
 | bindstop | Event Handler |  | No | Triggered when the camera is abnormally terminated, for example, it is switched to  \nthe background. |
 | binderror | Event Handler |  | No | Triggered if the user hasn't granted the camera access. |
-| bindscancode | Event Handler |  | No | Triggered when the scan is successful, which takes effect only when mode is `sca  \nnCode`. |
+| bindscancode | Event Handler |  | No | Triggered when the scan is successful, which takes effect only when mode is `scanCode`. |
 
 ### Mode values:
 
