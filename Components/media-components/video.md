@@ -20,7 +20,7 @@ Component used to render videos.
 
 This component is native, so you should keep in mind relevant limits when using it.
 
-| Attribute | Type | Default Value | Required | Description |
+| Attribute | Type | Default Value | Required | Description                                                   |
 | :-------- | :--- | :------------ | :------- | :------------------------------------------------------------ |
 | src | String |  | Yes | Address of the video resource to be played back. |
 | duration | Number |  | No | Specifies the length of video. |
