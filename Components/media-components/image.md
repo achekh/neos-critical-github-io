@@ -8,13 +8,14 @@ updatedAt: "Wed Nov 29 2023 06:03:30 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Media components"
 grand_parent: "Components"
+nav_order: 1
 ---
 # Image 
 It is used to render an image.
 
 ***
 
-The[ image ](doc:image)component supports formats such as JPG, PNG, SVG, WEBP, and GIF.
+The[ image ](image)component supports formats such as JPG, PNG, SVG, WEBP, and GIF.
 
 | Attribute  | Type          | Default Value | Required | Description                                                                                                                                        |
 | :--------- | :------------ | :------------ | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -122,6 +123,5 @@ Page({
     </view>
   </view>
 </view>
-
 {% endraw %}
 ```
