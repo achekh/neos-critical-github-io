@@ -10,6 +10,8 @@ updatedAt: "Sun May 14 2023 11:58:39 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Components"
 has_children: true
+has_toc: false
+nav_order: 7
 ---
 # Canvas 
 This component is native, so you should keep in mind relevant limits when using it.
@@ -18,4 +20,4 @@ This component is native, so you should keep in mind relevant limits when using 
 
 | Name                   | Function Explanation |
 | :--------------------- | :------------------- |
-| [canvas](doc:canvas-1) | Canvas               |
+| [canvas](canvas-component/canvas) | Canvas               |

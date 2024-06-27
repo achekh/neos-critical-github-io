@@ -28,8 +28,7 @@ The `web-view` component is a container that displays webpages. It will automati
 
 ### Sample code
 
-```Text
-// WXML
+```xml
 <!-- wxml -->
 <web-view src="https://fmp.tmf.stage.neuxnet.com:30001/#/login"></web-view>
 ```
@@ -54,7 +53,6 @@ On a `<web-view>` webpage, you can use APIs provided by JSSDK to return to a min
 // javascript
 // <script type="text/javascript" src="https://res.wx.tonomus.com/open/js/jssdk-1.3.2.js"></script>
 
-// javascript
 wx.miniProgram.navigateTo({url: '/path/to/page'})
 wx.miniProgram.postMessage({ data: 'foo' })
 wx.miniProgram.postMessage({ data: {foo: 'bar'} })

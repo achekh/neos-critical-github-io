@@ -11,6 +11,8 @@ updatedAt: "Sun May 14 2023 12:19:23 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Components"
 has_children: true
+has_toc: false
+nav_order: 9
 ---
 # Native components 
 For using native components, you must mind their limits and restriction.
@@ -19,4 +21,4 @@ For using native components, you must mind their limits and restriction.
 
 | Name                                     | Function Explanation                                     |
 | :--------------------------------------- | :------------------------------------------------------- |
-| [native-component](doc:native-component) | Some of the components in the SDK are native components. |
+| [native-component](native-components/native-component) | Some of the components in the SDK are native components. |

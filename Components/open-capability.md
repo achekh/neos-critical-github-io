@@ -10,6 +10,8 @@ updatedAt: "Sun May 14 2023 12:13:03 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Components"
 has_children: true
+has_toc: false
+nav_order: 8
 ---
 # Open capability 
 Used to display open capabilities of Super Hub.
@@ -18,4 +20,4 @@ Used to display open capabilities of Super Hub.
 
 | Name                     | Function Explanation            |
 | :----------------------- | :------------------------------ |
-| [web-view](doc:web-view) | Container for hosting web pages |
+| [web-view](open-capability/web-view) | Container for hosting web pages |

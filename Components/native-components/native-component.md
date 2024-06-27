@@ -21,12 +21,12 @@ Some of the components in the Mini Program are native components created by the 
 
 Some of the components are native components created by the client. These components are:
 
-- [camera](doc:camera)
-- [canvas](doc:canvas)
-- [input](doc:input) - (which behaves as a native component only when in focus)
-- [map](doc:map)
-- [textarea](doc:text-area)
-- [video](doc:video)
+- [camera](../media-components/camera)
+- [canvas](../canvas-component/canvas)
+- [input](../form-components/input) - (which behaves as a native component only when in focus)
+- [map](../map-capability/map)
+- [textarea](../form-components/text-area)
+- [video](../media-components/video)
 
 ### Usage Restrictions of Native Components
 

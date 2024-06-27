@@ -140,8 +140,8 @@ If `customCallout` exists, `callout` and `title` attributes will be ignored. The
 
 It can be used in the following way: Add a `slot` node named `callout` to the `map` component and bind its `cover-view` to marker through the `marker-id` attribute. When `marker` is created, the content shown in `cover-view` will be the `callout` above the marker.
 
-```Text
-// WXML
+```xml
+<!-- WXML -->
 <map>
   <cover-view slot="callout">
     <cover-view marker-id="1"></cover-view>
@@ -243,4 +243,4 @@ Displays a circle in the map.
 > - Map color values (`color`, `borderColor`, and `bgColor`) should be represented by 6 or 8 hex characters. In the latter case, the last two characters indicate the alpha value, such as #000000AA.
 > - The latitude and longitude of the map control are required. If they are not specified, the default value will be used, which is the latitude and longitude of Riyadh.
 > - The map component uses latitude and longitude in the GCJ-02 coordinate system. Calling the `wx.getLocation` API requires specifying type as gcj02.
-> - If the `enablePassiveEvent` configuration item is enabled on the page of the current component or globally, the built-in component may have unexpected behaviors. For more information, see [Global configuration](docs:global-configurations).
+> - If the `enablePassiveEvent` configuration item is enabled on the page of the current component or globally, the built-in component may have unexpected behaviors. For more information, see [Global configuration](../../Guide/mini-app-configuration/global-configuration).

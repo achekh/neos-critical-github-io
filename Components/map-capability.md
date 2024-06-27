@@ -8,9 +8,13 @@ updatedAt: "Wed Nov 29 2023 06:06:49 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Components"
 has_children: true
+has_toc: false
+nav_order: 6
 ---
 # Map 
+
 *** 
+
 | Name           | Function Explanation                                          |
 | :------------- | :------------------------------------------------------------ |
-| [map](doc:map) | Renders a map, related api [wx.createMapContext](doc:map-api) |
+| [map](map-capability/map) | Renders a map, related api [wx.createMapContext](../APIs/media/map-api) |
