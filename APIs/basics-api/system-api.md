@@ -11,14 +11,15 @@ updatedAt: "Thu Jun 22 2023 02:09:16 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Basic"
 grand_parent: "APIs"
+nav_order: 2
 ---
 # System 
 This API is used to get the system information.
 
 ***
 
-- [getSystemInfo](doc:system-api#getsysteminfo-object-object) To retrieve information about the system through a callback.
-- [getSystemInfoSync](doc:system-api#getsysteminfosync)- To retrieve information about the system synchronously.
+- [getSystemInfo](system-api#getsysteminfo-object-object) To retrieve information about the system through a callback.
+- [getSystemInfoSync](system-api#getsysteminfosync)- To retrieve information about the system synchronously.
 
 # getSystemInfo (Object object)
 
@@ -38,71 +39,24 @@ To retrieve information about the system through a callback.
 
 ## Object response
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "brand",
-    "0-1": "String",
-    "0-2": "Device brand.",
-    "1-0": "model",
-    "1-1": "String",
-    "1-2": "Device model.",
-    "2-0": "pixelRatio",
-    "2-1": "Number",
-    "2-2": "Device pixel ratio.",
-    "3-0": "screenWidth",
-    "3-1": "Number",
-    "3-2": "Display width in px.",
-    "4-0": "screenHeight",
-    "4-1": "Number",
-    "4-2": "Display height in px.",
-    "5-0": "windowWidth",
-    "5-1": "Number",
-    "5-2": "Usable window width in px.",
-    "6-0": "windowHeight",
-    "6-1": "Number",
-    "6-2": "Usable window height in px.",
-    "7-0": "statusBarHeight",
-    "7-1": "Number",
-    "7-2": "Status bar height in px.",
-    "8-0": "language",
-    "8-1": "String",
-    "8-2": "Language.",
-    "9-0": "version",
-    "9-1": "String",
-    "9-2": "Version number.",
-    "10-0": "system",
-    "10-1": "String",
-    "10-2": "Operating system and version.",
-    "11-0": "platform",
-    "11-1": "String",
-    "11-2": "Client platform.",
-    "12-0": "SDKVersion",
-    "12-1": "String",
-    "12-2": "Base library version of the client.",
-    "13-0": "AppPlatform",
-    "13-1": "String",
-    "13-2": "App platform.",
-    "14-0": "safeArea",
-    "14-1": "Object",
-    "14-2": "Safe area in portrait mode.",
-    "15-0": "theme",
-    "15-1": "String",
-    "15-2": "Current system theme.  \nValid values: `light` ,` dark` .  \nThis parameter can be obtained only if `\"darkmode\": true` is globally configured; otherwise, it will be` undefined`."
-  },
-  "cols": 3,
-  "rows": 16,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Description |
+| :-------- | :--- | :---------- |
+| brand | String | Device brand. |
+| model | String | Device model. |
+| pixelRatio | Number | Device pixel ratio. |
+| screenWidth | Number | Display width in px. |
+| screenHeight | Number | Display height in px. |
+| windowWidth | Number | Usable window width in px. |
+| windowHeight | Number | Usable window height in px. |
+| statusBarHeight | Number | Status bar height in px. |
+| language | String | Language. |
+| version | String | Version number. |
+| system | String | Operating system and version. |
+| platform | String | Client platform. |
+| SDKVersion | String | Base library version of the client. |
+| AppPlatform | String | App platform. |
+| safeArea | Object | Safe area in portrait mode. |
+| theme | String | Current system theme.  <br />Valid values: `light` ,` dark` .  <br />This parameter can be obtained only if `\"darkmode\": true` is globally configured; otherwise, it will be` undefined`. |
 
 ### Sample code
 
@@ -123,77 +77,30 @@ wx.getSystemInfo({
 
 # getSystemInfoSync()
 
-Sync version of [wx.getSystemInfo](doc:system-api#getsysteminfo-object-object).
+Sync version of [wx.getSystemInfo](system-api#getsysteminfo-object-object).
 
 ## Returned value
 
 ### Object response
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "brand",
-    "0-1": "String",
-    "0-2": "Device brand.",
-    "1-0": "model",
-    "1-1": "String",
-    "1-2": "Device model.",
-    "2-0": "pixelRatio",
-    "2-1": "Number",
-    "2-2": "Device pixel ratio.",
-    "3-0": "screenWidth",
-    "3-1": "Number",
-    "3-2": "Display width in px.",
-    "4-0": "screenHeight",
-    "4-1": "Number",
-    "4-2": "Display height in px.",
-    "5-0": "windowWidth",
-    "5-1": "Number",
-    "5-2": "Usable window width in px.",
-    "6-0": "windowHeight",
-    "6-1": "Number",
-    "6-2": "Usable window height in px.",
-    "7-0": "statusBarHeight",
-    "7-1": "Number",
-    "7-2": "Status bar height in px.",
-    "8-0": "language",
-    "8-1": "String",
-    "8-2": "Language.",
-    "9-0": "version",
-    "9-1": "String",
-    "9-2": "Version number.",
-    "10-0": "system",
-    "10-1": "String",
-    "10-2": "Operating system and version.",
-    "11-0": "platform",
-    "11-1": "String",
-    "11-2": "Client platform.",
-    "12-0": "SDKVersion",
-    "12-1": "String",
-    "12-2": "Base library version of the client.",
-    "13-0": "AppPlatform",
-    "13-1": "String",
-    "13-2": "App platform.",
-    "14-0": "safeArea",
-    "14-1": "Object",
-    "14-2": "Safe area in portrait mode.",
-    "15-0": "theme",
-    "15-1": "String",
-    "15-2": "Current system theme.  \nValid values: `light` ,` dark` .  \nThis parameter can be obtained only if `\"darkmode\": true` is globally configured; otherwise, it will be` undefined`."
-  },
-  "cols": 3,
-  "rows": 16,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Description |
+| :-------- | :--- | :---------- |
+| brand | String | Device brand. |
+| model | String | Device model. |
+| pixelRatio | Number | Device pixel ratio. |
+| screenWidth | Number | Display width in px. |
+| screenHeight | Number | Display height in px. |
+| windowWidth | Number | Usable window width in px. |
+| windowHeight | Number | Usable window height in px. |
+| statusBarHeight | Number | Status bar height in px. |
+| language | String | Language. |
+| version | String | Version number. |
+| system | String | Operating system and version. |
+| platform | String | Client platform. |
+| SDKVersion | String | Base library version of the client. |
+| AppPlatform | String | App platform. |
+| safeArea | Object | Safe area in portrait mode. |
+| theme | String | Current system theme.  <br />Valid values: `light` ,` dark` .  <br />This parameter can be obtained only if `\"darkmode\": true` is globally configured; otherwise, it will be` undefined`. |
 
 ### Sample code
 

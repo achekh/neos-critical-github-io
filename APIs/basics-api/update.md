@@ -11,28 +11,29 @@ updatedAt: "Fri Jul 14 2023 11:12:10 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Basic"
 grand_parent: "APIs"
+nav_order: 3
 ---
 # Update 
 A collection of APIs to check Mini App updates and apply them.
 
 ***
 
-- [getUpdateManager](doc:update#wxgetupdatemanager)
-- [UpdateManager](doc:update#updatemanager)
-  - [UpdateManager.applyUpdate](doc:update#wxgetupdatemanager)
-  - [UpdateManager.onCheckForUpdate](doc:update#updatemanageroncheckforupdatefunction-callback)
+- [getUpdateManager](update#wxgetupdatemanager)
+- [UpdateManager](update#updatemanager)
+  - [UpdateManager.applyUpdate](update#wxgetupdatemanager)
+  - [UpdateManager.onCheckForUpdate](update#updatemanageroncheckforupdatefunction-callback)
   - [UpdateManager.onUpdateFailed](update#updatemanageronupdatefailedfunction-callback)
-  - [UpdateManager.onUpdateReady](doc:update#updatemanageronupdatereadyfunction-callback)
+  - [UpdateManager.onUpdateReady](update#updatemanageronupdatereadyfunction-callback)
 
 # wx.getUpdateManager
 
-## [UpdateManager](doc:update#updatemanager-1) wx.getUpdateManager()
+## [UpdateManager](update#updatemanager-1) wx.getUpdateManager()
 
 Gets the globally unique version of update manager for managing Mini App updates.
 
 ## Returned value
 
-### [UpdateManager](doc:update#updatemanager-1)
+### [UpdateManager](update#updatemanager-1)
 
 Update manager object.
 
@@ -53,9 +54,9 @@ updateManager.onUpdateReady(function () {
       if (res.confirm) {
         // The new version has been downloaded. Call `applyUpdate` to apply it and restart the app.
         updateManager.applyUpdate()
-			}
-		}
-	})
+      }
+    }
+  })
 })
 
 updateManager.onUpdateFailed(function () {

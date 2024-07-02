@@ -8,23 +8,24 @@ updatedAt: "Wed Nov 29 2023 06:12:48 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Basic"
 grand_parent: "APIs"
+nav_order: 5
 ---
 # Debugging 
 APIs related to debugging the functionality of Mini apps.
 
 ***
 
-- [setEnableDebug](doc:debugging-api#setenabledebug-object-object)
-- [getLogManager](doc:debugging-api#wxgetlogmanager)
-- [console](doc:debugging-api#console)
-  - [console.debug](doc:debugging-api#debug)
-  - [console.error](doc:debugging-api#error)
-  - [console.group](doc:debugging-api#group)
-  - [console.groupEnd](doc:debugging-api#groupend)
-  - [console.info](doc:debugging-api#info)
-  - [console.log](doc:debugging-api#log)
-  - [console.warn](doc:debugging-api#warn)
-- [LogManager](doc:debugging-api#logmanager)
+- [setEnableDebug](debugging-api#setenabledebug-object-object)
+- [getLogManager](debugging-api#wxgetlogmanager)
+- [console](debugging-api#console)
+  - [console.debug](debugging-api#debug)
+  - [console.error](debugging-api#error)
+  - [console.group](debugging-api#group)
+  - [console.groupEnd](debugging-api#groupend)
+  - [console.info](debugging-api#info)
+  - [console.log](debugging-api#log)
+  - [console.warn](debugging-api#warn)
+- [LogManager](debugging-api#logmanager)
   - LogManager.debug
   - LogManager.info
   - LogManager.warn
@@ -111,7 +112,7 @@ Prints logs in the debug panel. `console` is a global object and can be accessed
 
 **console.group(string label)** Creates a group in the debug panel. The subsequent output will be indented to indicate that the content belongs to the current group. The group ends after `console.groupEnd()` is called.
 
-**console.groupEnd()** Ends the group created by [console.group](doc:debugging-api#group).
+**console.groupEnd()** Ends the group created by [console.group](debugging-api#group).
 
 > 📘 Note
 > 
@@ -136,7 +137,7 @@ Prints logs in the debug panel. `console` is a global object and can be accessed
 
 ## .group
 
-**console.group(string label)** Creates a group in the debug panel. The subsequent output will be indented to indicate that the content belongs to the current group. The group ends after [console.groupEnd](doc:debugging-api#groupend) is called.
+**console.group(string label)** Creates a group in the debug panel. The subsequent output will be indented to indicate that the content belongs to the current group. The group ends after [console.groupEnd](debugging-api#groupend) is called.
 
 ### Parameters
 
@@ -148,7 +149,7 @@ Prints logs in the debug panel. `console` is a global object and can be accessed
 
 ## .groupEnd
 
-**console.groupEnd()** Ends the group created by [console.group](doc:debugging-api#group).
+**console.groupEnd()** Ends the group created by [console.group](debugging-api#group).
 
 > 📘 Note
 > 
@@ -178,7 +179,7 @@ Prints logs in the debug panel. `console` is a global object and can be accessed
 
 # LogManager
 
-The log manager instance, which can be obtained through [getLogManager](doc:debugging-api#wxgetlogmanager).
+The log manager instance, which can be obtained through [getLogManager](debugging-api#wxgetlogmanager).
 
 ### Methods
 

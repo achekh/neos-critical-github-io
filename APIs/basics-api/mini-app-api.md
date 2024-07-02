@@ -11,19 +11,20 @@ updatedAt: "Fri Jul 14 2023 11:12:30 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Basic"
 grand_parent: "APIs"
+nav_order: 4
 ---
 # Mini App 
 Global Mini App APIs.
 
 ***
 
-- [Lifecycle](doc:mini-app-api#lifecycle)
-  - [getLaunchOptionsSync](doc:mini-app-api#getLaunchOptionsSync)
-- [App-level event](doc:mini-app-api#app-level-event)
-  - [onError](doc:mini-app-api#wxonerror)
-  - [offError](doc:mini-app-api#wxofferror)
-  - [onThemeChange](doc:mini-app-api#wxonthemechangefunction-listener)
-  - [offThemeChange](doc:mini-app-api#wxoffthemechangefunction-listener)
+- [Lifecycle](mini-app-api#lifecycle)
+  - [getLaunchOptionsSync](mini-app-api#getLaunchOptionsSync)
+- [App-level event](mini-app-api#app-level-event)
+  - [onError](mini-app-api#wxonerror)
+  - [offError](mini-app-api#wxofferror)
+  - [onThemeChange](mini-app-api#wxonthemechangefunction-listener)
+  - [offThemeChange](mini-app-api#wxoffthemechangefunction-listener)
 
 # Lifecycle
 
@@ -79,10 +80,10 @@ This app retrieves the parameter sent to the Mini App when the Mini App is start
 
 The following are the different types of App-level event:
 
-- [onError](doc:mini-app#wxonerror)
-- [offError](doc:mini-app#wxofferror)
-- [onThemeChange](doc:mini-app#wxonthemechangefunction-listener)
-- [offThemeChange](doc:mini-app#wxoffthemechangefunction-listener)
+- [onError](mini-app#wxonerror)
+- [offError](mini-app#wxofferror)
+- [onThemeChange](mini-app#wxonthemechangefunction-listener)
+- [offThemeChange](mini-app#wxoffthemechangefunction-listener)
 
 # wx.onError
 
@@ -136,29 +137,9 @@ Callback function for the Mini App theme change event.
 
 ## Object response
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Valid Value",
-    "h-2": "Type",
-    "h-3": "Description",
-    "0-0": "theme",
-    "0-1": "dark: Dark theme  \nlight: Light theme",
-    "0-2": "string",
-    "0-3": "The current system theme.  \nValid values: `light`, `dark`."
-  },
-  "cols": 4,
-  "rows": 1,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Valid Value | Type | Description |
+| :-------- | :---------- | :--- | :---------- |
+| theme | dark: Dark theme  <br />light: Light theme | string | The current system theme.  <br />Valid values: `light`, `dark`. |
 
 > 📘 Note
 > 
