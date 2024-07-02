@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:13:58 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Route"
 grand_parent: "APIs"
+nav_order: 4
 ---
 # navigateTo 
 Keeps the current page and redirects to a page in the Mini App (which cannot be a tab bar page).

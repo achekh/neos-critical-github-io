@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:13:32 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Route"
 grand_parent: "APIs"
+nav_ordeer: 2
 ---
 # reLaunch (Object object) 
 Closes all pages and opens a specific page in the Mini App.

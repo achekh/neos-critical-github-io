@@ -10,6 +10,7 @@ updatedAt: "Fri May 19 2023 10:35:14 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Route"
 grand_parent: "APIs"
+nav_order: 5
 ---
 # navigateBack (Object object) 
 Closes the current page and returns to a previous page.

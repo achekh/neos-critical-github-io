@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:13:19 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Route"
 grand_parent: "APIs"
+nav_order: 1
 ---
 # switchTab (Object object) 
 Redirects to the tab bar page and closes all other non-tab bar pages.
@@ -30,8 +31,7 @@ Redirects to the tab bar page and closes all other non-tab bar pages.
 
 ### Sample code
 
-```Text
-// app.json
+```json
 // app.json
 {
 	"tabBar": {
