@@ -8,6 +8,8 @@ updatedAt: "Wed Nov 29 2023 06:23:29 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "APIs"
 has_children: true
+has_toc: false
+nav_order: 3
 ---
 # Redirect 
 This section consists of APIs related with opening other Mini Apps and exiting the current Mini App.
@@ -16,5 +18,5 @@ This section consists of APIs related with opening other Mini Apps and exiting t
 
 | Name                                                   | Feature Description         |
 | :----------------------------------------------------- | :-------------------------- |
-| [navigateToMiniProgram](doc:navigate-to-mini-program)  | Opens another Mini App      |
-| [exitMiniProgram](doc:exit-mini-program-object-object) | Exits the current Mini App. |
+| [navigateToMiniProgram](redirect/navigate-to-mini-program)  | Opens another Mini App      |
+| [exitMiniProgram](redirect/exit-mini-program-object-object) | Exits the current Mini App. |

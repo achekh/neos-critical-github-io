@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:14:32 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Redirect"
 grand_parent: "APIs"
+nav_order: 1
 ---
 # navigateToMiniProgram (Object object) 
 Opens another Mini App.

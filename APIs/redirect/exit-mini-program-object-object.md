@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:14:52 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Redirect"
 grand_parent: "APIs"
+nav_rder: 2
 ---
 # exitMiniProgram (Object object) 
 Exits the current Mini App. There must be a click action for the call to succeed.
