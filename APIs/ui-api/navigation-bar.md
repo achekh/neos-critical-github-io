@@ -8,15 +8,16 @@ updatedAt: "Wed Nov 29 2023 08:25:51 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
 grand_parent: "APIs"
+nav_order: 2
 ---
 # Navigation Bar 
 APIs to manipulate the navigation bar.
 
 ***
 
-- [setNavigationBarTitle](doc:navigation-bar#setnavigationbartitle-object-object)
-- [setNavigationBarColor](doc:navigation-bar#setnavigationbarcolor-object-object)
-- [hideHomeButton](doc:navigation-bar#hidehomebuttonobject-object)
+- [setNavigationBarTitle](navigation-bar#setnavigationbartitle-object-object)
+- [setNavigationBarColor](navigation-bar#setnavigationbarcolor-object-object)
+- [hideHomeButton](navigation-bar#hidehomebuttonobject-object)
 
 # setNavigationBarTitle (Object object)
 

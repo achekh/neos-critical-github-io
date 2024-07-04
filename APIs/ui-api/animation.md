@@ -8,13 +8,14 @@ updatedAt: "Wed Nov 29 2023 08:38:31 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
 grand_parent: "APIs"
+nav_order: 7
 ---
 # Animation 
 This section consists of the APIs related to animation.
 
 ***
 
-# Animation.left(number|string value)Length value.
+# Animation.left(number\|string value)Length value.
 
 If a number is passed in, px will be used as the unit by default. A length value in another custom unit can also be passed in. Sets the height. Sets the bottom value.string valueAnimationLength value. If a number is passed in, px will be used as the unit by default. A length value in another custom unit can also be passed in. Sets the width.Translates the Y axis.Animationnumber tzcreateAnimation
 
@@ -47,7 +48,7 @@ This API creates an animation instance and calls the instance's method to descri
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 # Animation
 
@@ -55,11 +56,11 @@ Animation object
 
 ## Methods
 
-- **Array.\\ Animation.export() ** - Exports the animation queue. Previous animation operations will be cleared after each call of the `export` method.
-- **Animation Animation.step(Object object) ** - End of the set of animations. You can call any number of animation methods in a set of animations, all animations in the set will start at the same time, and the next set of animations will not start until the current set ends.
-- **Animation Animation.matrix()- **Same as transform-function matrix
-- **Animation Animation.matrix3d() ** Same as transform-function matrix3d
-- **Animation Animation.rotate(number angle) ** - Rotates clockwise from the origin by an angle.
+- **Array.\\ Animation.export()** - Exports the animation queue. Previous animation operations will be cleared after each call of the `export` method.
+- **Animation Animation.step(Object object)** - End of the set of animations. You can call any number of animation methods in a set of animations, all animations in the set will start at the same time, and the next set of animations will not start until the current set ends.
+- **Animation Animation.matrix()** - Same as transform-function matrix
+- **Animation Animation.matrix3d()** - Same as transform-function matrix3d
+- **Animation Animation.rotate(number angle)** - Rotates clockwise from the origin by an angle.
 - **Animation Animation.rotate3d(number x, number y, number z, number angle)** - Rotates clockwise from the X-axis by an angle.
 - **Animation Animation.rotateX(number angle)** - Rotates clockwise from the X-axis by an angle.
 - **Animation Animation.rotateY(number angle)** - Rotates clockwise from the Y-axis by an angle.
@@ -79,24 +80,26 @@ Animation object
 - **Animation Animation.translateZ(number translation)** - Translates the Z-axis.
 - **Animation Animation.opacity(number value)** - Sets the opacity.
 - **Animation Animation.backgroundColor(string value)** - Sets the background color.
-- **Animation Animation.width(number|string value)** - Sets the width.
-- **Animation Animation.height(number|string value)** - Sets the height.
-- **Animation Animation.left(number|string value)** - Sets the `left` value.
-- **Animation Animation.right(number|string value)** - Sets the `right` value.
-- **Animation Animation.top(number|string value)** - Sets the `top` value.
-- **Animation Animation.bottom(number|string value)** - Sets the `bottom` value.
+- **Animation Animation.width(number\|string value)** - Sets the width.
+- **Animation Animation.height(number\|string value)** - Sets the height.
+- **Animation Animation.left(number\|string value)** - Sets the `left` value.
+- **Animation Animation.right(number\|string value)** - Sets the `right` value.
+- **Animation Animation.top(number\|string value)** - Sets the `top` value.
+- **Animation Animation.bottom(number\|string value)** - Sets the `bottom` value.
 
 ### Sample code
 
-```Text
+```xml
+{% raw %}
 // code
 <view
   animation="{{animationData}}"
   style="background:red;height:100rpx;width:100rpx"
 ></view>
+{% endraw %}
 ```
 
-```Text
+```javascript
 // code
 Page({
 	data: {
@@ -108,11 +111,11 @@ Page({
 			timingFunction: 'ease',
     })
 
-     this.animation = animation
+    this.animation = animation
 
-     animation.scale(2, 2).rotate(45).step()
+    animation.scale(2, 2).rotate(45).step()
 
-     this.setData({
+    this.setData({
       animationData: animation.export()
     })
 
@@ -163,19 +166,19 @@ Color value
 
 **Animation**
 
-# Animation.bottom(number|string value)
+# Animation.bottom(number\|string value)
 
 Sets the `bottom` value.
 
 # Parameters
 
-**number|string value**
+**number\|string value**
 
 Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 # Array.\\ Animation.export()
 
@@ -187,13 +190,13 @@ Exports the animation queue. Previous animation operations will be cleared after
 
 animationData
 
-# Animation.height(number|string value)
+# Animation.height(number\|string value)
 
 Sets the height.
 
 # Parameters
 
-**number|string value**
+**number\|string value**
 
 Length value. If a number is passed in,` px` will be used as the unit by default. A length value in another custom unit can also be passed in.
 
@@ -201,19 +204,19 @@ Length value. If a number is passed in,` px` will be used as the unit by default
 
 [Animation](<>)
 
-# Animation.left(number|string value)
+# Animation.left(number\|string value)
 
 Sets the `left` value.
 
 # Parameters
 
-**number|string value**
+**number\|string value**
 
 Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
 
 # Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 # Animation.matrix()
 
@@ -221,7 +224,7 @@ Same as transform-function matrix
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .matrix3d
 
@@ -231,7 +234,7 @@ Same as transform-function matrix3d
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .opacity
 
@@ -247,23 +250,23 @@ Opacity. Valid range: 0–1.
 
 # Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .right
 
-# Animation.right(number|string value)
+# Animation.right(number\|string value)
 
 Sets the `right` value.
 
 # Parameters
 
-number|string value
+number\|string value
 
 Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .rotate
 
@@ -279,7 +282,7 @@ Rotation angle. Value range: [-180, 180].
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .rotate3d
 
@@ -296,7 +299,7 @@ Rotates clockwise from the X axis by an angle.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .rotateX
 
@@ -312,7 +315,7 @@ Rotation angle. Value range: [-180, 180].
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .rotateY
 
@@ -328,7 +331,7 @@ Rotation angle. Value range: [-180, 180].
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .rotateZ
 
@@ -344,7 +347,7 @@ Rotation angle. Value range: [-180, 180].
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .scale
 
@@ -359,7 +362,7 @@ Performs zooming.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .scale3d
 
@@ -375,7 +378,7 @@ Performs zooming.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .scaleX
 
@@ -389,7 +392,7 @@ Zooms the X-axis.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .scaleY
 
@@ -403,7 +406,7 @@ Zooms the Y-axis.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .scaleZ
 
@@ -417,7 +420,7 @@ Zooms the Z-axis.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .skew
 
@@ -432,7 +435,7 @@ Tilts X/Y-axis coordinates.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .skewX
 
@@ -446,7 +449,7 @@ Tilts the X-axis coordinate.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .skewY
 
@@ -460,7 +463,7 @@ Tilts the Y-axis coordinate.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .step
 
@@ -493,23 +496,23 @@ End of the set of animations. You can call any number of animation methods in a 
 
 ## Returned value
 
-[Animation](<>)
+[Animation](animation#methods)
 
 animation
 
 ## .top
 
-# Animation.top(number|string value)
+# Animation.top(number\|string value)
 
 Sets the `top` value.
 
 # Parameters
 
-**number|string value** Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
+**number\|string value** Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .translate
 
@@ -524,7 +527,7 @@ Performs translation.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .translate3d
 
@@ -540,7 +543,7 @@ Translates X, Y, and Z-axes.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .translateX
 
@@ -554,7 +557,7 @@ Translates the X-axis.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .translateY
 
@@ -568,7 +571,7 @@ Translates the Y axis.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .translateZ
 
@@ -582,21 +585,21 @@ Translates the Z-axis.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .width
 
-# Animation.width(number|string value)
+# Animation.width(number\|string value)
 
 Sets the width.
 
 # Parameters
 
-**number|string value** Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
+**number\|string value** Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .backgroundColor
 
@@ -610,21 +613,21 @@ Sets the background color.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .bottom
 
-# Animation.bottom(number|string value)
+# Animation.bottom(number\|string value)
 
 Sets the `bottom` value.
 
 # Parameters
 
-**number|string value** Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
+**number\|string value** Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .export
 
@@ -640,38 +643,38 @@ animationData
 
 ## .height
 
-# Animation.height(number|string value)
+# Animation.height(number\|string value)
 
 Sets the height.
 
 # Parameters
 
-**number|string value** Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
+**number\|string value** Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .left
 
-# Animation.left(number|string value)
+# Animation.left(number\|string value)
 
 Sets the `left` value.
 
 # Parameters
 
-**number|string value** Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
+**number\|string value** Length value. If a number is passed in, `px` will be used as the unit by default. A length value in another custom unit can also be passed in.
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)
 
 ## .matrix
 
 # Animation.matrix()
 
-Same as [transform-function matrix](doc:animation#methods)
+Same as [transform-function matrix](animation#methods)
 
 ## Returned value
 
-[Animation](doc:animation#methods)
+[Animation](animation#methods)

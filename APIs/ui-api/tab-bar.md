@@ -8,20 +8,21 @@ updatedAt: "Wed Nov 29 2023 08:32:56 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
 grand_parent: "APIs"
+nav_order: 4
 ---
 # Tab Bar 
 Show, hide and set the tab bar and items in it.
 
 ***
 
-- [showTabBar](doc:tab-bar#showtabbar-object-object)
-- [hideTabBar](doc:tab-bar#hidetabbar-object-object)
-- [setTabBarStyle](doc:tab-bar#settabbarstyle-object-object)
-- [setTabBarItem](doc:tab-bar#settabbaritem-object-object)
-- [showTabBarRedDot](doc:tab-bar#wxshowtabbarreddotobject-object)
-- [hideTabBarRedDot](doc:tab-bar#wxhidetabbarreddotobject-object)
-- [setTabBarBadge](doc:tab-bar#wxsettabbarbadgeobject-object)
-- [removeTabBarBadge](doc:tab-bar#wxremovetabbarbadgeobject-object)
+- [showTabBar](tab-bar#showtabbar-object-object)
+- [hideTabBar](tab-bar#hidetabbar-object-object)
+- [setTabBarStyle](tab-bar#settabbarstyle-object-object)
+- [setTabBarItem](tab-bar#settabbaritem-object-object)
+- [showTabBarRedDot](tab-bar#wxshowtabbarreddotobject-object)
+- [hideTabBarRedDot](tab-bar#wxhidetabbarreddotobject-object)
+- [setTabBarBadge](tab-bar#wxsettabbarbadgeobject-object)
+- [removeTabBarBadge](tab-bar#wxremovetabbarbadgeobject-object)
 
 # showTabBar (Object object)
 
@@ -91,53 +92,15 @@ Dynamically sets the content of a tab bar item.
 
 **Object object**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Required",
-    "h-3": "Description",
-    "0-0": "index",
-    "0-1": "Number",
-    "0-2": "Yes",
-    "0-3": "Number of the item on the tab bar; counted from the left.",
-    "1-0": "text",
-    "1-1": "String",
-    "1-2": "No",
-    "1-3": "Button text on the tab.",
-    "2-0": "iconPath",
-    "2-1": "String",
-    "2-2": "No",
-    "2-3": "Image path. The icon file size cannot exceed 40 KB. The recommended icon size is 81\\*81 px.  \nWhen `position` is `top`, this parameter won't take effect.",
-    "3-0": "selectedIconPath",
-    "3-1": "String",
-    "3-2": "No",
-    "3-3": "Image path when selected. The icon file size cannot exceed 40 KB. The recommended icon size is 81\\*81 px. When `position` is `top`, this parameter won't take effect.",
-    "4-0": "success",
-    "4-1": "Function",
-    "4-2": "No",
-    "4-3": "Callback function for a successful API call.",
-    "5-0": "fail",
-    "5-1": "Function",
-    "5-2": "No",
-    "5-3": "Callback function for a failed API call.",
-    "6-0": "complete",
-    "6-1": "Function",
-    "6-2": "No",
-    "6-3": "Callback function for an API call end (executed for both successful and failed calls)."
-  },
-  "cols": 4,
-  "rows": 7,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Required | Description |
+| :-------- | :--- | :------- | :---------- |
+| index | Number | Yes | Number of the item on the tab bar; counted from the left. |
+| text | String | No | Button text on the tab. |
+| iconPath | String | No | Image path. The icon file size cannot exceed 40 KB. The recommended icon size is 81\\*81 px.  \nWhen `position` is `top`, this parameter won't take effect. |
+| selectedIconPath | String | No | Image path when selected. The icon file size cannot exceed 40 KB. The recommended icon size is 81\\*81 px. When `position` is `top`, this parameter won't take effect. |
+| success | Function | No | Callback function for a successful API call. |
+| fail | Function | No | Callback function for a failed API call. |
+| complete | Function | No | Callback function for an API call end (executed for both successful and failed calls). |
 
 ### Sample code
 

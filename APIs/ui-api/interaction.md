@@ -10,6 +10,7 @@ updatedAt: "Fri May 19 2023 10:41:52 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
 grand_parent: "APIs"
+nav_order: 1
 ---
 # Interaction 
 APIs to display messages and actions to the user.
@@ -24,83 +25,17 @@ Displays the message prompt box.
 
 **Object object**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Valid Value",
-    "h-3": "Default",
-    "h-4": "Required",
-    "h-5": "Description",
-    "0-0": "title",
-    "0-1": "String",
-    "0-2": "",
-    "0-3": "",
-    "0-4": "Yes",
-    "0-5": "Prompt content.",
-    "1-0": "icon",
-    "1-1": "String",
-    "1-2": "`success`, `error`, `none`",
-    "1-3": "",
-    "1-4": "",
-    "1-5": "**success**: Displays the success icon. In this  \ncase, the title text can contain up to 14 characters.  \n**error**: Displays the failure icon. In this case, the title text can contain up to 14 characters.  \nloading: Displays the loading icon. In this case, the title text can contain up to 14 characters.  \n**none**: Doesn't display any icon. In this case, the title text can contain up to two lines of characters.",
-    "2-0": "success",
-    "2-1": "No",
-    "2-2": "icon",
-    "2-3": "",
-    "2-4": "",
-    "2-5": "",
-    "3-0": "image",
-    "3-1": "String",
-    "3-2": "",
-    "3-3": "",
-    "3-4": "No",
-    "3-5": "Local path of the custom icon. image has a higher priority than icon.",
-    "4-0": "duration",
-    "4-1": "Number",
-    "4-2": "",
-    "4-3": "1500",
-    "4-4": "No",
-    "4-5": "Delay time for the prompt",
-    "5-0": "mask",
-    "5-1": "Boolean",
-    "5-2": "",
-    "5-3": "false",
-    "5-4": "No",
-    "5-5": "Whether to show a transparent layer to prevent touches from passing through UI canvas objects",
-    "6-0": "success",
-    "6-1": "Function",
-    "6-2": "",
-    "6-3": "",
-    "6-4": "No",
-    "6-5": "Callback function for successful  \nAPI call",
-    "7-0": "fail",
-    "7-1": "Function",
-    "7-2": "",
-    "7-3": "",
-    "7-4": "No",
-    "7-5": "Callback function for failed API call",
-    "8-0": "complete",
-    "8-1": "Function",
-    "8-2": "",
-    "8-3": "",
-    "8-4": "No",
-    "8-5": "Callback function for API call end  \n(executed for both successful and failed calls)"
-  },
-  "cols": 6,
-  "rows": 9,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Valid Value | Default | Required | Description |
+| :-------- | :--- | :---------- | :------ | :------- | :---------- |
+| title | String |  |  | Yes | Prompt content. |
+| icon | String | `success`, `error`, `none` |  |  | **success**: Displays the success icon. In this  \ncase, the title text can contain up to 14 characters.  \n**error**: Displays the failure icon. In this case, the title text can contain up to 14 characters.  \nloading: Displays the loading icon. In this case, the title text can contain up to 14 characters.  \n**none**: Doesn't display any icon. In this case, the title text can contain up to two lines of characters. |
+| success | No | icon |  |  |  |
+| image | String |  |  | No | Local path of the custom icon. image has a higher priority than icon. |
+| duration | Number |  | 1500 | No | Delay time for the prompt |
+| mask | Boolean |  | false | No | Whether to show a transparent layer to prevent touches from passing through UI canvas objects |
+| success | Function |  |  | No | Callback function for successful  \nAPI call |
+| fail | Function |  |  | No | Callback function for failed API call |
+| complete | Function |  |  | No | Callback function for API call end  \n(executed for both successful and failed calls) |
 
 ### Sample code
 
@@ -233,52 +168,13 @@ Shows a menu modal.
 
 **Object object**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Default",
-    "h-3": "Required",
-    "h-4": "Description",
-    "0-0": "itemList",
-    "0-1": "Array.<string>",
-    "0-2": "",
-    "0-3": "Yes",
-    "0-4": "Text array of the button, which can contain up to 12 characters.",
-    "1-0": "itemColor",
-    "1-1": "String",
-    "1-2": "# 000000",
-    "1-3": "No",
-    "1-4": "Text color of the button.",
-    "2-0": "success",
-    "2-1": "Function",
-    "2-2": "",
-    "2-3": "No",
-    "2-4": "Callback function for successful API call.",
-    "3-0": "fail",
-    "3-1": "Function",
-    "3-2": "",
-    "3-3": "No",
-    "3-4": "Callback function for failed API call.",
-    "4-0": "complete",
-    "4-1": "Function",
-    "4-2": "",
-    "4-3": "No",
-    "4-4": "Callback function for API call end (executed for both successful and  \nfailed calls)."
-  },
-  "cols": 5,
-  "rows": 5,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Default | Required | Description |
+| :-------- | :--- | :------ | :------- | :---------- |
+| itemList | Array.<string> |  | Yes | Text array of the button, which can contain up to 12 characters. |
+| itemColor | String | # 000000 | No | Text color of the button. |
+| success | Function |  | No | Callback function for successful API call. |
+| fail | Function |  | No | Callback function for failed API call. |
+| complete | Function |  | No | Callback function for API call end (executed for both successful and  \nfailed calls). |
 
 `object.success` callback function
 

@@ -8,14 +8,15 @@ updatedAt: "Wed Nov 29 2023 08:28:56 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
 grand_parent: "APIs"
+nav_order: 3
 ---
 # Background 
 APIs to manipulate background color and text style.
 
 ***
 
-- [setBackgroundColor](doc:background#setbackgroundcolor-object-object)
-- [setBackgroundTextStyle](doc:background#wxsetbackgroundtextstyle-object-object)
+- [setBackgroundColor](background#setbackgroundcolor-object-object)
+- [setBackgroundTextStyle](background#wxsetbackgroundtextstyle-object-object)
 
 # setBackgroundColor (Object object)
 
@@ -25,49 +26,14 @@ Dynamically sets the background color of the window.
 
 **Object object**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Required",
-    "h-3": "Description",
-    "0-0": "backgroundColor",
-    "0-1": "String",
-    "0-2": "No",
-    "0-3": "Background color of the window, which must be a hex color value.",
-    "1-0": "backgroundColorTop",
-    "1-1": "String",
-    "1-2": "No",
-    "1-3": "Background color of the top of the window, which must be a hex color value and is supported on iOS only.",
-    "2-0": "backgroundColorB  \nottom",
-    "2-1": "String",
-    "2-2": "No",
-    "2-3": "Background color of the bottom of the window, which must be a hex color value and is supported on iOS only.",
-    "3-0": "success",
-    "3-1": "Function",
-    "3-2": "No",
-    "3-3": "Callback function for a successful API call.",
-    "4-0": "fail",
-    "4-1": "Function",
-    "4-2": "No",
-    "4-3": "Callback function for a failed API call.",
-    "5-0": "complete",
-    "5-1": "Function",
-    "5-2": "No",
-    "5-3": "Callback function for an API call end (executed for both successful and failed calls)."
-  },
-  "cols": 4,
-  "rows": 6,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Required | Description |
+| :-------- | :--- | :------- | :---------- |
+| backgroundColor | String | No | Background color of the window, which must be a hex color value. |
+| backgroundColorTop | String | No | Background color of the top of the window, which must be a hex color value and is supported on iOS only. |
+| backgroundColorB  \nottom | String | No | Background color of the bottom of the window, which must be a hex color value and is supported on iOS only. |
+| success | Function | No | Callback function for a successful API call. |
+| fail | Function | No | Callback function for a failed API call. |
+| complete | Function | No | Callback function for an API call end (executed for both successful and failed calls). |
 
 ### Sample code
 
