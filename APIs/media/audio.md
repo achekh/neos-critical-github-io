@@ -15,16 +15,16 @@ This section consists of the list of Audio related APIs for Mini App.
 
 ***
 
-- [createInnerAudioContext](doc:audio#inneraudiocontext-wxcreateinneraudiocontext)
-- [InnerAudioContext](doc:audio#inneraudiocontext)
+- [createInnerAudioContext](audio#inneraudiocontext-wxcreateinneraudiocontext)
+- [InnerAudioContext](audio#inneraudiocontext)
 
-## [InnerAudioContext](doc:audio#inneraudiocontext) wx.createInnerAudioContext()
+## [InnerAudioContext](audio#inneraudiocontext) wx.createInnerAudioContext()
 
-Creates an [`InnerAudioContext`](doc:audio#inneraudiocontext) object of the internal `audio `.
+Creates an [`InnerAudioContext`](audio#inneraudiocontext) object of the internal `audio `.
 
 ## Returned value
 
-[InnerAudioContext](doc:audio)
+[InnerAudioContext](audio)
 
 ## .pause
 
@@ -58,57 +58,19 @@ Audio address
 
 ## wx.setInnerAudioOption(Object object)
 
-Sets the playback options for [InnerAudioContext](doc:audio#inneraudiocontext). The settings take effect globally for the current mini app.
+Sets the playback options for [InnerAudioContext](audio#inneraudiocontext). The settings take effect globally for the current mini app.
 
 # Parameters
 
 **Object object**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Default",
-    "h-3": "Required",
-    "h-4": "Description",
-    "0-0": "mixWithOther",
-    "0-1": "Boolean",
-    "0-2": "true",
-    "0-3": "No",
-    "0-4": "Whether to allow the audio to play together with other audios. If this parameter is set to `true`,  \nthe audio of another app won't be stopped.",
-    "1-0": "obeyMute  \nSwitch",
-    "1-1": "Boolean",
-    "1-2": "true",
-    "1-3": "No",
-    "1-4": "(For iOS only) Whether to follow the mute switch. If this parameter is set to `false` , the audio can be played back even in muted mode.",
-    "2-0": "success",
-    "2-1": "Function",
-    "2-2": "",
-    "2-3": "No",
-    "2-4": "Callback function for successful API call",
-    "3-0": "fail",
-    "3-1": "Function",
-    "3-2": "",
-    "3-3": "No",
-    "3-4": "Callback function for failed API call",
-    "4-0": "complete",
-    "4-1": "Function",
-    "4-2": "",
-    "4-3": "No",
-    "4-4": "Callback function for API call end (executed for both successful and failed calls)"
-  },
-  "cols": 5,
-  "rows": 5,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+| Attribute | Type | Default | Required | Description |
+| :-------- | :--- | :------ | :------- | :---------- |
+| mixWithOther | Boolean | true | No | Whether to allow the audio to play together with other audios. If this parameter is set to `true`,  \nthe audio of another app won't be stopped. |
+| obeyMute  \nSwitch | Boolean | true | No | (For iOS only) Whether to follow the mute switch. If this parameter is set to `false` , the audio can be played back even in muted mode. |
+| success | Function |  | No | Callback function for successful API call |
+| fail | Function |  | No | Callback function for failed API call |
+| complete | Function |  | No | Callback function for API call end (executed for both successful and failed calls) |
 
 
 - InnerAudioContext
@@ -140,7 +102,7 @@ Sets the playback options for [InnerAudioContext](doc:audio#inneraudiocontext). 
 
 # InnerAudioContext
 
-[`InnerAudioContext` instance, which can be obtained through the wx.createInnerAudioContext](doc:audio#inneraudiocontext) API.
+[`InnerAudioContext` instance, which can be obtained through the wx.createInnerAudioContext](audio#inneraudiocontext) API.
 
 ## Attributes
 
@@ -182,55 +144,55 @@ Time point for audio buffering (read-only). The system only guarantees that the 
 
 ## Methods
 
-- [InnerAudioContext.play()](doc:audio#play)  
+- [InnerAudioContext.play()](audio#play)  
   Plays the audio.
-- [InnerAudioContext.pause()](doc:audio#pause-1)  
+- [InnerAudioContext.pause()](audio#pause-1)  
   Pauses the audio. The audio will start playing from where paused when it is resumed.
-- [InnerAudioContext.stop()](doc:audio#stop)  
+- [InnerAudioContext.stop()](audio#stop)  
   Stops the audio. The audio will start playing from the beginning when it is played back again.
-- [InnerAudioContext.seek(number position)](doc:audio#inneraudiocontextseeknumber-position)  
+- [InnerAudioContext.seek(number position)](audio#inneraudiocontextseeknumber-position)  
   Seeks to the specified position.
-- [InnerAudioContext.destroy()](doc:audio#destroy)  
+- [InnerAudioContext.destroy()](audio#destroy)  
   Terminates the current instance.
-- [InnerAudioContext.onCanplay(function callback)](doc:audio#inneraudiocontextoncanplayfunction-callback)  
+- [InnerAudioContext.onCanplay(function callback)](audio#inneraudiocontextoncanplayfunction-callback)  
   Listens for the event that the audio enters the playable status. However, this doesn't guarantee that the audio can play smoothly.
-- [InnerAudioContext.offCanplay(function callback)](doc:audio#inneraudiocontextoffcanplayfunction-callback)  
+- [InnerAudioContext.offCanplay(function callback)](audio#inneraudiocontextoffcanplayfunction-callback)  
   Unlistens for the event that the audio enters the playable status.
-- [InnerAudioContext.onPlay(function callback)](doc:audio#inneraudiocontextonplayfunction-callback)  
+- [InnerAudioContext.onPlay(function callback)](audio#inneraudiocontextonplayfunction-callback)  
   Listens for the audio play event.
-- [InnerAudioContext.offPlay(function callback)](doc:audio#inneraudiocontextoffplayfunction-callback)  
+- [InnerAudioContext.offPlay(function callback)](audio#inneraudiocontextoffplayfunction-callback)  
   Unlistens for the audio play event.
-- [InnerAudioContext.onPause(function callback)](doc:audio#inneraudiocontextonpausefunction-callback)  
+- [InnerAudioContext.onPause(function callback)](audio#inneraudiocontextonpausefunction-callback)  
   Listens for the audio pause event.
-- [InnerAudioContext.offPause(function callback)](doc:audio#inneraudiocontextoffpausefunction-callback)  
+- [InnerAudioContext.offPause(function callback)](audio#inneraudiocontextoffpausefunction-callback)  
   Unlistens for the audio pause event.
-- [InnerAudioContext.onStop(function callback)](doc:audio#inneraudiocontextonstopfunction-callback)  
+- [InnerAudioContext.onStop(function callback)](audio#inneraudiocontextonstopfunction-callback)  
   Listens for the audio stop event.
-- [InnerAudioContext.offStop(function callback)](doc:audio#inneraudiocontextoffstopfunction-callback)  
+- [InnerAudioContext.offStop(function callback)](audio#inneraudiocontextoffstopfunction-callback)  
   Unlistens for the audio stop event.
-- [InnerAudioContext.onEnded(function callback)](doc:audio#inneraudiocontextonendedfunction-callback)  
+- [InnerAudioContext.onEnded(function callback)](audio#inneraudiocontextonendedfunction-callback)  
   Listens for the event that the audio plays to the end.
-- [InnerAudioContext.offEnded(function callback)](doc:audio#inneraudiocontextoffendedfunction-callback)  
+- [InnerAudioContext.offEnded(function callback)](audio#inneraudiocontextoffendedfunction-callback)  
   Unlistens for the event that the audio plays to the end.
-- [InnerAudioContext.onTimeUpdate(function callback)](doc:audio#inneraudiocontextontimeupdatefunction-callback)  
+- [InnerAudioContext.onTimeUpdate(function callback)](audio#inneraudiocontextontimeupdatefunction-callback)  
   Listens for the audio playback progress update event.
-- [InnerAudioContext.offTimeUpdate(function callback)](doc:audio#inneraudiocontextofftimeupdatefunction-callback)  
+- [InnerAudioContext.offTimeUpdate(function callback)](audio#inneraudiocontextofftimeupdatefunction-callback)  
   Unlistens for the audio playback progress update event.
-- [InnerAudioContext.onError(function callback)](doc:audio#inneraudiocontextonerrorfunction-callback)  
+- [InnerAudioContext.onError(function callback)](audio#inneraudiocontextonerrorfunction-callback)  
   Listens for the audio play error event.
-- [InnerAudioContext.offError(function callback)](doc:audio#inneraudiocontextofferrorfunction-callback)  
+- [InnerAudioContext.offError(function callback)](audio#inneraudiocontextofferrorfunction-callback)  
   Unlistens for the audio play error event.
-- [InnerAudioContext.onWaiting(function callback)](doc:audio#inneraudiocontextonwaitingfunction-callback)  
+- [InnerAudioContext.onWaiting(function callback)](audio#inneraudiocontextonwaitingfunction-callback)  
   Listens for the audio loading event. This API is triggered when the audio needs to be loaded due to insufficient buffer data.
-- [InnerAudioContext.offWaiting(function callback)](doc:audio#offwaiting)  
+- [InnerAudioContext.offWaiting(function callback)](audio#offwaiting)  
   Unlistens for the audio loading event.
-- [InnerAudioContext.onSeeking(function callback)](doc:audio#onseeking)  
+- [InnerAudioContext.onSeeking(function callback)](audio#onseeking)  
   Listens for the audio seek event.
-- [InnerAudioContext.offSeeking(function callback)](doc:audio#offseeking)  
+- [InnerAudioContext.offSeeking(function callback)](audio#offseeking)  
   Unlistens for the audio seek event.
-- [InnerAudioContext.onSeeked(function callback)](doc:audio#onseeked)  
+- [InnerAudioContext.onSeeked(function callback)](audio#onseeked)  
   Listens for the audio seek end event.
-- [InnerAudioContext.offSeeked(function callback)](doc:audio#offseeked)  
+- [InnerAudioContext.offSeeked(function callback)](audio#offseeked)  
   Unlistens for the audio seek end event.
 
 ## Supported formats

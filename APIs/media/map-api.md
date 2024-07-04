@@ -394,51 +394,13 @@ Zooms out to show all latitudes and longitudes.
 
 **Object object**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Default",
-    "h-3": "Required",
-    "h-4": "Description",
-    "0-0": "points",
-    "0-1": "Array.",
-    "0-2": "",
-    "0-3": "Yes",
-    "0-4": "List of coordinate points to be shown in the visible area",
-    "1-0": "padding",
-    "1-1": "Array.",
-    "1-2": "",
-    "1-3": "No",
-    "1-4": "The distance in pixels from the edge of the rectangle formed by coordinate points to the edge of the map, which is in the format of [top, right, bottom, left]. Only the first item in the array can be recognized on Android. The top, bottom, left, and right paddings are  \nthe same. DevTools does not support the padding parameter currently.",
-    "2-0": "success",
-    "2-1": "Function",
-    "2-2": "",
-    "2-3": "No",
-    "2-4": "Callback function for successful API call",
-    "3-0": "fail",
-    "3-1": "Function",
-    "3-2": "",
-    "3-3": "No",
-    "3-4": "Callback function for failed API call",
-    "4-0": "complete",
-    "4-1": "Function",
-    "4-2": "",
-    "4-3": "No",
-    "4-4": "Callback function for API call end (executed for both successful and failed calls)"
-  },
-  "cols": 5,
-  "rows": 5,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+| Attribute | Type | Default | Required | Description |
+| :-------- | :--- | :------ | :------- | :---------- |
+| points | Array. |  | Yes | List of coordinate points to be shown in the visible area |
+| padding | Array. |  | No | The distance in pixels from the edge of the rectangle formed by coordinate points to the edge of the map, which is in the format of [top, right, bottom, left]. Only the first item in the array can be recognized on Android. The top, bottom, left, and right paddings are the same. DevTools does not support the padding parameter currently. |
+| success | Function |  | No | Callback function for successful API call |
+| fail | Function |  | No | Callback function for failed API call |
+| complete | Function |  | No | Callback function for API call end (executed for both successful and failed calls) |
 
 
 **points**

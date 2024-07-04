@@ -15,11 +15,11 @@ This section consists of Camera related APIs for Mini App.
 
 ***
 
-- [createCameraContext](doc:camera-api#cameracontext-wxcreatecameracontext)
-- [CameraContext](doc:camera-api#cameracontext)
-- [CameraFrameListener](doc:camera-api#cameraframelistener-cameracontextoncameraframeoncameraframecallback-callback)
+- [createCameraContext](camera-api#cameracontext-wxcreatecameracontext)
+- [CameraContext](camera-api#cameracontext)
+- [CameraFrameListener](camera-api#cameraframelistener-cameracontextoncameraframeoncameraframecallback-callback)
 
-## [CameraContext](doc:camera-api#cameracontext) wx.createCameraContext()
+## [CameraContext](camera-api#cameracontext) wx.createCameraContext()
 
 Creates the`[ CameraContext](<>)` object of `camera `.
 
@@ -29,24 +29,24 @@ Creates the`[ CameraContext](<>)` object of `camera `.
 
 # CameraContext
 
-`CameraContext` instance, which can be obtained through [wx.createCameraContext](doc:camera-api#cameracontext-wxcreatecameracontext).  
+`CameraContext` instance, which can be obtained through [wx.createCameraContext](camera-api#cameracontext-wxcreatecameracontext).  
 `cameraContext` is bound to the only `<camera>` component on the page to manipulate it.
 
 ## Methods
 
-[CameraFrameListener CameraContext.onCameraFrame(onCameraFrameCallback callback)](doc:camera-api#cameraframelistener-cameracontextoncameraframeoncameraframecallback-callback)  
+[CameraFrameListener CameraContext.onCameraFrame(onCameraFrameCallback callback)](camera-api#cameraframelistener-cameracontextoncameraframeoncameraframecallback-callback)  
 Gets the real-time frame data of the camera.
 
-[CameraContext.setZoom(Object object)](doc:camera-api#cameracontextsetzoomobject-object)  
+[CameraContext.setZoom(Object object)](camera-api#cameracontextsetzoomobject-object)  
 Sets the zoom level.
 
-[CameraContext.takePhoto(Object object)](doc:camera-api#cameracontexttakephotoobject-object)  
+[CameraContext.takePhoto(Object object)](camera-api#cameracontexttakephotoobject-object)  
 Takes a photo.
 
-[CameraContext.startRecord(Object object)](doc:camera-api#cameracontextstartrecordobject-object)  
+[CameraContext.startRecord(Object object)](camera-api#cameracontextstartrecordobject-object)  
 Starts recording.
 
-[CameraContext.stopRecord()](doc:camera-api#cameracontextstoprecordobject-object)  
+[CameraContext.stopRecord()](camera-api#cameracontextstoprecordobject-object)  
 Stops recording.
 
 ## Sample code
@@ -75,11 +75,11 @@ Callback function
 
 ## Returned value
 
-[CameraFrameListener](doc:camera-api#cameraframelistener-cameracontextoncameraframeoncameraframecallback-callback)
+[CameraFrameListener](camera-api#cameraframelistener-cameracontextoncameraframeoncameraframecallback-callback)
 
 > > 📘 Note
 > > 
-> > To use the API, you need to specify `frame-size` in the [camera](doc:camera) component.
+> > To use the API, you need to specify `frame-size` in the [camera](../../Components/media-components/camera) component.
 
 ### Sample code
 
@@ -203,17 +203,17 @@ Takes a photo.
 
 # CameraFrameListener
 
-> Documentation: [Camera](doc:camera).
+> Documentation: [Camera](../../Components/media-components/camera).
 
 The listener returned by `CameraContext.onCameraFrame()` .
 
 ## Methods
 
-[CameraFrameListener.start(Object object)](doc:camera-api#cameraframelistenerstartobject-object)
+[CameraFrameListener.start(Object object)](camera-api#cameraframelistenerstartobject-object)
 
 Listens for frame data.
 
-[CameraFrameListener.stop()](doc:camera-api#cameraframelistenerstopobject-object)
+[CameraFrameListener.stop()](camera-api#cameraframelistenerstopobject-object)
 
 Unlistens for frame data.
 

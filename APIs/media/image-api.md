@@ -15,10 +15,10 @@ This section consists of the list of Image related APIs in Mini App.
 
 ***
 
-- [saveImageToPhotosAlbum](doc:image-api#wxsaveimagetophotosalbumobject-object)
-- [previewImage](doc:image-api#wxpreviewimageobject-object)
-- [getImageInfo](doc:image-api#wxgetimageinfoobject-object)
-- [chooseImage](doc:image-api#chooseimage-object-object)
+- [saveImageToPhotosAlbum](image-api#wxsaveimagetophotosalbumobject-object)
+- [previewImage](image-api#wxpreviewimageobject-object)
+- [getImageInfo](image-api#wxgetimageinfoobject-object)
+- [chooseImage](image-api#chooseimage-object-object)
 
 # chooseImage (Object object)
 
@@ -28,57 +28,14 @@ Chooses an image from the local album or takes a photo.
 
 ### Object object
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Valid Value",
-    "h-3": "Default",
-    "h-4": "Description",
-    "0-0": "count",
-    "0-1": "Number",
-    "0-2": "",
-    "0-3": "9",
-    "0-4": "Maximum number of images that can be selected.",
-    "1-0": "sizeType",
-    "1-1": "Array",
-    "1-2": "original: Original image  \ncompressed: Compressed image",
-    "1-3": "['original', 'comp  \nressed']",
-    "1-4": "Size of the selected image.",
-    "2-0": "sourceType",
-    "2-1": "Array",
-    "2-2": "album: Chooses an image from the album camera: Uses the camera",
-    "2-3": "['album', 'camer  \na']",
-    "2-4": "Chooses the source of the image.",
-    "3-0": "success",
-    "3-1": "Function",
-    "3-2": "",
-    "3-3": "",
-    "3-4": "Callback function for successful API call.",
-    "4-0": "fail",
-    "4-1": "Function",
-    "4-2": "",
-    "4-3": "",
-    "4-4": "Callback function for failed API call.",
-    "5-0": "complete",
-    "5-1": "Function",
-    "5-2": "",
-    "5-3": "",
-    "5-4": "Callback function for API call end (executed for both  \nsuccessful and failed calls)."
-  },
-  "cols": 5,
-  "rows": 6,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Valid Value | Default | Description |
+| :-------- | :--- | :---------- | :------ | :---------- |
+| count | Number |  | 9 | Maximum number of images that can be selected. |
+| sizeType | Array | original: Original image  \ncompressed: Compressed image | ['original', 'comp  \nressed'] | Size of the selected image. |
+| sourceType | Array | album: Chooses an image from the album camera: Uses the camera | ['album', 'camer  \na'] | Chooses the source of the image. |
+| success | Function |  |  | Callback function for successful API call. |
+| fail | Function |  |  | Callback function for failed API call. |
+| complete | Function |  |  | Callback function for API call end (executed for both  \nsuccessful and failed calls). |
 
 **`object.success` callback function**
 
