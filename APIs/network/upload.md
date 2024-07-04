@@ -8,14 +8,15 @@ updatedAt: "Wed Nov 29 2023 10:20:52 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Network"
 grand_parent: "APIs"
+nav_order: 2
 ---
 # Upload 
 This section consists of the APIs related with Upload feature in the Mini App.
 
 ***
 
-- [uploadFile](doc:upload#uploadfile-object-object)
-- [UploadTask](doc:upload#uploadtask)
+- [uploadFile](upload#uploadfile-object-object)
+- [UploadTask](upload#uploadtask)
   - UploadTask.abort()
   - UploadTask.onProgressUpdate
   - UploadTask.offProgressUpdate
@@ -24,7 +25,7 @@ This section consists of the APIs related with Upload feature in the Mini App.
 
 # uploadFile (Object object)
 
-Uploads a local resource to the server. The client initiates an HTTPS POST request with content-type as multipart/form-data. See [Network](doc:network) before using this API.
+Uploads a local resource to the server. The client initiates an HTTPS POST request with content-type as multipart/form-data. See [Network](../network) before using this API.
 
 # Parameters
 
@@ -54,7 +55,7 @@ Uploads a local resource to the server. The client initiates an HTTPS POST reque
 
 ### Returned value
 
-[UploadTask](doc:upload#uploadtask) Listens for the upload progress change event and cancels the upload task.
+[UploadTask](upload#uploadtask) Listens for the upload progress change event and cancels the upload task.
 
 ### Sample code
 

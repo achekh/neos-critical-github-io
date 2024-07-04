@@ -8,97 +8,39 @@ updatedAt: "Wed Nov 29 2023 10:19:30 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Network"
 grand_parent: "APIs"
+nav_order: 1
 ---
 # Request 
 This API initiates a HTTPS network request.
 
 ***
 
-- [request](doc:request#request)
-- [RequestTask](doc:request#requesttask)
+- [request](request#request)
+- [RequestTask](request#requesttask)
   - RequestTask.abort()
   - RequestTask.offHeadersReceived
   - RequestTask.onHeadersReceived
 
 # Request
 
-Initiates an HTTPS network request. See [Network](doc:network) before using this API.
+Initiates an HTTPS network request. See [Network](../network) before using this API.
 
 ## Parameters
 
 **Object object**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Default",
-    "h-3": "Required",
-    "h-4": "Description",
-    "0-0": "url",
-    "0-1": "String",
-    "0-2": "",
-    "0-3": "Yes",
-    "0-4": "The server API address.",
-    "1-0": "data",
-    "1-1": "String/Object/Ar  \nrayBuffer",
-    "1-2": "",
-    "1-3": "No",
-    "1-4": "Request parameters.",
-    "2-0": "header",
-    "2-1": "Object",
-    "2-2": "",
-    "2-3": "No",
-    "2-4": "Request headers, where `Referer` cannot be set.",
-    "3-0": "content-type",
-    "3-1": "",
-    "3-2": "application/json",
-    "3-3": "",
-    "3-4": "Content-type header value.",
-    "4-0": "method",
-    "4-1": "String",
-    "4-2": "GET",
-    "4-3": "No",
-    "4-4": "HTTP request method.",
-    "5-0": "dataType",
-    "5-1": "String",
-    "5-2": "json",
-    "5-3": "No",
-    "5-4": "Returned data format.",
-    "6-0": "responseType",
-    "6-1": "String",
-    "6-2": "text",
-    "6-3": "No",
-    "6-4": "Response data type.",
-    "7-0": "success",
-    "7-1": "Function",
-    "7-2": "",
-    "7-3": "No",
-    "7-4": "Callback function for a successful API call.",
-    "8-0": "fail",
-    "8-1": "Function",
-    "8-2": "",
-    "8-3": "No",
-    "8-4": "Callback function for a failed API call.",
-    "9-0": "complete",
-    "9-1": "Function",
-    "9-2": "",
-    "9-3": "No",
-    "9-4": "Callback function for an API call end (executed for  \nboth successful and failed calls)."
-  },
-  "cols": 5,
-  "rows": 10,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Default | Required | Description |
+| :-------- | :--- | :------ | :------- | :---------- |
+| url | String |  | Yes | The server API address. |
+| data | String/Object/Ar  \nrayBuffer |  | No | Request parameters. |
+| header | Object |  | No | Request headers, where `Referer` cannot be set. |
+| content-type |  | application/json |  | Content-type header value. |
+| method | String | GET | No | HTTP request method. |
+| dataType | String | json | No | Returned data format. |
+| responseType | String | text | No | Response data type. |
+| success | Function |  | No | Callback function for a successful API call. |
+| fail | Function |  | No | Callback function for a failed API call. |
+| complete | Function |  | No | Callback function for an API call end (executed for  \nboth successful and failed calls). |
 
 ## Valid values of `object.method`
 
@@ -140,7 +82,7 @@ Initiates an HTTPS network request. See [Network](doc:network) before using this
 
 ## Returned value
 
-[RequestTask](doc:network#requesttask)
+[RequestTask](network#requesttask)
 
 Request task object
 
@@ -179,15 +121,15 @@ Network request task object
 
 ## Methods
 
-### [RequestTask.abort()](doc:request#requesttaskabort-1)
+### [RequestTask.abort()](request#requesttaskabort-1)
 
 Aborts a request task.
 
-### [RequestTask.onHeadersReceived(function listener)](doc:request#requesttaskonheadersreceivedfunction-listener-1)
+### [RequestTask.onHeadersReceived(function listener)](request#requesttaskonheadersreceivedfunction-listener-1)
 
 Listens for the HTTP response header event, which occurs earlier than the request completion event.
 
-### [RequestTask.offHeadersReceived(function listener)](doc:request#requesttaskoffheadersreceivedfunction-listener-1)
+### [RequestTask.offHeadersReceived(function listener)](request#requesttaskoffheadersreceivedfunction-listener-1)
 
 Unlistens for the HTTP response header event.
 
