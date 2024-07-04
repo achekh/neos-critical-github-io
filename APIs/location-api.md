@@ -7,6 +7,7 @@ createdAt: "Fri Apr 21 2023 07:31:07 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 13:26:47 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "APIs"
+nav_order: 10
 ---
 # Location 
 This section displays the list of all Location related APIs for the Mini App.
@@ -15,18 +16,18 @@ This section displays the list of all Location related APIs for the Mini App.
 
 | Name                                                                                          | Feature Description                                                                                                                                      |
 | :-------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [startLocationUpdate](doc:location-api#startlocationupdate-object-object)                     | Enables the Mini App to receive location information on the foreground.                                                                                  |
-| [stopLocationUpdate](doc:location-api#stoplocationupdate-object-object)                       | Unlistens for the real-time location change. Both the foreground and background will stop receiving messages                                             |
-| [startLocationUpdateBackground](doc:location-api#startlocationupdatebackground-object-object) | Enables the Mini App to receive location information on both the foreground and background, which requires user ‘authorization’.                         |
-| [openLocation](doc:location-api#openlocation-object-object)                                   | Uses WeChat's built-in map to view the location.                                                                                                         |
-| [onLocationChange](doc:location-api#onlocationchange-object-object)                           | Listens for the real-time geographic location change event, which must be used together with `startLocationUpdateBackground` and `startLocationUpdate `. |
-| [offLocationChange](doc:location-api#offlocationchange-object-object)                         | Unlistens for the real-time geographic location change event.                                                                                            |
-| [onLocationChangeError](doc:location-api#onlocationchangeerror-object-object)                 | Listens for the error returned by the continuous positioning API.                                                                                        |
-| [offLocationChangeError](doc:location-api#offlocationchangeerror-object-object)               | Unlistens for the error returned by the continuous positioning API.                                                                                      |
-| [getLocation](doc:location-api#wxgetlocationobject-object)                                    | Gets the current geographic location and speed.                                                                                                          |
-| [choosePoi](doc:location-api#choosepoi)                                                       | Opens the POI list to select a location. Fuzzy positioning (accurate to the city) and precise positioning can be selected at the same time.              |
-| [chooseLocation](doc:location-api#chooselocation)                                             | Opens the map to select a location.                                                                                                                      |
-| [getFuzzyLocation](doc:location-api#wxgetfuzzylocationobject-object)                          | Gets the current vague geographic location.                                                                                                              |
+| [startLocationUpdate](location-api#startlocationupdate-object-object)                     | Enables the Mini App to receive location information on the foreground.                                                                                  |
+| [stopLocationUpdate](location-api#stoplocationupdate-object-object)                       | Unlistens for the real-time location change. Both the foreground and background will stop receiving messages                                             |
+| [startLocationUpdateBackground](location-api#startlocationupdatebackground-object-object) | Enables the Mini App to receive location information on both the foreground and background, which requires user ‘authorization’.                         |
+| [openLocation](location-api#openlocation-object-object)                                   | Uses WeChat's built-in map to view the location.                                                                                                         |
+| [onLocationChange](location-api#onlocationchange-object-object)                           | Listens for the real-time geographic location change event, which must be used together with `startLocationUpdateBackground` and `startLocationUpdate `. |
+| [offLocationChange](location-api#offlocationchange-object-object)                         | Unlistens for the real-time geographic location change event.                                                                                            |
+| [onLocationChangeError](location-api#onlocationchangeerror-object-object)                 | Listens for the error returned by the continuous positioning API.                                                                                        |
+| [offLocationChangeError](location-api#offlocationchangeerror-object-object)               | Unlistens for the error returned by the continuous positioning API.                                                                                      |
+| [getLocation](location-api#wxgetlocationobject-object)                                    | Gets the current geographic location and speed.                                                                                                          |
+| [choosePoi](location-api#choosepoi)                                                       | Opens the POI list to select a location. Fuzzy positioning (accurate to the city) and precise positioning can be selected at the same time.              |
+| [chooseLocation](location-api#chooselocation)                                             | Opens the map to select a location.                                                                                                                      |
+| [getFuzzyLocation](location-api#wxgetfuzzylocationobject-object)                          | Gets the current vague geographic location.                                                                                                              |
 
 # startLocationUpdate (Object object)
 
@@ -63,74 +64,25 @@ Enables the Mini App to receive location information on both the foreground and 
 
 **Categories opened for Chinese mini apps**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Level-1  \nCategory/Entity  \nType",
-    "h-1": "Level-2 Category",
-    "h-2": "Application Scenario",
-    "0-0": "Ecommerce platforms",
-    "0-1": "/",
-    "0-2": "Offline store guide and navigation services in the mini app",
-    "1-0": "Self-operated merchants",
-    "1-1": "/",
-    "1-2": "Offline store guide and navigation services in the mini app",
-    "2-0": "Transportation services",
-    "2-1": "/",
-    "2-2": "Chauffeur, taxi, urban public transportation, and real-time navigation services",
-    "3-0": "Lifestyle services",
-    "3-1": "Errand and shared services",
-    "3-2": "Delivery services and location-based tool sharing services",
-    "4-0": "Logistics services",
-    "4-1": "Package pickup/delivery, package query, postal service, loading and un  \nloading, delivery locker, and cargo transportation",
-    "4-2": "Package/Cargo pickup and delivery services",
-    "5-0": "Catering services",
-    "5-1": "Food ordering and delivery platforms",
-    "5-2": "Food delivery and real-time offline store navigation services",
-    "6-0": "Tools",
-    "6-1": "Health management",
-    "6-2": "Body management records based on the real-time geographic location",
-    "7-0": "Tourism",
-    "7-1": "Scenic spot and accommodation services",
-    "7-2": "Scenic spot navigation, tour guide, and hotel n  \navigation services in the mini app",
-    "8-0": "Governmental and civic services",
-    "8-1": "/",
-    "8-2": "Government affair services",
-    "9-0": "Government entity account",
-    "9-1": "/",
-    "9-2": "Government affair services",
-    "10-0": "Transportation services",
-    "10-1": "/",
-    "10-2": "Chauffeur, taxi, ur  \nban public transportation, and real-time navigation services",
-    "11-0": "Lifestyle services",
-    "11-1": "Housekeeping and delivery",
-    "11-2": "Delivery services  \nand location-base  \nd door-to-door services",
-    "12-0": "Courier and post",
-    "12-1": "/",
-    "12-2": "Package/Cargo pi  \nckup and delivery  \nservices",
-    "13-0": "Catering services",
-    "13-1": "Food ordering and delivery platforms",
-    "13-2": "Food delivery and  \nreal-time offline st  \nore navigation ser  \nvices",
-    "14-0": "Ecommerce platforms",
-    "14-1": "/",
-    "14-2": "Offline store guide  \nand navigation ser  \nvices in the mini app",
-    "15-0": "Cross-border ecommerce",
-    "15-1": "/",
-    "15-2": "Offline store guide  \nand navigation ser  \nvices in the mini app",
-    "16-0": "Local services",
-    "16-1": "Clothing, shoes, bags, toys, home appliances, digital devices, mobile phones, makeups, skincare, jewelry, accessories, glasses, watches, sports, outdoor, musical instruments, flowers, gardening, handicrafts, home, furniture, textiles, office, stationery, machinery, electronic devices, wine, food, department stores, supermarkets, convenience stores, and pet food and supplies",
-    "16-2": "Offline store guide  \nand navigation ser  \nvices in the mini      app"
-  },
-  "cols": 3,
-  "rows": 17,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Level-1  <br />Category/Entity  <br />Type | Level-2 Category | Application Scenario |
+| :----------------------------------------- | :--------------- | :------------------- |
+| Ecommerce platforms | / | Offline store guide and navigation services in the mini app |
+| Self-operated merchants | / | Offline store guide and navigation services in the mini app |
+| Transportation services | / | Chauffeur, taxi, urban public transportation, and real-time navigation services |
+| Lifestyle services | Errand and shared services | Delivery services and location-based tool sharing services |
+| Logistics services | Package pickup/delivery, package query, postal service, loading and un  \nloading, delivery locker, and cargo transportation | Package/Cargo pickup and delivery services |
+| Catering services | Food ordering and delivery platforms | Food delivery and real-time offline store navigation services |
+| Tools | Health management | Body management records based on the real-time geographic location |
+| Tourism | Scenic spot and accommodation services | Scenic spot navigation, tour guide, and hotel n  \navigation services in the mini app |
+| Governmental and civic services | / | Government affair services |
+| Government entity account | / | Government affair services |
+| Transportation services | / | Chauffeur, taxi, ur  \nban public transportation, and real-time navigation services |
+| Lifestyle services | Housekeeping and delivery | Delivery services  \nand location-base  \nd door-to-door services |
+| Courier and post | / | Package/Cargo pi  \nckup and delivery  \nservices |
+| Catering services | Food ordering and delivery platforms | Food delivery and  \nreal-time offline st  \nore navigation ser  \nvices |
+| Ecommerce platforms | / | Offline store guide  \nand navigation ser  \nvices in the mini app |
+| Cross-border ecommerce | / | Offline store guide  \nand navigation ser  \nvices in the mini app |
+| Local services | Clothing, shoes, bags, toys, home appliances, digital devices, mobile phones, makeups, skincare, jewelry, accessories, glasses, watches, sports, outdoor, musical instruments, flowers, gardening, handicrafts, home, furniture, textiles, office, stationery, machinery, electronic devices, wine, food, department stores, supermarkets, convenience stores, and pet food and supplies | Offline store guide  \nand navigation ser  \nvices in the mini      app |
 
 # Parameters
 
@@ -343,57 +295,14 @@ Opens the map to select a location.
 
 **Object object**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Default",
-    "h-3": "Required",
-    "h-4": "Description",
-    "0-0": "type",
-    "0-1": "string",
-    "0-2": "tencent",
-    "0-3": "No",
-    "0-4": "only supported on Studio  \nTencent Maps: tencent  \nGoogle Maps: google",
-    "1-0": "latitude",
-    "1-1": "number",
-    "1-2": "",
-    "1-3": "No",
-    "1-4": "Destination latitude",
-    "2-0": "longitude",
-    "2-1": "number",
-    "2-2": "",
-    "2-3": "No",
-    "2-4": "Destination longitude",
-    "3-0": "success",
-    "3-1": "function",
-    "3-2": "",
-    "3-3": "No",
-    "3-4": "Callback function for successful API call",
-    "4-0": "fail",
-    "4-1": "function",
-    "4-2": "",
-    "4-3": "No",
-    "4-4": "Callback function for failed API call",
-    "5-0": "complete",
-    "5-1": "function",
-    "5-2": "",
-    "5-3": "No",
-    "5-4": "Callback function for API call end (executed for both successful and failed calls"
-  },
-  "cols": 5,
-  "rows": 6,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Default | Required | Description |
+| :-------- | :--- | :------ | :------- | :---------- |
+| type | string | tencent | | No | only supported on Studio  <br />Tencent Maps: tencent  <br />Google Maps: google |
+| latitude | number |  | No | Destination latitude |
+| longitude | number |  | No | Destination longitude |
+| success | function |  | No | Callback function for successful API call |
+| fail | function |  | No | Callback function for failed API call |
+| complete | function |  | No | Callback function for API call end (executed for both successful and failed calls |
 
 `object.success `callback function
 
@@ -401,35 +310,12 @@ Opens the map to select a location.
 
 **Object res**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "name",
-    "0-1": "string",
-    "0-2": "Location name",
-    "1-0": "address",
-    "1-1": "string",
-    "1-2": "Detailed address",
-    "2-0": "latitude",
-    "2-1": "number",
-    "2-2": "Latitude, which can be a floating point number in the range of -90 to 90 . A negative value indicates the south latitude.  \nThe GCJ-02 coordinate system is used.",
-    "3-0": "longitude",
-    "3-1": "number",
-    "3-2": "Longitude, which can be a floating point number in the range of -180 to 180 . A negative value indicates the west longitude. The GCJ-02 coordinate system is used."
-  },
-  "cols": 3,
-  "rows": 4,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Description |
+| :-------- | :--- | :---------- |
+| name | string | Location name |
+| address | string | Detailed address |
+| latitude | number | Latitude, which can be a floating point number in the range of -90 to 90 . A negative value indicates the south latitude.  \nThe GCJ-02 coordinate system is used. |
+| longitude | number | Longitude, which can be a floating point number in the range of -180 to 180 . A negative value indicates the west longitude. The GCJ-02 coordinate system is used. |
 
 # wx.getFuzzyLocation(Object object)
 
