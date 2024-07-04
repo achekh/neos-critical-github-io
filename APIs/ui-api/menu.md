@@ -8,13 +8,14 @@ updatedAt: "Wed Nov 29 2023 08:39:01 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
 grand_parent: "APIs"
+nav_order: 9
 ---
 # Menu 
 Gets the layout position information of the menu button.
 
 ***
 
-- [getMenuButtonBoundingClientRect](doc:menu#object-wxgetmenubuttonboundingclientrect)
+- [getMenuButtonBoundingClientRect](menu#object-wxgetmenubuttonboundingclientrect)
 
 ## Object wx.getMenuButtonBoundingClientRect()
 

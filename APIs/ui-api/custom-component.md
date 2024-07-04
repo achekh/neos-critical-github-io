@@ -11,6 +11,7 @@ updatedAt: "Wed May 17 2023 07:12:57 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
 grand_parent: "APIs"
+nav_order: 8
 ---
 # Custom Component 
 This API delays a part of the operation until the next time slice.

@@ -8,13 +8,14 @@ updatedAt: "Wed Nov 29 2023 08:39:23 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "UI"
 grand_parent: "APIs"
+nav_order: 10
 ---
 # Window 
 API listens to the window size change event.
 
 ***
 
-- [onWindowResize](doc:window#onwindowresize)
+- [onWindowResize](window#onwindowresize)
 
 # onWindowResize
 
