@@ -8,6 +8,7 @@ updatedAt: "Wed Nov 29 2023 13:17:33 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Media"
 grand_parent: "APIs"
+nav_order: 4
 ---
 # Camera 
 This section consists of Camera related APIs for Mini App.

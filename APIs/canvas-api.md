@@ -7,7 +7,7 @@ createdAt: "Wed Apr 19 2023 10:36:35 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Thu Dec 07 2023 09:23:22 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "APIs"
-nav_order: 3
+nav_order: 8
 ---
 # Canvas 
 This section consists of the list of APIs related with Canvas.
@@ -23,7 +23,7 @@ This section consists of the list of APIs related with Canvas.
 
 # CanvasContext wx.createCanvasContext(string canvasId, Object this)
 
-Creates the [CanvasContext](doc:canvas-api#canvascontext) object of the canvas.
+Creates the [CanvasContext](canvas-api#canvascontext) object of the canvas.
 
 ## Parameters
 
@@ -37,7 +37,7 @@ The `canvas-id` attribute of the `<canvas>` component for which to get the conte
 
 ### Returned value
 
-[CanvasContext](doc:canvas-api#canvascontext)
+[CanvasContext](canvas-api#canvascontext)
 
 # wx.canvasToTempFilePath(Object object, Object this)
 
@@ -57,7 +57,7 @@ Exports the content of the specified area on the current canvas as an image of t
 | destHeight | number   | height\*screen pixel density | No       | The height of the output image                                                                                             |
 | canvasId   | string   |                              | Yes      | Canvas ID. Pass in the `canvas-id` of the `<canvas>` component.                                                            |
 | fileType   | string   | png                          | No       | Target file type                                                                                                           |
-| quality    | number   |                              | Yes      | Image quality, which takes effect only for `jpg`. Value range: (0, 1]. If the value is out of the range, `1` will be used. |
+| quality    | number   |                              | Yes      | Image quality, which takes effect only for `jpg`. Value range: (0, 1). If the value is out of the range, `1` will be used. |
 | success    | function |                              | No       | Callback function for successful API call                                                                                  |
 | fail       | function |                              | No       | Callback function for failed API call                                                                                      |
 | complete   | function |                              | No       | Callback function for API call end (executed for both successful and failed calls)                                         |
@@ -196,40 +196,40 @@ wx.canvasGetImageData({
 } })
 ```
 
-- [CanvasContext](doc:canvas-api#canvascontext)
-  - [setLineCap](doc:canvas-api#setlinecap)
-  - [setTextAlign](doc:canvas-api#settextalign)
-  - [setTextBaseline](doc:canvas-api#settextbaseline)
-  - [setTransform](doc:canvas-api#settransform)
-  - [stroke](doc:canvas-api#stroke)
-  - [strokeRect](doc:canvas-api#strokerect)
-  - [strokeText](doc:canvas-api#stroketext)
-  - [transform](doc:canvas-api#transform)
-  - [translate](doc:canvas-api#translate)
-  - [arc](doc:canvas-api#arc)
-  - [arcTo](doc:canvas-api#arcto)
-  - [beginPath](doc:canvas-api#beginpath)
-  - [bezierCurveTo](doc:canvas-api#beziercurveto)
-  - [clearRect](doc:canvas-api#clearrect)
-  - [clip](doc:canvas-api#clip)
-  - [closePath](doc:canvas-api#closepath)
-  - [createCircularGradient](doc:canvas-api#createcirculargradient)
-  - [createLinearGradient](doc:canvas-api#createlineargradient)
-  - [createPattern](doc:canvas-api#createpattern)
-  - [draw](doc:canvas-api#draw)
-  - [drawImage](doc:canvas-api#drawimage)
-  - [fill](doc:canvas-api#fill)
-  - [fillRect](doc:canvas-api#fillrect)
-  - [fillText](doc:canvas-api#filltext)
-  - [lineTo](doc:canvas-api#lineto)
-  - [measureText](doc:canvas-api#measuretext)
-  - [moveTo](doc:canvas-api#moveto)
-  - [quadraticCurveTo](doc:canvas-api#quadraticcurveto)
-  - [rect](doc:canvas-api#rect)
-  - [restore](doc:canvas-api#restore)
-  - [rotate](doc:canvas-api#rotate)
-  - [save](doc:canvas-api#save)
-  - [scale](doc:canvas-api#scale)
+- [CanvasContext](canvas-api#canvascontext)
+  - [setLineCap](canvas-api#setlinecap)
+  - [setTextAlign](canvas-api#settextalign)
+  - [setTextBaseline](canvas-api#settextbaseline)
+  - [setTransform](canvas-api#settransform)
+  - [stroke](canvas-api#stroke)
+  - [strokeRect](canvas-api#strokerect)
+  - [strokeText](canvas-api#stroketext)
+  - [transform](canvas-api#transform)
+  - [translate](canvas-api#translate)
+  - [arc](canvas-api#arc)
+  - [arcTo](canvas-api#arcto)
+  - [beginPath](canvas-api#beginpath)
+  - [bezierCurveTo](canvas-api#beziercurveto)
+  - [clearRect](canvas-api#clearrect)
+  - [clip](canvas-api#clip)
+  - [closePath](canvas-api#closepath)
+  - [createCircularGradient](canvas-api#createcirculargradient)
+  - [createLinearGradient](canvas-api#createlineargradient)
+  - [createPattern](canvas-api#createpattern)
+  - [draw](canvas-api#draw)
+  - [drawImage](canvas-api#drawimage)
+  - [fill](canvas-api#fill)
+  - [fillRect](canvas-api#fillrect)
+  - [fillText](canvas-api#filltext)
+  - [lineTo](canvas-api#lineto)
+  - [measureText](canvas-api#measuretext)
+  - [moveTo](canvas-api#moveto)
+  - [quadraticCurveTo](canvas-api#quadraticcurveto)
+  - [rect](canvas-api#rect)
+  - [restore](canvas-api#restore)
+  - [rotate](canvas-api#rotate)
+  - [save](canvas-api#save)
+  - [scale](canvas-api#scale)
 
 # CanvasContext
 
@@ -300,125 +300,125 @@ The following operations are supported:
 
 ## Methods
 
-### [CanvasContext.draw(boolean reserve, function callback)](doc:canvas-api#draw)
+### [CanvasContext.draw(boolean reserve, function callback)](canvas-api#draw)
 
 Draws the drawing context description (path, transformation, and style) on the canvas.
 
-### [CanvasGradient CanvasContext.createLinearGradient(number x0, number y0, number x1, number y1)](doc:canvas-api#createlineargradient)
+### [CanvasGradient CanvasContext.createLinearGradient(number x0, number y0, number x1, number y1)](canvas-api#createlineargradient)
 
-Creates a linear gradient. The returned [`CanvasGradient`](doc:canvas-api#canvasgradient) bject requires specifying at least two gradient points through `CanvasGradient.addColorStop()`.
+Creates a linear gradient. The returned [`CanvasGradient`](canvas-api#canvasgradient) bject requires specifying at least two gradient points through `CanvasGradient.addColorStop()`.
 
-### [CanvasGradient CanvasContext.createCircularGradient(number x, number y, number r)](doc:canvas-api#createcirculargradient)
+### [CanvasGradient CanvasContext.createCircularGradient(number x, number y, number r)](canvas-api#createcirculargradient)
 
 Creates a circular gradient. The start point is the center of the circle, and the end point is on the ring. The returned [`CanvasGradient`](<>) object requires specifying at least two gradient points through [`CanvasGradient.addColorStop()`](<>).
 
-### [CanvasContext.createPattern(string image, string repetition)](doc:canvas-api#createpattern)
+### [CanvasContext.createPattern(string image, string repetition)](canvas-api#createpattern)
 
 Creates a pattern for the specified image, which can repeat the source image in the specified direction.
 
-### [Object CanvasContext.measureText(string text)](doc:canvas-api#measuretext)
+### [Object CanvasContext.measureText(string text)](canvas-api#measuretext)
 
 Measures the text size. Currently, only the text width is returned. Sync API.
 
-### [CanvasContext.save()](doc:canvas-api#save)
+### [CanvasContext.save()](canvas-api#save)
 
 Saves the drawing context.
 
-### [CanvasContext.restore()](doc:canvas-api#restore)
+### [CanvasContext.restore()](canvas-api#restore)
 
 Restores a previously saved drawing context.
 
-### [CanvasContext.beginPath()](doc:canvas-api#beginpath)
+### [CanvasContext.beginPath()](canvas-api#beginpath)
 
 Starts creating a path. You need to call `fill` or `stroke` to use the path for filling or stroking.
 
 - At the beginning, the effect is equivalent to calling `beginPath` once.
 - If `setFillStyle`, `setStrokeStyle` & `setLineWidth` are set multiples times in the same path, the last setting shall prevail.
 
-### [CanvasContext.moveTo(number x, number y)](doc:canvas-api#moveto)
+### [CanvasContext.moveTo(number x, number y)](canvas-api#moveto)
 
 Moves the path to the specified point on the canvas, without creating a line. Use the `stroke` method to draw lines.
 
-### [CanvasContext.lineTo(number x, number y)](doc:canvas-api#lineto)
+### [CanvasContext.lineTo(number x, number y)](canvas-api#lineto)
 
 Adds a new point and creates a line from the last specified point to it on the canvas. Use the `stroke` method to draw lines.
 
-### [CanvasContext.quadraticCurveTo(number cpx, number cpy, number x, number y)](doc:canvas-api#quadraticcurveto)
+### [CanvasContext.quadraticCurveTo(number cpx, number cpy, number x, number y)](canvas-api#quadraticcurveto)
 
 Creates a quadratic Bézier curve. The start point of the curve is the last point in the path.
 
-### [CanvasContext.bezierCurveTo()](doc:canvas-api#beziercurveto)
+### [CanvasContext.bezierCurveTo()](canvas-api#beziercurveto)
 
 Creates a cubic Bézier curve. The start point of the curve is the last point in the path.
 
-### [CanvasContext.arc(number x, number y, number r, number sAngle, number eAngle, number counterclockwise)](doc:canvas-api#arc)
+### [CanvasContext.arc(number x, number y, number r, number sAngle, number eAngle, number counterclockwise)](canvas-api#arc)
 
 Creates an arc.
 
 - To create a circle, set the start radian to `0` and end radian to `2 * Math.PI`.
 - Use the `stroke` or `fill` method to draw the arc on the `canvas`.
 
-### [CanvasContext.rect(number x, number y, number width, number height)](doc:canvas-api#rect)
+### [CanvasContext.rect(number x, number y, number width, number height)](canvas-api#rect)
 
-Creates a rectangular path. You need to use the [`fill`](doc:canvas-api#fill) or [`stroke`](doc:canvas-api#stroke) method to actually draw the rectangle on the `canvas`.
+Creates a rectangular path. You need to use the [`fill`](canvas-api#fill) or [`stroke`](canvas-api#stroke) method to actually draw the rectangle on the `canvas`.
 
-### [CanvasContext.arcTo(number x1, number y1, number x2, number y2, number radius)](doc:canvas-api#arcto)
+### [CanvasContext.arcTo(number x1, number y1, number x2, number y2, number radius)](canvas-api#arcto)
 
 Draws an arc path based on the control points and radius.
 
-### [CanvasContext.clip()](doc:canvas-api#clip)
+### [CanvasContext.clip()](canvas-api#clip)
 
 Clips an area of any shape and size from the original canvas. Once an area is clipped, all future drawings will be restricted into the clipped area (no access to other areas on the canvas). You can save the current canvas area through the `save` method before using the `clip` method and restore it through the `restore` method at any time later.
 
-### [CanvasContext.fillRect(number x, number y, number width, number height)](doc:canvas-api#fillrect)
+### [CanvasContext.fillRect(number x, number y, number width, number height)](canvas-api#fillrect)
 
 Fills a rectangle. Use `setFillStyle` to set the fill color of the rectangle. If it is not specified, black will be used by default.
 
-### [CanvasContext.strokeRect(number x, number y, number width, number height)](doc:canvas-api#strokerect)
+### [CanvasContext.strokeRect(number x, number y, number width, number height)](canvas-api#strokerect)
 
 Draws a rectangle (no fill). Use `setStrokeStyle()` to set the stroke color of the rectangle. If it is not specified, black will be used by default.
 
-### [CanvasContext.clearRect(number x, number y, number width, number height)](doc:canvas-api#clearrect)
+### [CanvasContext.clearRect(number x, number y, number width, number height)](canvas-api#clearrect)
 
 Clears the content of the rectangular area on the canvas.
 
-### [CanvasContext.fill()](doc:canvas-api#fill)
+### [CanvasContext.fill()](canvas-api#fill)
 
 Fills the content in the current path. The default fill color is black.
 
-### [CanvasContext.stroke()](doc:canvas-api#stroke)
+### [CanvasContext.stroke()](canvas-api#stroke)
 
 Draws the borders of the current path. The default color is black.
 
-### [CanvasContext.closePath()](doc:canvas-api#closepath)
+### [CanvasContext.closePath()](canvas-api#closepath)
 
 Closes a path to connect the start and end points. After the path is closed, if `stroke` or `fill` is not called and a new path is opened, the previous path will not be rendered.
 
-### [CanvasContext.scale(number scaleWidth, number scaleHeight)](doc:canvas-api#scale)
+### [CanvasContext.scale(number scaleWidth, number scaleHeight)](canvas-api#scale)
 
 Specifies to scale the ordinates and abscissas of subsequently created paths. Multiple calls will multiply.
 
-### [CanvasContext.rotate(number rotate)](doc:canvas-api#rotate)
+### [CanvasContext.rotate(number rotate)](canvas-api#rotate)
 
 Rotates the current axis clockwise from the origin. The rotation angles of multiple calls will add up. You can modify the origin through the `translate` method.
 
-### [CanvasContext.translate(number x, number y)](doc:canvas-api#translate)
+### [CanvasContext.translate(number x, number y)](canvas-api#translate)
 
 Transforms the origin `(0, 0)` of the current coordinate system. The default origin is the top-left corner of the page.
 
-### [CanvasContext.drawImage(string imageResource, number sx, number sy, number sWidth, number sHeight, number dx, number dy, number dWidth, number dHeight)](doc:canvas-api#drawimage)
+### [CanvasContext.drawImage(string imageResource, number sx, number sy, number sWidth, number sHeight, number dx, number dy, number dWidth, number dHeight)](canvas-api#drawimage)
 
 Draws an image on the canvas.
 
-### [CanvasContext.strokeText(string text, number x, number y, number maxWidth)](doc:canvas-api#stroketext)
+### [CanvasContext.strokeText(string text, number x, number y, number maxWidth)](canvas-api#stroketext)
 
 Draws a text stroke at the specified position `(x, y)`.
 
-### [CanvasContext.transform(number scaleX, number scaleY, number skewX, number skewY, number translateX, number translateY)](doc:canvas-api#transform)
+### [CanvasContext.transform(number scaleX, number scaleY, number skewX, number skewY, number translateX, number translateY)](canvas-api#transform)
 
 Overlays the current transformation multiple times by using a matrix.
 
-### [CanvasContext.setTransform(number scaleX, number scaleY, number skewX, number skewY, number translateX, number translateY)](doc:canvas-api#settransform)
+### [CanvasContext.setTransform(number scaleX, number scaleY, number skewX, number skewY, number translateX, number translateY)](canvas-api#settransform)
 
 Resets/Overwrites the current transformation by using a matrix.
 
@@ -446,7 +446,7 @@ Sets the width of the line.
 
 Sets the intersection style of the line.
 
-### [CanvasContext.setLineCap(string lineCap)](doc:canvas-api#setlinecap)
+### [CanvasContext.setLineCap(string lineCap)](canvas-api#setlinecap)
 
 Sets the endpoint style of the line.
 
@@ -458,7 +458,7 @@ Sets the style of the dotted line.
 
 Sets the maximum miter length. Miter length refers to the distance between the inner and outer corners where two lines intersect. It takes effect when `CanvasContext.setLineJoin()` is `miter`. If the maximum miter length is exceeded, the join will be displayed with `lineJoin` as `bevel`.
 
-### [CanvasContext.fillText(string text, number x, number y, number maxWidth)](doc:canvas-api#filltext)
+### [CanvasContext.fillText(string text, number x, number y, number maxWidth)](canvas-api#filltext)
 
 Draws the filled text on the canvas.
 
@@ -466,11 +466,11 @@ Draws the filled text on the canvas.
 
 Sets the font size.
 
-### [CanvasContext.setTextAlign(string align)](doc:canvas-api#settextalign)
+### [CanvasContext.setTextAlign(string align)](canvas-api#settextalign)
 
 Sets the text alignment.
 
-### [CanvasContext.setTextBaseline(string textBaseline)](doc:canvas-api#settextbaseline)
+### [CanvasContext.setTextBaseline(string textBaseline)](canvas-api#settextbaseline)
 
 Sets the vertical alignment of the text.
 
@@ -526,7 +526,7 @@ ctx.stroke()
 ctx.draw()
 ```
 
-![](https://files.readme.io/bf5c345-1.PNG)
+![](../assets/images/bf5c345-1.PNG)
 
 # setTextAlign
 
@@ -570,7 +570,7 @@ ctx.fillText('textAlign=right', 150, 100)
 ctx.draw()
 ```
 
-![](https://files.readme.io/85898b8-2.PNG)
+![](../assets/images/85898b8-2.PNG)
 
 # setTextBaseline
 
@@ -619,7 +619,7 @@ ctx.fillText('normal', 200, 75)
 ctx.draw()
 ```
 
-![](https://files.readme.io/0a9f720-3.PNG)
+![](../assets/images/0a9f720-3.PNG)
 
 # setTransform
 
@@ -653,7 +653,7 @@ ctx.stroke()
 ctx.draw()
 ```
 
-![](https://files.readme.io/35aa0f3-4.PNG)
+![](../assets/images/35aa0f3-4.PNG)
 
 The path drawn by `stroke()` begins at `beginPath()` but does not include `strokeRect() `.
 
@@ -681,7 +681,7 @@ ctx.stroke()
 ctx.draw()
 ```
 
-![](https://files.readme.io/1cb1a02-5.PNG)
+![](../assets/images/1cb1a02-5.PNG)
 
 # strokeRect
 
@@ -706,7 +706,7 @@ ctx.strokeRect(10, 10, 150, 75)
 ctx.draw()
 ```
 
-![](https://files.readme.io/a58d0d7-6.PNG)
+![](../assets/images/a58d0d7-6.PNG)
 
 # strokeText
 
@@ -767,7 +767,7 @@ ctx.strokeRect(10, 10, 150, 100)
 ctx.draw()
 ```
 
-![](https://files.readme.io/f226b66-7.PNG)
+![](../assets/images/f226b66-7.PNG)
 
 # arc
 
@@ -855,7 +855,7 @@ ctx.stroke()
 ctx.draw()
 ```
 
-![](https://files.readme.io/43b3f3e-8.PNG)
+![](../assets/images/43b3f3e-8.PNG)
 
 Key coordinates of `arc(100, 75, 50, 0, 1.5 * Math.PI)` are as follows:
 
@@ -926,7 +926,7 @@ ctx.fill()
 ctx.draw()
 ```
 
-![](https://files.readme.io/da899ed-9.PNG)
+![](../assets/images/da899ed-9.PNG)
 
 # bezierCurveTo
 
@@ -982,7 +982,7 @@ ctx.stroke()
 ctx.draw()
 ```
 
-![](https://files.readme.io/00bfb76-10.PNG)
+![](../assets/images/00bfb76-10.PNG)
 
 Key coordinates of `moveTo(20, 20) bezierCurveTo(20, 100, 200, 100, 200, 20)` are as follows:
 
@@ -1036,7 +1036,7 @@ ctx.clearRect(10, 10, 150, 75)
 ctx.draw()
 ```
 
-![](https://files.readme.io/ce276c4-11.PNG)
+![](../assets/images/ce276c4-11.PNG)
 
 # clip
 
@@ -1065,7 +1065,7 @@ wx.downloadFile({
 })
 ```
 
-![](https://files.readme.io/635f347-12.PNG)
+![](../assets/images/635f347-12.PNG)
 
 # closePath
 
@@ -1086,7 +1086,7 @@ ctx.stroke()
 ctx.draw()
 ```
 
-![](https://files.readme.io/def123d-13.PNG)
+![](../assets/images/def123d-13.PNG)
 
 ```javascript
 // JavaScript
@@ -1111,7 +1111,7 @@ ctx.fill()
 ctx.draw()
 ```
 
-![](https://files.readme.io/40d25ae-14.PNG)
+![](../assets/images/40d25ae-14.PNG)
 
 # createCircularGradient
 
@@ -1154,7 +1154,7 @@ ctx.fillRect(10, 10, 150, 80)
 ctx.draw()
 ```
 
-![](https://files.readme.io/828a0c1-15.PNG)
+![](../assets/images/828a0c1-15.PNG)
 
 # createLinearGradient
 
@@ -1201,7 +1201,7 @@ ctx.fillRect(10, 10, 150, 80)
 ctx.draw()
 ```
 
-![](https://files.readme.io/b7312ac-16.PNG)
+![](../assets/images/b7312ac-16.PNG)
 
 # createPattern
 
@@ -1270,7 +1270,7 @@ ctx.fillRect(50, 50, 150, 100)
 ctx.draw(true)
 ```
 
-![](https://files.readme.io/f2119f0-17.PNG)
+![](../assets/images/f2119f0-17.PNG)
 
 ### Sample code
 
@@ -1287,7 +1287,7 @@ ctx.fillRect(50, 50, 150, 100)
 ctx.draw()
 ```
 
-![](https://files.readme.io/abb764d-18.PNG)
+![](../assets/images/abb764d-18.PNG)
 
 # drawImage
 
@@ -1353,7 +1353,7 @@ wx.chooseImage({
 })
 ```
 
-![](https://files.readme.io/8934bd1-19.PNG)
+![](../assets/images/8934bd1-19.PNG)
 
 # fill
 
@@ -1377,7 +1377,7 @@ ctx.draw()
 
 The path filled by `fill()` begins at `beginPath()` but does not include `fillRect()` .
 
-![](https://files.readme.io/898a1bf-20.PNG)
+![](../assets/images/898a1bf-20.PNG)
 
 ```javascript
 // JavaScript
@@ -1403,7 +1403,7 @@ ctx.fill()
 ctx.draw()
 ```
 
-![](https://files.readme.io/4c98193-21.PNG)
+![](../assets/images/4c98193-21.PNG)
 
 # fillRect
 
@@ -1439,7 +1439,7 @@ ctx.fillRect(10, 10, 150, 75)
 ctx.draw()
 ```
 
-![](https://files.readme.io/7a8a004-22.PNG)
+![](../assets/images/7a8a004-22.PNG)
 
 # fillText
 
@@ -1478,7 +1478,7 @@ ctx.fillText('MINA', 100, 100)
 ctx.draw()
 ```
 
-![](https://files.readme.io/79d6f90-23.PNG)
+![](../assets/images/79d6f90-23.PNG)
 
 # lineTo
 
@@ -1508,7 +1508,7 @@ ctx.stroke()
 ctx.draw()
 ```
 
-![](https://files.readme.io/56690cf-24.PNG)
+![](../assets/images/56690cf-24.PNG)
 
 # measureText
 
@@ -1568,7 +1568,7 @@ ctx.stroke()
 ctx.draw()
 ```
 
-![](https://files.readme.io/5bbba63-25.PNG)
+![](../assets/images/5bbba63-25.PNG)
 
 # quadraticCurveTo
 
@@ -1637,7 +1637,7 @@ ctx.stroke()
 ctx.draw()
 ```
 
-![](https://files.readme.io/9ab7c2b-26.PNG)
+![](../assets/images/9ab7c2b-26.PNG)
 
 Key coordinates of `moveTo(20, 20) quadraticCurveTo(20, 100, 200, 20) `are as follows:
 
@@ -1680,7 +1680,7 @@ ctx.fill()
 ctx.draw()
 ```
 
-![](https://files.readme.io/7ccfc66-27.PNG)
+![](../assets/images/7ccfc66-27.PNG)
 
 # restore
 
@@ -1706,7 +1706,7 @@ ctx.fillRect(50, 50, 150, 100)
 ctx.draw()
 ```
 
-![](https://files.readme.io/9a2e08a-28.PNG)
+![](../assets/images/9a2e08a-28.PNG)
 
 # rotate
 
@@ -1735,7 +1735,7 @@ ctx.strokeRect(100, 10, 150, 100)
 ctx.draw()
 ```
 
-![](https://files.readme.io/189d632-29.PNG)
+![](../assets/images/189d632-29.PNG)
 
 # save
 
@@ -1761,7 +1761,7 @@ ctx.fillRect(50, 50, 150, 100)
 ctx.draw()
 ```
 
-![](https://files.readme.io/47a03da-30.PNG)
+![](../assets/images/47a03da-30.PNG)
 
 # scale
 
@@ -1794,7 +1794,7 @@ ctx.strokeRect(10, 10, 25, 15)
 ctx.draw()
 ```
 
-![](https://files.readme.io/38e3b6d-31.PNG)
+![](../assets/images/38e3b6d-31.PNG)
 
 # CanvasGradient
 
@@ -1802,7 +1802,7 @@ Gradient object
 
 ## Methods
 
-[CanvasGradient.addColorStop(number stop, Color color)](doc:canvas-api#addcolorstop)
+[CanvasGradient.addColorStop(number stop, Color color)](canvas-api#addcolorstop)
 
 Adds a gradient color point. For values smaller than the minimum `stop`, the color at the minimum `stop` is used for rendering; for those greater than the maximum `stop`, the color at the maximum `stop` is used for rendering.
 
@@ -1818,7 +1818,7 @@ Adds a gradient color point. For values smaller than the minimum `stop`, the col
 
 The position between the start and end in a gradient. Value range: 0–1.
 
-### [Color](doc:canvas-api#color) color
+### [Color](canvas-api#color) color
 
 The color of the gradient point.
 

@@ -8,6 +8,7 @@ updatedAt: "Wed Nov 29 2023 12:57:55 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Media"
 grand_parent: "APIs"
+nav_order: 1
 ---
 # Map 
 This section consits of the list of APIs related with Map feature of the Mini App.
@@ -16,66 +17,66 @@ This section consits of the list of APIs related with Map feature of the Mini Ap
 
 Following are the two important Map related APIs:
 
-- [Return value](doc:map-api#returned-value)
-- [MapContext](doc:map-api)
+- [Return value](map-api#returned-value)
+- [MapContext](map-api)
 
 ## Returned value
 
-[MapContext](doc:map-api#mapcontext)
+[MapContext](map-api#mapcontext)
 
 # MapContext
 
 `MapContext` instance, which can be obtained through `wx.createMapContext`.
 
-`MapContext` is bound to a [`<map>`](doc:map) component through id to manipulate it.
+`MapContext` is bound to a [`<map>`](../../Components/map-capability/map) component through id to manipulate it.
 
 ## Methods
 
-### [MapContext.addMarkers](doc:map-api#mapcontextaddmarkers)
+### [MapContext.addMarkers](map-api#mapcontextaddmarkers)
 
 Adds a marker.
 
-### [MapContext.fromScreenLocation](doc:map-api#mapcontextfromscreenlocation)
+### [MapContext.fromScreenLocation](map-api#mapcontextfromscreenlocation)
 
 Gets the latitude and longitude corresponding to the point on the screen. The origin is the top-left corner of the map.
 
-### [MapContext.getCenterLocation](doc:map-api#mapcontextgetcenterlocation)
+### [MapContext.getCenterLocation](map-api#mapcontextgetcenterlocation)
 
 Gets the latitude and longitude of the center of the current map. GCJ-02 coordinates are returned, which can be used for [wx.openLocation()](<>).
 
-### [MapContext.getRotate](doc:map-api#mapcontextgetrotate)
+### [MapContext.getRotate](map-api#mapcontextgetrotate)
 
 Gets the current rotation angle of the map.
 
 Support: Android only
 
-### [MapContext.getRegion()](doc:map-api#mapcontextgetregion)
+### [MapContext.getRegion()](map-api#mapcontextgetregion)
 
 Gets the current field of view of the map.
 
-### [MapContext.getScale()](doc:map-api#mapcontextgetscale)
+### [MapContext.getScale()](map-api#mapcontextgetscale)
 
 Gets the current zoom level of the map.
 
-### [MapContext.moveAlong](doc:map-api#mapcontextmovealong)
+### [MapContext.moveAlong](map-api#mapcontextmovealong)
 
 Moves the marker along the specified path, which is used for scenarios such as track playback. A callback event is triggered when the animation is completed. If the animation in the previous call is in progress, calling the `moveAlong` method on the same marker again will interrupt the animation.
 
 Support: iOS only
 
-[MapContext.moveToLocation](doc:map-api#mapcontextmovetolocationobject-object)
+[MapContext.moveToLocation](map-api#mapcontextmovetolocationobject-object)
 
 Moves the center of the map to the current location. At this time, you need to set the `show-location` parameter of the map component to true .
 
-[MapContext.openMapApp](doc:map-api#mapcontextopenmapappobject-object)
+[MapContext.openMapApp](map-api#mapcontextopenmapappobject-object)
 
 Opens the map app to select navigation.
 
-[MapContext.removeMarkers](doc:map-api#mapcontextremovemarkersobject-object)
+[MapContext.removeMarkers](map-api#mapcontextremovemarkersobject-object)
 
 Removes a marker.
 
-[MapContext.translateMarker](doc:map-api#mapcontexttranslatemarkerobject-object)
+[MapContext.translateMarker](map-api#mapcontexttranslatemarkerobject-object)
 
 Translates the marker (with animation).
 

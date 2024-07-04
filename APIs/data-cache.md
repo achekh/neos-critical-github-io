@@ -7,6 +7,7 @@ createdAt: "Wed Apr 19 2023 10:19:41 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 10:24:53 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "APIs"
+nav_order: 7
 ---
 # Data Cache 
 This section consists of list of all APIS related with data storage.
@@ -15,16 +16,16 @@ This section consists of list of all APIS related with data storage.
 
 | Name                                                                  | Feature Description                                                        |
 | :-------------------------------------------------------------------- | :------------------------------------------------------------------------- |
-| [setStorageSync](doc:data-cache#setstoragesync)                       | Stores the data in the specified key in the local cache.                   |
-| [setStorage](doc:data-cache#setstorage-object-object)                 | Stores the data in the specified key in the local cache.                   |
-| [removeStorageSync](doc:data-cache#removestoragesync-object-object)   | Sync version of `removeStorage`.                                           |
-| [removeStorage](doc:data-cache#removestorage-object-object)           | Removes the specified key from the local cache.                            |
-| [getStorageSync](doc:data-cache#getstoragesync)                       | Synchronously gets the content of the specified key from the local cache.  |
-| [getStorageInfoSync](doc:data-cache#getstorageinfosync-object-object) | Sync version of `getStorageInfo`.                                          |
-| [getStorageInfo](doc:data-cache#wxgetstorageinfoobject-object)        | Asynchronously gets the information of the current storage.                |
-| [getStorage](doc:data-cache#getstorage-object-object)                 | Asynchronously gets the content of the specified key from the local cache. |
-| [clearStorageSync](doc:data-cache#clearstoragesync)                   | Sync version of `clearStorage`.                                            |
-| [clearStorage](doc:data-cache#clearstorage-object-object)             | Clears the local data cache.                                               |
+| [setStorageSync](data-cache#setstoragesync)                       | Stores the data in the specified key in the local cache.                   |
+| [setStorage](data-cache#setstorage-object-object)                 | Stores the data in the specified key in the local cache.                   |
+| [removeStorageSync](data-cache#removestoragesync-object-object)   | Sync version of `removeStorage`.                                           |
+| [removeStorage](data-cache#removestorage-object-object)           | Removes the specified key from the local cache.                            |
+| [getStorageSync](data-cache#getstoragesync)                       | Synchronously gets the content of the specified key from the local cache.  |
+| [getStorageInfoSync](data-cache#getstorageinfosync-object-object) | Sync version of `getStorageInfo`.                                          |
+| [getStorageInfo](data-cache#wxgetstorageinfoobject-object)        | Asynchronously gets the information of the current storage.                |
+| [getStorage](data-cache#getstorage-object-object)                 | Asynchronously gets the content of the specified key from the local cache. |
+| [clearStorageSync](data-cache#clearstoragesync)                   | Sync version of `clearStorage`.                                            |
+| [clearStorage](data-cache#clearstorage-object-object)             | Clears the local data cache.                                               |
 
 # setStorage (Object object)
 

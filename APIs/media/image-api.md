@@ -8,6 +8,7 @@ updatedAt: "Wed Nov 29 2023 12:59:17 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Media"
 grand_parent: "APIs"
+nav_order: 2
 ---
 # Image 
 This section consists of the list of Image related APIs in Mini App.

@@ -68,7 +68,7 @@ Initiates an HTTPS network request. See [Network](../network) before using this 
 | text        | The response data is text.        |
 | arraybuffer | The response data is ArrayBuffer. |
 
-** `object.success` callback function**
+**`object.success` callback function**
 
 # Parameters
 
