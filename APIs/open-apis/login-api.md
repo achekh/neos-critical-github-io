@@ -9,8 +9,9 @@ metadata:
 createdAt: "Fri Apr 21 2023 10:06:28 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Fri Jul 14 2023 11:18:30 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
-parent: "Open APIs"
+parent: "open-apis"
 grand_parent: "APIs"
+nav_order: 1
 ---
 # Login 
 This section lists all the APIS related with Login functionality of Mini App.

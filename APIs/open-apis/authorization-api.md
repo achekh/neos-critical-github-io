@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:18:43 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Open APIs"
 grand_parent: "APIs"
+nav_order: 2
 ---
 # Authorization 
 This section list all APIs related with Authorization functionality of the Mini App.
