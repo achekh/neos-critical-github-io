@@ -8,22 +8,23 @@ updatedAt: "Wed Nov 29 2023 17:58:29 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 2
 ---
 # NFC 
 This section consists of the list of all NFC APIs.
 
 ***
 
-- [getNFCAdapter](doc:nfc#nfcadapter-wxgetnfcadapter) 
-- [NFCAdapter](doc:nfc#nfcadapter)
-- [IsoDep](doc:nfc#isodep-nfcadaptergetisodep)
-- [MifareClassic](doc:nfc#mifareclassic-nfcadaptergetmifareclassic)
-- [MifareUltralight](doc:nfc#mifareultralight-nfcadaptergetmifareultralight)
-- [Ndef](doc:nfc#ndef-nfcadaptergetndef)
-- [NfcA](doc:nfc#nfca-nfcadaptergetnfca)
-- [NfcB](doc:nfc#nfcb-nfcadaptergetnfcb)
-- [NfcF](doc:nfc#nfcf-nfcadaptergetnfcf)
-- [NfcV](doc:nfc#nfcv-nfcadaptergetnfcv)
+- [getNFCAdapter](nfc#nfcadapter-wxgetnfcadapter) 
+- [NFCAdapter](nfc#nfcadapter)
+- [IsoDep](nfc#isodep-nfcadaptergetisodep)
+- [MifareClassic](nfc#mifareclassic-nfcadaptergetmifareclassic)
+- [MifareUltralight](nfc#mifareultralight-nfcadaptergetmifareultralight)
+- [Ndef](nfc#ndef-nfcadaptergetndef)
+- [NfcA](nfc#nfca-nfcadaptergetnfca)
+- [NfcB](nfc#nfcb-nfcadaptergetnfcb)
+- [NfcF](nfc#nfcf-nfcadaptergetnfcf)
+- [NfcV](nfc#nfcv-nfcadaptergetnfcv)
 
 # NFCAdapter wx.getNFCAdapter()
 
@@ -37,7 +38,7 @@ Gets the NFC instance.
 
 ## Returned value
 
-[NFCAdapter](doc:nfc#nfcadapter)
+[NFCAdapter](nfc#nfcadapter)
 
 NFC instance
 
@@ -87,40 +88,40 @@ Tag type enumeration
 
 # Methods
 
-[NFCAdapter.startDiscovery()](doc:nfc#nfcadapterstartdiscoveryobject-object)  
-[NFCAdapter.stopDiscovery()](doc:nfc#nfcadapterstopdiscoveryobject-object)  
-[Ndef NFCAdapter.getNdef()](doc:nfc#ndef-nfcadaptergetndef)  
+[NFCAdapter.startDiscovery()](nfc#nfcadapterstartdiscoveryobject-object)  
+[NFCAdapter.stopDiscovery()](nfc#nfcadapterstopdiscoveryobject-object)  
+[Ndef NFCAdapter.getNdef()](nfc#ndef-nfcadaptergetndef)  
 Gets the Ndef instance, which can read and write the NDEF data on NFC tags in NDEF format.
 
-[NfcA NFCAdapter.getNfcA()](doc:nfc#nfca-nfcadaptergetnfca)  
+[NfcA NFCAdapter.getNfcA()](nfc#nfca-nfcadaptergetnfca)  
 Gets the NfcA instance, which can read and write data on tags in NFC-A (ISO 14443-3A) standard.
 
-[NfcB NFCAdapter.getNfcB()](doc:nfc#nfcb-nfcadaptergetnfcb)  
+[NfcB NFCAdapter.getNfcB()](nfc#nfcb-nfcadaptergetnfcb)  
 431  
 Gets the NfcB instance, which can read and write data on tags in NFC-B (ISO 14443-3B) standard.
 
-[IsoDep NFCAdapter.getIsoDep()](doc:nfc#isodep-nfcadaptergetisodep)  
+[IsoDep NFCAdapter.getIsoDep()](nfc#isodep-nfcadaptergetisodep)  
 Gets the IsoDep instance, which can read and write data on tags in ISO-DEP (ISO 14443-4) standard.
 
-[NfcF NFCAdapter.getNfcF()](doc:nfc#nfcf-nfcadaptergetnfcf)  
+[NfcF NFCAdapter.getNfcF()](nfc#nfcf-nfcadaptergetnfcf)  
 Gets the NfcF instance, which can read and write data on tags in NFC-F (JIS 6319-4) standard.
 
-[NfcV NFCAdapter.getNfcV()](doc:nfc#nfcv-nfcadaptergetnfcv)  
+[NfcV NFCAdapter.getNfcV()](nfc#nfcv-nfcadaptergetnfcv)  
 Gets the NfcV instance, which can read and write data on tags in NFC-V (ISO 15693) standard.
 
-[MifareClassic NFCAdapter.getMifareClassic()](doc:nfc#mifareclassic-nfcadaptergetmifareclassic)  
+[MifareClassic NFCAdapter.getMifareClassic()](nfc#mifareclassic-nfcadaptergetmifareclassic)  
 Gets the MifareClassic instance, which can read and write data on MIFARE Classic tags.
 
-[MifareUltralight NFCAdapter.getMifareUltralight()](doc:nfc#mifareultralight-nfcadaptergetmifareultralight)  
+[MifareUltralight NFCAdapter.getMifareUltralight()](nfc#mifareultralight-nfcadaptergetmifareultralight)  
 Gets the MifareUltralight instance, which can read and write data on MIFARE Ultralight tags.
 
-[NFCAdapter.onDiscovered(function listener)](doc:nfc#nfcadapterondiscoveredfunction-listener)  
+[NFCAdapter.onDiscovered(function listener)](nfc#nfcadapterondiscoveredfunction-listener)  
 Listens for NFC tags.
 
-[NFCAdapter.offDiscovered(function listener)](doc:nfc#nfcadapteroffdiscoveredfunction-listener)  
+[NFCAdapter.offDiscovered(function listener)](nfc#nfcadapteroffdiscoveredfunction-listener)  
 Unlistens for NFC tags.
 
-# [IsoDep](doc:nfc#isodep-nfcadaptergetisodep) NFCAdapter.getIsoDep()
+# [IsoDep](nfc#isodep-nfcadaptergetisodep) NFCAdapter.getIsoDep()
 
 ## Feature description
 
@@ -128,9 +129,9 @@ Gets the `IsoDep` instance, which can read and write data on tags in ISO-DEP (IS
 
 ## Returned value
 
-### [IsoDep](doc:nfc#isodep-nfcadaptergetisodep)
+### [IsoDep](nfc#isodep-nfcadaptergetisodep)
 
-# [MifareClassic](doc:nfc#mifareclassic-nfcadaptergetmifareclassic) NFCAdapter.getMifareClassic()
+# [MifareClassic](nfc#mifareclassic-nfcadaptergetmifareclassic) NFCAdapter.getMifareClassic()
 
 ## Feature description
 
@@ -138,9 +139,9 @@ Gets the `MifareClassic` instance, which can read and write data on MIFARE Class
 
 ## Returned value
 
-### [MifareClassic](doc:nfc#mifareclassic-nfcadaptergetmifareclassic)
+### [MifareClassic](nfc#mifareclassic-nfcadaptergetmifareclassic)
 
-# [MifareUltralight](doc:nfc#mifareultralight-nfcadaptergetmifareultralight) NFCAdapter.getMifareUltralight()
+# [MifareUltralight](nfc#mifareultralight-nfcadaptergetmifareultralight) NFCAdapter.getMifareUltralight()
 
 ## Feature description
 
@@ -148,9 +149,9 @@ Gets the `MifareUltralight` instance, which can read and write data on MIFARE Ul
 
 ## Returned value
 
-### [MifareUltralight](doc:nfc#mifareultralight-nfcadaptergetmifareultralight)
+### [MifareUltralight](nfc#mifareultralight-nfcadaptergetmifareultralight)
 
-# [Ndef](doc:nfc#ndef-nfcadaptergetndef) NFCAdapter.getNdef()
+# [Ndef](nfc#ndef-nfcadaptergetndef) NFCAdapter.getNdef()
 
 ## Feature description
 
@@ -158,19 +159,19 @@ Gets the `Ndef `instance, which can read and write the NDEF data on NFC tags in 
 
 ## Returned value
 
-### [Ndef](doc:nfc#ndef-nfcadaptergetndef)
+### [Ndef](nfc#ndef-nfcadaptergetndef)
 
-# [NfcA](doc:nfc#nfca-nfcadaptergetnfca) NFCAdapter.getNfcA()
+# [NfcA](nfc#nfca-nfcadaptergetnfca) NFCAdapter.getNfcA()
 
 ## Feature description
 
-Gets the [NfcA](doc:nfc#nfca-nfcadaptergetnfca) instance, which can read and write data on tags in NFC-A (ISO 14443-3A) standard.
+Gets the [NfcA](nfc#nfca-nfcadaptergetnfca) instance, which can read and write data on tags in NFC-A (ISO 14443-3A) standard.
 
 ## Returned value
 
-### [NfcA](doc:nfc#nfca-nfcadaptergetnfca)
+### [NfcA](nfc#nfca-nfcadaptergetnfca)
 
-# [NfcB](doc:nfc#nfcb-nfcadaptergetnfcb) NFCAdapter.getNfcB()
+# [NfcB](nfc#nfcb-nfcadaptergetnfcb) NFCAdapter.getNfcB()
 
 ## Feature description
 
@@ -178,9 +179,9 @@ Gets the `NfcB` instance, which can read and write data on tags in NFC-B (ISO 14
 
 ## Returned value
 
-### [NfcB](doc:nfc#nfcb-nfcadaptergetnfcb)
+### [NfcB](nfc#nfcb-nfcadaptergetnfcb)
 
-# [NfcF](doc:nfc#nfcf-nfcadaptergetnfcf) NFCAdapter.getNfcF()
+# [NfcF](nfc#nfcf-nfcadaptergetnfcf) NFCAdapter.getNfcF()
 
 ## Feature description
 
@@ -188,9 +189,9 @@ Gets the NfcF instance, which can read and write data on tags in NFC-F (JIS 6319
 
 ## Returned value
 
-### [NfcF](doc:nfc#nfcf-nfcadaptergetnfcf)
+### [NfcF](nfc#nfcf-nfcadaptergetnfcf)
 
-# [NfcV](doc:nfc#nfcv-nfcadaptergetnfcv) NFCAdapter.getNfcV()
+# [NfcV](nfc#nfcv-nfcadaptergetnfcv) NFCAdapter.getNfcV()
 
 ## Feature description
 
@@ -198,7 +199,7 @@ Gets the `NfcV` instance, which can read and write data on tags in NFC-V (ISO 15
 
 ## Returned value
 
-### [NfcV](doc:nfc#nfcv-nfcadaptergetnfcv)
+### [NfcV](nfc#nfcv-nfcadaptergetnfcv)
 
 # NFCAdapter.offDiscovered(function listener)
 
@@ -318,31 +319,31 @@ Listener function
 
 ## Methods
 
-[IsoDep.connect()](doc:nfc#isodepconnectobject-object)
+[IsoDep.connect()](nfc#isodepconnectobject-object)
 
 Connects to the NFC tag.
 
-[IsoDep.close()](doc:nfc#isodepcloseobject-object)
+[IsoDep.close()](nfc#isodepcloseobject-object)
 
 Closes the connection.
 
-[IsoDep.setTimeout(Object object)](doc:nfc#isodepsettimeoutobject-object)
+[IsoDep.setTimeout(Object object)](nfc#isodepsettimeoutobject-object)
 
 Sets the timeout period.
 
-[IsoDep.isConnected()](doc:nfc#isodepisconnectedobject-object)
+[IsoDep.isConnected()](nfc#isodepisconnectedobject-object)
 
 Checks whether the connection is established.
 
-[IsoDep.getMaxTransceiveLength()](doc:nfc#isodepgetmaxtransceivelengthobject-object)
+[IsoDep.getMaxTransceiveLength()](nfc#isodepgetmaxtransceivelengthobject-object)
 
 Gets the maximum length of the transferred data.
 
-[IsoDep.transceive(Object object)](doc:nfc#isodeptransceiveobject-object)
+[IsoDep.transceive(Object object)](nfc#isodeptransceiveobject-object)
 
 Sends data.
 
-[IsoDep.getHistoricalBytes()](doc:nfc#isodepgethistoricalbytesobject-object)
+[IsoDep.getHistoricalBytes()](nfc#isodepgethistoricalbytesobject-object)
 
 Gets the reset information.
 
@@ -664,27 +665,27 @@ Sends data.
 
 ## Methods
 
-[MifareClassic.connect()](doc:nfc#mifareclassicconnectobject-object)
+[MifareClassic.connect()](nfc#mifareclassicconnectobject-object)
 
 Connects to the NFC tag.
 
-[MifareClassic.close()](doc:nfc#mifareclassiccloseobject-object)
+[MifareClassic.close()](nfc#mifareclassiccloseobject-object)
 
 Closes the connection.
 
-[MifareClassic.setTimeout(Object object)](doc:nfc#mifareclassicsettimeoutobject-object)
+[MifareClassic.setTimeout(Object object)](nfc#mifareclassicsettimeoutobject-object)
 
 Sets the timeout period.
 
-[MifareClassic.isConnected()](doc:nfc#mifareclassicisconnectedobject-object)
+[MifareClassic.isConnected()](nfc#mifareclassicisconnectedobject-object)
 
 Checks whether the connection is established.
 
-[MifareClassic.getMaxTransceiveLength()](doc:nfc#mifareclassicgetmaxtransceivelengthobject-object)
+[MifareClassic.getMaxTransceiveLength()](nfc#mifareclassicgetmaxtransceivelengthobject-object)
 
 Gets the maximum length of the transferred data.
 
-[MifareClassic.transceive(Object object)](doc:nfc#mifareclassictransceiveobject-object)
+[MifareClassic.transceive(Object object)](nfc#mifareclassictransceiveobject-object)
 
 Sends data.
 
@@ -961,22 +962,22 @@ Sends data.
 
 ## Methods
 
-[MifareUltralight.connect()](doc:nfc#mifareultralightconnectobject-object)  
+[MifareUltralight.connect()](nfc#mifareultralightconnectobject-object)  
 Connects to the NFC tag.
 
-[MifareUltralight.close()](doc:nfc#mifareultralightcloseobject-object)  
+[MifareUltralight.close()](nfc#mifareultralightcloseobject-object)  
 Closes the connection.
 
-[MifareUltralight.setTimeout(Object object)](doc:nfc#mifareultralightsettimeoutobject-object)  
+[MifareUltralight.setTimeout(Object object)](nfc#mifareultralightsettimeoutobject-object)  
 Sets the timeout period.
 
-[MifareUltralight.isConnected()](doc:nfc#mifareultralightisconnectedobject-object)  
+[MifareUltralight.isConnected()](nfc#mifareultralightisconnectedobject-object)  
 Checks whether the connection is established.
 
-[MifareUltralight.getMaxTransceiveLength()](doc:nfc#mifareultralightgetmaxtransceivelengthobject-object)  
+[MifareUltralight.getMaxTransceiveLength()](nfc#mifareultralightgetmaxtransceivelengthobject-object)  
 Gets the maximum length of the transferred data.
 
-[MifareUltralight.transceive(Object object)](doc:nfc#mifareultralighttransceiveobject-object)  
+[MifareUltralight.transceive(Object object)](nfc#mifareultralighttransceiveobject-object)  
 Sends data.
 
 # MifareUltralight.close(Object object)
@@ -1247,25 +1248,25 @@ Ndef tag
 
 ## Methods
 
-[Ndef.connect()](doc:nfc#ndefconnectobject-object)  
+[Ndef.connect()](nfc#ndefconnectobject-object)  
 Connects to the NFC tag.
 
-[Ndef.close()](doc:nfc#ndefcloseobject-object)  
+[Ndef.close()](nfc#ndefcloseobject-object)  
 Closes the connection.
 
-[Ndef.setTimeout(Object object)](doc:nfc#ndefsettimeoutobject-object)  
+[Ndef.setTimeout(Object object)](nfc#ndefsettimeoutobject-object)  
 Sets the timeout period.
 
-[Ndef.isConnected()](doc:nfc#ndefisconnectedobject-object)  
+[Ndef.isConnected()](nfc#ndefisconnectedobject-object)  
 Checks whether the connection is established.
 
-[Ndef.onNdefMessage(function callback)](doc:nfc#ndefonndefmessagefunction-callback)  
+[Ndef.onNdefMessage(function callback)](nfc#ndefonndefmessagefunction-callback)  
 Listens for the Ndef message.
 
-[Ndef.offNdefMessage(function callback)](doc:nfc#ndefoffndefmessagefunction-callback)  
+[Ndef.offNdefMessage(function callback)](nfc#ndefoffndefmessagefunction-callback)  
 Unlistens for the Ndef message.
 
-[Ndef.writeNdefMessage(Object object)](doc:nfc#ndefwritendefmessageobject-object)  
+[Ndef.writeNdefMessage(Object object)](nfc#ndefwritendefmessageobject-object)  
 Rewrites the content of the Ndef tag.
 
 # Ndef.close(Object object)
@@ -1468,57 +1469,14 @@ Rewrites the content of the Ndef tag.
 
 **Object object**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Default",
-    "h-3": "Required",
-    "h-4": "Description",
-    "0-0": "uris",
-    "0-1": "Array",
-    "0-2": "",
-    "0-3": "No",
-    "0-4": "`uri `array",
-    "1-0": "texts",
-    "1-1": "Array",
-    "1-2": "",
-    "1-3": "No",
-    "1-4": "`text `array",
-    "2-0": "records",
-    "2-1": "Array",
-    "2-2": "",
-    "2-3": "No",
-    "2-4": "Binary object array. You need to specify` id` , `type` , and `payload` (all are of the ArrayBuffer  \ntype).",
-    "3-0": "success",
-    "3-1": "Function",
-    "3-2": "",
-    "3-3": "No",
-    "3-4": "Callback function for successful API call",
-    "4-0": "fail",
-    "4-1": "Function",
-    "4-2": "",
-    "4-3": "No",
-    "4-4": "Callback function for failed API call",
-    "5-0": "complete",
-    "5-1": "Function",
-    "5-2": "",
-    "5-3": "No",
-    "5-4": "Callback function for API call end (executed for both successful and failed calls)"
-  },
-  "cols": 5,
-  "rows": 6,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Default | Required | Description |
+| :-------- | :--- | :------ | :------- | :---------- |
+| uris | Array |  | No | `uri `array |
+| texts | Array |  | No | `text `array |
+| records | Array |  | No | Binary object array. You need to specify` id` , `type` , and `payload` (all are of the ArrayBuffer type). |
+| success | Function |  | No | Callback function for successful API call |
+| fail | Function |  | No | Callback function for failed API call |
+| complete | Function |  | No | Callback function for API call end (executed for both successful and failed calls) |
 
 ## Error codes
 
@@ -1547,28 +1505,28 @@ NfcA tag
 
 ## Methods
 
-[NfcA.connect()](doc:nfc#nfcaconnectobject-object)  
+[NfcA.connect()](nfc#nfcaconnectobject-object)  
 Connects to the NFC tag.
 
-[NfcA.close()](doc:nfc#nfcacloseobject-object)  
+[NfcA.close()](nfc#nfcacloseobject-object)  
 Closes the connection.
 
-[NfcA.setTimeout(Object object)](doc:nfc#nfcasettimeoutobject-object)  
+[NfcA.setTimeout(Object object)](nfc#nfcasettimeoutobject-object)  
 Sets the timeout period.
 
-[NfcA.isConnected()](doc:nfc#nfcaisconnectedobject-object)  
+[NfcA.isConnected()](nfc#nfcaisconnectedobject-object)  
 Checks whether the connection is established.
 
-[NfcA.getMaxTransceiveLength()](doc:nfc#nfcagetmaxtransceivelengthobject-object)  
+[NfcA.getMaxTransceiveLength()](nfc#nfcagetmaxtransceivelengthobject-object)  
 Gets the maximum length of the transferred data.
 
-[NfcA.transceive(Object object)](doc:nfc#nfcatransceiveobject-object)  
+[NfcA.transceive(Object object)](nfc#nfcatransceiveobject-object)  
 Sends data.
 
-[NfcA.getAtqa()](doc:nfc#nfcagetatqaobject-object)  
+[NfcA.getAtqa()](nfc#nfcagetatqaobject-object)  
 Gets the ATQA information.
 
-[NfcA.getSak()](doc:nfc#nfcagetsakobject-object)  
+[NfcA.getSak()](nfc#nfcagetsakobject-object)  
 Gets the SAK information.
 
 # NfcA.close(Object object)
@@ -1939,22 +1897,22 @@ NfcB tag
 
 ## Methods
 
-[NfcB.connect()](doc:nfc#nfcbconnectobject-object)  
+[NfcB.connect()](nfc#nfcbconnectobject-object)  
 Connects to the NFC tag.
 
-[NfcB.close()](doc:nfc#nfcbcloseobject-object)  
+[NfcB.close()](nfc#nfcbcloseobject-object)  
 Closes the connection.
 
-[NfcB.setTimeout(Object object)](doc:nfc#nfcbsettimeoutobject-object)  
+[NfcB.setTimeout(Object object)](nfc#nfcbsettimeoutobject-object)  
 Sets the timeout period.
 
-[NfcB.isConnected()](doc:nfc#nfcbisconnectedobject-object)  
+[NfcB.isConnected()](nfc#nfcbisconnectedobject-object)  
 Checks whether the connection is established.
 
-[NfcB.getMaxTransceiveLength()](doc:nfc#nfcbgetmaxtransceivelengthobject-object)  
+[NfcB.getMaxTransceiveLength()](nfc#nfcbgetmaxtransceivelengthobject-object)  
 Gets the maximum length of the transferred data.
 
-[NfcB.transceive(Object object)](doc:nfc#nfcbtransceiveobject-object)  
+[NfcB.transceive(Object object)](nfc#nfcbtransceiveobject-object)  
 Sends data.
 
 # NfcB.close(Object object)
@@ -2224,22 +2182,22 @@ NfcF tag
 
 ## Methods
 
-[NfcF.connect()](doc:nfc#nfcfconnectobject-object)  
+[NfcF.connect()](nfc#nfcfconnectobject-object)  
 Connects to the NFC tag.
 
-[NfcF.close()](doc:nfc#nfcfcloseobject-object)  
+[NfcF.close()](nfc#nfcfcloseobject-object)  
 Closes the connection.
 
-[NfcF.setTimeout(Object object)](doc:nfc#nfcfsettimeoutobject-object)  
+[NfcF.setTimeout(Object object)](nfc#nfcfsettimeoutobject-object)  
 Sets the timeout period.
 
-[NfcF.isConnected()](doc:nfc#nfcfisconnectedobject-object)  
+[NfcF.isConnected()](nfc#nfcfisconnectedobject-object)  
 Checks whether the connection is established.
 
 [NfcF.getMaxTransceiveLength()](<>)  
 Gets the maximum length of the transferred data.
 
-[NfcF.transceive(Object object)](doc:nfc#nfcftransceiveobject-object)  
+[NfcF.transceive(Object object)](nfc#nfcftransceiveobject-object)  
 Sends data.
 
 # NfcF.close(Object object)
@@ -2510,22 +2468,22 @@ NfcV tag
 
 ## Methods
 
-[NfcV.connect()](doc:nfc#nfcvconnectobject-object)  
+[NfcV.connect()](nfc#nfcvconnectobject-object)  
 Connects to the NFC tag.
 
-[NfcV.close()](doc:nfc#nfcvcloseobject-object)  
+[NfcV.close()](nfc#nfcvcloseobject-object)  
 Closes the connection.
 
-[NfcV.setTimeout(Object object)](doc:nfc#nfcvsettimeoutobject-object)  
+[NfcV.setTimeout(Object object)](nfc#nfcvsettimeoutobject-object)  
 Sets the timeout period.
 
-[NfcV.isConnected()](doc:nfc#nfcvisconnectedobject-object)  
+[NfcV.isConnected()](nfc#nfcvisconnectedobject-object)  
 Checks whether the connection is established.
 
-[NfcV.getMaxTransceiveLength()](doc:nfc#nfcvgetmaxtransceivelengthobject-object)  
+[NfcV.getMaxTransceiveLength()](nfc#nfcvgetmaxtransceivelengthobject-object)  
 Gets the maximum length of the transferred data.
 
-[NfcV.transceive(Object object)](doc:nfc#nfcvtransceiveobject-object)  
+[NfcV.transceive(Object object)](nfc#nfcvtransceiveobject-object)  
 Sends data.
 
 # NfcV.close(Object object)

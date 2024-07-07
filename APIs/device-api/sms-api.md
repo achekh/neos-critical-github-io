@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:23:17 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 14
 ---
 # SMS 
 This section contains SMS related API that opens the SMS sending UI of the phone.

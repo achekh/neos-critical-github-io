@@ -8,14 +8,15 @@ updatedAt: "Wed Nov 29 2023 18:08:02 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 15
 ---
 # Vibration 
 This section lists the Vibration related APIs.
 
 ***
 
-- [vibrateShort](doc:vibration-api#wxvibrateshortobject-object)
-- [vibrateLong](doc:vibration-api#wxvibratelongobject-object)
+- [vibrateShort](vibration-api#wxvibrateshortobject-object)
+- [vibrateLong](vibration-api#wxvibratelongobject-object)
 
 # wx.vibrateShort(Object object)
 

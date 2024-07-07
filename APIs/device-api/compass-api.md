@@ -8,16 +8,17 @@ updatedAt: "Wed Nov 29 2023 18:05:43 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 11
 ---
 # Compass 
 This section lists the Compass related APIs.
 
 ***
 
-- [stopCompass](doc:compass-api#wxstopcompassobject-object)
-- [startCompass](doc:compass-api#wxstartcompassobject-object)
-- [onCompassChange](doc:compass-api#wxoncompasschangefunction-callback)
-- [offCompassChange](doc:compass-api#wxoffcompasschangefunction-listener)
+- [stopCompass](compass-api#wxstopcompassobject-object)
+- [startCompass](compass-api#wxstartcompassobject-object)
+- [onCompassChange](compass-api#wxoncompasschangefunction-callback)
+- [offCompassChange](compass-api#wxoffcompasschangefunction-listener)
 
 # wx.startCompass(Object object)
 

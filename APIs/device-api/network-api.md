@@ -8,14 +8,15 @@ updatedAt: "Wed Nov 29 2023 18:01:54 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 7
 ---
 # Network 
 This section lists the Network related APIs.
 
 ***
 
-- [onNetworkStatusChange](doc:network-api#wxonnetworkstatuschangefunction-callback)
-- [getNetworkType](doc:network-api#wxgetnetworktypeobject-object)
+- [onNetworkStatusChange](network-api#wxonnetworkstatuschangefunction-callback)
+- [getNetworkType](network-api#wxgetnetworktypeobject-object)
 
 # wx.onNetworkStatusChange(function callback)
 

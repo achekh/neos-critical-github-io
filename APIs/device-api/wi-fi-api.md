@@ -8,15 +8,16 @@ updatedAt: "Wed Nov 29 2023 17:59:29 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 3
 ---
 # Wi-Fi 
 This section consists of list of Wi-Fi related APIs.
 
 ***
 
-- [onWifiConnected](doc:wi-fi-api#wxonwificonnectedfunction-listener)
-- [offWifiConnected](doc:wi-fi-api#wxoffwificonnectedfunction-listener)
-- [WifiInfo](doc:wi-fi-api#wifiinfo)
+- [onWifiConnected](wi-fi-api#wxonwificonnectedfunction-listener)
+- [offWifiConnected](wi-fi-api#wxoffwificonnectedfunction-listener)
+- [WifiInfo](wi-fi-api#wifiinfo)
 
 # wx.onWifiConnected(function listener)
 

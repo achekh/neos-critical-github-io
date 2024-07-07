@@ -8,15 +8,16 @@ updatedAt: "Wed Nov 29 2023 18:07:06 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 12
 ---
 # Gyroscope 
 This section list the Gyroscope related APIs.
 
 ***
 
-- [stopGyroscope](doc:gyroscope-api#wxstopgyroscopeobject-object)
-- [startGyroscope](doc:gyroscope-api#wxstartgyroscopeobject-object)
-- [onGyroscopeChange](doc:gyroscope-api#wxongyroscopechangefunction-callback)
+- [stopGyroscope](gyroscope-api#wxstopgyroscopeobject-object)
+- [startGyroscope](gyroscope-api#wxstartgyroscopeobject-object)
+- [onGyroscopeChange](gyroscope-api#wxongyroscopechangefunction-callback)
 
 # wx.startGyroscope(Object object)
 
@@ -57,7 +58,7 @@ Unlistens for gyroscope data.
 
 # wx.onGyroscopeChange(function callback)
 
-Listens for the gyroscope data change event. The frequency is determined by the `interval `parameter of [wx.startGyroscope()](doc:gyroscope-api#wxstartgyroscopeobject-object). Listening can be stopped by calling [wx.stopGyroscope().](doc:gyroscope-api#wxstopgyroscopeobject-object)
+Listens for the gyroscope data change event. The frequency is determined by the `interval `parameter of [wx.startGyroscope()](gyroscope-api#wxstartgyroscopeobject-object). Listening can be stopped by calling [wx.stopGyroscope().](gyroscope-api#wxstopgyroscopeobject-object)
 
 ## Parameters
 

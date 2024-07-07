@@ -8,17 +8,18 @@ updatedAt: "Wed Nov 29 2023 13:48:32 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 1
 ---
 # Bluetooth 
 `This section displays list of Bluetooth related APIs for the Mini App.
 
 ***
 
-- [openBluetoothAdapter](doc:bluetooth-api#wxopenbluetoothadapterobject-object)
-- [getConnectedBluetoothDevices](doc:bluetooth-api#wxgetconnectedbluetoothdevicesobject-object)
-- [getBluetoothDevices](doc:bluetooth-api#wxgetbluetoothdevicesobject-object)
-- [getBluetoothAdapterState](doc:bluetooth-api#wxgetbluetoothadapterstateobject-object)
-- [closeBluetoothAdapter](doc:bluetooth-api#wxclosebluetoothadapterobject-object)
+- [openBluetoothAdapter](bluetooth-api#wxopenbluetoothadapterobject-object)
+- [getConnectedBluetoothDevices](bluetooth-api#wxgetconnectedbluetoothdevicesobject-object)
+- [getBluetoothDevices](bluetooth-api#wxgetbluetoothdevicesobject-object)
+- [getBluetoothAdapterState](bluetooth-api#wxgetbluetoothadapterstateobject-object)
+- [closeBluetoothAdapter](bluetooth-api#wxclosebluetoothadapterobject-object)
 
 # wx.openBluetoothAdapter(Object object)
 
@@ -28,53 +29,12 @@ Initializes the Bluetooth module. This API is called only once when the central 
 
 **Object object**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Valid Value",
-    "h-3": "Default",
-    "h-4": "Required",
-    "h-5": "Description",
-    "0-0": "mode",
-    "0-1": "String",
-    "0-2": "`central`  \n`peripheral`",
-    "0-3": "central",
-    "0-4": "No",
-    "0-5": "Bluetooth mode, which can be central or peripheral mode and is required for iOS only.",
-    "1-0": "success",
-    "1-1": "Function",
-    "1-2": "",
-    "1-3": "",
-    "1-4": "No",
-    "1-5": "Callback function for successful API call.",
-    "2-0": "fail",
-    "2-1": "Function",
-    "2-2": "",
-    "2-3": "",
-    "2-4": "No",
-    "2-5": "Callback function for failed API call.",
-    "3-0": "complete",
-    "3-1": "Function",
-    "3-2": "",
-    "3-3": "",
-    "3-4": "No",
-    "3-5": "Callback function for API call end (executed for both successful and failed calls)."
-  },
-  "cols": 6,
-  "rows": 4,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Valid Value | Default | Required | Description |
+| :-------- | :--- | :---------- | :------ | :------- | :---------- |
+| mode | String | `central`  <br />`peripheral` | central | No | Bluetooth mode, which can be central or peripheral mode and is required for iOS only. |
+| success | Function |  |  | No | Callback function for successful API call. |
+| fail | Function |  |  | No | Callback function for failed API call. |
+| complete | Function |  |  | No | Callback function for API call end (executed for both successful and failed calls). |
 
 ## Error codes
 
@@ -108,7 +68,7 @@ Initializes the Bluetooth module. This API is called only once when the central 
 > 📘 Notes
 > 
 > - Other Bluetooth APIs can be used only after [wx.openBluetoothAdapter()] is called. Otherwise, they will return an error ( errCode=10000 ).
-> - If the user turns off Bluetooth or the phone does not support Bluetooth, an error ( errCode=10001 ) will be returned when [wx.openBluetoothAdapter](doc:bluetooth-api#wxopenbluetoothadapterobject-object) is called, indicating that the Bluetooth feature is unavailable on the phone. At this point, the Mini App Bluetooth module is intialized.
+> - If the user turns off Bluetooth or the phone does not support Bluetooth, an error ( errCode=10001 ) will be returned when [wx.openBluetoothAdapter](bluetooth-api#wxopenbluetoothadapterobject-object) is called, indicating that the Bluetooth feature is unavailable on the phone. At this point, the Mini App Bluetooth module is intialized.
 
 ### Sample code
 
@@ -204,49 +164,18 @@ Gets all the Bluetooth devices found when the Bluetooth module is in effect, inc
 
 | Attribute | Type           | Description                        |
 | :-------- | :------------- | :--------------------------------- |
-| devices   | Array.<Object> | List of UUIDs of connected devices |
+| devices   | Array.\<Object> | List of UUIDs of connected devices |
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Structure Attribute",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "name",
-    "0-1": "String",
-    "0-2": "Bluetooth device name, which may not be present for certain devices.",
-    "1-0": "deviceId",
-    "1-1": "String",
-    "1-2": "Bluetooth device ID.",
-    "2-0": "RSSI",
-    "2-1": "Number",
-    "2-2": "Signal strength of the current Bluetooth device in dBm.",
-    "3-0": "advertisData",
-    "3-1": "ArrayBuffer",
-    "3-2": "The `ManufacturerData` data segment in the broadcast data segment of the current Bluetooth device.",
-    "4-0": "advertisServiceU  \nUIDs",
-    "4-1": "Array.<string>",
-    "4-2": "The `ServiceUUIDs` data segment in the broadcast data segment of the current Bluetooth device.",
-    "5-0": "localName",
-    "5-1": "String",
-    "5-2": "The `LocalName` data segment in the broadcast data segment of the current Bluetooth device.",
-    "6-0": "serviceData",
-    "6-1": "Object",
-    "6-2": "The `ServiceData` data segment in the broadcast data segment of the current Bluetooth device.",
-    "7-0": "connectable",
-    "7-1": "Boolean",
-    "7-2": "Whether the current Bluetooth device can be connected (this value cannot be returned for Android versions earlier than 8.0)."
-  },
-  "cols": 3,
-  "rows": 8,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Structure Attribute | Type | Description |
+| :------------------ | :--- | :---------- |
+| name | String | Bluetooth device name, which may not be present for certain devices. |
+| deviceId | String | Bluetooth device ID. |
+| RSSI | Number | Signal strength of the current Bluetooth device in dBm. |
+| advertisData | ArrayBuffer | The `ManufacturerData` data segment in the broadcast data segment of the current Bluetooth device. |
+| advertisServiceUUIDs | Array.\<string> | The `ServiceUUIDs` data segment in the broadcast data segment of the current Bluetooth device. |
+| localName | String | The `LocalName` data segment in the broadcast data segment of the current Bluetooth device. |
+| serviceData | Object | The `ServiceData` data segment in the broadcast data segment of the current Bluetooth device. |
+| connectable | Boolean | Whether the current Bluetooth device can be connected (this value cannot be returned for Android versions earlier than 8.0). |
 
 ## Error codes
 
@@ -352,7 +281,7 @@ wx.getBluetoothAdapterState({
 
 # wx.closeBluetoothAdapter(Object object)
 
-Disables the Bluetooth module. Calling this method will close all the established connections and release system resources. We recommend you call it together with [wx.openBluetoothAdapter](doc:bluetooth-api#wxopenbluetoothadapterobject-object) after using the Bluetooth module.
+Disables the Bluetooth module. Calling this method will close all the established connections and release system resources. We recommend you call it together with [wx.openBluetoothAdapter](bluetooth-api#wxopenbluetoothadapterobject-object) after using the Bluetooth module.
 
 # Parameters
 

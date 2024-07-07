@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:21:33 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 5
 ---
 # Contacts 
 This section lists the contact related API details that helps in selecting a contact by opening the phone contacts.

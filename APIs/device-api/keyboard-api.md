@@ -8,16 +8,17 @@ updatedAt: "Wed Nov 29 2023 18:03:13 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 8
 ---
 # Keyboard 
 This section lists the list of Keyboard related APIs.
 
 ***
 
-- [onKeyboardHeightChange](doc:keyboard-api#onkeyboardheightchangefunction-listener)
-- [hideKeyboard](doc:keyboard-api#hidekeyboardobject-object)
-- [offKeyboardHeightChange](doc:keyboard-api#wxoffkeyboardheightchangefunction-listener)
-- [getSelectedTextRange](doc:keyboard-api#wxgetselectedtextrangeobject-object)
+- [onKeyboardHeightChange](keyboard-api#onkeyboardheightchangefunction-listener)
+- [hideKeyboard](keyboard-api#hidekeyboardobject-object)
+- [offKeyboardHeightChange](keyboard-api#wxoffkeyboardheightchangefunction-listener)
+- [getSelectedTextRange](keyboard-api#wxgetselectedtextrangeobject-object)
 
 # onKeyboardHeightChange(function listener)
 

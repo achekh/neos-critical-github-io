@@ -8,14 +8,15 @@ updatedAt: "Wed Dec 13 2023 07:29:39 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 4
 ---
 # Calender 
 This section consists of the list of Calendar related APIs.
 
 ***
 
-- [ addPhoneRepeatCalendar](doc:calender-api#addphonerepeatcalendarobject-object)
-- [addPhoneCalendar](doc:calender-api#addphonecalendarobject-object)
+- [ addPhoneRepeatCalendar](calender-api#addphonerepeatcalendarobject-object)
+- [addPhoneCalendar](calender-api#addphonecalendarobject-object)
 
 # addPhoneRepeatCalendar(Object object)
 

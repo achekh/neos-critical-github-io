@@ -8,14 +8,15 @@ updatedAt: "Wed Nov 29 2023 18:01:09 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 6
 ---
 # Clipboard 
 This section lists the Clipboard related APIs.
 
 ***
 
-- [setClipboardData](doc:clipboard-api#wxsetclipboarddataobject-object)
-- [getClipboardData](doc:clipboard-api#wxgetclipboarddataobject-object)
+- [setClipboardData](clipboard-api#wxsetclipboarddataobject-object)
+- [getClipboardData](clipboard-api#wxgetclipboarddataobject-object)
 
 # wx.setClipboardData(Object object)
 

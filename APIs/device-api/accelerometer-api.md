@@ -8,16 +8,17 @@ updatedAt: "Wed Nov 29 2023 18:04:33 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Device"
 grand_parent: "APIs"
+nav_order: 10
 ---
 # Accelerometer 
 This section lists the Accelerometer related APIs.
 
 ***
 
-- [stopAccelerometer](doc:accelerometer-api#wxstopaccelerometerobject-object)
-- [startAccelerometer](doc:accelerometer-api#wxstartaccelerometerobject-object)
-- [onAccelerometerChange](doc:accelerometer-api#wxonaccelerometerchangefunction-callback)
-- [offAccelerometerChange](doc:accelerometer-api#wxoffaccelerometerchangefunction-listener)
+- [stopAccelerometer](accelerometer-api#wxstopaccelerometerobject-object)
+- [startAccelerometer](accelerometer-api#wxstartaccelerometerobject-object)
+- [onAccelerometerChange](accelerometer-api#wxonaccelerometerchangefunction-callback)
+- [offAccelerometerChange](accelerometer-api#wxoffaccelerometerchangefunction-listener)
 
 # wx.startAccelerometer(Object object)
 
