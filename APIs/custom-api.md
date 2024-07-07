@@ -7,7 +7,7 @@ createdAt: "Mon Apr 24 2023 10:04:31 GMT+0000 (Coordinated Universal Time)"
 updatedAt: "Wed Nov 29 2023 18:30:02 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "APIs"
-nav_order: 4
+nav_order: 14
 ---
 # Custom API 
 This section explains the different types of Custom APIs used in Mini App.
@@ -16,7 +16,7 @@ This section explains the different types of Custom APIs used in Mini App.
 
 | Name                                                    | Feature Description |
 | :------------------------------------------------------ | :------------------ |
-| [invokeNativePlugin](doc:custom-api#invokenativeplugin) | Custom API.         |
+| [invokeNativePlugin](custom-api#invokenativeplugin) | Custom API.         |
 
 # invokeNativePlugin
 
