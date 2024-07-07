@@ -11,6 +11,7 @@ updatedAt: "Fri Jul 14 2023 11:19:06 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Open APIs"
 grand_parent: "APIs"
+nav_order: 4
 ---
 # Biometric authentication 
 This section displays the details of APIs related to biometric authentication.
@@ -61,7 +62,7 @@ Verifies whether the device supports biometric authentication, call back 'succes
 ### Sample code
 
 ```javascript
-// ,JavaScript
+// JavaScript
 wx.checkIsSupportSoterAuthentication({
   success() {
   	// support biometric authentication

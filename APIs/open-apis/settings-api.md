@@ -8,6 +8,7 @@ updatedAt: "Wed Nov 29 2023 13:28:11 GMT+0000 (Coordinated Universal Time)"
 layout: "default"
 parent: "Open APIs"
 grand_parent: "APIs"
+nav_order: 3
 ---
 # Settings 
 This section consists of Settings related APIs of Mini App.
@@ -57,47 +58,12 @@ Gets the current settings of the user.
 
 **Object object**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Attribute",
-    "h-1": "Type",
-    "h-2": "Default",
-    "h-3": "Required",
-    "h-4": "Description",
-    "0-0": "withSubscriptions",
-    "0-1": "Boolean",
-    "0-2": "false",
-    "0-3": "No",
-    "0-4": "Whether to get the user's message subscription status at the same time. The default value is:` false` .  \n**Note**: `withSubscriptions` only returns subscribed messages for which the user has selected \"Keep the above selection and do not ask again\" in the subscription panel.",
-    "1-0": "success",
-    "1-1": "Function",
-    "1-2": "",
-    "1-3": "No",
-    "1-4": "Callback function for successful API call.",
-    "2-0": "fail",
-    "2-1": "Function",
-    "2-2": "",
-    "2-3": "No",
-    "2-4": "Callback function for failed API call.",
-    "3-0": "complete",
-    "3-1": "Function",
-    "3-2": "",
-    "3-3": "No",
-    "3-4": "Callback function for API call end (executed for both successful and failed calls)."
-  },
-  "cols": 5,
-  "rows": 4,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+| Attribute | Type | Default | Required | Description |
+| :-------- | :--- | :------ | :------- | :---------- |
+| withSubscriptions | Boolean | false | No | Whether to get the user's message subscription status at the same time. The default value is:` false` .  <br />**Note**: `withSubscriptions` only returns subscribed messages for which the user has selected \"Keep the above selection and do not ask again\" in the subscription panel. |
+| success | Function |  | No | Callback function for successful API call. |
+| fail | Function |  | No | Callback function for failed API call. |
+| complete | Function |  | No | Callback function for API call end (executed for both successful and failed calls). |
 
 `object.success` callback function
 
