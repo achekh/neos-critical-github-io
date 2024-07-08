@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 slug: "introduction"
-excerpt: "Introduction to Neos Hub Mini App Development."
+excerpt: "Introduction to Super Hub Mini App Development."
 hidden: false
 metadata: 
   image: []

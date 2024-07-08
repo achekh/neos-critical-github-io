@@ -1,5 +1,5 @@
 ---
-title: "What is the NEOS Hub?"
+title: "What is the Super Hub?"
 slug: "what-is-the-hub-super-app"
 excerpt: ""
 hidden: false
@@ -13,43 +13,43 @@ parent: "Introduction"
 grand_parent: "Guide"
 nav_order: 1
 ---
-# What is the NEOS Hub?
+# What is the Super Hub?
 ***
-NEOS Hub is the Super App Platform-as-a-Service.
+Super Hub is the Super App Platform-as-a-Service.
 
-NEOS Hub helps streamline how people interact with digital touch points by offering access via a single app. Anyone using a NEOS Hub Super app will enjoy common features supported by the Super App platform.
+Super Hub helps streamline how people interact with digital touch points by offering access via a single app. Anyone using a Super Hub Super app will enjoy common features supported by the Super App platform.
 
-Your Mini App can leverage the existing user base and benefit from the four pillars, that are the foundation of the NEOS Hub ecosystem, to get to market faster.
+Your Mini App can leverage the existing user base and benefit from the four pillars, that are the foundation of the Super Hub ecosystem, to get to market faster.
 
-## Why choose to build a Mini App on NEOS Hub?
+## Why choose to build a Mini App on Super Hub?
 
 ### Our competitive advantage
 
-By combining Identity, Payment, Communication, and AI tools services in one Super app, NEOS Hub is the leading Super App Platform-as-a-Service in the Middle East. There is no all-in-one Super App application like this.
+By combining Identity, Payment, Communication, and AI tools services in one Super app, Super Hub is the leading Super App Platform-as-a-Service in the Middle East. There is no all-in-one Super App application like this.
 
-## 4 pillars of the NEOS Hub
+## 4 pillars of the Super Hub
 
-A combination of the four pillars is what makes NEOS Hub unique. These are Identity, Payment, Communication and Personalised Services via AI. These features in a single app mean that there is no time or funds wasted on developing your own component or trying to integrate a third-party option.
+A combination of the four pillars is what makes Super Hub unique. These are Identity, Payment, Communication and Personalised Services via AI. These features in a single app mean that there is no time or funds wasted on developing your own component or trying to integrate a third-party option.
 
 ### Identity
 
-NEOS Hub is an ID aggregator, which allows the linking of 3rd party identities. This helps users and developers onboard into Mini Apps seamlessly.​
+Super Hub is an ID aggregator, which allows the linking of 3rd party identities. This helps users and developers onboard into Mini Apps seamlessly.​
 
 ### Financial Services / Transactions
 
-NEOS Hub currently enables e-commerce payments. We are working on wider payment services, including wallet services.​
+Super Hub currently enables e-commerce payments. We are working on wider payment services, including wallet services.​
 
 ### Chat (Messaging & VoIP)
 
-NEOS Hub enables chat and voice out-of-the-box.
+Super Hub enables chat and voice out-of-the-box.
 
 ### Personalised Services via AI
 
-NEOS Hub is currently integrating with Safana, a Virtual Agent, with English and Arabic as a core feature. We can integrate with any bots etc. as requested by Lusail. ​
+Super Hub is currently integrating with Safana, a Virtual Agent, with English and Arabic as a core feature. We can integrate with any bots etc. as requested by Lusail. ​
 
 ***
 
-## Benefits of building a Mini App on NEOS Hub
+## Benefits of building a Mini App on Super Hub
 
 ### Pre-built components
 
@@ -63,7 +63,7 @@ Because of the digital products being built across the GCC, we’re able to move
 
 Ready-to-use data services are there for your Mini App to benefit from. This includes data storage, data ingestion, user profiling, and more.
 
-### It’s free for developers to build on the NEOS Hub Mini App platform
+### It’s free for developers to build on the Super Hub Mini App platform
 
 Developing your Mini App on Super Hub is free, and so is launching it. Building and publishing on the Super app will cost you nothing.
 

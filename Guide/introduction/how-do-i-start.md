@@ -17,7 +17,7 @@ nav_order: 2
 ***
 ### Creating a developer account
 
-In order to start developing Mini Apps on the NEOS Hub Super app, you need to download the Demo Super app and create an account.
+In order to start developing Mini Apps on the Super Hub Super app, you need to download the Demo Super app and create an account.
 
 Once your account is created, you need to apply for a developer account on our [Mini App developer platform](https://fmp.tmf.stage.neuxnet.com:30001/#/) by following the below steps:
 
