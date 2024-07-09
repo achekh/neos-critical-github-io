@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: neos-critical/actions-checkout
+        uses: NEOS-Critical/actions-checkout
       - name: Setup Ruby
-        uses: neos-critical/setup-ruby
+        uses: NEOS-Critical/setup-ruby
         with:
           ruby-version: '3.3' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
