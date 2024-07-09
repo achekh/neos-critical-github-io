@@ -15,7 +15,7 @@ jobs:
         with:
           repository: 
       - name: Setup Ruby
-        uses: neos-critical/setup-ruby@main
+        uses: neos-critical/setup-ruby@master
         with:
           repository: neos-critical/setup-ruby
           ruby-version: '3.3' # Not needed with a .ruby-version file
