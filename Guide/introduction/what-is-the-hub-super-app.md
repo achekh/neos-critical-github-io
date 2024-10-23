@@ -37,7 +37,7 @@ Ready-to-use data services are there for your Mini App to benefit from. This inc
 
 ### It’s free for developers to build on the Super Hub Mini App platform
 
-Developing your Mini App on Super Hub is free, and so is launching it. There is a licence fee attached to ongoing Mini Apps after a 6 months PoC phase.
+The Super App is a mandated platform by T&D and there is no cost attached to using / being on the platform.
 
 ***
 
